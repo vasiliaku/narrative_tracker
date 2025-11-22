@@ -14,6 +14,13 @@ MAJORS_TO_EXCLUDE = [
     'VET', 'FIL', 'NEAR', 'APT', 'ARB', 'OP', 'HBAR', 'INJ'
 ]
 
+# Keywords to track for early narrative signals
+NARRATIVE_KEYWORDS = [
+    'airdrop', 'presale', 'launch', 'launched', 'launching',
+    'new coin', 'new token', 'fair launch', 'stealth launch',
+    'ido', 'ico', 'listing', 'whitelist', 'mint', 'minting'
+]
+
 HISTORY_FILE = 'crypto_tracking_history.json'
 
 def get_reddit_rss(subreddit):
@@ -81,6 +88,17 @@ def extract_tickers(text):
     
     return list(set(tickers))  # Remove duplicates
 
+def check_keywords(text):
+    """Check if text contains narrative keywords"""
+    text_lower = text.lower()
+    found_keywords = []
+    
+    for keyword in NARRATIVE_KEYWORDS:
+        if keyword in text_lower:
+            found_keywords.append(keyword)
+    
+    return found_keywords
+
 def analyze_subreddit(subreddit):
     """Analyze a subreddit RSS feed for crypto mentions"""
     print(f"Scanning r/{subreddit} via RSS...")
@@ -88,19 +106,29 @@ def analyze_subreddit(subreddit):
     posts = get_reddit_rss(subreddit)
     
     if not posts:
-        return Counter()
+        return Counter(), []
     
     print(f"  Found {len(posts)} recent posts")
     
     all_tickers = []
+    keyword_posts = []
     
     for post in posts:
         # Combine title and content
         text = post['title'] + ' ' + post['content']
         tickers = extract_tickers(text)
         all_tickers.extend(tickers)
+        
+        # Check for narrative keywords
+        keywords = check_keywords(text)
+        if keywords:
+            keyword_posts.append({
+                'title': post['title'][:100],  # Truncate long titles
+                'keywords': keywords,
+                'tickers': tickers
+            })
     
-    return Counter(all_tickers)
+    return Counter(all_tickers), keyword_posts
 
 def load_history():
     """Load historical tracking data"""
@@ -173,11 +201,13 @@ def main():
     ]
     
     total_mentions = Counter()
+    all_keyword_posts = []
     
     print("\n" + "-" * 70)
     for subreddit in subreddits:
-        ticker_counts = analyze_subreddit(subreddit)
+        ticker_counts, keyword_posts = analyze_subreddit(subreddit)
         total_mentions.update(ticker_counts)
+        all_keyword_posts.extend(keyword_posts)
     
     print("-" * 70)
     
@@ -228,9 +258,31 @@ def main():
     print(f"Total emerging tickers found: {len(filtered_mentions)}")
     print(f"Total mentions tracked: {sum(filtered_mentions.values())}")
     
+    # Show narrative keyword alerts
+    if all_keyword_posts:
+        print("\n" + "=" * 70)
+        print("NARRATIVE ALERTS - Posts with key signals!")
+        print("=" * 70)
+        
+        # Group by keyword
+        keyword_groups = {}
+        for post in all_keyword_posts:
+            for kw in post['keywords']:
+                if kw not in keyword_groups:
+                    keyword_groups[kw] = []
+                keyword_groups[kw].append(post)
+        
+        for keyword, posts in sorted(keyword_groups.items(), key=lambda x: len(x[1]), reverse=True)[:5]:
+            print(f"\n'{keyword.upper()}' mentioned in {len(posts)} posts:")
+            for post in posts[:3]:  # Show top 3 posts per keyword
+                tickers_str = ', '.join(['$' + t for t in post['tickers'][:3]]) if post['tickers'] else 'no tickers'
+                print(f"  - {post['title']}")
+                print(f"    Tickers: {tickers_str}")
+    
     # Show biggest movers
     if trends:
-        print("\nBIGGEST MOVERS (vs last scan):")
+        print("\n" + "=" * 70)
+        print("BIGGEST MOVERS (vs last scan):")
         print("-" * 70)
         sorted_trends = sorted(trends.items(), 
                               key=lambda x: x[1]['change'], 

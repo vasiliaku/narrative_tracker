@@ -2,70 +2,89 @@ import requests
 import re
 import json
 import os
+import xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import datetime
+from html import unescape
 
 # Major coins to exclude from results
 MAJORS_TO_EXCLUDE = [
     'BTC', 'ETH', 'SOL', 'BNB', 'XRP', 'ADA', 'DOGE', 'AVAX', 
     'DOT', 'MATIC', 'LINK', 'UNI', 'LTC', 'ATOM', 'XLM', 'ALGO',
-    'VET', 'FIL', 'NEAR', 'ARB'
+    'VET', 'FIL', 'NEAR', 'APT', 'ARB', 'OP', 'HBAR', 'INJ'
 ]
 
 HISTORY_FILE = 'crypto_tracking_history.json'
 
-def get_reddit_posts(subreddit, limit=100):
-    """Fetch recent posts from a subreddit"""
+def get_reddit_rss(subreddit):
+    """Fetch posts from Reddit RSS feed"""
     try:
-        url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}"
-        headers = {'User-Agent': 'CryptoNarrativeTracker/1.0'}
+        url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
         
-        response = requests.get(url, headers=headers)
-        data = response.json()
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        if response.status_code != 200:
+            print(f"  Warning: Got status {response.status_code} from r/{subreddit}")
+            return []
+        
+        # Parse RSS XML
+        root = ET.fromstring(response.content)
         
         posts = []
-        for post in data['data']['children']:
-            post_data = post['data']
+        # RSS uses 'entry' tags for items
+        for entry in root.findall('.//{http://www.w3.org/2005/Atom}entry'):
+            title_elem = entry.find('{http://www.w3.org/2005/Atom}title')
+            content_elem = entry.find('{http://www.w3.org/2005/Atom}content')
+            
+            title = unescape(title_elem.text) if title_elem is not None else ""
+            content = unescape(content_elem.text) if content_elem is not None else ""
+            
             posts.append({
-                'title': post_data['title'],
-                'selftext': post_data.get('selftext', ''),
-                'score': post_data['score'],
-                'num_comments': post_data['num_comments'],
-                'created': post_data['created_utc']
+                'title': title,
+                'content': content
             })
         
         return posts
     
     except Exception as e:
-        print(f"Error fetching from r/{subreddit}: {e}")
+        print(f"  Error fetching RSS from r/{subreddit}: {e}")
         return []
 
 def extract_tickers(text):
     """Extract crypto ticker symbols from text"""
+    # Match $TICKER pattern
     pattern = r'\$([A-Z]{2,10})\b'
     tickers = re.findall(pattern, text.upper())
     
+    # Also catch standalone tickers (3-6 letters, all caps)
     pattern2 = r'\b([A-Z]{3,6})\b'
     potential_tickers = re.findall(pattern2, text.upper())
     
+    # Include common cryptos even without $
     common_cryptos = ['BTC', 'ETH', 'SOL', 'BNB', 'XRP', 'ADA', 'DOGE', 'AVAX', 'DOT', 'MATIC']
     tickers.extend([t for t in potential_tickers if t in common_cryptos])
     
-    return tickers
+    return list(set(tickers))  # Remove duplicates
 
-def analyze_subreddit(subreddit, limit=100):
-    """Analyze a subreddit for crypto mentions"""
-    print(f"Scanning r/{subreddit}...")
+def analyze_subreddit(subreddit):
+    """Analyze a subreddit RSS feed for crypto mentions"""
+    print(f"Scanning r/{subreddit} via RSS...")
     
-    posts = get_reddit_posts(subreddit, limit)
+    posts = get_reddit_rss(subreddit)
     
     if not posts:
         return Counter()
     
+    print(f"  Found {len(posts)} recent posts")
+    
     all_tickers = []
     
     for post in posts:
-        text = post['title'] + ' ' + post['selftext']
+        # Combine title and content
+        text = post['title'] + ' ' + post['content']
         tickers = extract_tickers(text)
         all_tickers.extend(tickers)
     
@@ -85,7 +104,6 @@ def save_to_history(ticker_data):
     """Save current scan to history"""
     history = load_history()
     
-    # Add timestamp and data
     entry = {
         'timestamp': datetime.now().isoformat(),
         'tickers': ticker_data
@@ -107,7 +125,6 @@ def calculate_trends(current_mentions):
     if len(history) < 2:
         return {}
     
-    # Get previous scan
     previous = history[-2]['tickers'] if len(history) >= 2 else {}
     
     trends = {}
@@ -131,9 +148,10 @@ def calculate_trends(current_mentions):
 def main():
     """Main function to track crypto narratives"""
     print("=" * 70)
-    print("CRYPTO NARRATIVE TRACKER - Emerging Coins Edition")
+    print("CRYPTO NARRATIVE TRACKER - RSS Edition (Genesis Mode)")
     print("=" * 70)
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("\nUsing Reddit RSS feeds to catch early narratives...")
     
     subreddits = [
         'CryptoCurrency',
@@ -144,9 +162,12 @@ def main():
     
     total_mentions = Counter()
     
+    print("\n" + "-" * 70)
     for subreddit in subreddits:
-        ticker_counts = analyze_subreddit(subreddit, limit=50)
+        ticker_counts = analyze_subreddit(subreddit)
         total_mentions.update(ticker_counts)
+    
+    print("-" * 70)
     
     # Filter out major coins
     filtered_mentions = {k: v for k, v in total_mentions.items() 
@@ -186,7 +207,10 @@ def main():
             
             print(f"{rank:<6} ${ticker:<9} {count:<10} {trend_str:<20} {bar}")
     else:
-        print("\nNo tickers found. Try running again in a moment.")
+        print("\nNo tickers found. This could mean:")
+        print("  - RSS feeds are empty right now")
+        print("  - Reddit might be blocking RSS access")
+        print("  - Try running again in a few minutes")
     
     print("\n" + "=" * 70)
     print(f"Total emerging tickers found: {len(filtered_mentions)}")
@@ -208,7 +232,7 @@ def main():
     print("\n" + "=" * 70)
     history_count = len(load_history())
     print(f"Historical scans saved: {history_count}")
-    print("TIP: Run this regularly to spot emerging narratives early!")
+    print("TIP: Run this every 1-2 hours to catch narratives in genesis mode!")
     print("=" * 70)
 
 if __name__ == "__main__":

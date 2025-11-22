@@ -30,27 +30,39 @@ def get_reddit_rss(subreddit):
             print(f"  Warning: Got status {response.status_code} from r/{subreddit}")
             return []
         
-        # Parse RSS XML
+        # Parse RSS XML - Reddit uses Atom format
         root = ET.fromstring(response.content)
         
+        # Define namespace for Atom feeds
+        ns = {'atom': 'http://www.w3.org/2005/Atom'}
+        
         posts = []
-        # RSS uses 'entry' tags for items
-        for entry in root.findall('.//{http://www.w3.org/2005/Atom}entry'):
-            title_elem = entry.find('{http://www.w3.org/2005/Atom}title')
-            content_elem = entry.find('{http://www.w3.org/2005/Atom}content')
+        # Find all entry elements
+        for entry in root.findall('atom:entry', ns):
+            title_elem = entry.find('atom:title', ns)
+            content_elem = entry.find('atom:content', ns)
             
-            title = unescape(title_elem.text) if title_elem is not None else ""
-            content = unescape(content_elem.text) if content_elem is not None else ""
+            title = ""
+            content = ""
             
-            posts.append({
-                'title': title,
-                'content': content
-            })
+            if title_elem is not None and title_elem.text:
+                title = unescape(title_elem.text)
+            
+            if content_elem is not None and content_elem.text:
+                # Remove HTML tags from content
+                content_text = re.sub('<[^<]+?>', '', content_elem.text)
+                content = unescape(content_text)
+            
+            if title or content:
+                posts.append({
+                    'title': title,
+                    'content': content
+                })
         
         return posts
     
     except Exception as e:
-        print(f"  Error fetching RSS from r/{subreddit}: {e}")
+        print(f"  Error parsing RSS from r/{subreddit}: {str(e)[:100]}")
         return []
 
 def extract_tickers(text):

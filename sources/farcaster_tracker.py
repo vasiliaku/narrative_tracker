@@ -1,14 +1,15 @@
 """
 Farcaster Tracker - Monitors Farcaster protocol for crypto mentions
-Farcaster is a crypto-native social network with high-quality discussions
+Using Neynar API v2 for reliable data access
 """
 
 import requests
 import re
 from collections import Counter
 
-# Farcaster API endpoint (using Neynar's free API)
-FARCASTER_API = "https://api.neynar.com/v2/farcaster/feed/trending"
+# Neynar API Configuration
+NEYNAR_API_KEY = "74397244-51B9-43EA-A3B8-3324B79B03A0"
+NEYNAR_BASE_URL = "https://api.neynar.com/v2/farcaster"
 
 def extract_tickers(text):
     """Extract crypto ticker symbols from text"""
@@ -34,7 +35,7 @@ def check_keywords(text):
     keywords = [
         'airdrop', 'presale', 'launch', 'launched', 'launching',
         'new coin', 'new token', 'mint', 'minting',
-        'alpha', 'early', 'announcement', 'drop'
+        'alpha', 'early', 'announcement', 'drop', 'testnet', 'mainnet'
     ]
     
     text_lower = text.lower()
@@ -46,37 +47,78 @@ def check_keywords(text):
     
     return found
 
-def get_farcaster_casts():
-    """Fetch trending casts from Farcaster"""
+def get_farcaster_feed():
+    """Fetch recent casts from Farcaster using Neynar API v2"""
     try:
-        print("  Fetching from Farcaster...")
+        print("  Fetching from Farcaster via Neynar API...")
         
-        # Using public Farcaster hub API
-        # Alternative: Use searchcaster.xyz API
-        url = "https://searchcaster.xyz/api/search?text=crypto&count=50"
+        # Try multiple feed types for better coverage
+        feed_types = ['filter', 'following']
+        all_casts = []
         
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
+        for feed_type in feed_types:
+            try:
+                url = f"{NEYNAR_BASE_URL}/feed"
+                
+                params = {
+                    'feed_type': feed_type,
+                    'limit': 50
+                }
+                
+                headers = {
+                    'api_key': NEYNAR_API_KEY,
+                    'accept': 'application/json'
+                }
+                
+                response = requests.get(url, params=params, headers=headers, timeout=15)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    casts = data.get('casts', [])
+                    all_casts.extend(casts)
+                    print(f"    Got {len(casts)} casts from {feed_type} feed")
+                elif response.status_code == 401:
+                    print(f"  Warning: API key issue (401) - check your Neynar key")
+                    break
+                else:
+                    print(f"  Warning: {feed_type} feed returned {response.status_code}")
+                    
+            except Exception as e:
+                print(f"  Error with {feed_type} feed: {str(e)[:50]}")
+                continue
         
-        response = requests.get(url, headers=headers, timeout=15)
+        # If no casts from feeds, try trending casts
+        if not all_casts:
+            try:
+                url = f"{NEYNAR_BASE_URL}/feed/trending"
+                headers = {
+                    'api_key': NEYNAR_API_KEY,
+                    'accept': 'application/json'
+                }
+                
+                response = requests.get(url, headers=headers, timeout=15)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    all_casts = data.get('casts', [])
+                    print(f"    Got {len(all_casts)} trending casts")
+            except Exception as e:
+                print(f"  Error with trending: {str(e)[:50]}")
         
-        if response.status_code != 200:
-            print(f"  Warning: Farcaster API returned {response.status_code}")
-            # Try alternative approach - just search for common crypto terms
-            return get_farcaster_alternative()
-        
-        data = response.json()
-        casts = data.get('casts', [])
-        
+        # Parse casts
         posts = []
-        for cast in casts[:50]:
-            text = cast.get('body', {}).get('data', {}).get('text', '')
-            if text:
+        for cast in all_casts[:100]:  # Process up to 100 casts
+            text = cast.get('text', '')
+            author = cast.get('author', {})
+            username = author.get('username', 'unknown')
+            
+            # Filter for crypto-related content
+            crypto_terms = ['crypto', 'bitcoin', 'btc', 'eth', 'token', 'coin', 'defi', 'web3', '$', 'airdrop', 'presale']
+            if any(term in text.lower() for term in crypto_terms):
                 posts.append({
                     'text': text,
-                    'username': cast.get('body', {}).get('username', 'unknown'),
-                    'timestamp': cast.get('body', {}).get('publishedAt', 0)
+                    'username': username,
+                    'timestamp': cast.get('timestamp', '')
                 })
         
         return posts
@@ -85,51 +127,18 @@ def get_farcaster_casts():
         print(f"  Error fetching from Farcaster: {str(e)[:100]}")
         return []
 
-def get_farcaster_alternative():
-    """Alternative method using Warpcast public API"""
-    try:
-        # Warpcast is the main Farcaster client
-        # We can search trending casts
-        searches = ['airdrop', 'presale', 'token launch', '$']
-        all_posts = []
-        
-        for term in searches:
-            try:
-                url = f"https://searchcaster.xyz/api/search?text={term}&count=20"
-                response = requests.get(url, timeout=10)
-                
-                if response.status_code == 200:
-                    data = response.json()
-                    casts = data.get('casts', [])
-                    
-                    for cast in casts:
-                        text = cast.get('body', {}).get('data', {}).get('text', '')
-                        if text:
-                            all_posts.append({
-                                'text': text,
-                                'username': cast.get('body', {}).get('username', 'unknown'),
-                                'timestamp': cast.get('body', {}).get('publishedAt', 0)
-                            })
-            except:
-                continue
-        
-        return all_posts[:50]  # Return top 50
-    
-    except Exception as e:
-        print(f"  Alternative fetch also failed: {str(e)[:50]}")
-        return []
-
 def analyze_farcaster():
     """Analyze Farcaster for crypto mentions"""
     print("\n[FARCASTER] Scanning crypto-native social network...")
     
-    posts = get_farcaster_casts()
+    posts = get_farcaster_feed()
     
     if not posts:
         print("  No posts found or API unavailable")
+        print("  Tip: Check if your Neynar API key is valid at https://neynar.com")
         return Counter(), []
     
-    print(f"  Found {len(posts)} recent casts")
+    print(f"  Found {len(posts)} crypto-related casts")
     
     all_tickers = []
     keyword_posts = []
@@ -160,7 +169,7 @@ def analyze_farcaster():
     return ticker_counts, keyword_posts
 
 if __name__ == "__main__":
-    print("Testing Farcaster Tracker...")
+    print("Testing Farcaster Tracker with Neynar API...")
     tickers, keywords = analyze_farcaster()
     
     print("\nTop 10 tickers on Farcaster:")
@@ -169,3 +178,5 @@ if __name__ == "__main__":
     
     if keywords:
         print(f"\nFound {len(keywords)} casts with signals")
+        for kw in keywords[:3]:
+            print(f"  - {kw['content'][:80]}...")

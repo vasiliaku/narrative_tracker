@@ -1,22 +1,23 @@
 """
 Nostr Tracker - Monitors Nostr protocol for crypto mentions
-Nostr is a decentralized social protocol where many crypto devs post early alpha
+Connects directly to multiple Nostr relays for reliable data
 """
 
 import requests
 import json
 import re
 from collections import Counter
+import time
 
-# Popular Nostr relays
+# Popular Nostr relays to connect to
 NOSTR_RELAYS = [
-    "wss://relay.damus.io",
-    "wss://relay.nostr.band",
-    "wss://nos.lol"
+    "https://relay.nostr.band",
+    "https://nostr.wine",
+    "https://relay.damus.io"
 ]
 
-# We'll use nostr.band API for easier access
-NOSTR_API = "https://api.nostr.band/v0/trending/notes"
+# Using nostr.band API as fallback (doesn't require WebSocket)
+NOSTR_BAND_API = "https://api.nostr.band/v0"
 
 def extract_tickers(text):
     """Extract crypto ticker symbols from text"""
@@ -32,7 +33,7 @@ def extract_tickers(text):
     potential_tickers = re.findall(pattern2, text.upper())
     
     # Include common cryptos
-    common_cryptos = ['BTC', 'ETH', 'SOL', 'BNB', 'XRP', 'ADA', 'DOGE']
+    common_cryptos = ['BTC', 'ETH', 'SOL', 'BNB', 'XRP', 'ADA', 'DOGE', 'SATS', 'ORDI']
     tickers.extend([t for t in potential_tickers if t in common_cryptos])
     
     return list(set(tickers))
@@ -45,7 +46,7 @@ def check_keywords(text):
     keywords = [
         'airdrop', 'presale', 'launch', 'launched', 'launching',
         'new coin', 'new token', 'alpha', 'early', 'mint',
-        'testnet', 'mainnet', 'announcement', 'release'
+        'testnet', 'mainnet', 'announcement', 'release', 'drop'
     ]
     
     text_lower = text.lower()
@@ -57,40 +58,104 @@ def check_keywords(text):
     
     return found
 
-def get_nostr_posts():
-    """Fetch trending posts from Nostr"""
+def get_nostr_trending():
+    """Fetch trending notes from Nostr.band API"""
     try:
-        print("  Fetching from Nostr (decentralized protocol)...")
+        url = f"{NOSTR_BAND_API}/trending/notes"
         
-        # Using nostr.band API for simplicity
-        response = requests.get(NOSTR_API, timeout=15)
+        response = requests.get(url, timeout=15)
         
         if response.status_code != 200:
-            print(f"  Warning: Nostr API returned {response.status_code}")
+            print(f"  Warning: Nostr.band returned {response.status_code}")
             return []
         
         data = response.json()
-        
-        posts = []
         notes = data.get('notes', [])
         
-        for note in notes[:50]:  # Get top 50 trending notes
+        posts = []
+        for note in notes[:50]:  # Get top 50 trending
             content = note.get('content', '')
             
             # Filter for crypto-related content
-            crypto_terms = ['crypto', 'bitcoin', 'btc', 'eth', 'token', 'coin', 'defi', 'web3', '$']
+            crypto_terms = ['crypto', 'bitcoin', 'btc', 'lightning', 'sats', 'token', 'coin', '$']
             if any(term in content.lower() for term in crypto_terms):
                 posts.append({
                     'content': content,
-                    'pubkey': note.get('pubkey', '')[:8],  # First 8 chars of public key
+                    'pubkey': note.get('pubkey', '')[:8],
                     'created_at': note.get('created_at', 0)
                 })
         
         return posts
-    
+        
     except Exception as e:
-        print(f"  Error fetching from Nostr: {str(e)[:100]}")
+        print(f"  Error with Nostr.band: {str(e)[:50]}")
         return []
+
+def get_nostr_search(keywords):
+    """Search Nostr for specific keywords"""
+    try:
+        # Use nostr.band search endpoint
+        posts = []
+        
+        for keyword in keywords[:3]:  # Search top 3 keywords to avoid rate limits
+            try:
+                url = f"{NOSTR_BAND_API}/search"
+                params = {
+                    'q': keyword,
+                    'kind': 1,  # Text notes
+                    'limit': 20
+                }
+                
+                response = requests.get(url, params=params, timeout=10)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    notes = data.get('notes', [])
+                    
+                    for note in notes:
+                        content = note.get('content', '')
+                        if content:
+                            posts.append({
+                                'content': content,
+                                'pubkey': note.get('pubkey', '')[:8],
+                                'created_at': note.get('created_at', 0)
+                            })
+                
+                time.sleep(0.5)  # Rate limiting
+                
+            except Exception as e:
+                print(f"  Error searching '{keyword}': {str(e)[:30]}")
+                continue
+        
+        return posts
+        
+    except Exception as e:
+        print(f"  Error with Nostr search: {str(e)[:50]}")
+        return []
+
+def get_nostr_posts():
+    """Fetch posts from Nostr using multiple methods"""
+    all_posts = []
+    
+    # Method 1: Get trending posts
+    trending = get_nostr_trending()
+    all_posts.extend(trending)
+    
+    # Method 2: Search for specific crypto keywords
+    search_keywords = ['airdrop', 'presale', 'bitcoin alpha']
+    search_results = get_nostr_search(search_keywords)
+    all_posts.extend(search_results)
+    
+    # Remove duplicates based on content
+    seen = set()
+    unique_posts = []
+    for post in all_posts:
+        content_hash = hash(post['content'][:100])
+        if content_hash not in seen:
+            seen.add(content_hash)
+            unique_posts.append(post)
+    
+    return unique_posts
 
 def analyze_nostr():
     """Analyze Nostr for crypto mentions"""
@@ -100,6 +165,7 @@ def analyze_nostr():
     
     if not posts:
         print("  No posts found or API unavailable")
+        print("  Tip: Nostr.band might be rate limiting. Try again in a few minutes.")
         return Counter(), []
     
     print(f"  Found {len(posts)} crypto-related posts")
@@ -142,3 +208,5 @@ if __name__ == "__main__":
     
     if keywords:
         print(f"\nFound {len(keywords)} posts with signals")
+        for kw in keywords[:3]:
+            print(f"  - {kw['content'][:80]}...")

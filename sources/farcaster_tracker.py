@@ -1,6 +1,6 @@
 """
 Farcaster Tracker - Monitors Farcaster protocol for crypto mentions
-Using Neynar API v2 for reliable data access
+Using ONLY free Neynar endpoints + local filtering
 """
 
 import requests
@@ -48,23 +48,49 @@ def check_keywords(text):
     return found
 
 def get_farcaster_feed():
-    """Fetch recent casts from Farcaster using Neynar API v2"""
+    """
+    Fetch casts from Farcaster using ONLY free Neynar endpoints
+    Then filter locally (no paid /filter endpoint!)
+    """
     try:
-        print("  Fetching from Farcaster via Neynar API...")
+        print("  Fetching from Farcaster via Neynar (free endpoints only)...")
         
-        # Try multiple feed types for better coverage
-        feed_types = ['filter', 'following']
         all_casts = []
         
-        for feed_type in feed_types:
-            try:
-                url = f"{NEYNAR_BASE_URL}/feed"
+        # Try 'for-you' feed (this is FREE)
+        try:
+            url = f"{NEYNAR_BASE_URL}/feed"
+            params = {
+                'feed_type': 'for-you',
+                'limit': 100  # Get more to filter from
+            }
+            headers = {
+                'api_key': NEYNAR_API_KEY,
+                'accept': 'application/json'
+            }
+            
+            response = requests.get(url, params=params, headers=headers, timeout=15)
+            
+            if response.status_code == 200:
+                data = response.json()
+                casts = data.get('casts', [])
+                all_casts.extend(casts)
+                print(f"    Got {len(casts)} casts from for-you feed")
+            elif response.status_code == 402:
+                print(f"    Warning: for-you feed hit payment wall (skip)")
+            else:
+                print(f"    Warning: for-you feed returned {response.status_code}")
                 
+        except Exception as e:
+            print(f"    Error with for-you feed: {str(e)[:50]}")
+        
+        # If for-you didn't work, try getting recent casts (also FREE)
+        if not all_casts:
+            try:
+                url = f"{NEYNAR_BASE_URL}/casts"
                 params = {
-                    'feed_type': feed_type,
                     'limit': 50
                 }
-                
                 headers = {
                     'api_key': NEYNAR_API_KEY,
                     'accept': 'application/json'
@@ -74,54 +100,32 @@ def get_farcaster_feed():
                 
                 if response.status_code == 200:
                     data = response.json()
-                    casts = data.get('casts', [])
-                    all_casts.extend(casts)
-                    print(f"    Got {len(casts)} casts from {feed_type} feed")
-                elif response.status_code == 401:
-                    print(f"  Warning: API key issue (401) - check your Neynar key")
-                    break
-                else:
-                    print(f"  Warning: {feed_type} feed returned {response.status_code}")
+                    all_casts = data.get('casts', [])
+                    print(f"    Got {len(all_casts)} recent casts")
                     
             except Exception as e:
-                print(f"  Error with {feed_type} feed: {str(e)[:50]}")
-                continue
+                print(f"    Error with recent casts: {str(e)[:50]}")
         
-        # If no casts from feeds, try trending casts
-        if not all_casts:
-            try:
-                url = f"{NEYNAR_BASE_URL}/feed/trending"
-                headers = {
-                    'api_key': NEYNAR_API_KEY,
-                    'accept': 'application/json'
-                }
-                
-                response = requests.get(url, headers=headers, timeout=15)
-                
-                if response.status_code == 200:
-                    data = response.json()
-                    all_casts = data.get('casts', [])
-                    print(f"    Got {len(all_casts)} trending casts")
-            except Exception as e:
-                print(f"  Error with trending: {str(e)[:50]}")
+        # Now filter locally for crypto content (this avoids paid /filter endpoint!)
+        crypto_posts = []
+        crypto_keywords = ['crypto', 'bitcoin', 'btc', 'eth', 'token', 'coin', 'defi', 'web3', '$', 
+                          'airdrop', 'presale', 'launch', 'mint']
         
-        # Parse casts
-        posts = []
-        for cast in all_casts[:100]:  # Process up to 100 casts
+        for cast in all_casts[:100]:
             text = cast.get('text', '')
-            author = cast.get('author', {})
-            username = author.get('username', 'unknown')
             
-            # Filter for crypto-related content
-            crypto_terms = ['crypto', 'bitcoin', 'btc', 'eth', 'token', 'coin', 'defi', 'web3', '$', 'airdrop', 'presale']
-            if any(term in text.lower() for term in crypto_terms):
-                posts.append({
+            # Check if crypto-related
+            if any(kw in text.lower() for kw in crypto_keywords):
+                author = cast.get('author', {})
+                username = author.get('username', 'unknown')
+                
+                crypto_posts.append({
                     'text': text,
                     'username': username,
                     'timestamp': cast.get('timestamp', '')
                 })
         
-        return posts
+        return crypto_posts
     
     except Exception as e:
         print(f"  Error fetching from Farcaster: {str(e)[:100]}")
@@ -134,11 +138,11 @@ def analyze_farcaster():
     posts = get_farcaster_feed()
     
     if not posts:
-        print("  No posts found or API unavailable")
-        print("  Tip: Check if your Neynar API key is valid at https://neynar.com")
+        print("  No posts found - Neynar free tier might be exhausted")
+        print("  Tip: Free tier resets daily. Will work again tomorrow!")
         return Counter(), []
     
-    print(f"  Found {len(posts)} crypto-related casts")
+    print(f"  Found {len(posts)} crypto-related casts (filtered locally)")
     
     all_tickers = []
     keyword_posts = []
@@ -169,7 +173,7 @@ def analyze_farcaster():
     return ticker_counts, keyword_posts
 
 if __name__ == "__main__":
-    print("Testing Farcaster Tracker with Neynar API...")
+    print("Testing Farcaster Tracker with free endpoints...")
     tickers, keywords = analyze_farcaster()
     
     print("\nTop 10 tickers on Farcaster:")

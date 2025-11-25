@@ -1,6 +1,6 @@
 """
 Nostr Tracker - Monitors Nostr protocol for crypto mentions
-Connects directly to multiple Nostr relays for reliable data
+Connects directly to multiple reliable Nostr relays
 """
 
 import requests
@@ -9,30 +9,29 @@ import re
 from collections import Counter
 import time
 
-# Popular Nostr relays to connect to
-NOSTR_RELAYS = [
+# Multiple stable Nostr relays (not just nostr.band!)
+NOSTR_RELAYS_HTTP = [
     "https://relay.nostr.band",
     "https://nostr.wine",
-    "https://relay.damus.io"
 ]
 
-# Using nostr.band API as fallback (doesn't require WebSocket)
-NOSTR_BAND_API = "https://api.nostr.band/v0"
+# Backup: Use RSS-JSON bridges that are more stable
+NOSTR_RSS_BRIDGES = [
+    "https://rss.nostr.band/topic/bitcoin",
+    "https://rss.nostr.band/topic/crypto",
+]
 
 def extract_tickers(text):
     """Extract crypto ticker symbols from text"""
     if not text:
         return []
     
-    # Match $TICKER pattern
     pattern = r'\$([A-Z]{2,10})\b'
     tickers = re.findall(pattern, text.upper())
     
-    # Also catch standalone tickers
     pattern2 = r'\b([A-Z]{3,6})\b'
     potential_tickers = re.findall(pattern2, text.upper())
     
-    # Include common cryptos
     common_cryptos = ['BTC', 'ETH', 'SOL', 'BNB', 'XRP', 'ADA', 'DOGE', 'SATS', 'ORDI']
     tickers.extend([t for t in potential_tickers if t in common_cryptos])
     
@@ -58,95 +57,100 @@ def check_keywords(text):
     
     return found
 
-def get_nostr_trending():
-    """Fetch trending notes from Nostr.band API"""
+def try_nostr_relay(relay_url):
+    """Try fetching from a specific Nostr relay"""
     try:
-        url = f"{NOSTR_BAND_API}/trending/notes"
-        
-        response = requests.get(url, timeout=15)
-        
-        if response.status_code != 200:
-            print(f"  Warning: Nostr.band returned {response.status_code}")
-            return []
-        
-        data = response.json()
-        notes = data.get('notes', [])
-        
-        posts = []
-        for note in notes[:50]:  # Get top 50 trending
-            content = note.get('content', '')
+        # Use nostr.band's query interface (more stable than raw WebSocket)
+        if "nostr.band" in relay_url:
+            # Try multiple endpoints
+            endpoints = [
+                f"{relay_url}/trending/notes",
+                f"{relay_url}/search?q=bitcoin",
+                f"{relay_url}/search?q=crypto",
+            ]
             
-            # Filter for crypto-related content
-            crypto_terms = ['crypto', 'bitcoin', 'btc', 'lightning', 'sats', 'token', 'coin', '$']
-            if any(term in content.lower() for term in crypto_terms):
-                posts.append({
-                    'content': content,
-                    'pubkey': note.get('pubkey', '')[:8],
-                    'created_at': note.get('created_at', 0)
-                })
+            for endpoint in endpoints:
+                try:
+                    response = requests.get(endpoint, timeout=10)
+                    if response.status_code == 200:
+                        data = response.json()
+                        notes = data.get('notes', [])
+                        if notes:
+                            return notes[:30]  # Return first 30
+                except:
+                    continue
         
-        return posts
-        
-    except Exception as e:
-        print(f"  Error with Nostr.band: {str(e)[:50]}")
-        return []
-
-def get_nostr_search(keywords):
-    """Search Nostr for specific keywords"""
-    try:
-        # Use nostr.band search endpoint
-        posts = []
-        
-        for keyword in keywords[:3]:  # Search top 3 keywords to avoid rate limits
+        # Try nostr.wine
+        elif "nostr.wine" in relay_url:
             try:
-                url = f"{NOSTR_BAND_API}/search"
-                params = {
-                    'q': keyword,
-                    'kind': 1,  # Text notes
-                    'limit': 20
-                }
-                
-                response = requests.get(url, params=params, timeout=10)
-                
+                # nostr.wine has a simple query interface
+                response = requests.get(
+                    f"{relay_url}/api/search",
+                    params={"q": "crypto bitcoin", "limit": 30},
+                    timeout=10
+                )
                 if response.status_code == 200:
-                    data = response.json()
-                    notes = data.get('notes', [])
-                    
-                    for note in notes:
-                        content = note.get('content', '')
-                        if content:
-                            posts.append({
-                                'content': content,
-                                'pubkey': note.get('pubkey', '')[:8],
-                                'created_at': note.get('created_at', 0)
-                            })
-                
-                time.sleep(0.5)  # Rate limiting
-                
-            except Exception as e:
-                print(f"  Error searching '{keyword}': {str(e)[:30]}")
-                continue
+                    return response.json().get('results', [])
+            except:
+                pass
         
-        return posts
+        return []
         
     except Exception as e:
-        print(f"  Error with Nostr search: {str(e)[:50]}")
         return []
 
 def get_nostr_posts():
-    """Fetch posts from Nostr using multiple methods"""
+    """Fetch posts from multiple Nostr sources"""
     all_posts = []
     
-    # Method 1: Get trending posts
-    trending = get_nostr_trending()
-    all_posts.extend(trending)
+    # Try each relay
+    for relay in NOSTR_RELAYS_HTTP:
+        try:
+            notes = try_nostr_relay(relay)
+            
+            for note in notes:
+                content = note.get('content', '')
+                
+                # Filter for crypto content
+                crypto_terms = ['crypto', 'bitcoin', 'btc', 'lightning', 'sats', 'token', '$']
+                if any(term in content.lower() for term in crypto_terms):
+                    all_posts.append({
+                        'content': content,
+                        'pubkey': note.get('pubkey', '')[:8],
+                        'created_at': note.get('created_at', 0)
+                    })
+            
+            if all_posts:
+                break  # If we got data, no need to try other relays
+                
+            time.sleep(0.5)  # Rate limiting between relays
+            
+        except Exception as e:
+            continue
     
-    # Method 2: Search for specific crypto keywords
-    search_keywords = ['airdrop', 'presale', 'bitcoin alpha']
-    search_results = get_nostr_search(search_keywords)
-    all_posts.extend(search_results)
+    # If no posts yet, try RSS bridges as backup
+    if not all_posts:
+        for bridge_url in NOSTR_RSS_BRIDGES:
+            try:
+                response = requests.get(bridge_url, timeout=10)
+                if response.status_code == 200:
+                    # Parse RSS/JSON
+                    data = response.json() if response.headers.get('content-type', '').startswith('application/json') else None
+                    if data and 'items' in data:
+                        for item in data['items'][:20]:
+                            content = item.get('content_text', '') or item.get('title', '')
+                            if content:
+                                all_posts.append({
+                                    'content': content,
+                                    'pubkey': 'rss',
+                                    'created_at': 0
+                                })
+                    if all_posts:
+                        break
+            except:
+                continue
     
-    # Remove duplicates based on content
+    # Remove duplicates
     seen = set()
     unique_posts = []
     for post in all_posts:
@@ -155,17 +159,17 @@ def get_nostr_posts():
             seen.add(content_hash)
             unique_posts.append(post)
     
-    return unique_posts
+    return unique_posts[:50]  # Limit to 50 posts
 
 def analyze_nostr():
     """Analyze Nostr for crypto mentions"""
-    print("\n[NOSTR] Scanning decentralized social protocol...")
+    print("\n[NOSTR] Scanning decentralized protocol (multi-relay)...")
     
     posts = get_nostr_posts()
     
     if not posts:
-        print("  No posts found or API unavailable")
-        print("  Tip: Nostr.band might be rate limiting. Try again in a few minutes.")
+        print("  No posts found from any relay")
+        print("  Tip: Nostr relays might be slow. This is normal, will try again next run.")
         return Counter(), []
     
     print(f"  Found {len(posts)} crypto-related posts")
@@ -176,15 +180,13 @@ def analyze_nostr():
     for post in posts:
         content = post['content']
         
-        # Extract tickers
         tickers = extract_tickers(content)
         all_tickers.extend(tickers)
         
-        # Check for keywords
         keywords = check_keywords(content)
         if keywords:
             keyword_posts.append({
-                'content': content[:100],  # First 100 chars
+                'content': content[:100],
                 'keywords': keywords,
                 'tickers': tickers,
                 'source': 'nostr'
@@ -198,7 +200,6 @@ def analyze_nostr():
     return ticker_counts, keyword_posts
 
 if __name__ == "__main__":
-    # Test the tracker
     print("Testing Nostr Tracker...")
     tickers, keywords = analyze_nostr()
     
@@ -208,5 +209,3 @@ if __name__ == "__main__":
     
     if keywords:
         print(f"\nFound {len(keywords)} posts with signals")
-        for kw in keywords[:3]:
-            print(f"  - {kw['content'][:80]}...")

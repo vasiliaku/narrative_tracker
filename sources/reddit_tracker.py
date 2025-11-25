@@ -1,55 +1,12 @@
 """
-Reddit Tracker - Monitors crypto subreddits via RSS feeds
-This is where community narratives form!
+Reddit Tracker - Monitors crypto subreddits
+Using .json endpoints with better headers to avoid blocks
 """
 
 import requests
 import re
-import xml.etree.ElementTree as ET
 from collections import Counter
-from html import unescape
-
-def get_reddit_rss(subreddit):
-    """Fetch posts from Reddit RSS feed"""
-    try:
-        url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
-        
-        response = requests.get(url, headers=headers, timeout=10)
-        
-        if response.status_code != 200:
-            return []
-        
-        root = ET.fromstring(response.content)
-        ns = {'atom': 'http://www.w3.org/2005/Atom'}
-        
-        posts = []
-        for entry in root.findall('atom:entry', ns):
-            title_elem = entry.find('atom:title', ns)
-            content_elem = entry.find('atom:content', ns)
-            
-            title = ""
-            content = ""
-            
-            if title_elem is not None and title_elem.text:
-                title = unescape(title_elem.text)
-            
-            if content_elem is not None and content_elem.text:
-                content_text = re.sub('<[^<]+?>', '', content_elem.text)
-                content = unescape(content_text)
-            
-            if title or content:
-                posts.append({
-                    'title': title,
-                    'content': content
-                })
-        
-        return posts
-    
-    except Exception as e:
-        return []
+import time
 
 def extract_tickers(text):
     """Extract crypto ticker symbols from text"""
@@ -87,9 +44,63 @@ def check_keywords(text):
     
     return found
 
+def get_reddit_json(subreddit):
+    """
+    Fetch posts from Reddit using .json endpoint
+    This works without OAuth and avoids API restrictions
+    """
+    try:
+        # Use .json endpoint (not RSS, not API)
+        url = f"https://www.reddit.com/r/{subreddit}/new.json"
+        
+        # Better headers to avoid bot detection
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'application/json',
+            'Accept-Language': 'en-US,en;q=0.9'
+        }
+        
+        params = {
+            'limit': 50,  # Get 50 posts
+            'raw_json': 1  # Avoid HTML entities
+        }
+        
+        response = requests.get(url, headers=headers, params=params, timeout=15)
+        
+        if response.status_code == 429:
+            print(f"    Rate limited on r/{subreddit} - will skip this run")
+            return []
+        
+        if response.status_code != 200:
+            print(f"    Warning: r/{subreddit} returned {response.status_code}")
+            return []
+        
+        data = response.json()
+        
+        posts = []
+        children = data.get('data', {}).get('children', [])
+        
+        for child in children:
+            post_data = child.get('data', {})
+            
+            title = post_data.get('title', '')
+            selftext = post_data.get('selftext', '')
+            
+            if title or selftext:
+                posts.append({
+                    'title': title,
+                    'content': selftext
+                })
+        
+        return posts
+    
+    except Exception as e:
+        print(f"    Error fetching r/{subreddit}: {str(e)[:50]}")
+        return []
+
 def analyze_reddit():
     """Analyze crypto subreddits for mentions"""
-    print("\n[REDDIT] Scanning crypto subreddits via RSS...")
+    print("\n[REDDIT] Scanning crypto subreddits (.json method)...")
     
     subreddits = [
         'CryptoCurrency',
@@ -100,10 +111,12 @@ def analyze_reddit():
     
     all_tickers = []
     keyword_posts = []
+    total_posts = 0
     
     for subreddit in subreddits:
         print(f"  Scanning r/{subreddit}...")
-        posts = get_reddit_rss(subreddit)
+        posts = get_reddit_json(subreddit)
+        total_posts += len(posts)
         
         for post in posts:
             text = post['title'] + ' ' + post['content']
@@ -120,16 +133,20 @@ def analyze_reddit():
                     'source': 'reddit',
                     'subreddit': subreddit
                 })
+        
+        # Rate limiting between subreddits
+        time.sleep(2)
     
     ticker_counts = Counter(all_tickers)
     
+    print(f"  Found {total_posts} total posts across all subs")
     print(f"  Found {len(ticker_counts)} unique tickers")
     print(f"  Found {len(keyword_posts)} posts with narrative keywords")
     
     return ticker_counts, keyword_posts
 
 if __name__ == "__main__":
-    print("Testing Reddit Tracker...")
+    print("Testing Reddit Tracker with .json method...")
     tickers, keywords = analyze_reddit()
     
     print("\nTop 10 tickers on Reddit:")

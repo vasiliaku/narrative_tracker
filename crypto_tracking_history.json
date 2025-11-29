@@ -6518,5 +6518,122 @@
         ]
       }
     ]
+  },
+  {
+    "timestamp": "2025-11-29T03:04:46.300318",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "MON": 6,
+      "ZEC": 6,
+      "KAS": 6,
+      "TAO": 6,
+      "HYPE": 6,
+      "ASTER": 6,
+      "AVICI": 6,
+      "STRK": 6,
+      "QNT": 6,
+      "WLFI": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "MON": 3,
+        "BTC": 3,
+        "ZEC": 3,
+        "KAS": 3,
+        "TAO": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "ASTER": 3,
+        "AVICI": 3,
+        "STRK": 3,
+        "QNT": 3,
+        "WLFI": 3,
+        "DOGE": 3,
+        "SUI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "KAS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kaspa ($KAS) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
   }
 ]

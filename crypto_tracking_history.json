@@ -1,256 +1,5 @@
 [
   {
-    "timestamp": "2025-11-25T08:16:23.815103",
-    "tickers": {
-      "THC": 1,
-      "BONK": 1,
-      "SOLF": 1,
-      "WIF": 1,
-      "AIA": 1,
-      "UXLINK": 1,
-      "RIZZGIVIN": 1,
-      "RAJ": 1,
-      "VOOZ": 3,
-      "HEGE": 1,
-      "KOL": 1,
-      "GIGA": 1,
-      "LFGO": 1,
-      "FRIEND": 1,
-      "TOWNS": 1,
-      "BUGGER": 1,
-      "FUN": 1,
-      "MAMBO": 1,
-      "MON": 8,
-      "HUNT": 1,
-      "ZEC": 7,
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "RAIN": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "TAKE": 6,
-      "PI": 6,
-      "GRASS": 6,
-      "ASTER": 6,
-      "KAS": 6
-    },
-    "source_breakdown": {
-      "reddit": {
-        "ETH": 12,
-        "SOL": 4,
-        "THC": 1,
-        "BONK": 1,
-        "SOLF": 1,
-        "WIF": 1,
-        "DOGE": 4,
-        "AIA": 1,
-        "UXLINK": 1,
-        "RIZZGIVIN": 1,
-        "BTC": 3,
-        "RAJ": 1,
-        "VOOZ": 3,
-        "HEGE": 1,
-        "BNB": 1,
-        "KOL": 1,
-        "GIGA": 1,
-        "LFGO": 1,
-        "FRIEND": 1,
-        "TOWNS": 1,
-        "BUGGER": 1,
-        "FUN": 1,
-        "MAMBO": 1,
-        "MON": 2,
-        "HUNT": 1,
-        "XRP": 1,
-        "ZEC": 1
-      },
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MON": 3,
-        "FIRO": 3,
-        "RAIN": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "ETH": 3,
-        "ZEC": 3,
-        "TAKE": 3,
-        "PI": 3,
-        "GRASS": 3,
-        "ASTER": 3,
-        "KAS": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "BONK": {
-        "keyword_count": 4,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "Solfart ($SOLF): The Ultimate Solana Meme Coin Presale Set to Explode to $1B Market Cap!"
-        ]
-      },
-      "SOLF": {
-        "keyword_count": 4,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "Solfart ($SOLF): The Ultimate Solana Meme Coin Presale Set to Explode to $1B Market Cap!"
-        ]
-      },
-      "WIF": {
-        "keyword_count": 4,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "Solfart ($SOLF): The Ultimate Solana Meme Coin Presale Set to Explode to $1B Market Cap!"
-        ]
-      },
-      "AIA": {
-        "keyword_count": 1,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "Why I\u2019m Leaning on AI Tools More Than Ever in This Market"
-        ]
-      },
-      "UXLINK": {
-        "keyword_count": 1,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "Why I\u2019m Leaning on AI Tools More Than Ever in This Market"
-        ]
-      },
-      "RAJ": {
-        "keyword_count": 1,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "$RAJ, PoW and PoJ (Proof Of Joy)"
-        ]
-      },
-      "HEGE": {
-        "keyword_count": 1,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "Rare chance to buy $HEGE at its launch night price! What other dips have you been slurping?"
-        ]
-      },
-      "GIGA": {
-        "keyword_count": 1,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "$GIGA community is about to launch energy drinks"
-        ]
-      },
-      "FUN": {
-        "keyword_count": 1,
-        "sources": [
-          "reddit"
-        ],
-        "sample_posts": [
-          "$FUN: Quietly Building While Everyone Chases Noise"
-        ]
-      },
-      "MON": {
-        "keyword_count": 8,
-        "sources": [
-          "reddit",
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Trying to Make Sense of the $MON Mood Before Launch",
-          "Do you think Monad will List above the Presale Price?",
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "cross_platform_alert",
-        "message": "\ud83d\udd25 2 tickers detected across multiple platforms!",
-        "tickers": [
-          "MON",
-          "ZEC"
-        ]
-      },
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 5 tokens with strong narrative signals!",
-        "tickers": [
-          "BONK",
-          "SOLF",
-          "WIF",
-          "MON",
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-11-25T10:13:06.502024",
     "tickers": {
       "THC": 1,
@@ -12253,6 +12002,123 @@
         ],
         "sample_posts": [
           "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-03T14:16:37.203958",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "MON": 6,
+      "BOB": 6,
+      "SUI": 6,
+      "ZEC": 6,
+      "ASTER": 6,
+      "PENGU": 6,
+      "RLS": 6,
+      "STRK": 6,
+      "HYPE": 6,
+      "SAPIEN": 6,
+      "PIPPIN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "MON": 3,
+        "BOB": 3,
+        "SUI": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "ASTER": 3,
+        "PENGU": 3,
+        "RLS": 3,
+        "STRK": 3,
+        "HYPE": 3,
+        "SAPIEN": 3,
+        "PIPPIN": 3,
+        "LINK": 5,
+        "ADA": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "BOB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "BOB (Build on Bitcoin) ($BOB) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
         ]
       }
     },

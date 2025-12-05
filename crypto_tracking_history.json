@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2025-11-27T10:12:41.777656",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "MON": 6,
-      "RAIN": 6,
-      "KAS": 6,
-      "ORCA": 6,
-      "IRYS": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "AT": 6,
-      "SUI": 6,
-      "ASTER": 6,
-      "ENA": 6,
-      "XPL": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MON": 3,
-        "RAIN": 3,
-        "KAS": 3,
-        "ORCA": 3,
-        "BTC": 3,
-        "IRYS": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "AT": 3,
-        "SUI": 3,
-        "ASTER": 3,
-        "ENA": 3,
-        "XPL": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) is trending on CoinGecko"
-        ]
-      },
-      "KAS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Kaspa ($KAS) is trending on CoinGecko"
-        ]
-      },
-      "ORCA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Orca ($ORCA) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-11-27T12:21:53.837802",
     "tickers": {
       "ALPHA": 3,
@@ -11601,6 +11482,124 @@
         ],
         "sample_posts": [
           "Terra ($LUNA) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-05T18:14:44.625662",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LUNC": 6,
+      "LUNA": 6,
+      "FIRO": 6,
+      "MON": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "SUI": 6,
+      "ENA": 6,
+      "BOB": 6,
+      "YB": 6,
+      "HYPE": 6,
+      "AVICI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LUNC": 3,
+        "LUNA": 3,
+        "BTC": 3,
+        "FIRO": 3,
+        "MON": 3,
+        "ETH": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "SUI": 3,
+        "SOL": 3,
+        "ENA": 3,
+        "BOB": 3,
+        "YB": 3,
+        "HYPE": 3,
+        "AVICI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LUNC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
+        ]
+      },
+      "LUNA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Terra ($LUNA) is trending on CoinGecko"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

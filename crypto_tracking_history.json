@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2025-11-29T22:09:59.330715",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "MON": 6,
-      "SAHARA": 6,
-      "ASTER": 6,
-      "HYPE": 6,
-      "STRK": 6,
-      "PENGU": 6,
-      "DASH": 6,
-      "COAI": 6,
-      "SKY": 6,
-      "ZEC": 6,
-      "TAO": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MON": 3,
-        "BTC": 3,
-        "SAHARA": 3,
-        "ASTER": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "STRK": 3,
-        "PENGU": 3,
-        "DASH": 3,
-        "COAI": 3,
-        "SKY": 3,
-        "ZEC": 3,
-        "TAO": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "SAHARA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sahara AI ($SAHARA) is trending on CoinGecko"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-11-30T00:58:17.340694",
     "tickers": {
       "ALPHA": 3,
@@ -11720,6 +11602,124 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-08T06:19:58.729535",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "ASTER": 6,
+      "LUNC": 6,
+      "ZEC": 6,
+      "MON": 6,
+      "PENGU": 6,
+      "PIPPIN": 6,
+      "POWER": 6,
+      "TAKE": 6,
+      "STRK": 6,
+      "PI": 6,
+      "HYPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "BTC": 3,
+        "ASTER": 3,
+        "LUNC": 3,
+        "ZEC": 3,
+        "MON": 3,
+        "PENGU": 3,
+        "PIPPIN": 3,
+        "POWER": 3,
+        "TAKE": 3,
+        "ETH": 3,
+        "STRK": 3,
+        "XRP": 3,
+        "PI": 3,
+        "HYPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "ASTER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aster ($ASTER) is trending on CoinGecko"
+        ]
+      },
+      "LUNC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

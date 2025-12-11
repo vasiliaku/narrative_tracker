@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2025-12-03T04:20:10.159946",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "MON": 6,
-      "BOB": 6,
-      "ZEC": 6,
-      "RLS": 6,
-      "SUI": 6,
-      "ENA": 6,
-      "ASTER": 6,
-      "TAO": 6,
-      "HYPE": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "BTC": 3,
-        "MON": 3,
-        "BOB": 3,
-        "ZEC": 3,
-        "RLS": 3,
-        "SOL": 5,
-        "LINK": 5,
-        "ETH": 3,
-        "SUI": 3,
-        "XRP": 3,
-        "ENA": 3,
-        "ASTER": 3,
-        "TAO": 3,
-        "APT": 3,
-        "ADA": 2,
-        "HYPE": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "BOB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BOB (Build on Bitcoin) ($BOB) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-03T06:18:18.532336",
     "tickers": {
       "ALPHA": 3,
@@ -11919,6 +11801,126 @@
         ],
         "sample_posts": [
           "Terra Luna Classic ($LUNC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-11T12:23:48.682569",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BDX": 6,
+      "ALMANAK": 6,
+      "CYS": 6,
+      "HYPE": 6,
+      "NIGHT": 6,
+      "PENGU": 6,
+      "LUNC": 6,
+      "ZEC": 6,
+      "LUNA": 6,
+      "SEI": 6,
+      "WET": 6,
+      "LRC": 6,
+      "AVICI": 6,
+      "PIPPIN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BDX": 3,
+        "ALMANAK": 3,
+        "CYS": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "NIGHT": 3,
+        "PENGU": 3,
+        "LUNC": 3,
+        "ZEC": 3,
+        "LUNA": 3,
+        "SEI": 3,
+        "WET": 3,
+        "LRC": 3,
+        "AVICI": 3,
+        "PIPPIN": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BDX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Beldex ($BDX) is trending on CoinGecko"
+        ]
+      },
+      "ALMANAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Almanak ($ALMANAK) is trending on CoinGecko"
+        ]
+      },
+      "CYS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cysic ($CYS) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

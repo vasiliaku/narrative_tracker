@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2025-12-03T14:16:37.203958",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "MON": 6,
-      "BOB": 6,
-      "SUI": 6,
-      "ZEC": 6,
-      "ASTER": 6,
-      "PENGU": 6,
-      "RLS": 6,
-      "STRK": 6,
-      "HYPE": 6,
-      "SAPIEN": 6,
-      "PIPPIN": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MON": 3,
-        "BOB": 3,
-        "SUI": 3,
-        "ZEC": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "ASTER": 3,
-        "PENGU": 3,
-        "RLS": 3,
-        "STRK": 3,
-        "HYPE": 3,
-        "SAPIEN": 3,
-        "PIPPIN": 3,
-        "LINK": 5,
-        "ADA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "BOB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BOB (Build on Bitcoin) ($BOB) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-03T16:16:18.265269",
     "tickers": {
       "ALPHA": 3,
@@ -11926,6 +11809,114 @@
         ],
         "sample_posts": [
           "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-11T22:11:24.141284",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BDX": 6,
+      "ZEC": 6,
+      "NIGHT": 6,
+      "MON": 6,
+      "LUNC": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "XMR": 6,
+      "LUNA": 6,
+      "SPX": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BDX": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "NIGHT": 3,
+        "ETH": 3,
+        "MON": 3,
+        "LUNC": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "XMR": 3,
+        "LUNA": 3,
+        "SPX": 3,
+        "XRP": 3,
+        "SUI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BDX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Beldex ($BDX) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "NIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Midnight ($NIGHT) is trending on CoinGecko"
         ]
       }
     },

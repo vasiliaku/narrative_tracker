@@ -1,110 +1,5 @@
 [
   {
-    "timestamp": "2025-12-04T00:52:47.716563",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BOB": 6,
-      "ZEC": 6,
-      "SUI": 6,
-      "MON": 6,
-      "ASTER": 6,
-      "AERO": 6,
-      "BEAM": 6,
-      "TURBO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BOB": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "SUI": 3,
-        "SOL": 3,
-        "MON": 3,
-        "ETH": 3,
-        "ASTER": 3,
-        "LINK": 3,
-        "AERO": 3,
-        "BEAM": 3,
-        "AVAX": 3,
-        "DOT": 3,
-        "XRP": 3,
-        "TURBO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BOB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BOB (Build on Bitcoin) ($BOB) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-04T03:12:52.479416",
     "tickers": {
       "ALPHA": 3,
@@ -11936,6 +11831,112 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-12T08:17:03.968418",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "US": 6,
+      "LUNC": 6,
+      "ZEC": 6,
+      "PIPPIN": 6,
+      "MON": 6,
+      "HYPE": 6,
+      "NIGHT": 6,
+      "PENGU": 6,
+      "CYS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SOL": 3,
+        "US": 3,
+        "LUNC": 3,
+        "BTC": 3,
+        "ZEC": 3,
+        "ETH": 3,
+        "PIPPIN": 3,
+        "MON": 3,
+        "HYPE": 3,
+        "NIGHT": 3,
+        "XRP": 3,
+        "PENGU": 3,
+        "CYS": 3,
+        "AVAX": 3,
+        "UNI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "US": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Talus Network ($US) is trending on CoinGecko"
+        ]
+      },
+      "LUNC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

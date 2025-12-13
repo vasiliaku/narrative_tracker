@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2025-12-05T03:12:12.299402",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "SAPIEN": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "ASTER": 6,
-      "MON": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "ONDO": 6,
-      "BAT": 6,
-      "VIRTUAL": 6,
-      "RLS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FIRO": 3,
-        "SAPIEN": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "ASTER": 3,
-        "MON": 3,
-        "ETH": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "SUI": 3,
-        "ONDO": 3,
-        "BAT": 3,
-        "VIRTUAL": 3,
-        "RLS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "SAPIEN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sapien ($SAPIEN) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-05T04:21:39.691193",
     "tickers": {
       "ALPHA": 3,
@@ -12035,6 +11908,116 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-13T10:10:48.165232",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAVE": 6,
+      "NIGHT": 6,
+      "ZEC": 6,
+      "ASTER": 6,
+      "LUNC": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "PEPE": 6,
+      "ATH": 6,
+      "USDT": 6,
+      "LUNA": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAVE": 3,
+        "SOL": 3,
+        "NIGHT": 3,
+        "BTC": 3,
+        "ZEC": 3,
+        "ASTER": 3,
+        "LUNC": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "PEPE": 3,
+        "ATH": 3,
+        "USDT": 3,
+        "LUNA": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "NIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Midnight ($NIGHT) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

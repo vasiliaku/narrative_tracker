@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2025-12-07T22:10:28.547649",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "MON": 6,
-      "PENGU": 6,
-      "ZEC": 6,
-      "LUNC": 6,
-      "ASTER": 6,
-      "AAVE": 6,
-      "MOODENG": 6,
-      "TAO": 6,
-      "BONK": 6,
-      "SHIB": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FIRO": 3,
-        "MON": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "ZEC": 3,
-        "LUNC": 3,
-        "SOL": 3,
-        "ASTER": 3,
-        "ETH": 3,
-        "AAVE": 3,
-        "MOODENG": 3,
-        "TAO": 3,
-        "BONK": 3,
-        "SHIB": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-08T00:53:32.109035",
     "tickers": {
       "ALPHA": 3,
@@ -11896,6 +11779,122 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-16T06:19:03.815985",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FHE": 6,
+      "PIPPIN": 6,
+      "ASTER": 6,
+      "MON": 6,
+      "PI": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "NIGHT": 6,
+      "RAVE": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FHE": 3,
+        "PIPPIN": 3,
+        "ASTER": 3,
+        "BTC": 3,
+        "MON": 3,
+        "PI": 3,
+        "ETH": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "XRP": 3,
+        "NIGHT": 3,
+        "RAVE": 3,
+        "TAO": 3,
+        "ARB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FHE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Mind Network ($FHE) is trending on CoinGecko"
+        ]
+      },
+      "PIPPIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pippin ($PIPPIN) is trending on CoinGecko"
+        ]
+      },
+      "ASTER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aster ($ASTER) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2025-12-08T16:15:06.960305",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STABLE": 6,
-      "MOODENG": 6,
-      "FIRO": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "DORA": 6,
-      "MON": 6,
-      "ZEC": 6,
-      "LUNC": 6,
-      "HYPE": 6,
-      "FOLKS": 6,
-      "XPL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "STABLE": 3,
-        "MOODENG": 3,
-        "FIRO": 3,
-        "PENGU": 3,
-        "ONDO": 3,
-        "DORA": 3,
-        "MON": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "LUNC": 3,
-        "HYPE": 3,
-        "FOLKS": 3,
-        "XPL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STABLE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "\u200b\u200bStable ($STABLE) is trending on CoinGecko"
-        ]
-      },
-      "MOODENG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moo Deng ($MOODENG) is trending on CoinGecko"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-08T18:17:56.024597",
     "tickers": {
       "ALPHA": 3,
@@ -11872,6 +11745,124 @@
         ],
         "sample_posts": [
           "Freysa AI ($FAI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-17T00:49:37.902091",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TON": 6,
+      "ULTIMA": 6,
+      "FAI": 6,
+      "MON": 6,
+      "NIGHT": 6,
+      "ASTER": 6,
+      "AXL": 6,
+      "ZEC": 6,
+      "TAO": 6,
+      "TIA": 6,
+      "PIPPIN": 6,
+      "HYPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "TON": 3,
+        "ULTIMA": 3,
+        "FAI": 3,
+        "MON": 3,
+        "NIGHT": 3,
+        "ASTER": 3,
+        "LINK": 3,
+        "AXL": 3,
+        "ZEC": 3,
+        "TAO": 3,
+        "TIA": 3,
+        "PIPPIN": 3,
+        "XRP": 3,
+        "HYPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "FAI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Freysa AI ($FAI) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

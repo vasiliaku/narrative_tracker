@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2025-12-09T03:12:17.003261",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STABLE": 6,
-      "ZEC": 6,
-      "LUNC": 6,
-      "MON": 6,
-      "ALLO": 6,
-      "HYPE": 6,
-      "MOODENG": 6,
-      "TAO": 6,
-      "LINEA": 6,
-      "ONDO": 6,
-      "PENGU": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "STABLE": 3,
-        "ZEC": 3,
-        "LUNC": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "MON": 3,
-        "ALLO": 3,
-        "HYPE": 3,
-        "MOODENG": 3,
-        "TAO": 3,
-        "BTC": 3,
-        "LINEA": 3,
-        "ONDO": 3,
-        "NEAR": 3,
-        "PENGU": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STABLE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "\u200b\u200bStable ($STABLE) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-09T04:20:20.225472",
     "tickers": {
       "ALPHA": 3,
@@ -11845,6 +11737,124 @@
         ],
         "sample_posts": [
           "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "ASTER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aster ($ASTER) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-17T10:13:35.567532",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TON": 6,
+      "ULTIMA": 6,
+      "PENGU": 6,
+      "ASTER": 6,
+      "HYPE": 6,
+      "PIPPIN": 6,
+      "ZEC": 6,
+      "MON": 6,
+      "NIGHT": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "XPL": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "TON": 3,
+        "ULTIMA": 3,
+        "PENGU": 3,
+        "ASTER": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "PIPPIN": 3,
+        "ZEC": 3,
+        "XRP": 3,
+        "MON": 3,
+        "NIGHT": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "XPL": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       },
       "ASTER": {

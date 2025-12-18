@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2025-12-10T08:16:50.317157",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "WET": 6,
-      "PIPPIN": 6,
-      "NIGHT": 6,
-      "LUNC": 6,
-      "MON": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "PI": 6,
-      "KAS": 6,
-      "LUNA": 6,
-      "ASTER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "WET": 3,
-        "PIPPIN": 3,
-        "NIGHT": 3,
-        "LUNC": 3,
-        "MON": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "PI": 3,
-        "KAS": 3,
-        "LUNA": 3,
-        "ASTER": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "WET": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "HumidiFi ($WET) is trending on CoinGecko"
-        ]
-      },
-      "PIPPIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pippin ($PIPPIN) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-10T10:13:37.143283",
     "tickers": {
       "ALPHA": 3,
@@ -11785,6 +11658,123 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-18T16:16:19.745540",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TON": 6,
+      "ULTIMA": 6,
+      "ASTER": 6,
+      "MON": 6,
+      "HYPE": 6,
+      "NIGHT": 6,
+      "ERG": 6,
+      "PENGU": 6,
+      "PIPPIN": 6,
+      "PUMP": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "TON": 3,
+        "ULTIMA": 3,
+        "ASTER": 3,
+        "MON": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "NIGHT": 3,
+        "ERG": 3,
+        "PENGU": 3,
+        "PIPPIN": 3,
+        "PUMP": 3,
+        "TAO": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "ASTER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aster ($ASTER) is trending on CoinGecko"
         ]
       },
       "MON": {

@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2025-12-12T14:12:07.158786",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FAI": 6,
-      "PENGU": 6,
-      "NIGHT": 6,
-      "LUNA": 6,
-      "LUNC": 6,
-      "MON": 6,
-      "PIPPIN": 6,
-      "RAVE": 6,
-      "SUI": 6,
-      "ZEC": 6,
-      "PAXG": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FAI": 3,
-        "PENGU": 3,
-        "NIGHT": 3,
-        "BTC": 3,
-        "LUNA": 3,
-        "LUNC": 3,
-        "MON": 3,
-        "SOL": 3,
-        "PIPPIN": 3,
-        "RAVE": 3,
-        "LINK": 3,
-        "SUI": 3,
-        "ZEC": 3,
-        "PAXG": 3,
-        "HYPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FAI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Freysa AI ($FAI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "LUNA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra ($LUNA) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-12T16:12:59.929414",
     "tickers": {
       "ALPHA": 3,
@@ -11655,6 +11537,123 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-20T22:10:22.989856",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LIGHT": 6,
+      "NIGHT": 6,
+      "CC": 6,
+      "MON": 6,
+      "XPL": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "ENA": 6,
+      "XMR": 10,
+      "ZEC": 6,
+      "PLUME": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LIGHT": 3,
+        "NIGHT": 3,
+        "CC": 3,
+        "UNI": 3,
+        "MON": 3,
+        "XPL": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "ENA": 3,
+        "BTC": 3,
+        "XMR": 5,
+        "ZEC": 3,
+        "PLUME": 3,
+        "ETH": 3,
+        "HBAR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitlight ($LIGHT) is trending on CoinGecko"
+        ]
+      },
+      "NIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Midnight ($NIGHT) is trending on CoinGecko"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

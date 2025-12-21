@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2025-12-12T22:11:18.436603",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "GALA": 6,
-      "MON": 6,
-      "NIGHT": 6,
-      "HYPE": 6,
-      "PIPPIN": 6,
-      "ZEC": 6,
-      "ASTER": 6,
-      "FAI": 6,
-      "LUNC": 6,
-      "LRC": 6,
-      "JELLYJELLY": 6,
-      "LINEA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "GALA": 3,
-        "MON": 3,
-        "NIGHT": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "PIPPIN": 3,
-        "ZEC": 3,
-        "ASTER": 3,
-        "FAI": 3,
-        "ETH": 3,
-        "LUNC": 3,
-        "LRC": 3,
-        "ALGO": 3,
-        "JELLYJELLY": 3,
-        "LINEA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "GALA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GALA ($GALA) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-13T00:50:47.745608",
     "tickers": {
       "ALPHA": 3,
@@ -11641,6 +11523,113 @@
         ],
         "sample_posts": [
           "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-21T06:16:51.689600",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CC": 6,
+      "NIGHT": 6,
+      "ICP": 6,
+      "TAO": 6,
+      "PIPPIN": 6,
+      "LIGHT": 6,
+      "HYPE": 6,
+      "POWER": 6,
+      "SHIB": 6,
+      "PEPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CC": 3,
+        "NIGHT": 3,
+        "ICP": 3,
+        "BTC": 3,
+        "UNI": 3,
+        "TAO": 3,
+        "PIPPIN": 3,
+        "LIGHT": 3,
+        "HYPE": 3,
+        "DOGE": 3,
+        "POWER": 3,
+        "SHIB": 3,
+        "PEPE": 3,
+        "LINK": 3,
+        "LTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      },
+      "NIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Midnight ($NIGHT) is trending on CoinGecko"
+        ]
+      },
+      "ICP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Internet Computer ($ICP) is trending on CoinGecko"
         ]
       }
     },

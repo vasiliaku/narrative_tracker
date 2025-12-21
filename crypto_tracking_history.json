@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2025-12-13T03:09:31.028291",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAVE": 6,
-      "GALA": 6,
-      "ASTER": 6,
-      "PENGU": 6,
-      "NIGHT": 6,
-      "MON": 6,
-      "ZEC": 6,
-      "LUNA": 6,
-      "TAO": 6,
-      "PI": 6,
-      "LUNC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAVE": 3,
-        "GALA": 3,
-        "ASTER": 3,
-        "PENGU": 3,
-        "NIGHT": 3,
-        "MON": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "ZEC": 3,
-        "ETH": 3,
-        "LUNA": 3,
-        "TAO": 3,
-        "PI": 3,
-        "LUNC": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "GALA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GALA ($GALA) is trending on CoinGecko"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-13T04:17:56.238280",
     "tickers": {
       "ALPHA": 3,
@@ -11620,6 +11494,123 @@
         ],
         "sample_posts": [
           "Bitlight ($LIGHT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-21T10:11:14.203431",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "NIGHT": 6,
+      "ZKP": 6,
+      "PENGU": 6,
+      "ICP": 6,
+      "LIGHT": 6,
+      "ZEC": 6,
+      "LINEA": 6,
+      "HYPE": 6,
+      "XMR": 6,
+      "SUI": 6,
+      "FOLKS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "NIGHT": 3,
+        "BTC": 3,
+        "ZKP": 3,
+        "PENGU": 3,
+        "ICP": 3,
+        "LIGHT": 3,
+        "ZEC": 3,
+        "LINEA": 3,
+        "HYPE": 3,
+        "XMR": 3,
+        "LINK": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "XRP": 3,
+        "FOLKS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "NIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Midnight ($NIGHT) is trending on CoinGecko"
+        ]
+      },
+      "ZKP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "zkPass ($ZKP) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ICP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Internet Computer ($ICP) is trending on CoinGecko"
         ]
       }
     },

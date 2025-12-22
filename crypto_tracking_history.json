@@ -1,130 +1,5 @@
 [
   {
-    "timestamp": "2025-12-14T04:29:23.534035",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FOLKS": 6,
-      "NIGHT": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "PIPPIN": 6,
-      "ONDO": 6,
-      "LUNC": 6,
-      "SUI": 6,
-      "S": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FOLKS": 3,
-        "NIGHT": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "XRP": 3,
-        "BTC": 3,
-        "HBAR": 3,
-        "PIPPIN": 3,
-        "ETH": 3,
-        "ONDO": 3,
-        "LUNC": 3,
-        "SUI": 3,
-        "S": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FOLKS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "FOLKS ($FOLKS) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-14T06:16:30.330155",
     "tickers": {
       "ALPHA": 3,
@@ -11646,6 +11521,131 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-22T12:22:43.336936",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZKP": 6,
+      "BEAT": 6,
+      "PENGU": 6,
+      "AAVE": 6,
+      "LIGHT": 6,
+      "NIGHT": 6,
+      "MON": 6,
+      "PIPPIN": 6,
+      "HYPE": 6,
+      "FARTCOIN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZKP": 3,
+        "BEAT": 3,
+        "PENGU": 3,
+        "AAVE": 3,
+        "LIGHT": 3,
+        "NIGHT": 3,
+        "MON": 3,
+        "PIPPIN": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "XRP": 3,
+        "FARTCOIN": 3,
+        "UNI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZKP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "zkPass ($ZKP) is trending on CoinGecko"
+        ]
+      },
+      "BEAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Audiera ($BEAT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "LIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitlight ($LIGHT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

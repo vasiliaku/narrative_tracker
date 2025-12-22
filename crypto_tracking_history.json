@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2025-12-14T10:11:41.214199",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FOLKS": 6,
-      "NIGHT": 6,
-      "CORE": 6,
-      "MON": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "ASTER": 6,
-      "TAO": 6,
-      "MOVE": 6,
-      "LUNC": 6,
-      "USDT": 6,
-      "MNT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FOLKS": 3,
-        "NIGHT": 3,
-        "BTC": 3,
-        "CORE": 3,
-        "MON": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "SOL": 3,
-        "ASTER": 3,
-        "TAO": 3,
-        "MOVE": 3,
-        "LUNC": 3,
-        "USDT": 3,
-        "MNT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FOLKS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "FOLKS ($FOLKS) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "CORE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Core ($CORE) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-14T12:19:40.988560",
     "tickers": {
       "ALPHA": 3,
@@ -11644,6 +11525,124 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-22T18:16:54.387323",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AAVE": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "ZKP": 6,
+      "NIGHT": 6,
+      "BEAT": 6,
+      "ZEC": 6,
+      "KAS": 6,
+      "CC": 6,
+      "LIGHT": 6,
+      "PI": 6,
+      "STRK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AAVE": 3,
+        "PENGU": 3,
+        "MON": 3,
+        "BTC": 3,
+        "ZKP": 3,
+        "NIGHT": 3,
+        "BEAT": 3,
+        "ZEC": 3,
+        "ETH": 3,
+        "KAS": 3,
+        "CC": 3,
+        "LIGHT": 3,
+        "PI": 3,
+        "STRK": 3,
+        "SOL": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "ZKP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "zkPass ($ZKP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

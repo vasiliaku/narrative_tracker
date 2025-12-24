@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2025-12-16T14:15:05.799470",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PIPPIN": 6,
-      "MAGMA": 6,
-      "MON": 6,
-      "TAO": 6,
-      "FAI": 6,
-      "ASTER": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "BEAT": 6,
-      "NIGHT": 6,
-      "ZEC": 6,
-      "SEI": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PIPPIN": 3,
-        "BTC": 3,
-        "MAGMA": 3,
-        "MON": 3,
-        "TAO": 3,
-        "FAI": 3,
-        "ASTER": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "BEAT": 3,
-        "NIGHT": 3,
-        "ZEC": 3,
-        "SEI": 3,
-        "ETH": 3,
-        "PI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PIPPIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pippin ($PIPPIN) is trending on CoinGecko"
-        ]
-      },
-      "MAGMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Magma Finance ($MAGMA) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-16T16:15:39.742609",
     "tickers": {
       "ALPHA": 3,
@@ -11595,6 +11476,134 @@
         ],
         "sample_posts": [
           "Canton ($CC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-24T22:11:12.785033",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CC": 6,
+      "NEIRO": 6,
+      "MON": 6,
+      "LINEA": 6,
+      "SQD": 6,
+      "PI": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "PIPPIN": 6,
+      "BANANA": 6,
+      "SUI": 6,
+      "LUNC": 6,
+      "ASTER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CC": 3,
+        "NEIRO": 3,
+        "MON": 3,
+        "LINEA": 3,
+        "SQD": 3,
+        "BTC": 3,
+        "PI": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "PIPPIN": 3,
+        "BANANA": 3,
+        "SUI": 3,
+        "LUNC": 3,
+        "ASTER": 3,
+        "ETH": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      },
+      "NEIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Neiro ($NEIRO) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "LINEA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Linea ($LINEA) is trending on CoinGecko"
+        ]
+      },
+      "SQD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "SQD ($SQD) is trending on CoinGecko"
         ]
       }
     },

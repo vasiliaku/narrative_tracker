@@ -1,119 +1,5 @@
 [
   {
-    "timestamp": "2025-12-15T20:13:27.962842",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FAI": 6,
-      "AXL": 6,
-      "PENGU": 6,
-      "ASTER": 6,
-      "MON": 6,
-      "TAO": 6,
-      "ONDO": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FAI": 3,
-        "AXL": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "ASTER": 3,
-        "MON": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "XRP": 3,
-        "ETH": 3,
-        "ONDO": 3,
-        "LINK": 3,
-        "AAVE": 3,
-        "ADA": 3,
-        "AVAX": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FAI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Freysa AI ($FAI) is trending on CoinGecko"
-        ]
-      },
-      "AXL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axelar ($AXL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-15T22:11:38.957520",
     "tickers": {
       "ALPHA": 3,
@@ -11636,6 +11522,124 @@
         ],
         "sample_posts": [
           "Avantis ($AVNT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-24T04:27:50.481920",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PIPPIN": 6,
+      "NIGHT": 6,
+      "AAVE": 6,
+      "TAO": 6,
+      "MON": 6,
+      "ASTER": 6,
+      "USD1": 6,
+      "HYPE": 6,
+      "USDT": 6,
+      "AVNT": 6,
+      "PAXG": 6,
+      "LUNC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PIPPIN": 3,
+        "NIGHT": 3,
+        "AAVE": 3,
+        "TAO": 3,
+        "ETH": 3,
+        "BTC": 3,
+        "MON": 3,
+        "XRP": 3,
+        "ASTER": 3,
+        "USD1": 3,
+        "HYPE": 3,
+        "USDT": 3,
+        "AVNT": 3,
+        "PAXG": 3,
+        "LUNC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PIPPIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pippin ($PIPPIN) is trending on CoinGecko"
+        ]
+      },
+      "NIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Midnight ($NIGHT) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
         ]
       }
     },

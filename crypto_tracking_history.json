@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2025-12-18T14:14:10.625202",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ERG": 6,
-      "TON": 6,
-      "HYPE": 6,
-      "MON": 6,
-      "ULTIMA": 6,
-      "PENGU": 6,
-      "ASTER": 6,
-      "TAO": 6,
-      "NIGHT": 6,
-      "SUI": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "ERG": 3,
-        "TON": 3,
-        "HYPE": 3,
-        "MON": 3,
-        "ULTIMA": 3,
-        "PENGU": 3,
-        "ASTER": 3,
-        "TAO": 3,
-        "NIGHT": 3,
-        "ETH": 3,
-        "SUI": 3,
-        "SOL": 3,
-        "XRP": 3,
-        "PEPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ERG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ergo ($ERG) is trending on CoinGecko"
-        ]
-      },
-      "TON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Toncoin ($TON) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-18T16:16:19.745540",
     "tickers": {
       "ALPHA": 3,
@@ -11503,6 +11386,115 @@
         ],
         "sample_posts": [
           "Sui ($SUI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-26T22:10:51.899020",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TON": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "TAO": 6,
+      "USX": 6,
+      "AERO": 6,
+      "MON": 6,
+      "ZEC": 6,
+      "AAVE": 6,
+      "ASTER": 6,
+      "XAUT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "TON": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "SUI": 3,
+        "TAO": 3,
+        "USX": 3,
+        "AERO": 3,
+        "MON": 3,
+        "ZEC": 3,
+        "AAVE": 3,
+        "ASTER": 3,
+        "UNI": 3,
+        "XAUT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

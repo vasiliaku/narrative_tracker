@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2025-12-21T06:16:51.689600",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CC": 6,
-      "NIGHT": 6,
-      "ICP": 6,
-      "TAO": 6,
-      "PIPPIN": 6,
-      "LIGHT": 6,
-      "HYPE": 6,
-      "POWER": 6,
-      "SHIB": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CC": 3,
-        "NIGHT": 3,
-        "ICP": 3,
-        "BTC": 3,
-        "UNI": 3,
-        "TAO": 3,
-        "PIPPIN": 3,
-        "LIGHT": 3,
-        "HYPE": 3,
-        "DOGE": 3,
-        "POWER": 3,
-        "SHIB": 3,
-        "PEPE": 3,
-        "LINK": 3,
-        "LTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Canton ($CC) is trending on CoinGecko"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "ICP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Internet Computer ($ICP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-21T08:15:00.605386",
     "tickers": {
       "ALPHA": 3,
@@ -11542,6 +11435,113 @@
         ],
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-12-29T14:13:14.963543",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CC": 6,
+      "PENGU": 6,
+      "TAKE": 6,
+      "ZEC": 6,
+      "ZBT": 6,
+      "NEIRO": 6,
+      "PAXG": 6,
+      "MON": 6,
+      "HYPE": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CC": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "TAKE": 3,
+        "ETH": 3,
+        "ZEC": 3,
+        "ZBT": 3,
+        "SOL": 3,
+        "NEIRO": 3,
+        "PAXG": 3,
+        "MON": 3,
+        "HYPE": 3,
+        "ATOM": 3,
+        "SUI": 3,
+        "UNI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "TAKE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "OVERTAKE ($TAKE) is trending on CoinGecko"
         ]
       }
     },

@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2025-12-23T16:14:30.766734",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "NIGHT": 6,
-      "MON": 6,
-      "AAVE": 6,
-      "PENGU": 6,
-      "CC": 6,
-      "ASTER": 6,
-      "HYPE": 6,
-      "BEAT": 6,
-      "ZEC": 6,
-      "TAKE": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "NIGHT": 3,
-        "BTC": 3,
-        "MON": 3,
-        "SOL": 3,
-        "AAVE": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "CC": 3,
-        "ASTER": 3,
-        "HYPE": 3,
-        "BEAT": 3,
-        "ZEC": 3,
-        "UNI": 3,
-        "TAKE": 3,
-        "TAO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "NIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Midnight ($NIGHT) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "AAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aave ($AAVE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-23T18:17:06.387032",
     "tickers": {
       "ALPHA": 3,
@@ -11636,6 +11528,122 @@
         ],
         "sample_posts": [
           "Bitlight ($LIGHT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-01T01:01:06.328965",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LIGHT": 6,
+      "LIT": 6,
+      "RIVER": 6,
+      "MON": 6,
+      "AERO": 6,
+      "PENGU": 6,
+      "BONK": 6,
+      "PAXG": 6,
+      "FET": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LIGHT": 3,
+        "LIT": 3,
+        "RIVER": 3,
+        "SOL": 3,
+        "MON": 3,
+        "AERO": 3,
+        "BTC": 3,
+        "ETH": 3,
+        "PENGU": 3,
+        "UNI": 3,
+        "BONK": 3,
+        "PAXG": 3,
+        "FET": 3,
+        "DOGE": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LIGHT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitlight ($LIGHT) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

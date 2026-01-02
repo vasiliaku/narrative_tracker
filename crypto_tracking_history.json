@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2025-12-25T12:21:31.376110",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZBT": 6,
-      "BIFI": 6,
-      "MON": 6,
-      "TAKE": 6,
-      "PIPPIN": 6,
-      "ASTER": 6,
-      "ZEC": 6,
-      "TAO": 6,
-      "ZENT": 6,
-      "ONDO": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZBT": 3,
-        "BIFI": 3,
-        "MON": 3,
-        "BTC": 3,
-        "TAKE": 3,
-        "PIPPIN": 3,
-        "SOL": 3,
-        "ASTER": 3,
-        "ZEC": 3,
-        "TAO": 3,
-        "ETH": 3,
-        "ZENT": 3,
-        "ONDO": 3,
-        "HYPE": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZBT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ZEROBASE ($ZBT) is trending on CoinGecko"
-        ]
-      },
-      "BIFI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Beefy ($BIFI) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "TAKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OVERTAKE ($TAKE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-25T14:11:02.614587",
     "tickers": {
       "ALPHA": 3,
@@ -11749,6 +11632,125 @@
         ],
         "sample_posts": [
           "River ($RIVER) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-02T20:12:02.908794",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PEPE": 6,
+      "LIT": 6,
+      "MON": 6,
+      "PENGU": 6,
+      "RIVER": 6,
+      "XPL": 6,
+      "CC": 6,
+      "SUI": 6,
+      "FARTCOIN": 6,
+      "TAO": 6,
+      "SHIB": 6,
+      "BONK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PEPE": 3,
+        "LIT": 3,
+        "MON": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "RIVER": 3,
+        "XPL": 3,
+        "CC": 3,
+        "SUI": 3,
+        "FARTCOIN": 3,
+        "TAO": 3,
+        "SHIB": 3,
+        "DOT": 3,
+        "BONK": 3,
+        "DOGE": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PEPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pepe ($PEPE) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

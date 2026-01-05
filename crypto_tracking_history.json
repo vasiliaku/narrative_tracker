@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2025-12-28T14:10:40.902910",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FLOW": 6,
-      "CC": 6,
-      "XPL": 6,
-      "DASH": 6,
-      "ZEC": 6,
-      "SUI": 6,
-      "PENGU": 6,
-      "PI": 6,
-      "ONDO": 6,
-      "S": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FLOW": 3,
-        "CC": 3,
-        "XPL": 3,
-        "SOL": 3,
-        "UNI": 3,
-        "DASH": 3,
-        "ZEC": 3,
-        "BTC": 3,
-        "SUI": 3,
-        "LINK": 3,
-        "PENGU": 3,
-        "PI": 3,
-        "ONDO": 3,
-        "S": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FLOW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Flow ($FLOW) is trending on CoinGecko"
-        ]
-      },
-      "CC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Canton ($CC) is trending on CoinGecko"
-        ]
-      },
-      "XPL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Plasma ($XPL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-28T16:12:40.314385",
     "tickers": {
       "ALPHA": 3,
@@ -11857,6 +11749,124 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-05T22:11:41.628838",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RENDER": 6,
+      "VIRTUAL": 6,
+      "LIT": 6,
+      "SUI": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "PEPE": 6,
+      "TAO": 6,
+      "ONDO": 6,
+      "XCN": 6,
+      "TRUMP": 6,
+      "FET": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RENDER": 3,
+        "VIRTUAL": 3,
+        "LIT": 3,
+        "SUI": 3,
+        "BTC": 3,
+        "XRP": 5,
+        "PENGU": 3,
+        "MON": 3,
+        "PEPE": 3,
+        "SOL": 3,
+        "TAO": 3,
+        "ONDO": 3,
+        "XCN": 3,
+        "TRUMP": 3,
+        "FET": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RENDER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Render ($RENDER) is trending on CoinGecko"
+        ]
+      },
+      "VIRTUAL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Virtuals Protocol ($VIRTUAL) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

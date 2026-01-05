@@ -1,120 +1,5 @@
 [
   {
-    "timestamp": "2025-12-27T22:10:19.160731",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FLOW": 6,
-      "ISLM": 6,
-      "ZEC": 6,
-      "MON": 6,
-      "XMR": 6,
-      "SOPH": 6,
-      "AAVE": 6,
-      "HYPE": 6,
-      "PENGU": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FLOW": 3,
-        "ISLM": 3,
-        "ZEC": 3,
-        "UNI": 3,
-        "MON": 3,
-        "BTC": 3,
-        "XMR": 3,
-        "SOPH": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "AAVE": 3,
-        "AVAX": 3,
-        "HYPE": 3,
-        "XRP": 3,
-        "PENGU": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FLOW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Flow ($FLOW) is trending on CoinGecko"
-        ]
-      },
-      "ISLM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Islamic Coin ($ISLM) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-28T01:00:31.340811",
     "tickers": {
       "ALPHA": 3,
@@ -11842,6 +11727,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-05T06:23:44.616967",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VIRTUAL": 6,
+      "PEPE": 6,
+      "LIT": 6,
+      "PONKE": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "BONK": 6,
+      "ASTER": 6,
+      "RENDER": 6,
+      "WIF": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VIRTUAL": 3,
+        "BTC": 3,
+        "PEPE": 3,
+        "LIT": 3,
+        "PONKE": 3,
+        "ETH": 3,
+        "PENGU": 3,
+        "MON": 3,
+        "SOL": 3,
+        "BONK": 3,
+        "ASTER": 3,
+        "XRP": 3,
+        "RENDER": 3,
+        "WIF": 3,
+        "PI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VIRTUAL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Virtuals Protocol ($VIRTUAL) is trending on CoinGecko"
+        ]
+      },
+      "PEPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pepe ($PEPE) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "PONKE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "PONKE ($PONKE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2025-12-30T14:12:26.067668",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LIT": 6,
-      "TAKE": 6,
-      "ELIZAOS": 6,
-      "CC": 6,
-      "HYPE": 6,
-      "ASTER": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "AERO": 6,
-      "XMR": 6,
-      "MON": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LIT": 3,
-        "TAKE": 3,
-        "ELIZAOS": 3,
-        "CC": 3,
-        "HYPE": 3,
-        "ASTER": 3,
-        "ETH": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "AERO": 3,
-        "XMR": 3,
-        "MON": 3,
-        "TAO": 3,
-        "LINK": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "TAKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OVERTAKE ($TAKE) is trending on CoinGecko"
-        ]
-      },
-      "ELIZAOS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ElizaOS ($ELIZAOS) is trending on CoinGecko"
-        ]
-      },
-      "CC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Canton ($CC) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2025-12-30T16:14:27.604419",
     "tickers": {
       "ALPHA": 3,
@@ -11796,6 +11669,124 @@
         ],
         "sample_posts": [
           "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-07T22:11:30.485538",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BREV": 6,
+      "WHITEWHALE": 6,
+      "LIT": 6,
+      "PENGU": 6,
+      "CC": 6,
+      "MON": 6,
+      "VIRTUAL": 6,
+      "ZKP": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "TAO": 6,
+      "ZEC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BREV": 3,
+        "WHITEWHALE": 3,
+        "BTC": 3,
+        "LIT": 3,
+        "PENGU": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "CC": 3,
+        "MON": 3,
+        "VIRTUAL": 3,
+        "ZKP": 3,
+        "HYPE": 3,
+        "SUI": 3,
+        "TAO": 3,
+        "ZEC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BREV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Brevis ($BREV) is trending on CoinGecko"
+        ]
+      },
+      "WHITEWHALE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The White Whale ($WHITEWHALE) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

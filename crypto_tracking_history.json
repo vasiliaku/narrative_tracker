@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-01-01T06:18:54.990907",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LIGHT": 6,
-      "LIT": 6,
-      "COLLECT": 6,
-      "PI": 6,
-      "CC": 6,
-      "MON": 6,
-      "XAUT": 6,
-      "AIXBT": 6,
-      "TON": 6,
-      "ELIZAOS": 6,
-      "SEI": 6,
-      "ENA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LIGHT": 3,
-        "LIT": 3,
-        "COLLECT": 3,
-        "BTC": 3,
-        "PI": 3,
-        "CC": 3,
-        "MON": 3,
-        "XAUT": 3,
-        "AIXBT": 3,
-        "TON": 3,
-        "ELIZAOS": 3,
-        "XRP": 3,
-        "ETH": 3,
-        "SEI": 3,
-        "ENA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bitlight ($LIGHT) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "COLLECT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Collect on Fanable ($COLLECT) is trending on CoinGecko"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-01T08:16:27.984068",
     "tickers": {
       "ALPHA": 3,
@@ -11693,6 +11575,133 @@
         ],
         "sample_posts": [
           "POL (ex-MATIC) ($POL) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-09T14:14:50.569173",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ISLM": 6,
+      "PENGU": 6,
+      "POL": 6,
+      "DN": 6,
+      "ZEC": 6,
+      "BREV": 6,
+      "LIT": 6,
+      "PEPE": 6,
+      "AVICI": 6,
+      "HYPE": 6,
+      "CC": 6,
+      "GMT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ISLM": 3,
+        "PENGU": 3,
+        "POL": 3,
+        "DN": 3,
+        "ZEC": 3,
+        "BREV": 3,
+        "LIT": 3,
+        "BTC": 3,
+        "PEPE": 3,
+        "AVICI": 3,
+        "HYPE": 3,
+        "CC": 3,
+        "SOL": 3,
+        "XRP": 3,
+        "GMT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ISLM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Islamic Coin ($ISLM) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "POL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "POL (ex-MATIC) ($POL) is trending on CoinGecko"
+        ]
+      },
+      "DN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "DeepNode ($DN) is trending on CoinGecko"
         ]
       },
       "ZEC": {

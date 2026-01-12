@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-01-03T20:12:22.160366",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "WLFI": 6,
-      "CVX": 6,
-      "PEPE": 6,
-      "TRUMP": 6,
-      "PENGU": 6,
-      "MYX": 6,
-      "MON": 6,
-      "LIT": 6,
-      "RENDER": 6,
-      "ZEC": 6,
-      "CC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "WLFI": 3,
-        "CVX": 3,
-        "PEPE": 3,
-        "TRUMP": 3,
-        "PENGU": 3,
-        "MYX": 3,
-        "MON": 3,
-        "LIT": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "RENDER": 3,
-        "ZEC": 3,
-        "XRP": 3,
-        "ETH": 3,
-        "CC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "WLFI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "World Liberty Financial ($WLFI) is trending on CoinGecko"
-        ]
-      },
-      "CVX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Convex Finance ($CVX) is trending on CoinGecko"
-        ]
-      },
-      "PEPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pepe ($PEPE) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-03T22:10:30.064612",
     "tickers": {
       "ALPHA": 3,
@@ -11768,6 +11642,125 @@
         "tickers": [
           "ALPHA",
           "XMR"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-12T04:41:53.599153",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "XMR": 10,
+      "CC": 6,
+      "POL": 6,
+      "ZEC": 6,
+      "PEPE": 6,
+      "VIRTUAL": 6,
+      "LIT": 6,
+      "WHITEWHALE": 6,
+      "AERO": 6,
+      "SUI": 6,
+      "HYPE": 6,
+      "PI": 6,
+      "IP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "XMR": 5,
+        "BTC": 3,
+        "CC": 3,
+        "POL": 3,
+        "ZEC": 3,
+        "PEPE": 3,
+        "VIRTUAL": 3,
+        "LIT": 3,
+        "XRP": 3,
+        "WHITEWHALE": 3,
+        "AERO": 3,
+        "SUI": 3,
+        "HYPE": 3,
+        "PI": 3,
+        "IP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "XMR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monero ($XMR) is trending on CoinGecko"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      },
+      "POL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "POL (ex-MATIC) ($POL) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
         ]
       }
     ]

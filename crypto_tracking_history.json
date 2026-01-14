@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-01-06T08:17:26.111094",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZK": 6,
-      "LIT": 6,
-      "SUI": 6,
-      "PENGU": 6,
-      "BABYDOGE": 6,
-      "RENDER": 6,
-      "WHITEWHALE": 6,
-      "MON": 6,
-      "VIRTUAL": 6,
-      "RIVER": 6,
-      "BROCCOLI": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZK": 3,
-        "XRP": 3,
-        "LIT": 3,
-        "BTC": 3,
-        "SUI": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "BABYDOGE": 3,
-        "RENDER": 3,
-        "WHITEWHALE": 3,
-        "MON": 3,
-        "VIRTUAL": 3,
-        "RIVER": 3,
-        "BROCCOLI": 3,
-        "PEPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ZKsync ($ZK) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-06T10:13:02.836017",
     "tickers": {
       "ALPHA": 3,
@@ -11892,6 +11783,132 @@
         ],
         "sample_posts": [
           "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-14T16:17:07.139956",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "XMR": 6,
+      "BERA": 6,
+      "DASH": 6,
+      "STRK": 6,
+      "PENGU": 6,
+      "RIVER": 6,
+      "ZEC": 6,
+      "MON": 6,
+      "SUI": 6,
+      "AERO": 6,
+      "HYPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "XMR": 3,
+        "BERA": 3,
+        "DASH": 3,
+        "STRK": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "RIVER": 3,
+        "LTC": 3,
+        "ZEC": 3,
+        "XRP": 3,
+        "MON": 3,
+        "SUI": 3,
+        "SOL": 3,
+        "AERO": 3,
+        "HYPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "XMR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monero ($XMR) is trending on CoinGecko"
+        ]
+      },
+      "BERA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Berachain ($BERA) is trending on CoinGecko"
+        ]
+      },
+      "DASH": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dash ($DASH) is trending on CoinGecko"
+        ]
+      },
+      "STRK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Starknet ($STRK) is trending on CoinGecko"
         ]
       },
       "PENGU": {

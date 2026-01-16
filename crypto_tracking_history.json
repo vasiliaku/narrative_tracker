@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-01-08T03:22:02.452977",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LIT": 6,
-      "BREV": 6,
-      "CC": 6,
-      "SUI": 6,
-      "BABY": 6,
-      "TAO": 6,
-      "WHITEWHALE": 6,
-      "VIRTUAL": 6,
-      "PI": 6,
-      "MON": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "TON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LIT": 3,
-        "BTC": 3,
-        "BREV": 3,
-        "CC": 3,
-        "SUI": 3,
-        "BABY": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "WHITEWHALE": 3,
-        "VIRTUAL": 3,
-        "PI": 3,
-        "MON": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "TON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "BREV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Brevis ($BREV) is trending on CoinGecko"
-        ]
-      },
-      "CC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Canton ($CC) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-08T04:30:29.718574",
     "tickers": {
       "ALPHA": 3,
@@ -12017,6 +11898,135 @@
         ],
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-16T10:13:06.415402",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RIVER": 6,
+      "DASH": 6,
+      "OWL": 6,
+      "FOGO": 6,
+      "KAITO": 6,
+      "PENGU": 6,
+      "LIT": 6,
+      "PUMP": 6,
+      "XMR": 6,
+      "ONDO": 6,
+      "ZEC": 6,
+      "MET": 6,
+      "SUI": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RIVER": 3,
+        "DASH": 3,
+        "OWL": 3,
+        "FOGO": 3,
+        "KAITO": 3,
+        "PENGU": 3,
+        "LIT": 3,
+        "BTC": 3,
+        "PUMP": 3,
+        "XMR": 3,
+        "ONDO": 3,
+        "ZEC": 3,
+        "MET": 3,
+        "SUI": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
+        ]
+      },
+      "DASH": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dash ($DASH) is trending on CoinGecko"
+        ]
+      },
+      "OWL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Owlto Finance ($OWL) is trending on CoinGecko"
+        ]
+      },
+      "FOGO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fogo ($FOGO) is trending on CoinGecko"
+        ]
+      },
+      "KAITO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "KAITO ($KAITO) is trending on CoinGecko"
         ]
       }
     },

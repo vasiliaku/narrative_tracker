@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-01-09T18:18:04.032914",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ISLM": 6,
-      "POL": 6,
-      "PENGU": 6,
-      "LIT": 6,
-      "BREV": 6,
-      "DN": 6,
-      "MON": 6,
-      "PUMP": 6,
-      "ZEC": 6,
-      "CC": 6,
-      "LINEA": 6,
-      "HYPE": 6,
-      "SUI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ISLM": 3,
-        "POL": 3,
-        "PENGU": 3,
-        "LIT": 3,
-        "BTC": 3,
-        "BREV": 3,
-        "DN": 3,
-        "MON": 3,
-        "PUMP": 3,
-        "ZEC": 3,
-        "CC": 3,
-        "LINEA": 3,
-        "HYPE": 3,
-        "SUI": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ISLM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Islamic Coin ($ISLM) is trending on CoinGecko"
-        ]
-      },
-      "POL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "POL (ex-MATIC) ($POL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-09T20:14:04.919545",
     "tickers": {
       "ALPHA": 3,
@@ -12177,6 +12058,124 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-18T03:27:50.388467",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AXS": 6,
+      "BERA": 6,
+      "RON": 6,
+      "SLP": 6,
+      "XMR": 6,
+      "OWL": 6,
+      "PENGU": 6,
+      "LIT": 6,
+      "DASH": 6,
+      "GALA": 6,
+      "MON": 6,
+      "SHIB": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AXS": 3,
+        "BERA": 3,
+        "RON": 3,
+        "BTC": 3,
+        "SLP": 3,
+        "XMR": 3,
+        "OWL": 3,
+        "ETH": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "LIT": 3,
+        "DASH": 3,
+        "GALA": 3,
+        "MON": 3,
+        "SHIB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
+        ]
+      },
+      "BERA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Berachain ($BERA) is trending on CoinGecko"
+        ]
+      },
+      "RON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ronin ($RON) is trending on CoinGecko"
+        ]
+      },
+      "SLP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Smooth Love Potion ($SLP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

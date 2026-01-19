@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-01-11T01:01:20.720548",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZEC": 6,
-      "WHITEWHALE": 6,
-      "HYPE": 6,
-      "POL": 6,
-      "CC": 6,
-      "PENGU": 6,
-      "LIT": 6,
-      "ONDO": 6,
-      "AKT": 6,
-      "DOG": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZEC": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "WHITEWHALE": 3,
-        "HYPE": 3,
-        "POL": 3,
-        "CC": 3,
-        "PENGU": 3,
-        "LIT": 3,
-        "DOT": 3,
-        "ONDO": 3,
-        "AKT": 3,
-        "LTC": 3,
-        "DOG": 3,
-        "PI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "WHITEWHALE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The White Whale ($WHITEWHALE) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-11T03:41:32.346206",
     "tickers": {
       "ALPHA": 3,
@@ -12138,6 +12030,125 @@
         "XRP": 3,
         "MON": 3,
         "FOGO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DUSK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "DUSK ($DUSK) is trending on CoinGecko"
+        ]
+      },
+      "SAND": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Sandbox ($SAND) is trending on CoinGecko"
+        ]
+      },
+      "XMR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monero ($XMR) is trending on CoinGecko"
+        ]
+      },
+      "DASH": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dash ($DASH) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-19T08:19:39.652404",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DUSK": 6,
+      "SAND": 6,
+      "XMR": 6,
+      "DASH": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "AXS": 6,
+      "ASTER": 6,
+      "TAO": 6,
+      "MON": 6,
+      "FHE": 6,
+      "RIVER": 6,
+      "POL": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DUSK": 3,
+        "SAND": 3,
+        "BTC": 3,
+        "XMR": 3,
+        "DASH": 3,
+        "LIT": 3,
+        "SOL": 3,
+        "ZEC": 3,
+        "AXS": 3,
+        "ASTER": 3,
+        "TAO": 3,
+        "MON": 3,
+        "FHE": 3,
+        "RIVER": 3,
+        "POL": 3
       }
     },
     "signals": {

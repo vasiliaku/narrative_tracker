@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-01-12T03:29:54.599623",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "XMR": 10,
-      "ZEC": 6,
-      "LIT": 6,
-      "VVV": 6,
-      "CC": 6,
-      "RENDER": 6,
-      "POL": 6,
-      "LISA": 6,
-      "IP": 6,
-      "WHITEWHALE": 6,
-      "ASTER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "XMR": 5,
-        "ZEC": 3,
-        "LIT": 3,
-        "VVV": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "CC": 3,
-        "RENDER": 3,
-        "ETH": 3,
-        "POL": 3,
-        "LISA": 3,
-        "IP": 3,
-        "XRP": 3,
-        "WHITEWHALE": 3,
-        "ASTER": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "XMR": {
-        "keyword_count": 4,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monero ($XMR) is trending on CoinGecko",
-          "Monero ($XMR) up 22.24% in 24h"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 2 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA",
-          "XMR"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-12T04:41:53.599153",
     "tickers": {
       "ALPHA": 3,
@@ -12166,6 +12047,115 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-20T10:17:19.941289",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ELSA": 6,
+      "SAND": 6,
+      "AXS": 6,
+      "DUSK": 6,
+      "DASH": 6,
+      "HYPE": 6,
+      "RIVER": 6,
+      "SUI": 6,
+      "XAUT": 6,
+      "MON": 6,
+      "ZEC": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ELSA": 3,
+        "SAND": 3,
+        "AXS": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "DUSK": 3,
+        "DASH": 3,
+        "HYPE": 3,
+        "RIVER": 3,
+        "SUI": 3,
+        "ETH": 3,
+        "XAUT": 3,
+        "MON": 3,
+        "ZEC": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ELSA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Elsa ($ELSA) is trending on CoinGecko"
+        ]
+      },
+      "SAND": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Sandbox ($SAND) is trending on CoinGecko"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-01-15T04:32:53.591601",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "XMR": 6,
-      "ICP": 6,
-      "LIT": 6,
-      "DASH": 6,
-      "ZEC": 6,
-      "DOLO": 6,
-      "IP": 6,
-      "STRK": 6,
-      "ASTER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "PENGU": 3,
-        "XMR": 3,
-        "ICP": 3,
-        "LIT": 3,
-        "DASH": 3,
-        "ZEC": 3,
-        "DOLO": 3,
-        "SOL": 3,
-        "IP": 3,
-        "STRK": 3,
-        "ETH": 3,
-        "ASTER": 3,
-        "XRP": 3,
-        "LTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "XMR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monero ($XMR) is trending on CoinGecko"
-        ]
-      },
-      "ICP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Internet Computer ($ICP) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-15T06:19:24.015800",
     "tickers": {
       "ALPHA": 3,
@@ -12256,6 +12140,133 @@
         ],
         "sample_posts": [
           "Acurast ($ACU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-23T12:24:43.719159",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SPACE": 6,
+      "SKR": 6,
+      "RIVER": 6,
+      "RAIN": 6,
+      "AXS": 6,
+      "SENT": 6,
+      "PENGU": 6,
+      "ACU": 6,
+      "ONDO": 6,
+      "FIGHT": 6,
+      "HYPE": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SPACE": 3,
+        "SKR": 3,
+        "RIVER": 3,
+        "RAIN": 3,
+        "AXS": 3,
+        "SENT": 3,
+        "PENGU": 3,
+        "ACU": 3,
+        "ONDO": 3,
+        "ETH": 3,
+        "FIGHT": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SPACE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Spacecoin ($SPACE) is trending on CoinGecko"
+        ]
+      },
+      "SKR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Seeker ($SKR) is trending on CoinGecko"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
         ]
       }
     },

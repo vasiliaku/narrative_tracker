@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-01-16T22:12:00.517660",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "DASH": 6,
-      "XMR": 6,
-      "FOGO": 6,
-      "MET": 6,
-      "OWL": 6,
-      "ICP": 6,
-      "LIT": 6,
-      "TAO": 6,
-      "PEPE": 6,
-      "HYPE": 6,
-      "POL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "DASH": 3,
-        "XMR": 3,
-        "FOGO": 3,
-        "MET": 3,
-        "OWL": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "ETH": 3,
-        "ICP": 3,
-        "LIT": 3,
-        "TAO": 3,
-        "PEPE": 3,
-        "HYPE": 3,
-        "POL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "DASH": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dash ($DASH) is trending on CoinGecko"
-        ]
-      },
-      "XMR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monero ($XMR) is trending on CoinGecko"
-        ]
-      },
-      "FOGO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Fogo ($FOGO) is trending on CoinGecko"
-        ]
-      },
-      "MET": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Meteora ($MET) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-17T00:53:47.886020",
     "tickers": {
       "ALPHA": 3,
@@ -12326,6 +12199,134 @@
         ],
         "sample_posts": [
           "Enso ($ENSO) is trending on CoinGecko"
+        ]
+      },
+      "SOMI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Somnia ($SOMI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-25T06:17:59.813404",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGUIN": 6,
+      "RAIN": 6,
+      "ENSO": 6,
+      "AXS": 6,
+      "SOMI": 6,
+      "PAXG": 6,
+      "SKR": 6,
+      "PENGU": 6,
+      "LINEA": 6,
+      "AVNT": 6,
+      "RIVER": 6,
+      "DUSK": 6,
+      "XMR": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGUIN": 3,
+        "RAIN": 3,
+        "ENSO": 3,
+        "AXS": 3,
+        "SOMI": 3,
+        "BTC": 3,
+        "PAXG": 3,
+        "SKR": 3,
+        "PENGU": 3,
+        "XRP": 3,
+        "LINEA": 3,
+        "AVNT": 3,
+        "RIVER": 3,
+        "DUSK": 3,
+        "XMR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGUIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nietzschean Penguin ($PENGUIN) is trending on CoinGecko"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
+        ]
+      },
+      "ENSO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Enso ($ENSO) is trending on CoinGecko"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
         ]
       },
       "SOMI": {

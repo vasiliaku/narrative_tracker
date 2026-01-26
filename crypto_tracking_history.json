@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-01-18T14:10:19.174263",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AXS": 6,
-      "RIVER": 6,
-      "SAND": 6,
-      "LIT": 6,
-      "DUSK": 6,
-      "XMR": 6,
-      "DASH": 6,
-      "PENGU": 6,
-      "ZEC": 6,
-      "TRUMP": 6,
-      "FRAX": 6,
-      "MON": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "AXS": 3,
-        "RIVER": 3,
-        "SAND": 3,
-        "LIT": 3,
-        "DUSK": 3,
-        "XMR": 3,
-        "DASH": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "TRUMP": 3,
-        "FRAX": 3,
-        "SOL": 3,
-        "MON": 3,
-        "PI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      },
-      "SAND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Sandbox ($SAND) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "DUSK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DUSK ($DUSK) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-18T16:13:19.439440",
     "tickers": {
       "ALPHA": 3,
@@ -12311,6 +12183,135 @@
         ],
         "sample_posts": [
           "Seeker ($SKR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-26T22:12:48.593722",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ULTIMA": 6,
+      "HYPE": 6,
+      "SKR": 6,
+      "PENGUIN": 6,
+      "ACU": 6,
+      "RIVER": 6,
+      "PENGU": 6,
+      "XAUT": 6,
+      "ENA": 6,
+      "AXS": 6,
+      "KAG": 6,
+      "JUP": 6,
+      "PAXG": 6,
+      "KAS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ULTIMA": 3,
+        "HYPE": 3,
+        "SKR": 3,
+        "PENGUIN": 3,
+        "ACU": 3,
+        "RIVER": 3,
+        "PENGU": 3,
+        "XAUT": 3,
+        "ENA": 3,
+        "SOL": 3,
+        "AXS": 3,
+        "KAG": 3,
+        "JUP": 3,
+        "PAXG": 3,
+        "KAS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "SKR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Seeker ($SKR) is trending on CoinGecko"
+        ]
+      },
+      "PENGUIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nietzschean Penguin ($PENGUIN) is trending on CoinGecko"
+        ]
+      },
+      "ACU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Acurast ($ACU) is trending on CoinGecko"
         ]
       }
     },

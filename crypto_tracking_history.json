@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-01-18T03:27:50.388467",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AXS": 6,
-      "BERA": 6,
-      "RON": 6,
-      "SLP": 6,
-      "XMR": 6,
-      "OWL": 6,
-      "PENGU": 6,
-      "LIT": 6,
-      "DASH": 6,
-      "GALA": 6,
-      "MON": 6,
-      "SHIB": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "AXS": 3,
-        "BERA": 3,
-        "RON": 3,
-        "BTC": 3,
-        "SLP": 3,
-        "XMR": 3,
-        "OWL": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "LIT": 3,
-        "DASH": 3,
-        "GALA": 3,
-        "MON": 3,
-        "SHIB": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "BERA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Berachain ($BERA) is trending on CoinGecko"
-        ]
-      },
-      "RON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ronin ($RON) is trending on CoinGecko"
-        ]
-      },
-      "SLP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Smooth Love Potion ($SLP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-18T04:34:41.179101",
     "tickers": {
       "ALPHA": 3,
@@ -12301,6 +12183,132 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-26T10:16:54.989911",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RIVER": 6,
+      "BTR": 6,
+      "PENGUIN": 6,
+      "XAUT": 6,
+      "ERA": 6,
+      "WMTX": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "AXS": 6,
+      "SKR": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RIVER": 3,
+        "BTR": 3,
+        "PENGUIN": 3,
+        "XAUT": 3,
+        "ERA": 3,
+        "WMTX": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "AXS": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "SKR": 3,
+        "TAO": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
+        ]
+      },
+      "BTR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitlayer ($BTR) is trending on CoinGecko"
+        ]
+      },
+      "PENGUIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nietzschean Penguin ($PENGUIN) is trending on CoinGecko"
+        ]
+      },
+      "XAUT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      },
+      "ERA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Caldera ($ERA) is trending on CoinGecko"
         ]
       }
     },

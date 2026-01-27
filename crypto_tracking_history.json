@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-01-18T22:11:01.571071",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AXS": 6,
-      "SAND": 6,
-      "DUSK": 6,
-      "PAAL": 6,
-      "PENGU": 6,
-      "RIVER": 6,
-      "ONDO": 6,
-      "XMR": 6,
-      "DASH": 6,
-      "SURGE": 6,
-      "POL": 6,
-      "ZEC": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "AXS": 3,
-        "SAND": 3,
-        "DUSK": 3,
-        "PAAL": 3,
-        "PENGU": 3,
-        "RIVER": 3,
-        "ONDO": 3,
-        "XMR": 3,
-        "DASH": 3,
-        "SURGE": 3,
-        "BTC": 3,
-        "POL": 3,
-        "XRP": 3,
-        "ZEC": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "SAND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Sandbox ($SAND) is trending on CoinGecko"
-        ]
-      },
-      "DUSK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DUSK ($DUSK) is trending on CoinGecko"
-        ]
-      },
-      "PAAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "PAAL AI ($PAAL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-19T01:00:19.178143",
     "tickers": {
       "ALPHA": 3,
@@ -12312,6 +12184,125 @@
         ],
         "sample_posts": [
           "Seeker ($SKR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-27T06:20:38.123859",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 6,
+      "AXS": 6,
+      "SKR": 6,
+      "RIVER": 6,
+      "MEME": 6,
+      "PUMP": 6,
+      "PENGUIN": 6,
+      "LIT": 6,
+      "PAXG": 6,
+      "PENGU": 6,
+      "XAUT": 6,
+      "MON": 6,
+      "ASTER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "HYPE": 3,
+        "AXS": 3,
+        "SKR": 3,
+        "RIVER": 3,
+        "BTC": 3,
+        "MEME": 3,
+        "PUMP": 3,
+        "XRP": 3,
+        "PENGUIN": 3,
+        "LIT": 3,
+        "PAXG": 3,
+        "PENGU": 3,
+        "XAUT": 3,
+        "MON": 3,
+        "ASTER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
+        ]
+      },
+      "SKR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Seeker ($SKR) is trending on CoinGecko"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
         ]
       }
     },

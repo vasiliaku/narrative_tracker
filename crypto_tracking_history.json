@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-01-20T22:13:41.067055",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "USOR": 6,
-      "SAND": 6,
-      "HYPE": 6,
-      "XMR": 6,
-      "LIT": 6,
-      "SKR": 6,
-      "AXS": 6,
-      "ELSA": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "MON": 6,
-      "KTA": 6,
-      "ASTER": 6,
-      "PENDLE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "USOR": 3,
-        "SAND": 3,
-        "HYPE": 3,
-        "XMR": 3,
-        "LIT": 3,
-        "SKR": 3,
-        "AXS": 3,
-        "ELSA": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "MON": 3,
-        "SOL": 3,
-        "KTA": 3,
-        "ASTER": 3,
-        "PENDLE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "USOR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "U.S Oil ($USOR) is trending on CoinGecko"
-        ]
-      },
-      "SAND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Sandbox ($SAND) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "XMR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monero ($XMR) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-21T00:57:52.720248",
     "tickers": {
       "ALPHA": 3,
@@ -12441,6 +12312,124 @@
         ],
         "sample_posts": [
           "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T06:33:43.022528",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BIRB": 6,
+      "XAUT": 6,
+      "STABLE": 6,
+      "RIVER": 6,
+      "SENT": 6,
+      "WLD": 6,
+      "HYPE": 6,
+      "PAXG": 6,
+      "TAO": 6,
+      "GWEI": 6,
+      "USDT": 6,
+      "CC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BIRB": 3,
+        "XAUT": 3,
+        "STABLE": 3,
+        "BTC": 3,
+        "RIVER": 3,
+        "SENT": 3,
+        "WLD": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "PAXG": 3,
+        "ETH": 3,
+        "TAO": 3,
+        "GWEI": 3,
+        "USDT": 3,
+        "CC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BIRB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Moonbirds ($BIRB) is trending on CoinGecko"
+        ]
+      },
+      "XAUT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      },
+      "STABLE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "\u200b\u200bStable ($STABLE) is trending on CoinGecko"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
         ]
       }
     },

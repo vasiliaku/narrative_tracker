@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-01-21T08:19:15.495514",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SKR": 6,
-      "SAND": 6,
-      "AXS": 6,
-      "USOR": 6,
-      "PENGU": 6,
-      "XMR": 6,
-      "FHE": 6,
-      "ELSA": 6,
-      "LIT": 6,
-      "MON": 6,
-      "ONDO": 6,
-      "RIVER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SKR": 3,
-        "SAND": 3,
-        "BTC": 3,
-        "AXS": 3,
-        "USOR": 3,
-        "PENGU": 3,
-        "XMR": 3,
-        "FHE": 3,
-        "ELSA": 3,
-        "LIT": 3,
-        "MON": 3,
-        "ONDO": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "RIVER": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "SAND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Sandbox ($SAND) is trending on CoinGecko"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "USOR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "U.S Oil ($USOR) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-21T10:16:25.876230",
     "tickers": {
       "ALPHA": 3,
@@ -12460,6 +12342,115 @@
         ],
         "sample_posts": [
           "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T16:29:48.372851",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BIRB": 6,
+      "XAUT": 6,
+      "PAXG": 6,
+      "HYPE": 6,
+      "ULTIMA": 6,
+      "GWEI": 6,
+      "TAO": 6,
+      "WLD": 6,
+      "PENGU": 6,
+      "ASTER": 6,
+      "SUI": 6,
+      "KAG": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BIRB": 3,
+        "BTC": 3,
+        "XAUT": 3,
+        "PAXG": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "ULTIMA": 3,
+        "ETH": 3,
+        "GWEI": 3,
+        "TAO": 3,
+        "WLD": 3,
+        "PENGU": 3,
+        "ASTER": 3,
+        "SUI": 3,
+        "KAG": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BIRB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Moonbirds ($BIRB) is trending on CoinGecko"
+        ]
+      },
+      "XAUT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      },
+      "PAXG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "PAX Gold ($PAXG) is trending on CoinGecko"
         ]
       }
     },

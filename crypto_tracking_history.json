@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-01-22T06:20:16.374377",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SKR": 6,
-      "ELSA": 6,
-      "AXS": 6,
-      "GWEI": 6,
-      "RIVER": 6,
-      "PENGU": 6,
-      "PAXG": 6,
-      "MON": 6,
-      "DASH": 6,
-      "IP": 6,
-      "ONDO": 6,
-      "SUI": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SKR": 3,
-        "ELSA": 3,
-        "AXS": 3,
-        "GWEI": 3,
-        "RIVER": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "PAXG": 3,
-        "MON": 3,
-        "DASH": 3,
-        "IP": 3,
-        "ONDO": 3,
-        "SUI": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "ELSA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Elsa ($ELSA) is trending on CoinGecko"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "GWEI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ETHGas ($GWEI) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-22T08:17:42.006096",
     "tickers": {
       "ALPHA": 3,
@@ -12411,6 +12283,115 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-30T14:26:53.855753",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ULTIMA": 6,
+      "HYPE": 6,
+      "BIRB": 6,
+      "JUP": 6,
+      "MON": 6,
+      "PAXG": 6,
+      "PENGU": 6,
+      "SENT": 6,
+      "PI": 6,
+      "SUI": 6,
+      "XAUT": 6,
+      "USOR": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "ULTIMA": 3,
+        "HYPE": 3,
+        "BIRB": 3,
+        "ETH": 3,
+        "JUP": 3,
+        "MON": 3,
+        "PAXG": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "SENT": 3,
+        "PI": 3,
+        "SUI": 3,
+        "XAUT": 3,
+        "USOR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "BIRB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Moonbirds ($BIRB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

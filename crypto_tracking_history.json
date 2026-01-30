@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-01-21T18:29:37.909656",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "GWEI": 6,
-      "SKR": 6,
-      "PENGU": 6,
-      "RIVER": 6,
-      "ONDO": 6,
-      "ROSE": 6,
-      "AXS": 6,
-      "ZRO": 6,
-      "SUI": 6,
-      "HYPE": 6,
-      "MON": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "GWEI": 3,
-        "SKR": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "RIVER": 3,
-        "ONDO": 3,
-        "ROSE": 3,
-        "SOL": 3,
-        "AXS": 3,
-        "ZRO": 3,
-        "SUI": 3,
-        "ETH": 3,
-        "HYPE": 3,
-        "MON": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "GWEI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ETHGas ($GWEI) is trending on CoinGecko"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-21T20:19:47.785111",
     "tickers": {
       "ALPHA": 3,
@@ -12448,6 +12330,125 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-30T03:59:20.531662",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BIRB": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "CC": 6,
+      "SENT": 6,
+      "XAUT": 6,
+      "PAXG": 6,
+      "PI": 6,
+      "GWEI": 6,
+      "PEPE": 6,
+      "AXS": 6,
+      "ONDO": 6,
+      "XMR": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BIRB": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "CC": 3,
+        "SOL": 3,
+        "SENT": 3,
+        "XAUT": 3,
+        "PAXG": 3,
+        "PI": 3,
+        "GWEI": 3,
+        "PEPE": 3,
+        "AXS": 3,
+        "ONDO": 3,
+        "XMR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BIRB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Moonbirds ($BIRB) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
         ]
       }
     },

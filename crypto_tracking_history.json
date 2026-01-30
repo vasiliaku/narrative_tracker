@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-01-22T12:25:45.676330",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SENT": 6,
-      "SKR": 6,
-      "RAIN": 6,
-      "GWEI": 6,
-      "FIGHT": 6,
-      "ELSA": 6,
-      "PENGU": 6,
-      "RIVER": 6,
-      "AXS": 6,
-      "CC": 6,
-      "ONDO": 6,
-      "ACU": 6,
-      "XRD": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SENT": 3,
-        "SKR": 3,
-        "RAIN": 3,
-        "GWEI": 3,
-        "FIGHT": 3,
-        "ELSA": 3,
-        "PENGU": 3,
-        "RIVER": 3,
-        "AXS": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "CC": 3,
-        "ONDO": 3,
-        "ACU": 3,
-        "XRD": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SENT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sentient ($SENT) is trending on CoinGecko"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) is trending on CoinGecko"
-        ]
-      },
-      "GWEI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ETHGas ($GWEI) is trending on CoinGecko"
-        ]
-      },
-      "FIGHT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "FIGHT ($FIGHT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-22T14:21:28.366252",
     "tickers": {
       "ALPHA": 3,
@@ -12375,6 +12247,124 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-30T20:17:26.952801",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "INX": 6,
+      "XAUT": 6,
+      "KAG": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "BIRB": 6,
+      "PAXG": 6,
+      "ONDO": 6,
+      "SLVON": 6,
+      "CC": 6,
+      "XMR": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "INX": 3,
+        "XAUT": 3,
+        "KAG": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "BIRB": 3,
+        "PAXG": 3,
+        "ETH": 3,
+        "ONDO": 3,
+        "SLVON": 3,
+        "CC": 3,
+        "XMR": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "INX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Infinex ($INX) is trending on CoinGecko"
+        ]
+      },
+      "XAUT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      },
+      "KAG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kinesis Silver ($KAG) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

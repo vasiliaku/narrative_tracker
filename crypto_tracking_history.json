@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-01-22T20:14:39.543041",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SKR": 6,
-      "RAIN": 6,
-      "RIVER": 6,
-      "SENT": 6,
-      "IMU": 6,
-      "PENGU": 6,
-      "FIGHT": 6,
-      "XMR": 6,
-      "AXS": 6,
-      "ONDO": 6,
-      "PAXG": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SKR": 3,
-        "RAIN": 3,
-        "RIVER": 3,
-        "SENT": 3,
-        "IMU": 3,
-        "PENGU": 3,
-        "FIGHT": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "XMR": 3,
-        "AXS": 3,
-        "ETH": 3,
-        "ONDO": 3,
-        "PAXG": 3,
-        "MON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      },
-      "SENT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sentient ($SENT) is trending on CoinGecko"
-        ]
-      },
-      "IMU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Immunefi ($IMU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-22T22:13:05.594561",
     "tickers": {
       "ALPHA": 3,
@@ -12362,6 +12235,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T04:56:43.164932",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "USOR": 6,
+      "INX": 6,
+      "PAXG": 6,
+      "BIRB": 6,
+      "XAUT": 6,
+      "PI": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "TIA": 6,
+      "KAG": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "USOR": 3,
+        "INX": 3,
+        "PAXG": 3,
+        "SOL": 3,
+        "BIRB": 3,
+        "BTC": 3,
+        "XAUT": 3,
+        "PI": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "LINK": 3,
+        "TIA": 3,
+        "KAG": 3,
+        "ETH": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "USOR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "U.S Oil ($USOR) is trending on CoinGecko"
+        ]
+      },
+      "INX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Infinex ($INX) is trending on CoinGecko"
+        ]
+      },
+      "PAXG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "PAX Gold ($PAXG) is trending on CoinGecko"
+        ]
+      },
+      "BIRB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Moonbirds ($BIRB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

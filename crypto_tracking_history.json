@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-01-23T12:24:43.719159",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SPACE": 6,
-      "SKR": 6,
-      "RIVER": 6,
-      "RAIN": 6,
-      "AXS": 6,
-      "SENT": 6,
-      "PENGU": 6,
-      "ACU": 6,
-      "ONDO": 6,
-      "FIGHT": 6,
-      "HYPE": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SPACE": 3,
-        "SKR": 3,
-        "RIVER": 3,
-        "RAIN": 3,
-        "AXS": 3,
-        "SENT": 3,
-        "PENGU": 3,
-        "ACU": 3,
-        "ONDO": 3,
-        "ETH": 3,
-        "FIGHT": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "MON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SPACE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Spacecoin ($SPACE) is trending on CoinGecko"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) is trending on CoinGecko"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-23T14:16:35.859926",
     "tickers": {
       "ALPHA": 3,
@@ -12249,6 +12122,95 @@
         ],
         "sample_posts": [
           "U.S Oil ($USOR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T20:13:37.905743",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 6,
+      "USOR": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "XAUT": 6,
+      "MOLT": 6,
+      "AAVE": 6,
+      "POL": 6,
+      "TAO": 6,
+      "ASTER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "XRP": 3,
+        "USOR": 3,
+        "PENGU": 3,
+        "SUI": 3,
+        "DOT": 3,
+        "XAUT": 3,
+        "MOLT": 3,
+        "AAVE": 3,
+        "POL": 3,
+        "TAO": 3,
+        "ASTER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

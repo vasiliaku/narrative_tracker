@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-01-23T04:34:35.632038",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SKR": 6,
-      "AXS": 6,
-      "SENT": 6,
-      "ZRO": 6,
-      "RAIN": 6,
-      "ELSA": 6,
-      "RIVER": 6,
-      "PENGU": 6,
-      "XAUT": 6,
-      "LINEA": 6,
-      "MON": 6,
-      "FIGHT": 6,
-      "SLP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SKR": 3,
-        "AXS": 3,
-        "SENT": 3,
-        "ZRO": 3,
-        "RAIN": 3,
-        "ELSA": 3,
-        "RIVER": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "XAUT": 3,
-        "LINEA": 3,
-        "MON": 3,
-        "FIGHT": 3,
-        "SLP": 3,
-        "SOL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "SENT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sentient ($SENT) is trending on CoinGecko"
-        ]
-      },
-      "ZRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LayerZero ($ZRO) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-23T06:19:30.772603",
     "tickers": {
       "ALPHA": 3,
@@ -12321,6 +12193,124 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T12:23:19.648947",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "XAUT": 6,
+      "MOLT": 6,
+      "INX": 6,
+      "USOR": 6,
+      "XMR": 10,
+      "PENGU": 6,
+      "PAXG": 6,
+      "SUI": 6,
+      "BIRB": 6,
+      "JUP": 6,
+      "SPX": 6,
+      "RIVER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "XAUT": 3,
+        "MOLT": 3,
+        "BTC": 3,
+        "INX": 3,
+        "USOR": 3,
+        "ETH": 3,
+        "XMR": 5,
+        "PENGU": 3,
+        "PAXG": 3,
+        "SOL": 3,
+        "SUI": 3,
+        "BIRB": 3,
+        "JUP": 3,
+        "SPX": 3,
+        "RIVER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "XAUT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      },
+      "MOLT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Moltbook ($MOLT) is trending on CoinGecko"
+        ]
+      },
+      "INX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Infinex ($INX) is trending on CoinGecko"
+        ]
+      },
+      "USOR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "U.S Oil ($USOR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

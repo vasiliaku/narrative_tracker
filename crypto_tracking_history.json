@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-01-26T01:01:07.491970",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ERA": 6,
-      "RIVER": 6,
-      "SKR": 6,
-      "MON": 6,
-      "PENGUIN": 6,
-      "HYPE": 6,
-      "AXS": 6,
-      "AERO": 6,
-      "XMR": 6,
-      "RAIN": 6,
-      "PAXG": 6,
-      "SUI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ERA": 3,
-        "RIVER": 3,
-        "SKR": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "MON": 3,
-        "PENGUIN": 3,
-        "HYPE": 3,
-        "AXS": 3,
-        "AERO": 3,
-        "XMR": 3,
-        "XRP": 3,
-        "RAIN": 3,
-        "PAXG": 3,
-        "SUI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ERA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Caldera ($ERA) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-26T03:48:06.692715",
     "tickers": {
       "ALPHA": 3,
@@ -11738,6 +11629,104 @@
         ],
         "sample_posts": [
           "Zilliqa ($ZIL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-03T18:41:03.660287",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 6,
+      "ONDO": 6,
+      "PENGU": 6,
+      "ZAMA": 6,
+      "ZIL": 6,
+      "TRIA": 6,
+      "SUI": 6,
+      "ZEC": 6,
+      "TAO": 6,
+      "XAUT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "HYPE": 3,
+        "ONDO": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "ZAMA": 3,
+        "ZIL": 3,
+        "ARB": 3,
+        "TRIA": 3,
+        "SUI": 3,
+        "OP": 3,
+        "ZEC": 3,
+        "TAO": 3,
+        "XAUT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
         ]
       }
     },

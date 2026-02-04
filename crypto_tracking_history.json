@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-01-26T08:18:56.849102",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RIVER": 6,
-      "BTR": 6,
-      "XAUT": 6,
-      "PENGU": 6,
-      "SKR": 6,
-      "PENGUIN": 6,
-      "AXS": 6,
-      "PAXG": 6,
-      "DASH": 6,
-      "ZEC": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "SENT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RIVER": 3,
-        "BTR": 3,
-        "XAUT": 3,
-        "SOL": 3,
-        "PENGU": 3,
-        "SKR": 3,
-        "PENGUIN": 3,
-        "AXS": 3,
-        "PAXG": 3,
-        "DASH": 3,
-        "ZEC": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "SUI": 3,
-        "SENT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      },
-      "BTR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bitlayer ($BTR) is trending on CoinGecko"
-        ]
-      },
-      "XAUT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tether Gold ($XAUT) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-26T10:16:54.989911",
     "tickers": {
       "ALPHA": 3,
@@ -11685,6 +11566,116 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-04T04:03:00.390002",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 6,
+      "TRIA": 6,
+      "PENGU": 6,
+      "ZAMA": 6,
+      "BIRB": 6,
+      "AXS": 6,
+      "RIVER": 6,
+      "TAO": 6,
+      "XAUT": 6,
+      "ONDO": 6,
+      "PI": 6,
+      "LIT": 6,
+      "BNKR": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "HYPE": 3,
+        "TRIA": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "ZAMA": 3,
+        "BIRB": 3,
+        "AXS": 3,
+        "RIVER": 3,
+        "TAO": 3,
+        "XAUT": 3,
+        "ONDO": 3,
+        "PI": 3,
+        "LIT": 3,
+        "BNKR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "TRIA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "TRIA ($TRIA) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

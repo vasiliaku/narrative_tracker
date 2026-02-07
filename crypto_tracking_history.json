@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-01-29T20:18:23.963268",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BIRB": 6,
-      "HYPE": 6,
-      "XAUT": 6,
-      "ULTIMA": 6,
-      "PAXG": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "SENT": 6,
-      "CC": 6,
-      "SKR": 6,
-      "RIVER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BIRB": 3,
-        "HYPE": 3,
-        "XAUT": 3,
-        "ULTIMA": 3,
-        "BTC": 3,
-        "PAXG": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "ONDO": 3,
-        "SENT": 3,
-        "CC": 3,
-        "SKR": 3,
-        "RIVER": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BIRB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moonbirds ($BIRB) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "XAUT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tether Gold ($XAUT) is trending on CoinGecko"
-        ]
-      },
-      "ULTIMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ultima ($ULTIMA) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-29T22:16:44.392136",
     "tickers": {
       "ALPHA": 3,
@@ -10813,6 +10696,94 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-07T20:14:13.107191",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SIREN": 6,
+      "PENGU": 6,
+      "ASTER": 6,
+      "TAO": 6,
+      "HYPE": 6,
+      "ONDO": 6,
+      "SUI": 6,
+      "CC": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SIREN": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "XRP": 3,
+        "ETH": 3,
+        "LINK": 3,
+        "PENGU": 3,
+        "HBAR": 3,
+        "ASTER": 3,
+        "TAO": 3,
+        "HYPE": 3,
+        "ONDO": 3,
+        "SUI": 3,
+        "CC": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

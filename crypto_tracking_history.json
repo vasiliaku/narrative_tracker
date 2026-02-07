@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-01-29T06:33:43.022528",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BIRB": 6,
-      "XAUT": 6,
-      "STABLE": 6,
-      "RIVER": 6,
-      "SENT": 6,
-      "WLD": 6,
-      "HYPE": 6,
-      "PAXG": 6,
-      "TAO": 6,
-      "GWEI": 6,
-      "USDT": 6,
-      "CC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BIRB": 3,
-        "XAUT": 3,
-        "STABLE": 3,
-        "BTC": 3,
-        "RIVER": 3,
-        "SENT": 3,
-        "WLD": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "PAXG": 3,
-        "ETH": 3,
-        "TAO": 3,
-        "GWEI": 3,
-        "USDT": 3,
-        "CC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BIRB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moonbirds ($BIRB) is trending on CoinGecko"
-        ]
-      },
-      "XAUT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tether Gold ($XAUT) is trending on CoinGecko"
-        ]
-      },
-      "STABLE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "\u200b\u200bStable ($STABLE) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-29T08:27:16.804357",
     "tickers": {
       "ALPHA": 3,
@@ -10930,6 +10812,128 @@
         ],
         "sample_posts": [
           "LEO Token ($LEO) up 21.04% in 24h"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-07T06:29:00.913473",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 6,
+      "RON": 6,
+      "TAO": 6,
+      "ZAMA": 6,
+      "PENGU": 6,
+      "KAS": 6,
+      "ZEC": 6,
+      "BERA": 6,
+      "PEPE": 6,
+      "CC": 6,
+      "PI": 6,
+      "SKR": 6,
+      "BCH": 4,
+      "LEO": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "HYPE": 3,
+        "RON": 3,
+        "TAO": 3,
+        "SOL": 3,
+        "ZAMA": 3,
+        "XRP": 5,
+        "PENGU": 3,
+        "KAS": 3,
+        "ZEC": 3,
+        "BERA": 3,
+        "PEPE": 3,
+        "CC": 3,
+        "PI": 3,
+        "SKR": 3,
+        "BCH": 2,
+        "LEO": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "RON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ronin ($RON) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "LEO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LEO Token ($LEO) up 22.22% in 24h"
         ]
       }
     },

@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-01-29T03:59:28.519267",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BIRB": 6,
-      "XAUT": 6,
-      "WLD": 6,
-      "STABLE": 6,
-      "HYPE": 6,
-      "PAXG": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "KITE": 6,
-      "LIT": 6,
-      "SKR": 6,
-      "GWEI": 6,
-      "PUMP": 6,
-      "ASTER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BIRB": 3,
-        "XAUT": 3,
-        "WLD": 3,
-        "STABLE": 3,
-        "HYPE": 3,
-        "PAXG": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "ONDO": 3,
-        "KITE": 3,
-        "LIT": 3,
-        "SKR": 3,
-        "GWEI": 3,
-        "PUMP": 3,
-        "ASTER": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BIRB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moonbirds ($BIRB) is trending on CoinGecko"
-        ]
-      },
-      "XAUT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tether Gold ($XAUT) is trending on CoinGecko"
-        ]
-      },
-      "WLD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Worldcoin ($WLD) is trending on CoinGecko"
-        ]
-      },
-      "STABLE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "\u200b\u200bStable ($STABLE) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-29T05:05:49.880746",
     "tickers": {
       "ALPHA": 3,
@@ -10959,6 +10830,110 @@
         ],
         "sample_posts": [
           "Berachain ($BERA) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-07T03:59:02.378169",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "HYPE": 6,
+      "PI": 6,
+      "SUI": 6,
+      "ZAMA": 6,
+      "GRASS": 6,
+      "ZEC": 6,
+      "LIT": 6,
+      "JASMY": 6,
+      "BCH": 4,
+      "LEO": 4,
+      "XMR": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 5,
+        "PENGU": 3,
+        "SOL": 5,
+        "XRP": 5,
+        "HYPE": 3,
+        "PI": 3,
+        "SUI": 3,
+        "ZAMA": 3,
+        "GRASS": 3,
+        "ZEC": 3,
+        "ETH": 3,
+        "HBAR": 3,
+        "LIT": 3,
+        "LINK": 5,
+        "JASMY": 3,
+        "BCH": 2,
+        "ADA": 2,
+        "LEO": 2,
+        "XMR": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       },
       "HYPE": {

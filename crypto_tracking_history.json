@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-01-29T22:16:44.392136",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BIRB": 6,
-      "ULTIMA": 6,
-      "HYPE": 6,
-      "CC": 6,
-      "PAXG": 6,
-      "XAUT": 6,
-      "PENGU": 6,
-      "PUMP": 6,
-      "MON": 6,
-      "JUP": 6,
-      "TAO": 6,
-      "SKR": 6,
-      "AXS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "BIRB": 3,
-        "ULTIMA": 3,
-        "HYPE": 3,
-        "CC": 3,
-        "PAXG": 3,
-        "XAUT": 3,
-        "PENGU": 3,
-        "PUMP": 3,
-        "MON": 3,
-        "JUP": 3,
-        "ETH": 3,
-        "TAO": 3,
-        "SKR": 3,
-        "AXS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BIRB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moonbirds ($BIRB) is trending on CoinGecko"
-        ]
-      },
-      "ULTIMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ultima ($ULTIMA) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "CC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Canton ($CC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-30T01:04:17.125910",
     "tickers": {
       "ALPHA": 3,
@@ -10784,6 +10665,115 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-07T22:14:55.455361",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SIREN": 6,
+      "SUI": 6,
+      "PENGU": 6,
+      "ONDO": 6,
+      "RIVER": 6,
+      "BERA": 6,
+      "MON": 6,
+      "REI": 6,
+      "LINEA": 6,
+      "HYPE": 6,
+      "TAO": 6,
+      "BUTTCOIN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SIREN": 3,
+        "SUI": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "ONDO": 3,
+        "RIVER": 3,
+        "BERA": 3,
+        "MON": 3,
+        "REI": 3,
+        "LINEA": 3,
+        "HYPE": 3,
+        "XRP": 3,
+        "TAO": 3,
+        "BUTTCOIN": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

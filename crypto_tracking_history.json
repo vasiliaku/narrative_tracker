@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-01-31T01:02:04.785025",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BNKR": 6,
-      "INX": 6,
-      "PAXG": 6,
-      "USOR": 6,
-      "PENGU": 6,
-      "KAG": 6,
-      "XAUT": 6,
-      "LIT": 6,
-      "SENT": 6,
-      "HYPE": 6,
-      "ENSO": 6,
-      "CLANKER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BNKR": 3,
-        "INX": 3,
-        "PAXG": 3,
-        "USOR": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "KAG": 3,
-        "XAUT": 3,
-        "LIT": 3,
-        "SENT": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "ENSO": 3,
-        "CLANKER": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BNKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BankrCoin ($BNKR) is trending on CoinGecko"
-        ]
-      },
-      "INX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Infinex ($INX) is trending on CoinGecko"
-        ]
-      },
-      "PAXG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "PAX Gold ($PAXG) is trending on CoinGecko"
-        ]
-      },
-      "USOR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "U.S Oil ($USOR) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-31T03:55:58.608960",
     "tickers": {
       "ALPHA": 3,
@@ -10667,6 +10540,122 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-09T04:15:00.918312",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "KAS": 6,
+      "BNKR": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "ASTER": 6,
+      "AXS": 6,
+      "MON": 6,
+      "TAO": 6,
+      "WLFI": 6,
+      "SPX": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "KAS": 3,
+        "BNKR": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "ASTER": 3,
+        "AXS": 3,
+        "MON": 3,
+        "ETH": 3,
+        "TAO": 3,
+        "WLFI": 3,
+        "SPX": 3,
+        "XRP": 3,
+        "DOGE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "KAS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kaspa ($KAS) is trending on CoinGecko"
+        ]
+      },
+      "BNKR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "BankrCoin ($BNKR) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-01-31T06:25:14.124370",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "XAUT": 6,
-      "USOR": 6,
-      "PENGU": 6,
-      "MOLT": 6,
-      "BIRB": 6,
-      "SKR": 6,
-      "INX": 6,
-      "HYPE": 6,
-      "RIVER": 6,
-      "PAXG": 6,
-      "BNKR": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "XAUT": 3,
-        "USOR": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "MOLT": 3,
-        "BIRB": 3,
-        "SKR": 3,
-        "INX": 3,
-        "HYPE": 3,
-        "RIVER": 3,
-        "PAXG": 3,
-        "ETH": 3,
-        "BNKR": 3,
-        "ONDO": 3,
-        "LTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "XAUT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tether Gold ($XAUT) is trending on CoinGecko"
-        ]
-      },
-      "USOR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "U.S Oil ($USOR) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MOLT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moltbook ($MOLT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-01-31T08:16:30.819895",
     "tickers": {
       "ALPHA": 3,
@@ -10635,6 +10517,112 @@
         ],
         "sample_posts": [
           "BankrCoin ($BNKR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-09T10:46:09.255916",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AXS": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "HYPE": 6,
+      "BNKR": 6,
+      "ASTER": 6,
+      "ONDO": 6,
+      "TAO": 6,
+      "CC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "SOL": 3,
+        "AXS": 3,
+        "PENGU": 3,
+        "SUI": 3,
+        "HYPE": 3,
+        "XRP": 3,
+        "BNKR": 3,
+        "ETH": 3,
+        "ASTER": 3,
+        "ONDO": 3,
+        "TAO": 3,
+        "DOGE": 3,
+        "ATOM": 3,
+        "CC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
         ]
       }
     },

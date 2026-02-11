@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-02-01T20:13:57.721812",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZK": 6,
-      "HYPE": 6,
-      "MOLT": 6,
-      "PENGU": 6,
-      "RIVER": 6,
-      "TAO": 6,
-      "CC": 6,
-      "KAG": 6,
-      "SUI": 6,
-      "SKR": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SOL": 3,
-        "BTC": 3,
-        "ZK": 3,
-        "HYPE": 3,
-        "MOLT": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "RIVER": 3,
-        "XRP": 3,
-        "TAO": 3,
-        "CC": 3,
-        "AVAX": 3,
-        "KAG": 3,
-        "SUI": 3,
-        "SKR": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ZKsync ($ZK) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "MOLT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moltbook ($MOLT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-01T22:13:46.469419",
     "tickers": {
       "ALPHA": 3,
@@ -10660,6 +10553,113 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-11T04:20:57.020137",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZRO": 6,
+      "HYPE": 6,
+      "BNKR": 6,
+      "PENGU": 6,
+      "ZAMA": 6,
+      "MON": 6,
+      "TAO": 6,
+      "KAS": 6,
+      "ALLO": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZRO": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "BNKR": 3,
+        "PENGU": 3,
+        "XRP": 3,
+        "ZAMA": 3,
+        "MON": 3,
+        "TAO": 3,
+        "ETH": 3,
+        "KAS": 3,
+        "HBAR": 3,
+        "ALLO": 3,
+        "SUI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LayerZero ($ZRO) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "BNKR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "BankrCoin ($BNKR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

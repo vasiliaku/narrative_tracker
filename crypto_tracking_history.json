@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-02-05T10:30:57.590016",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CHECK": 6,
-      "LINEA": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "ZAMA": 6,
-      "CC": 6,
-      "ONDO": 6,
-      "LIT": 6,
-      "MON": 6,
-      "ZEC": 6,
-      "AXS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "SOL": 3,
-        "CHECK": 3,
-        "LINEA": 3,
-        "HYPE": 3,
-        "PENGU": 3,
-        "ZAMA": 3,
-        "XRP": 3,
-        "ETH": 3,
-        "CC": 3,
-        "ONDO": 3,
-        "LIT": 3,
-        "MON": 3,
-        "ZEC": 3,
-        "AXS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CHECK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Checkmate ($CHECK) is trending on CoinGecko"
-        ]
-      },
-      "LINEA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Linea ($LINEA) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-05T12:35:34.812182",
     "tickers": {
       "ALPHA": 3,
@@ -10820,6 +10712,114 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-14T10:15:35.113559",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TAO": 6,
+      "ESP": 6,
+      "ZEC": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "RIVER": 6,
+      "ZRO": 6,
+      "VIRTUAL": 6,
+      "OM": 6,
+      "PENGU": 6,
+      "AZTEC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "TAO": 3,
+        "BTC": 3,
+        "ESP": 3,
+        "ZEC": 3,
+        "XRP": 3,
+        "HYPE": 3,
+        "SUI": 3,
+        "ETH": 3,
+        "RIVER": 3,
+        "ZRO": 3,
+        "VIRTUAL": 3,
+        "OM": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "AZTEC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "ESP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Espresso ($ESP) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

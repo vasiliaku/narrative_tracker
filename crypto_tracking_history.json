@@ -1,93 +1,5 @@
 [
   {
-    "timestamp": "2026-02-06T06:39:51.109149",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HYPE": 6,
-      "SUI": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "JUP": 6,
-      "RIVER": 6,
-      "ZAMA": 6,
-      "SKR": 6,
-      "LINEA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "XRP": 3,
-        "SUI": 3,
-        "PENGU": 3,
-        "ONDO": 3,
-        "AVAX": 3,
-        "JUP": 3,
-        "RIVER": 3,
-        "ZAMA": 3,
-        "DOGE": 3,
-        "SKR": 3,
-        "LINEA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-06T08:29:44.864824",
     "tickers": {
       "ALPHA": 3,
@@ -10963,6 +10875,112 @@
         ],
         "sample_posts": [
           "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-15T06:38:24.616924",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PI": 6,
+      "PENGU": 6,
+      "PEPE": 6,
+      "VVV": 6,
+      "PIPPIN": 6,
+      "ESP": 6,
+      "TAO": 6,
+      "AZTEC": 6,
+      "SPACE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PI": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "PEPE": 3,
+        "XRP": 5,
+        "VVV": 3,
+        "PIPPIN": 3,
+        "ESP": 3,
+        "TAO": 3,
+        "DOGE": 5,
+        "SOL": 3,
+        "ETH": 3,
+        "AZTEC": 3,
+        "SPACE": 3,
+        "HBAR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PEPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pepe ($PEPE) is trending on CoinGecko"
         ]
       }
     },

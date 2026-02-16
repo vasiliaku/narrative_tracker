@@ -1,104 +1,5 @@
 [
   {
-    "timestamp": "2026-02-07T10:14:32.752405",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HYPE": 6,
-      "PENGU": 6,
-      "BERA": 6,
-      "SUI": 6,
-      "XAUT": 6,
-      "PEPE": 6,
-      "ASTER": 6,
-      "RIVER": 6,
-      "TAO": 6,
-      "LEO": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "XRP": 3,
-        "PENGU": 3,
-        "BERA": 3,
-        "NEAR": 3,
-        "SUI": 3,
-        "UNI": 3,
-        "XAUT": 3,
-        "PEPE": 3,
-        "ASTER": 3,
-        "ETH": 3,
-        "RIVER": 3,
-        "TAO": 3,
-        "LEO": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-07T12:24:07.539610",
     "tickers": {
       "ALPHA": 3,
@@ -11101,6 +11002,114 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-16T12:37:04.943382",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "INIT": 6,
+      "PIPPIN": 6,
+      "TAO": 6,
+      "HYPE": 6,
+      "AAVE": 6,
+      "HNT": 6,
+      "KAS": 6,
+      "ZAMA": 6,
+      "AZTEC": 6,
+      "PENGU": 6,
+      "PEPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "INIT": 3,
+        "BTC": 3,
+        "PIPPIN": 3,
+        "SOL": 3,
+        "TAO": 3,
+        "ETH": 3,
+        "XRP": 3,
+        "HYPE": 3,
+        "AAVE": 3,
+        "HNT": 3,
+        "KAS": 3,
+        "ZAMA": 3,
+        "AZTEC": 3,
+        "PENGU": 3,
+        "PEPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "INIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Initia ($INIT) is trending on CoinGecko"
+        ]
+      },
+      "PIPPIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pippin ($PIPPIN) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-02-08T10:15:47.619653",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ASTER": 6,
-      "BNKR": 6,
-      "PENGU": 6,
-      "SIREN": 6,
-      "TAO": 6,
-      "ZIL": 6,
-      "WIF": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "ONDO": 6,
-      "KAS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "SOL": 3,
-        "ASTER": 3,
-        "BNKR": 3,
-        "PENGU": 3,
-        "SIREN": 3,
-        "TAO": 3,
-        "ETH": 3,
-        "ZIL": 3,
-        "WIF": 3,
-        "HYPE": 3,
-        "SUI": 3,
-        "ONDO": 3,
-        "KAS": 3,
-        "BNB": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      },
-      "BNKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BankrCoin ($BNKR) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-08T12:24:49.057113",
     "tickers": {
       "ALPHA": 3,
@@ -11166,6 +11058,114 @@
         ],
         "sample_posts": [
           "Rocket Pool ($RPL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-17T12:36:53.254800",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ORCA": 6,
+      "JTO": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "ZRO": 6,
+      "PEPE": 6,
+      "RPL": 6,
+      "XAUT": 6,
+      "SUI": 6,
+      "MON": 6,
+      "INIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ORCA": 3,
+        "JTO": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "BTC": 3,
+        "TAO": 3,
+        "ZRO": 3,
+        "PEPE": 3,
+        "RPL": 3,
+        "XAUT": 3,
+        "SUI": 3,
+        "MON": 3,
+        "AVAX": 3,
+        "INIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ORCA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Orca ($ORCA) is trending on CoinGecko"
+        ]
+      },
+      "JTO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Jito ($JTO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

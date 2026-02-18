@@ -1,105 +1,5 @@
 [
   {
-    "timestamp": "2026-02-09T18:42:03.906194",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BNKR": 6,
-      "SUI": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "CC": 6,
-      "LIT": 6,
-      "ZRO": 6,
-      "ASTER": 6,
-      "MORPHO": 6,
-      "ACU": 6,
-      "KAS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "SOL": 3,
-        "BNKR": 3,
-        "SUI": 3,
-        "ETH": 3,
-        "HYPE": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "CC": 3,
-        "LIT": 3,
-        "ZRO": 3,
-        "ASTER": 3,
-        "MORPHO": 3,
-        "ACU": 3,
-        "KAS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BNKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BankrCoin ($BNKR) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-09T20:29:50.307650",
     "tickers": {
       "ALPHA": 3,
@@ -11194,6 +11094,93 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-18T18:37:39.251530",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ESP": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "WLFI": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "BERA": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "OP": 3,
+        "ESP": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "ATOM": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "WLFI": 3,
+        "TAO": 3,
+        "XRP": 3,
+        "LINK": 3,
+        "SUI": 3,
+        "BERA": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ESP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Espresso ($ESP) is trending on CoinGecko"
         ]
       }
     },

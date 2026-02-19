@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10T12:45:30.191431",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BNKR": 6,
-      "ZRO": 6,
-      "ASTER": 6,
-      "PENGU": 6,
-      "JUP": 6,
-      "MON": 6,
-      "XMR": 6,
-      "HYPE": 6,
-      "SKR": 6,
-      "CC": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "BNKR": 3,
-        "ZRO": 3,
-        "ASTER": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "JUP": 3,
-        "MON": 3,
-        "XMR": 3,
-        "BNB": 3,
-        "HYPE": 3,
-        "SKR": 3,
-        "CC": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BNKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "BankrCoin ($BNKR) is trending on CoinGecko"
-        ]
-      },
-      "ZRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LayerZero ($ZRO) is trending on CoinGecko"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-10T14:51:22.124656",
     "tickers": {
       "ALPHA": 3,
@@ -11135,6 +11027,111 @@
         ],
         "sample_posts": [
           "Espresso ($ESP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-19T12:37:33.402104",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ESP": 6,
+      "MON": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "CC": 6,
+      "SUI": 6,
+      "ASTER": 6,
+      "WLFI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "OP": 3,
+        "BTC": 3,
+        "ESP": 3,
+        "MON": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "ARB": 3,
+        "CC": 3,
+        "SOL": 3,
+        "SUI": 3,
+        "ETH": 3,
+        "APT": 3,
+        "ASTER": 3,
+        "WLFI": 3,
+        "XLM": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ESP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Espresso ($ESP) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

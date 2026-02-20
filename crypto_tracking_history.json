@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-02-11T22:20:21.500284",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BERA": 6,
-      "ZRO": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "AAVE": 6,
-      "S": 6,
-      "ASTER": 6,
-      "SKR": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BERA": 3,
-        "ZRO": 3,
-        "UNI": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "BTC": 3,
-        "AAVE": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "S": 3,
-        "ASTER": 3,
-        "SKR": 3,
-        "AERO": 3,
-        "ATOM": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BERA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Berachain ($BERA) is trending on CoinGecko"
-        ]
-      },
-      "ZRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LayerZero ($ZRO) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-12T01:09:37.326569",
     "tickers": {
       "ALPHA": 3,
@@ -11065,6 +10949,112 @@
         ],
         "sample_posts": [
           "Aztec ($AZTEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-20T22:13:59.820137",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "AZTEC": 6,
+      "TIBBIR": 6,
+      "AAVE": 6,
+      "PI": 6,
+      "PUNCH": 6,
+      "TAO": 6,
+      "HYPE": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "AZTEC": 3,
+        "OP": 3,
+        "BTC": 3,
+        "TIBBIR": 3,
+        "AAVE": 3,
+        "PI": 3,
+        "PUNCH": 3,
+        "TAO": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "MON": 3,
+        "ARB": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "AZTEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aztec ($AZTEC) is trending on CoinGecko"
+        ]
+      },
+      "TIBBIR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ribbita by Virtuals ($TIBBIR) is trending on CoinGecko"
         ]
       }
     },

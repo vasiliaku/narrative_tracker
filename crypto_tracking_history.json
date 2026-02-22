@@ -1,126 +1,5 @@
 [
   {
-    "timestamp": "2026-02-13T18:32:08.308477",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AZTEC": 6,
-      "PENGU": 6,
-      "PIPPIN": 6,
-      "MON": 6,
-      "TAO": 6,
-      "ZRO": 6,
-      "POWER": 6,
-      "CC": 6,
-      "ESP": 6,
-      "ZEC": 6,
-      "BNKR": 6,
-      "BCH": 4,
-      "XMR": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "AZTEC": 3,
-        "PENGU": 3,
-        "PIPPIN": 3,
-        "MON": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "ZRO": 3,
-        "POWER": 3,
-        "CC": 3,
-        "ESP": 3,
-        "ETH": 3,
-        "ZEC": 3,
-        "BNKR": 3,
-        "HBAR": 3,
-        "BCH": 2,
-        "XMR": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AZTEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aztec ($AZTEC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PIPPIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pippin ($PIPPIN) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-13T20:25:47.318107",
     "tickers": {
       "ALPHA": 3,
@@ -10961,6 +10840,113 @@
         ],
         "sample_posts": [
           "\u30d1\u30f3\u30c1 (Punch) ($PUNCH) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-22T16:16:43.546453",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AGLD": 6,
+      "PUNCH": 6,
+      "PIPPIN": 6,
+      "AZTEC": 6,
+      "PENGU": 6,
+      "KITE": 6,
+      "PI": 6,
+      "TIBBIR": 6,
+      "MYX": 6,
+      "RIVER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AGLD": 3,
+        "PUNCH": 3,
+        "PIPPIN": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "AZTEC": 3,
+        "PENGU": 3,
+        "KITE": 3,
+        "OP": 3,
+        "INJ": 3,
+        "PI": 3,
+        "TIBBIR": 3,
+        "MYX": 3,
+        "RIVER": 3,
+        "ETH": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AGLD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Adventure Gold ($AGLD) is trending on CoinGecko"
+        ]
+      },
+      "PUNCH": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "\u30d1\u30f3\u30c1 (Punch) ($PUNCH) is trending on CoinGecko"
+        ]
+      },
+      "PIPPIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pippin ($PIPPIN) is trending on CoinGecko"
         ]
       }
     },

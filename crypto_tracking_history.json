@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-02-13T14:34:55.024967",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "OM": 6,
-      "ESP": 6,
-      "AZTEC": 6,
-      "SOSO": 6,
-      "ZRO": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "PI": 6,
-      "BNKR": 6,
-      "KITE": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "OM": 3,
-        "ESP": 3,
-        "AZTEC": 3,
-        "SOSO": 3,
-        "BTC": 3,
-        "ZRO": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "PI": 3,
-        "BNKR": 3,
-        "KITE": 3,
-        "DOT": 3,
-        "MON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "OM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "MANTRA ($OM) is trending on CoinGecko"
-        ]
-      },
-      "ESP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Espresso ($ESP) is trending on CoinGecko"
-        ]
-      },
-      "AZTEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aztec ($AZTEC) is trending on CoinGecko"
-        ]
-      },
-      "SOSO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "SoSoValue ($SOSO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-13T16:32:27.152893",
     "tickers": {
       "ALPHA": 3,
@@ -10992,6 +10875,113 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-22T12:25:00.913938",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "PUNCH": 6,
+      "AGLD": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "PIPPIN": 6,
+      "ONDO": 6,
+      "MON": 6,
+      "PI": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "PUNCH": 3,
+        "BTC": 3,
+        "AGLD": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "PIPPIN": 3,
+        "ONDO": 3,
+        "MON": 3,
+        "LINK": 3,
+        "OP": 3,
+        "PI": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PUNCH": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "\u30d1\u30f3\u30c1 (Punch) ($PUNCH) is trending on CoinGecko"
+        ]
+      },
+      "AGLD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Adventure Gold ($AGLD) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

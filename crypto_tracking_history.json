@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-02-14T05:10:24.707037",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RIVER": 6,
-      "MON": 6,
-      "ESP": 6,
-      "VVV": 6,
-      "PENGU": 6,
-      "PIPPIN": 6,
-      "TAO": 6,
-      "HYPE": 6,
-      "AAVE": 6,
-      "ZEC": 6,
-      "OM": 6,
-      "VIRTUAL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RIVER": 3,
-        "BTC": 3,
-        "MON": 3,
-        "ESP": 3,
-        "VVV": 3,
-        "PENGU": 3,
-        "PIPPIN": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "HYPE": 3,
-        "AAVE": 3,
-        "ZEC": 3,
-        "HBAR": 3,
-        "OM": 3,
-        "VIRTUAL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "ESP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Espresso ($ESP) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-14T06:31:53.659667",
     "tickers": {
       "ALPHA": 3,
@@ -10919,6 +10801,103 @@
         ],
         "sample_posts": [
           "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-23T04:12:38.510909",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "SUI": 6,
+      "PIPPIN": 6,
+      "HYPE": 6,
+      "TAO": 6,
+      "AAVE": 6,
+      "PUNCH": 6,
+      "PI": 6,
+      "AZTEC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "DOT": 3,
+        "PIPPIN": 3,
+        "HYPE": 3,
+        "TAO": 3,
+        "AAVE": 3,
+        "XRP": 3,
+        "PUNCH": 3,
+        "PI": 3,
+        "AZTEC": 3,
+        "OP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
         ]
       }
     },

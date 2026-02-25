@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-02-16T20:18:36.675870",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RPL": 6,
-      "PENGU": 6,
-      "INIT": 6,
-      "ESP": 6,
-      "TAO": 6,
-      "VVV": 6,
-      "PIPPIN": 6,
-      "BCH": 6,
-      "POL": 6,
-      "SUI": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RPL": 3,
-        "BTC": 3,
-        "XRP": 3,
-        "PENGU": 3,
-        "INIT": 3,
-        "ESP": 3,
-        "TAO": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "VVV": 3,
-        "PIPPIN": 3,
-        "BCH": 3,
-        "POL": 3,
-        "SUI": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RPL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rocket Pool ($RPL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "INIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Initia ($INIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-16T22:17:03.596625",
     "tickers": {
       "ALPHA": 3,
@@ -10798,6 +10690,106 @@
         ],
         "sample_posts": [
           "Power Protocol ($POWER) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-25T20:25:13.787405",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "POWER": 6,
+      "SUI": 6,
+      "MORPHO": 6,
+      "TAO": 6,
+      "PENGU": 6,
+      "VIRTUAL": 6,
+      "HYPE": 6,
+      "MON": 6,
+      "VVV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "DOT": 3,
+        "POWER": 3,
+        "SOL": 5,
+        "SUI": 3,
+        "MORPHO": 3,
+        "TAO": 3,
+        "PENGU": 3,
+        "XRP": 3,
+        "ETH": 5,
+        "VIRTUAL": 3,
+        "HYPE": 3,
+        "MON": 3,
+        "VVV": 3,
+        "APT": 3,
+        "DOGE": 2,
+        "ADA": 2,
+        "LINK": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "POWER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Power Protocol ($POWER) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
         ]
       }
     },

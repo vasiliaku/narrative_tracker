@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-02-16T12:37:04.943382",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "INIT": 6,
-      "PIPPIN": 6,
-      "TAO": 6,
-      "HYPE": 6,
-      "AAVE": 6,
-      "HNT": 6,
-      "KAS": 6,
-      "ZAMA": 6,
-      "AZTEC": 6,
-      "PENGU": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "INIT": 3,
-        "BTC": 3,
-        "PIPPIN": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "ETH": 3,
-        "XRP": 3,
-        "HYPE": 3,
-        "AAVE": 3,
-        "HNT": 3,
-        "KAS": 3,
-        "ZAMA": 3,
-        "AZTEC": 3,
-        "PENGU": 3,
-        "PEPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "INIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Initia ($INIT) is trending on CoinGecko"
-        ]
-      },
-      "PIPPIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pippin ($PIPPIN) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-16T14:35:53.411549",
     "tickers": {
       "ALPHA": 3,
@@ -10786,6 +10678,125 @@
         ],
         "sample_posts": [
           "Dent ($DENT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-25T12:37:49.243341",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ESP": 6,
+      "PENGU": 6,
+      "VIRTUAL": 6,
+      "ARC": 6,
+      "MORPHO": 6,
+      "AAVE": 6,
+      "ONDO": 6,
+      "DENT": 6,
+      "PIPPIN": 6,
+      "GWEI": 6,
+      "AXL": 6,
+      "VVV": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "ESP": 3,
+        "PENGU": 3,
+        "VIRTUAL": 3,
+        "ARC": 3,
+        "MORPHO": 3,
+        "AAVE": 3,
+        "ONDO": 3,
+        "DENT": 3,
+        "PIPPIN": 3,
+        "GWEI": 3,
+        "AXL": 3,
+        "VVV": 3,
+        "ETH": 3,
+        "SUI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ESP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Espresso ($ESP) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "VIRTUAL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Virtuals Protocol ($VIRTUAL) is trending on CoinGecko"
+        ]
+      },
+      "ARC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "AI Rig Complex ($ARC) is trending on CoinGecko"
         ]
       }
     },

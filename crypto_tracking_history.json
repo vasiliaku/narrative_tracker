@@ -1,101 +1,5 @@
 [
   {
-    "timestamp": "2026-02-18T01:11:06.510590",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PI": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "RIVER": 6,
-      "TAO": 6,
-      "AAVE": 6,
-      "MON": 6,
-      "ZORA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "PI": 3,
-        "LINK": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "RIVER": 3,
-        "TAO": 3,
-        "ETH": 3,
-        "AAVE": 3,
-        "MON": 3,
-        "LTC": 3,
-        "ATOM": 3,
-        "XRP": 3,
-        "ZORA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-18T04:10:30.646019",
     "tickers": {
       "ALPHA": 3,
@@ -10803,6 +10707,122 @@
         ],
         "sample_posts": [
           "River ($RIVER) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T01:06:01.604473",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "POWER": 6,
+      "PENGU": 6,
+      "PIPPIN": 6,
+      "HYPE": 6,
+      "MON": 6,
+      "SKR": 6,
+      "KAS": 6,
+      "RIVER": 6,
+      "JUP": 6,
+      "GWEI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "POWER": 3,
+        "PENGU": 3,
+        "PIPPIN": 3,
+        "HYPE": 3,
+        "DOT": 3,
+        "ETH": 3,
+        "MON": 3,
+        "SKR": 3,
+        "KAS": 3,
+        "UNI": 3,
+        "XLM": 3,
+        "RIVER": 3,
+        "JUP": 3,
+        "GWEI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "POWER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Power Protocol ($POWER) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PIPPIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pippin ($PIPPIN) is trending on CoinGecko"
         ]
       },
       "HYPE": {

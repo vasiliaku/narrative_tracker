@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-02-18T16:51:16.548451",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ESP": 6,
-      "WLFI": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "ZEC": 6,
-      "PI": 6,
-      "CC": 6,
-      "POL": 6,
-      "MORPHO": 6,
-      "ENA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ESP": 3,
-        "WLFI": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "ZEC": 3,
-        "PI": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "CC": 3,
-        "POL": 3,
-        "AVAX": 3,
-        "MORPHO": 3,
-        "ENA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ESP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Espresso ($ESP) is trending on CoinGecko"
-        ]
-      },
-      "WLFI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "World Liberty Financial ($WLFI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-18T18:37:39.251530",
     "tickers": {
       "ALPHA": 3,
@@ -10859,6 +10742,113 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T16:28:36.992466",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ROBO": 6,
+      "SAHARA": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "VVV": 6,
+      "CC": 6,
+      "TAO": 6,
+      "PUNCH": 6,
+      "RIVER": 6,
+      "PIPPIN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ROBO": 3,
+        "SAHARA": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "VVV": 3,
+        "CC": 3,
+        "ETH": 3,
+        "XRP": 3,
+        "TAO": 3,
+        "PUNCH": 3,
+        "RIVER": 3,
+        "NEAR": 3,
+        "PIPPIN": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ROBO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fabric Protocol ($ROBO) is trending on CoinGecko"
+        ]
+      },
+      "SAHARA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sahara AI ($SAHARA) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

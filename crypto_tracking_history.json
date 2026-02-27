@@ -1,92 +1,5 @@
 [
   {
-    "timestamp": "2026-02-18T18:37:39.251530",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ESP": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "WLFI": 6,
-      "TAO": 6,
-      "SUI": 6,
-      "BERA": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "OP": 3,
-        "ESP": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "ATOM": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "WLFI": 3,
-        "TAO": 3,
-        "XRP": 3,
-        "LINK": 3,
-        "SUI": 3,
-        "BERA": 3,
-        "MON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ESP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Espresso ($ESP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-18T20:27:54.126249",
     "tickers": {
       "ALPHA": 3,
@@ -10849,6 +10762,115 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T18:27:12.523512",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "ROBO": 6,
+      "SAHARA": 6,
+      "VVV": 6,
+      "TAO": 6,
+      "POWER": 6,
+      "SUI": 6,
+      "CC": 6,
+      "HYPE": 6,
+      "PIPPIN": 6,
+      "ZAMA": 6,
+      "ME": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "ROBO": 3,
+        "BTC": 3,
+        "SAHARA": 3,
+        "ETH": 3,
+        "VVV": 3,
+        "TAO": 3,
+        "SOL": 3,
+        "POWER": 3,
+        "SUI": 3,
+        "CC": 3,
+        "HYPE": 3,
+        "PIPPIN": 3,
+        "ZAMA": 3,
+        "ME": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ROBO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fabric Protocol ($ROBO) is trending on CoinGecko"
+        ]
+      },
+      "SAHARA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sahara AI ($SAHARA) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

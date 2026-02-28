@@ -1,91 +1,5 @@
 [
   {
-    "timestamp": "2026-02-19T20:21:05.784499",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TAO": 6,
-      "PENGU": 6,
-      "RIVER": 6,
-      "PUNCH": 6,
-      "KAS": 6,
-      "AAVE": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "OP": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "ARB": 3,
-        "PENGU": 3,
-        "RIVER": 3,
-        "PUNCH": 3,
-        "ETH": 3,
-        "LINK": 3,
-        "UNI": 3,
-        "XRP": 3,
-        "KAS": 3,
-        "AAVE": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-19T22:20:32.204854",
     "tickers": {
       "ALPHA": 3,
@@ -10979,6 +10893,119 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-28T18:18:06.701719",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PAXG": 6,
+      "VVV": 6,
+      "POWER": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "ROBO": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PAXG": 3,
+        "VVV": 3,
+        "POWER": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "ROBO": 3,
+        "ARB": 3,
+        "XRP": 3,
+        "ETH": 3,
+        "DOT": 3,
+        "SUI": 3,
+        "HBAR": 3,
+        "OP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PAXG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "PAX Gold ($PAXG) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "POWER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Power Protocol ($POWER) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

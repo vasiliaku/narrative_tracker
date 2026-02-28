@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-02-19T08:30:59.011084",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TAO": 6,
-      "ESP": 6,
-      "HYPE": 6,
-      "ZAMA": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "WLFI": 6,
-      "STX": 6,
-      "PI": 6,
-      "OM": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "OP": 3,
-        "BTC": 3,
-        "TAO": 3,
-        "ESP": 3,
-        "HYPE": 3,
-        "ZAMA": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "ETH": 3,
-        "WLFI": 3,
-        "STX": 3,
-        "APT": 3,
-        "SOL": 3,
-        "PI": 3,
-        "OM": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "ESP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Espresso ($ESP) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-19T10:32:23.625675",
     "tickers": {
       "ALPHA": 3,
@@ -10886,6 +10779,114 @@
         ],
         "sample_posts": [
           "ETHGas ($GWEI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-28T06:24:12.059845",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SUI": 6,
+      "ROBO": 6,
+      "PENGU": 6,
+      "GWEI": 6,
+      "VVV": 6,
+      "LUNC": 6,
+      "PEPE": 6,
+      "MON": 6,
+      "TON": 6,
+      "ZEC": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "SUI": 3,
+        "ROBO": 3,
+        "PENGU": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "GWEI": 3,
+        "VVV": 3,
+        "LUNC": 3,
+        "PEPE": 3,
+        "MON": 3,
+        "TON": 3,
+        "DOGE": 3,
+        "ZEC": 3,
+        "PI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      },
+      "ROBO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fabric Protocol ($ROBO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

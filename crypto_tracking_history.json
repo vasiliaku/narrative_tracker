@@ -1,111 +1,5 @@
 [
   {
-    "timestamp": "2026-02-22T14:17:11.479596",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AGLD": 6,
-      "PENGU": 6,
-      "PUNCH": 6,
-      "KITE": 6,
-      "ZRO": 6,
-      "PIPPIN": 6,
-      "JUP": 6,
-      "AZTEC": 6,
-      "MORPHO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "AGLD": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "PUNCH": 3,
-        "KITE": 3,
-        "ETH": 3,
-        "XRP": 3,
-        "ZRO": 3,
-        "APT": 3,
-        "PIPPIN": 3,
-        "JUP": 3,
-        "AZTEC": 3,
-        "MORPHO": 3,
-        "ADA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AGLD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Adventure Gold ($AGLD) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PUNCH": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "\u30d1\u30f3\u30c1 (Punch) ($PUNCH) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-22T16:16:43.546453",
     "tickers": {
       "ALPHA": 3,
@@ -11071,6 +10965,113 @@
         ],
         "sample_posts": [
           "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T14:36:44.629361",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VVV": 6,
+      "RIVER": 6,
+      "AAVE": 6,
+      "SUI": 6,
+      "PHA": 6,
+      "PUMP": 6,
+      "OM": 6,
+      "TAO": 6,
+      "MANTRA": 6,
+      "ROBO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VVV": 3,
+        "NEAR": 3,
+        "RIVER": 3,
+        "AAVE": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "SUI": 3,
+        "PHA": 3,
+        "ETH": 3,
+        "PUMP": 3,
+        "OM": 3,
+        "TAO": 3,
+        "MANTRA": 3,
+        "ADA": 3,
+        "ROBO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "RIVER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "River ($RIVER) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
         ]
       }
     },

@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-02-24T20:23:21.540700",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STIBA": 6,
-      "FT": 6,
-      "ENSO": 6,
-      "PENGU": 6,
-      "ESP": 6,
-      "PIPPIN": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "SUI": 6,
-      "S": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "STIBA": 3,
-        "FT": 3,
-        "ENSO": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "ESP": 3,
-        "PIPPIN": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "SUI": 3,
-        "UNI": 3,
-        "S": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STIBA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Wall Street Shiba ($STIBA) is trending on CoinGecko"
-        ]
-      },
-      "FT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Flying Tulip ($FT) is trending on CoinGecko"
-        ]
-      },
-      "ENSO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Enso ($ENSO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-24T22:22:57.045264",
     "tickers": {
       "ALPHA": 3,
@@ -11201,6 +11094,125 @@
         ],
         "sample_posts": [
           "WAR ($WAR) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-05T19:07:06.425798",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WAR": 6,
+      "OPN": 6,
+      "OKB": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "AVNT": 6,
+      "TWT": 6,
+      "VVV": 6,
+      "POWER": 6,
+      "PAXG": 6,
+      "MON": 6,
+      "RIVER": 6,
+      "ROBO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "WAR": 3,
+        "OPN": 3,
+        "OKB": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "AVNT": 3,
+        "TWT": 3,
+        "VVV": 3,
+        "POWER": 3,
+        "PAXG": 3,
+        "MON": 3,
+        "RIVER": 3,
+        "ROBO": 3,
+        "ETH": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WAR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "WAR ($WAR) is trending on CoinGecko"
+        ]
+      },
+      "OPN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Opinion ($OPN) is trending on CoinGecko"
+        ]
+      },
+      "OKB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "OKB ($OKB) is trending on CoinGecko"
         ]
       },
       "PENGU": {

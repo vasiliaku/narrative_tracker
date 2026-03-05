@@ -1,111 +1,5 @@
 [
   {
-    "timestamp": "2026-02-24T06:46:11.904929",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SKR": 6,
-      "ESP": 6,
-      "FT": 6,
-      "HYPE": 6,
-      "PI": 6,
-      "MET": 6,
-      "SUI": 6,
-      "ZAMA": 6,
-      "PENGU": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SKR": 3,
-        "ESP": 3,
-        "BTC": 3,
-        "ETH": 3,
-        "FT": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "PI": 3,
-        "MET": 3,
-        "SUI": 3,
-        "ZAMA": 3,
-        "BNB": 3,
-        "PENGU": 3,
-        "XRP": 3,
-        "LTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "ESP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Espresso ($ESP) is trending on CoinGecko"
-        ]
-      },
-      "FT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Flying Tulip ($FT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-24T08:34:10.876696",
     "tickers": {
       "ALPHA": 3,
@@ -11156,6 +11050,124 @@
         ],
         "sample_posts": [
           "Tether Gold ($XAUT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-05T04:02:37.194915",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "MANTRA": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "ROBO": 6,
+      "POWER": 6,
+      "BARD": 6,
+      "MON": 6,
+      "PI": 6,
+      "OM": 6,
+      "AERO": 6,
+      "SUI": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "MANTRA": 3,
+        "VVV": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "ROBO": 3,
+        "POWER": 3,
+        "BARD": 3,
+        "ETH": 3,
+        "MON": 3,
+        "PI": 3,
+        "OM": 3,
+        "AERO": 3,
+        "OP": 3,
+        "SUI": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "MANTRA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "MANTRA ($MANTRA) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ROBO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fabric Protocol ($ROBO) is trending on CoinGecko"
         ]
       }
     },

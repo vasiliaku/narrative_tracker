@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-02-26T14:41:35.980373",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PROJECT89": 6,
-      "POWER": 6,
-      "PENGU": 6,
-      "GWEI": 6,
-      "CC": 6,
-      "MET": 6,
-      "CFG": 6,
-      "PIPPIN": 6,
-      "ARC": 6,
-      "DENT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "PROJECT89": 3,
-        "POWER": 3,
-        "PENGU": 3,
-        "GWEI": 3,
-        "CC": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "DOT": 3,
-        "MET": 3,
-        "CFG": 3,
-        "PIPPIN": 3,
-        "ARC": 3,
-        "XRP": 3,
-        "DENT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PROJECT89": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Project 89 ($PROJECT89) is trending on CoinGecko"
-        ]
-      },
-      "POWER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Power Protocol ($POWER) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "GWEI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ETHGas ($GWEI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-02-26T16:44:57.046980",
     "tickers": {
       "ALPHA": 3,
@@ -11294,6 +11178,124 @@
         ],
         "sample_posts": [
           "River ($RIVER) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-07T08:18:00.603243",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FAI": 6,
+      "AKT": 6,
+      "PI": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "RIVER": 6,
+      "HYPE": 6,
+      "OPN": 6,
+      "VIRTUAL": 6,
+      "MANTRA": 6,
+      "ZEC": 6,
+      "ASTER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "FAI": 3,
+        "AKT": 3,
+        "PI": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "RIVER": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "OPN": 3,
+        "VIRTUAL": 3,
+        "MANTRA": 3,
+        "ZEC": 3,
+        "XRP": 3,
+        "ASTER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FAI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Freysa AI ($FAI) is trending on CoinGecko"
+        ]
+      },
+      "AKT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Akash Network ($AKT) is trending on CoinGecko"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

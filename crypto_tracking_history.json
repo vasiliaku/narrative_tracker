@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-03-02T01:07:17.732953",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "VVV": 6,
-      "HYPE": 6,
-      "PAXG": 6,
-      "XAUT": 6,
-      "CFG": 6,
-      "PI": 6,
-      "ESP": 6,
-      "PENGU": 6,
-      "WLD": 6,
-      "PUNCH": 6,
-      "AZTEC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "VVV": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "PAXG": 3,
-        "XAUT": 3,
-        "SOL": 3,
-        "CFG": 3,
-        "PI": 3,
-        "ESP": 3,
-        "PENGU": 3,
-        "WLD": 3,
-        "ETH": 3,
-        "XRP": 3,
-        "PUNCH": 3,
-        "AZTEC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PAXG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "PAX Gold ($PAXG) is trending on CoinGecko"
-        ]
-      },
-      "XAUT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tether Gold ($XAUT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-02T04:03:57.304813",
     "tickers": {
       "ALPHA": 3,
@@ -11332,6 +11215,133 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-10T18:34:32.547613",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "NEIRO": 6,
+      "SUN": 6,
+      "WIN": 6,
+      "FLOW": 6,
+      "PI": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "HYPE": 6,
+      "FET": 6,
+      "RENDER": 6,
+      "XAUT": 6,
+      "PLUME": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "NEIRO": 3,
+        "SUN": 3,
+        "WIN": 3,
+        "FLOW": 3,
+        "PI": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "FET": 3,
+        "SOL": 3,
+        "RENDER": 3,
+        "XAUT": 3,
+        "PLUME": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "NEIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Neiro ($NEIRO) is trending on CoinGecko"
+        ]
+      },
+      "SUN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sun Token ($SUN) is trending on CoinGecko"
+        ]
+      },
+      "WIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "WINkLink ($WIN) is trending on CoinGecko"
+        ]
+      },
+      "FLOW": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Flow ($FLOW) is trending on CoinGecko"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

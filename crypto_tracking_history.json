@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-03-03T04:04:55.724954",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FAI": 6,
-      "PENGU": 6,
-      "VVV": 6,
-      "ROBO": 6,
-      "KITE": 6,
-      "WAR": 6,
-      "HYPE": 6,
-      "VIRTUAL": 6,
-      "POWER": 6,
-      "SIREN": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FAI": 3,
-        "PENGU": 3,
-        "VVV": 3,
-        "BTC": 3,
-        "NEAR": 3,
-        "SOL": 3,
-        "ROBO": 3,
-        "KITE": 3,
-        "WAR": 3,
-        "HYPE": 3,
-        "XRP": 3,
-        "VIRTUAL": 3,
-        "POWER": 3,
-        "SIREN": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FAI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Freysa AI ($FAI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-03T06:37:08.247760",
     "tickers": {
       "ALPHA": 3,
@@ -11363,6 +11256,122 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-11T18:39:54.876524",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ACX": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "ICP": 6,
+      "SUI": 6,
+      "XAI": 6,
+      "RIVER": 6,
+      "TAO": 6,
+      "DRV": 6,
+      "RENDER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ACX": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "ICP": 3,
+        "SUI": 3,
+        "XAI": 3,
+        "RIVER": 3,
+        "DOGE": 3,
+        "TAO": 3,
+        "SOL": 3,
+        "LINK": 3,
+        "ETH": 3,
+        "DRV": 3,
+        "RENDER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ACX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Across Protocol ($ACX) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "ICP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Internet Computer ($ICP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-03-05T10:28:58.619555",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BARD": 6,
-      "PI": 6,
-      "PENGU": 6,
-      "MANTRA": 6,
-      "VVV": 6,
-      "TAO": 6,
-      "POWER": 6,
-      "JUP": 6,
-      "PIPPIN": 6,
-      "XAUT": 6,
-      "VIRTUAL": 6,
-      "AAVE": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "BARD": 3,
-        "PI": 3,
-        "PENGU": 3,
-        "MANTRA": 3,
-        "VVV": 3,
-        "TAO": 3,
-        "POWER": 3,
-        "JUP": 3,
-        "PIPPIN": 3,
-        "NEAR": 3,
-        "XAUT": 3,
-        "VIRTUAL": 3,
-        "AAVE": 3,
-        "HYPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BARD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lombard ($BARD) is trending on CoinGecko"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MANTRA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "MANTRA ($MANTRA) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-05T12:35:20.876523",
     "tickers": {
       "ALPHA": 3,
@@ -11496,6 +11377,125 @@
         ],
         "sample_posts": [
           "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-14T04:01:06.986439",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "NEIRO": 6,
+      "TRUMP": 6,
+      "PENGU": 6,
+      "PI": 6,
+      "TAO": 6,
+      "CC": 6,
+      "RIVER": 6,
+      "RENDER": 6,
+      "RON": 6,
+      "MON": 6,
+      "XAUT": 6,
+      "GRASS": 6,
+      "VVV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "NEIRO": 3,
+        "BTC": 3,
+        "TRUMP": 3,
+        "PENGU": 3,
+        "PI": 3,
+        "TAO": 3,
+        "CC": 3,
+        "SOL": 3,
+        "RIVER": 3,
+        "RENDER": 3,
+        "RON": 3,
+        "MON": 3,
+        "XAUT": 3,
+        "GRASS": 3,
+        "VVV": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "NEIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Neiro ($NEIRO) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       },
       "PI": {

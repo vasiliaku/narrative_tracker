@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-03-17T18:45:46.520156",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ASTER": 6,
-      "VEREM": 6,
-      "PIPPIN": 6,
-      "LIT": 6,
-      "TAO": 6,
-      "ZEC": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "MON": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ASTER": 3,
-        "VEREM": 3,
-        "PIPPIN": 3,
-        "LIT": 3,
-        "BTC": 3,
-        "TAO": 3,
-        "ZEC": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "PENGU": 3,
-        "MON": 3,
-        "NEAR": 3,
-        "ONDO": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      },
-      "VEREM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Verified Emeralds ($VEREM) is trending on CoinGecko"
-        ]
-      },
-      "PIPPIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pippin ($PIPPIN) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-17T20:28:25.384197",
     "tickers": {
       "ALPHA": 3,
@@ -11858,6 +11742,114 @@
         ],
         "sample_posts": [
           "Katana ($KAT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-26T18:50:39.770692",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TAO": 6,
+      "KAT": 6,
+      "PENGU": 6,
+      "SIREN": 6,
+      "RAIN": 6,
+      "HYPE": 6,
+      "PRL": 6,
+      "ONDO": 6,
+      "RIVER": 6,
+      "KAS": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "TAO": 3,
+        "KAT": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "SIREN": 3,
+        "RAIN": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "PRL": 3,
+        "XRP": 3,
+        "ONDO": 3,
+        "RIVER": 3,
+        "KAS": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "KAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Katana ($KAT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

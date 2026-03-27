@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-03-18T22:23:01.005235",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HYPE": 6,
-      "TAO": 6,
-      "KAT": 6,
-      "RIVER": 6,
-      "PENGU": 6,
-      "ASTER": 6,
-      "NEIRO": 6,
-      "FARTCOIN": 6,
-      "ZEC": 6,
-      "SIREN": 6,
-      "KAS": 6,
-      "BARD": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "KAT": 3,
-        "RIVER": 3,
-        "PENGU": 3,
-        "ASTER": 3,
-        "NEIRO": 3,
-        "XRP": 3,
-        "ETH": 3,
-        "FARTCOIN": 3,
-        "ZEC": 3,
-        "SIREN": 3,
-        "KAS": 3,
-        "BARD": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "KAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Katana ($KAT) is trending on CoinGecko"
-        ]
-      },
-      "RIVER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "River ($RIVER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-19T01:12:17.797195",
     "tickers": {
       "ALPHA": 3,
@@ -11815,6 +11697,123 @@
         ],
         "sample_posts": [
           "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-27T22:20:56.658482",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "XFLOKI": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "RAIN": 6,
+      "SIREN": 6,
+      "BP": 6,
+      "WLD": 6,
+      "ONDO": 6,
+      "AERO": 6,
+      "ENA": 6,
+      "AAVE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "XFLOKI": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "RAIN": 3,
+        "BTC": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "SIREN": 3,
+        "BP": 3,
+        "WLD": 3,
+        "ONDO": 3,
+        "AERO": 3,
+        "DOT": 3,
+        "ENA": 3,
+        "AAVE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "XFLOKI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "NEW X CEO IS BACK ($XFLOKI) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
         ]
       }
     },

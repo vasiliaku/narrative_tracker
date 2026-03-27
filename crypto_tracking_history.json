@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-03-18T20:25:46.763134",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "NEIRO": 6,
-      "KAT": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "BARD": 6,
-      "ASTER": 6,
-      "TAO": 6,
-      "SUI": 6,
-      "RIVER": 6,
-      "ZRO": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "NEIRO": 3,
-        "KAT": 3,
-        "HYPE": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "BARD": 3,
-        "ASTER": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "SUI": 3,
-        "RIVER": 3,
-        "DOGE": 3,
-        "ZRO": 3,
-        "MON": 3,
-        "NEAR": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "NEIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Neiro ($NEIRO) is trending on CoinGecko"
-        ]
-      },
-      "KAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Katana ($KAT) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-18T22:23:01.005235",
     "tickers": {
       "ALPHA": 3,
@@ -11815,6 +11698,123 @@
         ],
         "sample_posts": [
           "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-27T20:25:58.547400",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "XFLOKI": 6,
+      "RAIN": 6,
+      "TAO": 6,
+      "ONDO": 6,
+      "HYPE": 6,
+      "SIREN": 6,
+      "SEI": 6,
+      "SUI": 6,
+      "RIVER": 6,
+      "PI": 6,
+      "PENGU": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "XFLOKI": 3,
+        "RAIN": 3,
+        "BTC": 3,
+        "TAO": 3,
+        "ONDO": 3,
+        "HYPE": 3,
+        "SIREN": 3,
+        "ETH": 3,
+        "LINK": 3,
+        "SEI": 3,
+        "SUI": 3,
+        "RIVER": 3,
+        "PI": 3,
+        "APT": 3,
+        "PENGU": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "XFLOKI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "NEW X CEO IS BACK ($XFLOKI) is trending on CoinGecko"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
         ]
       }
     },

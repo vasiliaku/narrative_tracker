@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-03-22T06:37:31.632062",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "USR": 6,
-      "RESOLV": 6,
-      "TAO": 6,
-      "SIREN": 6,
-      "RLP": 6,
-      "SUI": 6,
-      "RIVER": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "ONDO": 6,
-      "KAS": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "USR": 3,
-        "RESOLV": 3,
-        "BTC": 3,
-        "TAO": 3,
-        "SIREN": 3,
-        "RLP": 3,
-        "XRP": 3,
-        "SUI": 3,
-        "RIVER": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "HYPE": 3,
-        "ONDO": 3,
-        "KAS": 3,
-        "PEPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "USR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Resolv USR ($USR) is trending on CoinGecko"
-        ]
-      },
-      "RESOLV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Resolv ($RESOLV) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-22T08:22:00.783984",
     "tickers": {
       "ALPHA": 3,
@@ -11891,6 +11773,135 @@
         ],
         "sample_posts": [
           "Frankencoin ($ZCHF) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T08:45:31.141581",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "EDGE": 6,
+      "QRL": 6,
+      "BASED": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "CORE": 6,
+      "MON": 6,
+      "ZCHF": 6,
+      "FET": 6,
+      "KERNEL": 6,
+      "AAVE": 6,
+      "TWT": 6,
+      "ZRO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "EDGE": 3,
+        "QRL": 3,
+        "BASED": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "BTC": 3,
+        "SUI": 3,
+        "CORE": 3,
+        "MON": 3,
+        "ZCHF": 3,
+        "FET": 3,
+        "KERNEL": 3,
+        "AAVE": 3,
+        "TWT": 3,
+        "ZRO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "EDGE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "EdgeX ($EDGE) is trending on CoinGecko"
+        ]
+      },
+      "QRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quantum Resistant Ledger ($QRL) is trending on CoinGecko"
+        ]
+      },
+      "BASED": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Based ($BASED) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
         ]
       }
     },

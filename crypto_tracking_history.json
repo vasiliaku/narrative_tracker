@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-03-22T20:14:53.226548",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SIREN": 6,
-      "TAO": 6,
-      "BR": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "FLUID": 6,
-      "USR": 6,
-      "SUI": 6,
-      "FET": 6,
-      "KAT": 6,
-      "RENDER": 6,
-      "PIPPIN": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SIREN": 3,
-        "TAO": 3,
-        "BR": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "FLUID": 3,
-        "USR": 3,
-        "SUI": 3,
-        "FET": 3,
-        "KAT": 3,
-        "ETH": 3,
-        "RENDER": 3,
-        "PIPPIN": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "BR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bedrock ($BR) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-22T22:14:55.121442",
     "tickers": {
       "ALPHA": 3,
@@ -11884,6 +11766,133 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T22:24:16.390673",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "POL": 6,
+      "SIREN": 6,
+      "PENGU": 6,
+      "QRL": 6,
+      "HYPE": 6,
+      "EDGE": 6,
+      "KTA": 6,
+      "TAO": 6,
+      "WKC": 6,
+      "RIVER": 6,
+      "MON": 6,
+      "BASED": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "POL": 3,
+        "SIREN": 3,
+        "PENGU": 3,
+        "QRL": 3,
+        "HYPE": 3,
+        "EDGE": 3,
+        "BTC": 3,
+        "KTA": 3,
+        "TAO": 3,
+        "XRP": 3,
+        "WKC": 3,
+        "ALGO": 3,
+        "RIVER": 3,
+        "MON": 3,
+        "BASED": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "POL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "POL (ex-MATIC) ($POL) is trending on CoinGecko"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "QRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quantum Resistant Ledger ($QRL) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

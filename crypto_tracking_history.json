@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-03-23T20:28:26.122532",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "GPUAI": 6,
-      "BP": 6,
-      "SIREN": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "RAIN": 6,
-      "AKT": 6,
-      "KAT": 6,
-      "HYPE": 6,
-      "USR": 6,
-      "MON": 6,
-      "PEPE": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "GPUAI": 3,
-        "BTC": 3,
-        "BP": 3,
-        "SIREN": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "RAIN": 3,
-        "AKT": 3,
-        "KAT": 3,
-        "HYPE": 3,
-        "USR": 3,
-        "MON": 3,
-        "ETH": 3,
-        "PEPE": 3,
-        "PI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "GPUAI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GPU AI ($GPUAI) is trending on CoinGecko"
-        ]
-      },
-      "BP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Backpack ($BP) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-23T22:20:42.355310",
     "tickers": {
       "ALPHA": 3,
@@ -11867,6 +11748,134 @@
         ],
         "sample_posts": [
           "StakeStone ($STO) is trending on CoinGecko"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-01T22:26:39.418239",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DRIFT": 6,
+      "STO": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "SIREN": 6,
+      "ERG": 6,
+      "MUSD": 6,
+      "HYPE": 6,
+      "MON": 6,
+      "FET": 6,
+      "ZBCN": 6,
+      "KAT": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DRIFT": 3,
+        "STO": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "SIREN": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "ERG": 3,
+        "MUSD": 3,
+        "HYPE": 3,
+        "MON": 3,
+        "FET": 3,
+        "ZBCN": 3,
+        "KAT": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DRIFT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Drift Protocol ($DRIFT) is trending on CoinGecko"
+        ]
+      },
+      "STO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "StakeStone ($STO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
         ]
       },
       "SIREN": {

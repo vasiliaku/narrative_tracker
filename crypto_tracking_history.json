@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-03-25T10:38:33.297192",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "XTZ": 6,
-      "TAO": 6,
-      "SIREN": 6,
-      "MON": 6,
-      "HYPE": 6,
-      "BP": 6,
-      "SUN": 6,
-      "PENGU": 6,
-      "BSB": 6,
-      "FET": 6,
-      "VIRTUAL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "XTZ": 3,
-        "TAO": 3,
-        "SIREN": 3,
-        "MON": 3,
-        "HYPE": 3,
-        "BP": 3,
-        "SUN": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "BSB": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "FET": 3,
-        "VIRTUAL": 3,
-        "UNI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "XTZ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tezos ($XTZ) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-25T12:41:02.024333",
     "tickers": {
       "ALPHA": 3,
@@ -11819,6 +11693,114 @@
         ],
         "sample_posts": [
           "StakeStone ($STO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T12:37:57.248709",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "EDGE": 6,
+      "STO": 6,
+      "TAO": 6,
+      "MON": 6,
+      "SIREN": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "MEZO": 6,
+      "FET": 6,
+      "LIT": 6,
+      "RIVER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "EDGE": 3,
+        "STO": 3,
+        "TAO": 3,
+        "ALGO": 3,
+        "BTC": 3,
+        "MON": 3,
+        "SIREN": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "MEZO": 3,
+        "FET": 3,
+        "ETH": 3,
+        "LIT": 3,
+        "RIVER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "EDGE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "edgeX ($EDGE) is trending on CoinGecko"
+        ]
+      },
+      "STO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "StakeStone ($STO) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
         ]
       }
     },

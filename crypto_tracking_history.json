@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-03-29T18:26:40.293851",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TAO": 6,
-      "SIREN": 6,
-      "CORE": 6,
-      "HYPE": 6,
-      "RAIN": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "BP": 6,
-      "LIT": 6,
-      "ZBCN": 6,
-      "PI": 6,
-      "FET": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TAO": 3,
-        "SIREN": 3,
-        "CORE": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "RAIN": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "BP": 3,
-        "LIT": 3,
-        "ZBCN": 3,
-        "PI": 3,
-        "XRP": 3,
-        "FET": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "CORE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Core ($CORE) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-29T20:19:54.765791",
     "tickers": {
       "ALPHA": 3,
@@ -11757,6 +11639,124 @@
         ],
         "sample_posts": [
           "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T20:35:14.885931",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BRISE": 6,
+      "AAVE": 6,
+      "TAO": 6,
+      "HYPE": 6,
+      "SIREN": 6,
+      "EDGE": 6,
+      "MON": 6,
+      "SUI": 6,
+      "SWARMS": 6,
+      "USDC": 6,
+      "VVV": 6,
+      "MORPHO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BRISE": 3,
+        "AAVE": 3,
+        "BTC": 3,
+        "TAO": 3,
+        "HYPE": 3,
+        "SIREN": 3,
+        "EDGE": 3,
+        "MON": 3,
+        "SUI": 3,
+        "DOT": 3,
+        "SWARMS": 3,
+        "USDC": 3,
+        "VVV": 3,
+        "LINK": 3,
+        "MORPHO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BRISE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitgert ($BRISE) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

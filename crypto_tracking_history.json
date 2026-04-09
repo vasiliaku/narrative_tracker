@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-03-31T07:01:06.041984",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BASED": 6,
-      "PENGU": 6,
-      "MON": 6,
-      "ZCHF": 6,
-      "TAO": 6,
-      "HYPE": 6,
-      "BP": 6,
-      "RIVER": 6,
-      "LIT": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BASED": 3,
-        "PENGU": 3,
-        "MON": 3,
-        "ZCHF": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "BP": 3,
-        "ETH": 3,
-        "RIVER": 3,
-        "LINK": 3,
-        "LIT": 3,
-        "HBAR": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BASED": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Based ($BASED) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "ZCHF": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Frankencoin ($ZCHF) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-31T08:45:31.141581",
     "tickers": {
       "ALPHA": 3,
@@ -11748,6 +11632,133 @@
         ],
         "sample_posts": [
           "World Liberty Financial ($WLFI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-09T08:58:37.112389",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FARTCOIN": 6,
+      "BLUR": 6,
+      "ENJ": 6,
+      "MON": 6,
+      "ZEC": 6,
+      "SIREN": 6,
+      "HYPE": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "FET": 6,
+      "XPL": 6,
+      "STO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FARTCOIN": 3,
+        "BLUR": 3,
+        "ENJ": 3,
+        "MON": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "SIREN": 3,
+        "ETH": 3,
+        "HYPE": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "FET": 3,
+        "XPL": 3,
+        "STO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FARTCOIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fartcoin ($FARTCOIN) is trending on CoinGecko"
+        ]
+      },
+      "BLUR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Blur ($BLUR) is trending on CoinGecko"
+        ]
+      },
+      "ENJ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Enjin Coin ($ENJ) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
         ]
       }
     },

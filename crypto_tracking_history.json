@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-03-31T14:53:42.483658",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "EDGE": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "QRL": 6,
-      "BASED": 6,
-      "HYPE": 6,
-      "BP": 6,
-      "LIT": 6,
-      "CORE": 6,
-      "WKC": 6,
-      "CC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "EDGE": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "TAO": 3,
-        "QRL": 3,
-        "BASED": 3,
-        "HYPE": 3,
-        "BP": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "LIT": 3,
-        "CORE": 3,
-        "WKC": 3,
-        "CC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "EDGE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "edgeX ($EDGE) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-31T16:46:19.018771",
     "tickers": {
       "ALPHA": 3,
@@ -11763,6 +11645,122 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-09T16:56:18.641271",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ARIA": 6,
+      "SIREN": 6,
+      "MON": 6,
+      "FARTCOIN": 6,
+      "TAO": 6,
+      "PENGU": 6,
+      "ENA": 6,
+      "ZEC": 6,
+      "TON": 6,
+      "DRV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "ARIA": 3,
+        "SIREN": 3,
+        "MON": 3,
+        "FARTCOIN": 3,
+        "TAO": 3,
+        "PENGU": 3,
+        "ENA": 3,
+        "ETH": 3,
+        "ZEC": 3,
+        "LINK": 3,
+        "TON": 3,
+        "DRV": 3,
+        "SOL": 3,
+        "XRP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ARIA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aria.AI ($ARIA) is trending on CoinGecko"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "FARTCOIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fartcoin ($FARTCOIN) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

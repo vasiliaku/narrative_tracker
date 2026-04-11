@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-02T10:42:06.523926",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STO": 6,
-      "NOM": 6,
-      "SIREN": 6,
-      "DRIFT": 6,
-      "SUI": 6,
-      "PENGU": 6,
-      "BASED": 6,
-      "EDGE": 6,
-      "TAO": 6,
-      "STABLE": 6,
-      "ENA": 6,
-      "TON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "STO": 3,
-        "NOM": 3,
-        "SIREN": 3,
-        "DRIFT": 3,
-        "SUI": 3,
-        "BTC": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "BASED": 3,
-        "EDGE": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "STABLE": 3,
-        "ENA": 3,
-        "TON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "StakeStone ($STO) is trending on CoinGecko"
-        ]
-      },
-      "NOM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Nomina ($NOM) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "DRIFT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Drift Protocol ($DRIFT) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-02T12:45:31.662141",
     "tickers": {
       "ALPHA": 3,
@@ -11916,6 +11789,132 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-11T12:33:03.109264",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "OVPP": 6,
+      "TAO": 6,
+      "SIREN": 6,
+      "RAVE": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "HYPE": 6,
+      "WLFI": 6,
+      "AAVE": 6,
+      "RIVER": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "OVPP": 3,
+        "TAO": 3,
+        "SIREN": 3,
+        "RAVE": 3,
+        "VVV": 3,
+        "PENGU": 3,
+        "MON": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "WLFI": 3,
+        "XRP": 3,
+        "ARB": 3,
+        "AAVE": 3,
+        "SOL": 3,
+        "RIVER": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "OVPP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "OpenVPP ($OVPP) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

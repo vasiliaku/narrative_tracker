@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-04-03T18:32:43.841259",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "EDGE": 6,
-      "PIPPIN": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "STO": 6,
-      "SIREN": 6,
-      "HYPE": 6,
-      "RENDER": 6,
-      "MON": 6,
-      "LIT": 6,
-      "ZEC": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "EDGE": 3,
-        "PIPPIN": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "ALGO": 3,
-        "STO": 3,
-        "SIREN": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "RENDER": 3,
-        "MON": 3,
-        "LIT": 3,
-        "ZEC": 3,
-        "PI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "EDGE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "edgeX ($EDGE) is trending on CoinGecko"
-        ]
-      },
-      "PIPPIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pippin ($PIPPIN) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-03T20:23:58.993777",
     "tickers": {
       "ALPHA": 3,
@@ -12011,6 +11893,126 @@
         ],
         "sample_posts": [
           "OpenVPP ($OVPP) is trending on CoinGecko"
+        ]
+      },
+      "0G": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "0G ($0G) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12T20:23:29.005399",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAVE": 6,
+      "PENGU": 6,
+      "WLFI": 6,
+      "0G": 6,
+      "HYPE": 6,
+      "ENJ": 6,
+      "SIREN": 6,
+      "AAVE": 6,
+      "MON": 6,
+      "TRUMP": 6,
+      "PI": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "TRX": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAVE": 3,
+        "PENGU": 3,
+        "WLFI": 3,
+        "0G": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "ENJ": 3,
+        "SIREN": 3,
+        "AAVE": 3,
+        "MON": 3,
+        "TRUMP": 3,
+        "PI": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "TRX": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "WLFI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "World Liberty Financial ($WLFI) is trending on CoinGecko"
         ]
       },
       "0G": {

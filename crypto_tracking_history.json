@@ -1,120 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T10:46:44.649631",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TRU": 6,
-      "PENGU": 6,
-      "MON": 6,
-      "TAO": 6,
-      "STO": 6,
-      "SIREN": 6,
-      "HYPE": 6,
-      "RED": 6,
-      "PIPPIN": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TRU": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "MON": 3,
-        "TAO": 3,
-        "STO": 3,
-        "SIREN": 3,
-        "HYPE": 3,
-        "RED": 3,
-        "LINK": 3,
-        "SOL": 3,
-        "PIPPIN": 3,
-        "XRP": 3,
-        "AVAX": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TRU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "TrueFi ($TRU) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-06T12:44:32.746605",
     "tickers": {
       "ALPHA": 3,
@@ -12071,6 +11956,125 @@
         ],
         "sample_posts": [
           "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-15T12:58:06.080333",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAVE": 6,
+      "BIO": 6,
+      "ENJ": 6,
+      "BLESS": 6,
+      "TAO": 6,
+      "WLFI": 6,
+      "HYPE": 6,
+      "RENDER": 6,
+      "MON": 6,
+      "RIVER": 6,
+      "PEAQ": 6,
+      "VVV": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAVE": 3,
+        "BIO": 3,
+        "ENJ": 3,
+        "BTC": 3,
+        "BLESS": 3,
+        "TAO": 3,
+        "WLFI": 3,
+        "HYPE": 3,
+        "RENDER": 3,
+        "MON": 3,
+        "SOL": 3,
+        "RIVER": 3,
+        "PEAQ": 3,
+        "VVV": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "BIO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bio Protocol ($BIO) is trending on CoinGecko"
+        ]
+      },
+      "ENJ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Enjin Coin ($ENJ) is trending on CoinGecko"
+        ]
+      },
+      "BLESS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bless ($BLESS) is trending on CoinGecko"
         ]
       }
     },

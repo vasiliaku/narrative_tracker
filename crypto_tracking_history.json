@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-04-09T15:13:04.832012",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ARIA": 6,
-      "SIREN": 6,
-      "ENJ": 6,
-      "MON": 6,
-      "FARTCOIN": 6,
-      "TON": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "AAVE": 6,
-      "TAO": 6,
-      "SUI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ARIA": 3,
-        "SIREN": 3,
-        "ENJ": 3,
-        "SOL": 3,
-        "MON": 3,
-        "FARTCOIN": 3,
-        "TON": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "AAVE": 3,
-        "TAO": 3,
-        "ETH": 3,
-        "SUI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ARIA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aria.AI ($ARIA) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "ENJ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Enjin Coin ($ENJ) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-09T16:56:18.641271",
     "tickers": {
       "ALPHA": 3,
@@ -12497,6 +12379,126 @@
         ],
         "sample_posts": [
           "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-18T16:27:05.562993",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAVE": 6,
+      "SIREN": 6,
+      "OVPP": 6,
+      "AVNT": 6,
+      "REQ": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "TAO": 6,
+      "GWEI": 6,
+      "FET": 6,
+      "XPL": 6,
+      "AERO": 6,
+      "SUI": 6,
+      "GENIUS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAVE": 3,
+        "SIREN": 3,
+        "OVPP": 3,
+        "AVNT": 3,
+        "BTC": 3,
+        "REQ": 3,
+        "PENGU": 3,
+        "MON": 3,
+        "TAO": 3,
+        "GWEI": 3,
+        "FET": 3,
+        "XPL": 3,
+        "AERO": 3,
+        "SUI": 3,
+        "GENIUS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      },
+      "OVPP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "OpenVPP ($OVPP) is trending on CoinGecko"
+        ]
+      },
+      "AVNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Avantis ($AVNT) is trending on CoinGecko"
         ]
       }
     },

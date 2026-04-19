@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-04-10T18:38:31.578196",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TAO": 6,
-      "OVPP": 6,
-      "RAVE": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "WLFI": 6,
-      "HYPE": 6,
-      "MON": 6,
-      "FF": 6,
-      "RIVER": 6,
-      "SIREN": 6,
-      "ARIA": 6,
-      "DASH": 6,
-      "CFG": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TAO": 3,
-        "OVPP": 3,
-        "RAVE": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "WLFI": 3,
-        "HYPE": 3,
-        "MON": 3,
-        "FF": 3,
-        "RIVER": 3,
-        "SIREN": 3,
-        "ARIA": 3,
-        "BTC": 3,
-        "DASH": 3,
-        "CFG": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "OVPP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OpenVPP ($OVPP) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-10T20:24:34.420875",
     "tickers": {
       "ALPHA": 3,
@@ -12477,6 +12348,133 @@
         ],
         "sample_posts": [
           "Pieverse ($PIEVERSE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-19T20:25:17.142574",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAVE": 6,
+      "AAVE": 6,
+      "PIEVERSE": 6,
+      "ASTEROID": 6,
+      "BOME": 6,
+      "PENGU": 6,
+      "ZRO": 6,
+      "ONDO": 6,
+      "MORPHO": 6,
+      "SIREN": 6,
+      "VVV": 6,
+      "WOJAK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAVE": 3,
+        "AAVE": 3,
+        "PIEVERSE": 3,
+        "ASTEROID": 3,
+        "BOME": 3,
+        "PENGU": 3,
+        "ZRO": 3,
+        "SOL": 3,
+        "ONDO": 3,
+        "LINK": 3,
+        "MORPHO": 3,
+        "SIREN": 3,
+        "VVV": 3,
+        "BTC": 3,
+        "WOJAK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "PIEVERSE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pieverse ($PIEVERSE) is trending on CoinGecko"
+        ]
+      },
+      "ASTEROID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
+        ]
+      },
+      "BOME": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "BOOK OF MEME ($BOME) is trending on CoinGecko"
         ]
       }
     },

@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-11T06:48:04.785728",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAVE": 6,
-      "TAO": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "PI": 6,
-      "MON": 6,
-      "EDGE": 6,
-      "VVV": 6,
-      "SIREN": 6,
-      "XPL": 6,
-      "CFG": 6,
-      "ZEC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAVE": 3,
-        "TAO": 3,
-        "HYPE": 3,
-        "PENGU": 3,
-        "PI": 3,
-        "ETH": 3,
-        "MON": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "EDGE": 3,
-        "VVV": 3,
-        "SIREN": 3,
-        "XPL": 3,
-        "CFG": 3,
-        "ZEC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-11T08:31:06.123782",
     "tickers": {
       "ALPHA": 3,
@@ -12470,6 +12343,125 @@
         ],
         "sample_posts": [
           "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-20T09:47:37.359830",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAVE": 6,
+      "AAVE": 6,
+      "ASTEROID": 6,
+      "PLLD": 6,
+      "WOJAK": 6,
+      "ZRO": 6,
+      "PENGU": 6,
+      "RIVER": 6,
+      "SIREN": 6,
+      "SKYAI": 6,
+      "HYPE": 6,
+      "M": 6,
+      "USDT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAVE": 3,
+        "AAVE": 3,
+        "ASTEROID": 3,
+        "ADA": 3,
+        "PLLD": 3,
+        "WOJAK": 3,
+        "ZRO": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "RIVER": 3,
+        "SIREN": 3,
+        "SKYAI": 3,
+        "HYPE": 3,
+        "M": 3,
+        "USDT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "ASTEROID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
+        ]
+      },
+      "PLLD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Palladium Network ($PLLD) is trending on CoinGecko"
         ]
       }
     },

@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-11T20:20:39.095519",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "OVPP": 6,
-      "ARIA": 6,
-      "RAVE": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "MON": 6,
-      "TAO": 6,
-      "VVV": 6,
-      "SIREN": 6,
-      "SUI": 6,
-      "TON": 6,
-      "FET": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "OVPP": 3,
-        "ARIA": 3,
-        "RAVE": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "MON": 3,
-        "ETH": 3,
-        "TAO": 3,
-        "VVV": 3,
-        "BTC": 3,
-        "SIREN": 3,
-        "SUI": 3,
-        "TON": 3,
-        "FET": 3,
-        "SOL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "OVPP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OpenVPP ($OVPP) is trending on CoinGecko"
-        ]
-      },
-      "ARIA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aria.AI ($ARIA) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-11T22:20:20.129701",
     "tickers": {
       "ALPHA": 3,
@@ -12466,6 +12339,125 @@
         ],
         "sample_posts": [
           "Monad ($MON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-20T22:33:31.292301",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AAVE": 6,
+      "PENGU": 6,
+      "ASTEROID": 6,
+      "RAVE": 6,
+      "ZRO": 6,
+      "GUN": 6,
+      "HYPE": 6,
+      "TIG": 6,
+      "WOJAK": 6,
+      "ORDI": 6,
+      "SUI": 6,
+      "VVV": 6,
+      "MORPHO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AAVE": 3,
+        "PENGU": 3,
+        "ASTEROID": 3,
+        "BTC": 3,
+        "RAVE": 3,
+        "ZRO": 3,
+        "GUN": 3,
+        "HYPE": 3,
+        "TIG": 3,
+        "WOJAK": 3,
+        "ORDI": 3,
+        "SUI": 3,
+        "VVV": 3,
+        "SOL": 3,
+        "MORPHO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ASTEROID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
         ]
       }
     },

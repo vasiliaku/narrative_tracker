@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-04-13T15:07:17.559054",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAVE": 6,
-      "TAO": 6,
-      "INX": 6,
-      "PENGU": 6,
-      "VVV": 6,
-      "MON": 6,
-      "WLFI": 6,
-      "HYPE": 6,
-      "RIVER": 6,
-      "LIT": 6,
-      "CC": 6,
-      "POL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAVE": 3,
-        "DOT": 3,
-        "TAO": 3,
-        "INX": 3,
-        "PENGU": 3,
-        "VVV": 3,
-        "MON": 3,
-        "WLFI": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "RIVER": 3,
-        "LIT": 3,
-        "SOL": 3,
-        "CC": 3,
-        "POL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "INX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Infinex ($INX) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-13T16:52:59.945942",
     "tickers": {
       "ALPHA": 3,
@@ -12596,6 +12478,125 @@
         ],
         "sample_posts": [
           "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-22T16:48:28.033838",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CHIP": 6,
+      "RAVE": 6,
+      "SPK": 6,
+      "OPG": 6,
+      "PENGU": 6,
+      "ASTEROID": 6,
+      "AAVE": 6,
+      "CORE": 6,
+      "SEI": 6,
+      "RON": 6,
+      "MON": 6,
+      "SPX": 6,
+      "PEPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CHIP": 3,
+        "RAVE": 3,
+        "SPK": 3,
+        "BTC": 3,
+        "OPG": 3,
+        "PENGU": 3,
+        "ASTEROID": 3,
+        "AAVE": 3,
+        "CORE": 3,
+        "SOL": 3,
+        "SEI": 3,
+        "RON": 3,
+        "MON": 3,
+        "SPX": 3,
+        "PEPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CHIP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CHIP ($CHIP) is trending on CoinGecko"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "SPK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Spark ($SPK) is trending on CoinGecko"
+        ]
+      },
+      "OPG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "OpenGradient ($OPG) is trending on CoinGecko"
         ]
       }
     },

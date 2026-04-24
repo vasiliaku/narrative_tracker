@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-04-14T22:36:09.395331",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAVE": 6,
-      "ARIA": 6,
-      "ENJ": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "GENIUS": 6,
-      "ZAMA": 6,
-      "HYPE": 6,
-      "SIREN": 6,
-      "VVV": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAVE": 3,
-        "ARIA": 3,
-        "ENJ": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "GENIUS": 3,
-        "ETH": 3,
-        "ZAMA": 3,
-        "HYPE": 3,
-        "DOT": 3,
-        "SIREN": 3,
-        "VVV": 3,
-        "MON": 3,
-        "XRP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "ARIA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aria.AI ($ARIA) is trending on CoinGecko"
-        ]
-      },
-      "ENJ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Enjin Coin ($ENJ) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-15T01:20:55.211684",
     "tickers": {
       "ALPHA": 3,
@@ -12615,6 +12498,134 @@
         ],
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-24T01:27:00.395817",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "RAVE": 6,
+      "CHIP": 6,
+      "SPK": 6,
+      "AAVE": 6,
+      "ASTEROID": 6,
+      "STABLE": 6,
+      "CHZ": 6,
+      "PEPE": 6,
+      "ZBCN": 6,
+      "ZEC": 6,
+      "SUI": 6,
+      "RED": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "RAVE": 3,
+        "CHIP": 3,
+        "SPK": 3,
+        "AAVE": 3,
+        "ASTEROID": 3,
+        "STABLE": 3,
+        "DOGE": 3,
+        "BTC": 3,
+        "CHZ": 3,
+        "PEPE": 3,
+        "ZBCN": 3,
+        "ZEC": 3,
+        "SUI": 3,
+        "RED": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "RAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      },
+      "CHIP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CHIP ($CHIP) is trending on CoinGecko"
+        ]
+      },
+      "SPK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Spark ($SPK) is trending on CoinGecko"
         ]
       },
       "AAVE": {

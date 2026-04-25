@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T01:26:36.104614",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BIO": 6,
-      "RAVE": 6,
-      "PENGU": 6,
-      "MON": 6,
-      "ZEC": 6,
-      "ZAMA": 6,
-      "ENJ": 6,
-      "VVV": 6,
-      "TRUMP": 6,
-      "TAO": 6,
-      "ORDI": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BIO": 3,
-        "RAVE": 3,
-        "PENGU": 3,
-        "MON": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "ZAMA": 3,
-        "ENJ": 3,
-        "VVV": 3,
-        "TRUMP": 3,
-        "ETH": 3,
-        "TAO": 3,
-        "ORDI": 3,
-        "DOGE": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BIO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bio Protocol ($BIO) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-16T04:43:24.976958",
     "tickers": {
       "ALPHA": 3,
@@ -12654,6 +12536,135 @@
         ],
         "sample_posts": [
           "Katana ($KAT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25T04:27:40.108131",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "APE": 6,
+      "PENGU": 6,
+      "CHIP": 6,
+      "TRADOOR": 6,
+      "ASTEROID": 6,
+      "RAVE": 6,
+      "GRASS": 6,
+      "POL": 6,
+      "GALA": 6,
+      "MAGA": 6,
+      "KAT": 6,
+      "HYPE": 6,
+      "MON": 6,
+      "PEPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "APE": 3,
+        "PENGU": 3,
+        "CHIP": 3,
+        "TRADOOR": 3,
+        "ASTEROID": 3,
+        "RAVE": 3,
+        "GRASS": 3,
+        "POL": 3,
+        "GALA": 3,
+        "MAGA": 3,
+        "ATOM": 3,
+        "KAT": 3,
+        "HYPE": 3,
+        "MON": 3,
+        "PEPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "APE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ApeCoin ($APE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "CHIP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "USD.AI ($CHIP) is trending on CoinGecko"
+        ]
+      },
+      "TRADOOR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tradoor ($TRADOOR) is trending on CoinGecko"
+        ]
+      },
+      "ASTEROID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
         ]
       }
     },

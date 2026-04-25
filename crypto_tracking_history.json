@@ -1,144 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T18:56:57.178715",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ORDI": 6,
-      "PENGU": 6,
-      "BASED": 6,
-      "RAVE": 6,
-      "ENJ": 6,
-      "DRIFT": 6,
-      "TAO": 6,
-      "HYPE": 6,
-      "SIREN": 6,
-      "GENIUS": 6,
-      "NEIRO": 6,
-      "MON": 6,
-      "TIA": 6,
-      "M": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ORDI": 3,
-        "PENGU": 3,
-        "BASED": 3,
-        "RAVE": 3,
-        "ENJ": 3,
-        "DRIFT": 3,
-        "TAO": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "SIREN": 3,
-        "GENIUS": 3,
-        "NEIRO": 3,
-        "MON": 3,
-        "SOL": 3,
-        "TIA": 3,
-        "M": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ORDI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ORDI ($ORDI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BASED": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Based ($BASED) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "ENJ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Enjin Coin ($ENJ) is trending on CoinGecko"
-        ]
-      },
-      "M": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "MemeCore ($M) up 26.97% in 24h"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-16T20:38:46.163309",
     "tickers": {
       "ALPHA": 3,
@@ -12642,6 +12503,124 @@
         ],
         "sample_posts": [
           "USD.AI ($CHIP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25T20:27:37.532670",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ULTIMA": 6,
+      "HYPER": 6,
+      "TRUMP": 6,
+      "PENGU": 6,
+      "ASTEROID": 6,
+      "BSB": 6,
+      "AXS": 6,
+      "MAGA": 6,
+      "RAVE": 6,
+      "PI": 6,
+      "ASTER": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ULTIMA": 3,
+        "HYPER": 3,
+        "TRUMP": 3,
+        "PENGU": 3,
+        "LTC": 3,
+        "ASTEROID": 3,
+        "BTC": 3,
+        "BSB": 3,
+        "AXS": 3,
+        "MAGA": 3,
+        "RAVE": 3,
+        "PI": 3,
+        "ASTER": 3,
+        "LINK": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "HYPER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperlane ($HYPER) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

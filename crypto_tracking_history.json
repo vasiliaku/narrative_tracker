@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T10:54:24.079136",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ORDI": 6,
-      "RAVE": 6,
-      "BASED": 6,
-      "WAL": 6,
-      "BIO": 6,
-      "BLESS": 6,
-      "GENIUS": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "ENJ": 6,
-      "TAO": 6,
-      "MON": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ORDI": 3,
-        "RAVE": 3,
-        "BASED": 3,
-        "WAL": 3,
-        "BIO": 3,
-        "BTC": 3,
-        "BLESS": 3,
-        "GENIUS": 3,
-        "HYPE": 3,
-        "PENGU": 3,
-        "ENJ": 3,
-        "TAO": 3,
-        "MON": 3,
-        "XRP": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ORDI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ORDI ($ORDI) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "BASED": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Based ($BASED) is trending on CoinGecko"
-        ]
-      },
-      "WAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Walrus ($WAL) is trending on CoinGecko"
-        ]
-      },
-      "BIO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bio Protocol ($BIO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-16T13:02:40.032865",
     "tickers": {
       "ALPHA": 3,
@@ -12671,6 +12543,134 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25T12:37:18.641818",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AXS": 6,
+      "APE": 6,
+      "RON": 6,
+      "TRADOOR": 6,
+      "CHIP": 6,
+      "PENGU": 6,
+      "KAT": 6,
+      "AAVE": 6,
+      "TRUMP": 6,
+      "SLP": 6,
+      "HYPER": 6,
+      "ASTEROID": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AXS": 3,
+        "APE": 3,
+        "RON": 3,
+        "TRADOOR": 3,
+        "CHIP": 3,
+        "PENGU": 3,
+        "KAT": 3,
+        "AAVE": 3,
+        "TRUMP": 3,
+        "SLP": 3,
+        "BTC": 3,
+        "HYPER": 3,
+        "SOL": 3,
+        "ASTEROID": 3,
+        "SUI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AXS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axie Infinity ($AXS) is trending on CoinGecko"
+        ]
+      },
+      "APE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ApeCoin ($APE) is trending on CoinGecko"
+        ]
+      },
+      "RON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ronin ($RON) is trending on CoinGecko"
+        ]
+      },
+      "TRADOOR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tradoor ($TRADOOR) is trending on CoinGecko"
+        ]
+      },
+      "CHIP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "USD.AI ($CHIP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

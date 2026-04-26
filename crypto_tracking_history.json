@@ -1,135 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T10:45:39.323552",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAVE": 6,
-      "SIREN": 6,
-      "MOVR": 6,
-      "PENGU": 6,
-      "ORDI": 6,
-      "SOON": 6,
-      "GLMR": 6,
-      "POL": 6,
-      "PI": 6,
-      "METIS": 6,
-      "BASED": 6,
-      "HYPE": 6,
-      "AAVE": 6,
-      "M": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAVE": 3,
-        "SIREN": 3,
-        "MOVR": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "ORDI": 3,
-        "SOON": 3,
-        "GLMR": 3,
-        "POL": 3,
-        "PI": 3,
-        "ETH": 3,
-        "METIS": 3,
-        "BASED": 3,
-        "HYPE": 3,
-        "AAVE": 3,
-        "M": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "MOVR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moonriver ($MOVR) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "M": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "MemeCore ($M) up 30.88% in 24h"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-17T12:54:03.176430",
     "tickers": {
       "ALPHA": 3,
@@ -12566,6 +12436,136 @@
         ],
         "sample_posts": [
           "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26T12:39:33.784708",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "PEAQ": 6,
+      "ORCA": 6,
+      "MASK": 6,
+      "MON": 6,
+      "TRUMP": 6,
+      "RAVE": 6,
+      "CHIP": 6,
+      "ULTIMA": 6,
+      "AXS": 6,
+      "AERO": 6,
+      "TAO": 6,
+      "OPG": 6,
+      "ICP": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "PEAQ": 3,
+        "ORCA": 3,
+        "MASK": 3,
+        "MON": 3,
+        "TRUMP": 3,
+        "RAVE": 3,
+        "CHIP": 3,
+        "ULTIMA": 3,
+        "AXS": 3,
+        "AERO": 3,
+        "TAO": 3,
+        "OPG": 3,
+        "ICP": 3,
+        "PI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PEAQ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "peaq ($PEAQ) is trending on CoinGecko"
+        ]
+      },
+      "ORCA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Orca ($ORCA) is trending on CoinGecko"
+        ]
+      },
+      "MASK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Mask Network ($MASK) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

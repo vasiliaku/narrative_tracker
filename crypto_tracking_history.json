@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T14:47:51.594207",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ASTEROID": 6,
-      "OVPP": 6,
-      "PENGU": 6,
-      "MOVR": 6,
-      "RAVE": 6,
-      "SIREN": 6,
-      "MON": 6,
-      "PEPE": 6,
-      "HYPE": 6,
-      "BASED": 6,
-      "ORDI": 6,
-      "PENDLE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ASTEROID": 3,
-        "OVPP": 3,
-        "PENGU": 3,
-        "MOVR": 3,
-        "RAVE": 3,
-        "BTC": 3,
-        "SIREN": 3,
-        "ETH": 3,
-        "SOL": 3,
-        "MON": 3,
-        "PEPE": 3,
-        "HYPE": 3,
-        "BASED": 3,
-        "ORDI": 3,
-        "PENDLE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ASTEROID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
-        ]
-      },
-      "OVPP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OpenVPP ($OVPP) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MOVR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moonriver ($MOVR) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-17T16:41:55.742466",
     "tickers": {
       "ALPHA": 3,
@@ -12565,6 +12438,125 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26T16:30:36.251104",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ORCA": 6,
+      "CHIP": 6,
+      "ULTIMA": 6,
+      "LDO": 6,
+      "AAVE": 6,
+      "PENGU": 6,
+      "BSB": 6,
+      "ASTEROID": 6,
+      "RAVE": 6,
+      "AERO": 6,
+      "SUI": 6,
+      "BLEND": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ORCA": 3,
+        "CHIP": 3,
+        "ULTIMA": 3,
+        "LDO": 3,
+        "BTC": 3,
+        "AAVE": 3,
+        "PENGU": 3,
+        "BSB": 3,
+        "ASTEROID": 3,
+        "RAVE": 3,
+        "AERO": 3,
+        "SUI": 3,
+        "BLEND": 3,
+        "LINK": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ORCA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Orca ($ORCA) is trending on CoinGecko"
+        ]
+      },
+      "CHIP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "USD.AI ($CHIP) is trending on CoinGecko"
+        ]
+      },
+      "ULTIMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ultima ($ULTIMA) is trending on CoinGecko"
+        ]
+      },
+      "LDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lido DAO ($LDO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

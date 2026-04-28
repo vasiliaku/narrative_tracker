@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T10:30:37.372952",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAVE": 6,
-      "ASTEROID": 6,
-      "AAVE": 6,
-      "ZRO": 6,
-      "ORDI": 6,
-      "TAO": 6,
-      "SIREN": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "GWEI": 6,
-      "ARKM": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAVE": 3,
-        "ASTEROID": 3,
-        "AAVE": 3,
-        "ZRO": 3,
-        "ORDI": 3,
-        "TAO": 3,
-        "SIREN": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "HYPE": 3,
-        "GWEI": 3,
-        "BTC": 3,
-        "ARKM": 3,
-        "SOL": 3,
-        "PEPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "ASTEROID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
-        ]
-      },
-      "AAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aave ($AAVE) is trending on CoinGecko"
-        ]
-      },
-      "ZRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LayerZero ($ZRO) is trending on CoinGecko"
-        ]
-      },
-      "ORDI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ORDI ($ORDI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-19T12:35:48.301792",
     "tickers": {
       "ALPHA": 3,
@@ -12532,6 +12405,124 @@
         ],
         "sample_posts": [
           "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-28T19:17:44.794570",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PROS": 6,
+      "PENGU": 6,
+      "PI": 6,
+      "CHIP": 6,
+      "AAVE": 6,
+      "TAO": 6,
+      "VIRTUAL": 6,
+      "HYPE": 6,
+      "ORCA": 6,
+      "LUNC": 6,
+      "BIO": 6,
+      "OCT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PROS": 3,
+        "PENGU": 3,
+        "PI": 3,
+        "CHIP": 3,
+        "BTC": 3,
+        "AAVE": 3,
+        "TAO": 3,
+        "VIRTUAL": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "ORCA": 3,
+        "LUNC": 3,
+        "ETH": 3,
+        "BIO": 3,
+        "OCT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PROS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pharos ($PROS) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      },
+      "CHIP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "USD.AI ($CHIP) is trending on CoinGecko"
         ]
       }
     },

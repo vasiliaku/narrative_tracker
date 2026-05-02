@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T12:58:53.588041",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CHIP": 6,
-      "RAVE": 6,
-      "HYPE": 6,
-      "ASTEROID": 6,
-      "AAVE": 6,
-      "OPG": 6,
-      "PENGU": 6,
-      "MAGA": 6,
-      "MON": 6,
-      "AERO": 6,
-      "TAO": 6,
-      "CORE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CHIP": 3,
-        "RAVE": 3,
-        "HYPE": 3,
-        "ASTEROID": 3,
-        "AAVE": 3,
-        "OPG": 3,
-        "PENGU": 3,
-        "MAGA": 3,
-        "MON": 3,
-        "BTC": 3,
-        "ETH": 3,
-        "AERO": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "CORE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CHIP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CHIP ($CHIP) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "ASTEROID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
-        ]
-      },
-      "AAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aave ($AAVE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-22T15:03:57.900324",
     "tickers": {
       "ALPHA": 3,
@@ -12435,6 +12308,134 @@
         ],
         "sample_posts": [
           "Unibase ($UB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-02T01:44:10.425266",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LAB": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "ACN": 6,
+      "UPEG": 6,
+      "TAO": 6,
+      "LUNC": 6,
+      "ZEC": 10,
+      "APE": 6,
+      "PEPE": 6,
+      "MEGA": 6,
+      "RAVE": 6,
+      "CARDS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LAB": 3,
+        "PENGU": 3,
+        "MON": 3,
+        "ACN": 3,
+        "UPEG": 3,
+        "TAO": 3,
+        "LUNC": 3,
+        "ZEC": 5,
+        "APE": 3,
+        "PEPE": 3,
+        "MEGA": 3,
+        "RAVE": 3,
+        "SOL": 3,
+        "DOGE": 3,
+        "CARDS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "ACN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "AITECH Cloud Network ($ACN) is trending on CoinGecko"
+        ]
+      },
+      "UPEG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Unipeg ($UPEG) is trending on CoinGecko"
         ]
       }
     },

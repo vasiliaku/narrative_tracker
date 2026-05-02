@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T04:42:48.381815",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CHIP": 6,
-      "SPK": 6,
-      "PENGU": 6,
-      "RAVE": 6,
-      "GENIUS": 6,
-      "VVV": 6,
-      "AAVE": 6,
-      "ASTEROID": 6,
-      "OPG": 6,
-      "RON": 6,
-      "USDT": 6,
-      "SUI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CHIP": 3,
-        "SPK": 3,
-        "PENGU": 3,
-        "RAVE": 3,
-        "GENIUS": 3,
-        "VVV": 3,
-        "AAVE": 3,
-        "BTC": 3,
-        "ASTEROID": 3,
-        "OPG": 3,
-        "RON": 3,
-        "XRP": 3,
-        "USDT": 3,
-        "ETH": 3,
-        "SUI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CHIP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CHIP ($CHIP) is trending on CoinGecko"
-        ]
-      },
-      "SPK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Spark ($SPK) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "GENIUS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Genius ($GENIUS) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-23T07:21:00.068068",
     "tickers": {
       "ALPHA": 3,
@@ -12481,6 +12354,135 @@
         ],
         "sample_posts": [
           "AITECH Cloud Network ($ACN) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-02T16:35:30.829825",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LAB": 6,
+      "MEGA": 6,
+      "GNO": 6,
+      "BIO": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "OCT": 6,
+      "MON": 6,
+      "ZEC": 6,
+      "CHIP": 6,
+      "LUNC": 6,
+      "HYPE": 6,
+      "ONDO": 6,
+      "RSC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LAB": 3,
+        "MEGA": 3,
+        "GNO": 3,
+        "BIO": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "OCT": 3,
+        "MON": 3,
+        "ZEC": 3,
+        "CHIP": 3,
+        "LUNC": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "ONDO": 3,
+        "RSC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "MEGA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "MegaETH ($MEGA) is trending on CoinGecko"
+        ]
+      },
+      "GNO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Gnosis ($GNO) is trending on CoinGecko"
+        ]
+      },
+      "BIO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bio Protocol ($BIO) is trending on CoinGecko"
         ]
       },
       "PENGU": {

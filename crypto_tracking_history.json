@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T20:35:21.550863",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "APE": 6,
-      "KAT": 6,
-      "AAVE": 6,
-      "RAVE": 6,
-      "PENGU": 6,
-      "CHIP": 6,
-      "PEPE": 6,
-      "TRADOOR": 6,
-      "ASTEROID": 6,
-      "MON": 6,
-      "AERO": 6,
-      "POL": 6,
-      "GRASS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "APE": 3,
-        "KAT": 3,
-        "AAVE": 3,
-        "RAVE": 3,
-        "PENGU": 3,
-        "CHIP": 3,
-        "PEPE": 3,
-        "TRADOOR": 3,
-        "ASTEROID": 3,
-        "MON": 3,
-        "AERO": 3,
-        "SOL": 3,
-        "POL": 3,
-        "BTC": 3,
-        "GRASS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "APE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ApeCoin ($APE) is trending on CoinGecko"
-        ]
-      },
-      "KAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Katana ($KAT) is trending on CoinGecko"
-        ]
-      },
-      "AAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aave ($AAVE) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-24T22:31:28.178408",
     "tickers": {
       "ALPHA": 3,
@@ -12562,6 +12434,133 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-04T13:19:56.192287",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BILL": 6,
+      "FIRO": 6,
+      "TST": 6,
+      "MEGA": 6,
+      "PENGU": 6,
+      "LUNC": 6,
+      "LAB": 6,
+      "SKYAI": 6,
+      "BIO": 6,
+      "TAO": 6,
+      "DASH": 6,
+      "AI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BILL": 3,
+        "FIRO": 3,
+        "TST": 3,
+        "MEGA": 3,
+        "PENGU": 3,
+        "LUNC": 3,
+        "BTC": 3,
+        "LAB": 3,
+        "SKYAI": 3,
+        "BIO": 3,
+        "TAO": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "DASH": 3,
+        "AI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "TST": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Test ($TST) is trending on CoinGecko"
+        ]
+      },
+      "MEGA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "MegaETH ($MEGA) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

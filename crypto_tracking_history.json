@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T12:37:18.641818",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AXS": 6,
-      "APE": 6,
-      "RON": 6,
-      "TRADOOR": 6,
-      "CHIP": 6,
-      "PENGU": 6,
-      "KAT": 6,
-      "AAVE": 6,
-      "TRUMP": 6,
-      "SLP": 6,
-      "HYPER": 6,
-      "ASTEROID": 6,
-      "SUI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "AXS": 3,
-        "APE": 3,
-        "RON": 3,
-        "TRADOOR": 3,
-        "CHIP": 3,
-        "PENGU": 3,
-        "KAT": 3,
-        "AAVE": 3,
-        "TRUMP": 3,
-        "SLP": 3,
-        "BTC": 3,
-        "HYPER": 3,
-        "SOL": 3,
-        "ASTEROID": 3,
-        "SUI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "APE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ApeCoin ($APE) is trending on CoinGecko"
-        ]
-      },
-      "RON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ronin ($RON) is trending on CoinGecko"
-        ]
-      },
-      "TRADOOR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tradoor ($TRADOOR) is trending on CoinGecko"
-        ]
-      },
-      "CHIP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "USD.AI ($CHIP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-25T14:35:27.816501",
     "tickers": {
       "ALPHA": 3,
@@ -12548,6 +12420,135 @@
         ],
         "sample_posts": [
           "RaveDAO ($RAVE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-05T04:52:27.750572",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DOGS": 6,
+      "TON": 6,
+      "PENGU": 6,
+      "BILL": 6,
+      "LUNC": 6,
+      "ZEC": 6,
+      "NOT": 6,
+      "CARDS": 6,
+      "ASTEROID": 6,
+      "PENDLE": 6,
+      "OCT": 6,
+      "MON": 6,
+      "UTYA": 6,
+      "SKYAI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DOGS": 3,
+        "TON": 3,
+        "PENGU": 3,
+        "BILL": 3,
+        "LUNC": 3,
+        "ZEC": 3,
+        "NOT": 3,
+        "CARDS": 3,
+        "ASTEROID": 3,
+        "PENDLE": 3,
+        "OCT": 3,
+        "MON": 3,
+        "BTC": 3,
+        "UTYA": 3,
+        "SKYAI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DOGS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dogs ($DOGS) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      },
+      "LUNC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
         ]
       }
     },

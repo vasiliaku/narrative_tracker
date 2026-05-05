@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T16:29:50.483469",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ULTIMA": 6,
-      "HYPER": 6,
-      "APE": 6,
-      "AXS": 6,
-      "TRUMP": 6,
-      "PENGU": 6,
-      "BSB": 6,
-      "CHIP": 6,
-      "KAT": 6,
-      "ORCA": 6,
-      "VVV": 6,
-      "RAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ULTIMA": 3,
-        "HYPER": 3,
-        "APE": 3,
-        "AXS": 3,
-        "TRUMP": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "BSB": 3,
-        "BTC": 3,
-        "CHIP": 3,
-        "ETH": 3,
-        "KAT": 3,
-        "ORCA": 3,
-        "VVV": 3,
-        "RAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ULTIMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ultima ($ULTIMA) is trending on CoinGecko"
-        ]
-      },
-      "HYPER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperlane ($HYPER) is trending on CoinGecko"
-        ]
-      },
-      "APE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ApeCoin ($APE) is trending on CoinGecko"
-        ]
-      },
-      "AXS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Axie Infinity ($AXS) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-25T18:35:06.921440",
     "tickers": {
       "ALPHA": 3,
@@ -12547,6 +12420,135 @@
         ],
         "sample_posts": [
           "Terra Luna Classic ($LUNC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-05T09:51:37.607819",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WOJAK": 6,
+      "DOGS": 6,
+      "TON": 6,
+      "PENGU": 6,
+      "FIRO": 6,
+      "LUNC": 6,
+      "BILL": 6,
+      "NOT": 6,
+      "ONDO": 6,
+      "MEGA": 6,
+      "LAB": 6,
+      "ZEC": 6,
+      "TAO": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WOJAK": 3,
+        "DOGS": 3,
+        "TON": 3,
+        "PENGU": 3,
+        "FIRO": 3,
+        "LUNC": 3,
+        "BILL": 3,
+        "NOT": 3,
+        "ONDO": 3,
+        "MEGA": 3,
+        "LAB": 3,
+        "ZEC": 3,
+        "TAO": 3,
+        "MON": 3,
+        "BTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      },
+      "DOGS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dogs ($DOGS) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
         ]
       }
     },

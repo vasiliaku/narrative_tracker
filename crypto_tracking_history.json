@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-27T08:03:14.311465",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "PRL": 6,
-      "XCN": 6,
-      "LUNC": 6,
-      "CHIP": 6,
-      "AAVE": 6,
-      "RAVE": 6,
-      "CARDS": 6,
-      "ASTEROID": 6,
-      "OPG": 6,
-      "PI": 6,
-      "TRUMP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "PRL": 3,
-        "XCN": 3,
-        "LUNC": 3,
-        "CHIP": 3,
-        "AAVE": 3,
-        "RAVE": 3,
-        "CARDS": 3,
-        "ETH": 3,
-        "ASTEROID": 3,
-        "BTC": 3,
-        "OPG": 3,
-        "SOL": 3,
-        "PI": 3,
-        "TRUMP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Perle ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "XCN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Onyxcoin ($XCN) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "CHIP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "USD.AI ($CHIP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-27T11:29:48.997501",
     "tickers": {
       "ALPHA": 3,
@@ -12626,6 +12499,145 @@
         ],
         "sample_posts": [
           "Toncoin ($TON) up 20.71% in 24h"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-06T22:39:03.249681",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "USDUC": 6,
+      "FIRO": 6,
+      "WOJAK": 6,
+      "BILL": 6,
+      "LAB": 6,
+      "ZEC": 6,
+      "ONDO": 6,
+      "VVV": 6,
+      "LUNC": 6,
+      "TON": 10,
+      "VIRTUAL": 6,
+      "CFG": 6,
+      "SKYAI": 6,
+      "HYPE": 6,
+      "PENGU": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "USDUC": 3,
+        "FIRO": 3,
+        "WOJAK": 3,
+        "BILL": 3,
+        "LAB": 3,
+        "ZEC": 3,
+        "ONDO": 3,
+        "VVV": 3,
+        "LUNC": 3,
+        "TON": 5,
+        "VIRTUAL": 3,
+        "CFG": 3,
+        "SKYAI": 3,
+        "HYPE": 3,
+        "PENGU": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "USDUC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Unstable Coin ($USDUC) is trending on CoinGecko"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) up 21.92% in 24h"
         ]
       }
     },

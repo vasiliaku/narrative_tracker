@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-04-26T16:30:36.251104",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ORCA": 6,
-      "CHIP": 6,
-      "ULTIMA": 6,
-      "LDO": 6,
-      "AAVE": 6,
-      "PENGU": 6,
-      "BSB": 6,
-      "ASTEROID": 6,
-      "RAVE": 6,
-      "AERO": 6,
-      "SUI": 6,
-      "BLEND": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ORCA": 3,
-        "CHIP": 3,
-        "ULTIMA": 3,
-        "LDO": 3,
-        "BTC": 3,
-        "AAVE": 3,
-        "PENGU": 3,
-        "BSB": 3,
-        "ASTEROID": 3,
-        "RAVE": 3,
-        "AERO": 3,
-        "SUI": 3,
-        "BLEND": 3,
-        "LINK": 3,
-        "TAO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ORCA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Orca ($ORCA) is trending on CoinGecko"
-        ]
-      },
-      "CHIP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "USD.AI ($CHIP) is trending on CoinGecko"
-        ]
-      },
-      "ULTIMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ultima ($ULTIMA) is trending on CoinGecko"
-        ]
-      },
-      "LDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lido DAO ($LDO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-26T18:35:52.328075",
     "tickers": {
       "ALPHA": 3,
@@ -12597,6 +12478,138 @@
         "tickers": [
           "ALPHA",
           "ZEC"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-06T11:42:49.717707",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "ZEC": 10,
+      "BILL": 6,
+      "TON": 10,
+      "IO": 6,
+      "PENGU": 6,
+      "LUNC": 6,
+      "MEGA": 6,
+      "VVV": 6,
+      "LAB": 6,
+      "PI": 6,
+      "HYPE": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "ZEC": 5,
+        "BILL": 3,
+        "TON": 5,
+        "IO": 3,
+        "PENGU": 3,
+        "LUNC": 3,
+        "MEGA": 3,
+        "VVV": 3,
+        "LAB": 3,
+        "PI": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "MON": 3,
+        "BTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko",
+          "Zcash ($ZEC) up 36.62% in 24h"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko",
+          "Toncoin ($TON) up 26.33% in 24h"
+        ]
+      },
+      "IO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "io.net ($IO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 3 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "ZEC",
+          "TON"
         ]
       }
     ]

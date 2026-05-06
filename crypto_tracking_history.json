@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-04-27T01:30:08.229132",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LUNC": 6,
-      "PENGU": 6,
-      "NOCK": 6,
-      "RAVE": 6,
-      "ZBCN": 6,
-      "PEAQ": 6,
-      "AAVE": 6,
-      "ASTEROID": 6,
-      "CHIP": 6,
-      "CARDS": 6,
-      "ZBT": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LUNC": 3,
-        "PENGU": 3,
-        "NOCK": 3,
-        "RAVE": 3,
-        "BTC": 3,
-        "ZBCN": 3,
-        "PEAQ": 3,
-        "AAVE": 3,
-        "ASTEROID": 3,
-        "CHIP": 3,
-        "CARDS": 3,
-        "LINK": 3,
-        "ZBT": 3,
-        "TAO": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "NOCK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Nockchain ($NOCK) is trending on CoinGecko"
-        ]
-      },
-      "RAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RaveDAO ($RAVE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-27T04:59:02.199046",
     "tickers": {
       "ALPHA": 3,
@@ -12619,6 +12501,138 @@
           "ALPHA",
           "TON",
           "ZEC"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-06T19:19:41.159756",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "USDUC": 6,
+      "FIRO": 6,
+      "ZEC": 10,
+      "TON": 10,
+      "LAB": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "LUNC": 6,
+      "BILL": 6,
+      "MON": 6,
+      "ONDO": 6,
+      "KAIO": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "USDUC": 3,
+        "FIRO": 3,
+        "ZEC": 5,
+        "TON": 5,
+        "LAB": 3,
+        "VVV": 3,
+        "PENGU": 3,
+        "LUNC": 3,
+        "BILL": 3,
+        "MON": 3,
+        "ONDO": 3,
+        "KAIO": 3,
+        "TAO": 3,
+        "BTC": 3,
+        "XRP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "USDUC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Unstable Coin ($USDUC) is trending on CoinGecko"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko",
+          "Zcash ($ZEC) up 26.85% in 24h"
+        ]
+      },
+      "TON": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko",
+          "Toncoin ($TON) up 27.41% in 24h"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 3 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "ZEC",
+          "TON"
         ]
       }
     ]

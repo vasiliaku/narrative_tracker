@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-04-26T22:26:47.290659",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZBT": 6,
-      "PENGU": 6,
-      "PEAQ": 6,
-      "AERO": 6,
-      "AVNT": 6,
-      "ZBCN": 6,
-      "CHIP": 6,
-      "CRV": 6,
-      "MON": 6,
-      "PI": 6,
-      "NOCK": 6,
-      "SPX": 6,
-      "AAVE": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZBT": 3,
-        "PENGU": 3,
-        "PEAQ": 3,
-        "AERO": 3,
-        "AVNT": 3,
-        "BTC": 3,
-        "ZBCN": 3,
-        "CHIP": 3,
-        "CRV": 3,
-        "MON": 3,
-        "PI": 3,
-        "NOCK": 3,
-        "SPX": 3,
-        "AAVE": 3,
-        "HYPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZBT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ZEROBASE ($ZBT) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PEAQ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "peaq ($PEAQ) is trending on CoinGecko"
-        ]
-      },
-      "AERO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aerodrome Finance ($AERO) is trending on CoinGecko"
-        ]
-      },
-      "AVNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Avantis ($AVNT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-27T01:30:08.229132",
     "tickers": {
       "ALPHA": 3,
@@ -12597,6 +12468,138 @@
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko",
           "Zcash ($ZEC) up 36.5% in 24h"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 3 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "TON",
+          "ZEC"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-06T17:23:29.943743",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "USDUC": 6,
+      "LAB": 6,
+      "TON": 10,
+      "ZEC": 10,
+      "PENGU": 6,
+      "KAIO": 6,
+      "LUNC": 6,
+      "TAO": 6,
+      "CFG": 6,
+      "ONDO": 6,
+      "HYPE": 6,
+      "OCT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "USDUC": 3,
+        "LAB": 3,
+        "TON": 5,
+        "ZEC": 5,
+        "PENGU": 3,
+        "KAIO": 3,
+        "LUNC": 3,
+        "TAO": 3,
+        "CFG": 3,
+        "NEAR": 3,
+        "BTC": 3,
+        "ONDO": 3,
+        "HYPE": 3,
+        "OCT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "USDUC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Unstable Coin ($USDUC) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko",
+          "Toncoin ($TON) up 33.05% in 24h"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko",
+          "Zcash ($ZEC) up 30.91% in 24h"
         ]
       }
     },

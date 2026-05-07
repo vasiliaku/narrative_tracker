@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-04-27T13:15:33.973346",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PRL": 6,
-      "PENGU": 6,
-      "CHIP": 6,
-      "LUNC": 6,
-      "XCN": 6,
-      "TAO": 6,
-      "CC": 6,
-      "RAVE": 6,
-      "PI": 6,
-      "AAVE": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "TRUMP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PRL": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "CHIP": 3,
-        "LUNC": 3,
-        "XCN": 3,
-        "TAO": 3,
-        "CC": 3,
-        "RAVE": 3,
-        "PI": 3,
-        "ETH": 3,
-        "AAVE": 3,
-        "HYPE": 3,
-        "SUI": 3,
-        "TRUMP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Perle ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "CHIP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "USD.AI ($CHIP) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-27T15:28:56.454881",
     "tickers": {
       "ALPHA": 3,
@@ -12650,6 +12531,136 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 2 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "TON"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-07T05:22:16.812501",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "B3": 6,
+      "TON": 10,
+      "LAB": 6,
+      "DOGS": 6,
+      "WOJAK": 6,
+      "VVV": 6,
+      "NOT": 6,
+      "LUNC": 6,
+      "SUI": 6,
+      "BILL": 6,
+      "USDUC": 6,
+      "ZEC": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "B3": 3,
+        "TON": 5,
+        "LAB": 3,
+        "DOGS": 3,
+        "WOJAK": 3,
+        "VVV": 3,
+        "NOT": 3,
+        "LUNC": 3,
+        "SUI": 3,
+        "BILL": 3,
+        "USDUC": 3,
+        "ETH": 3,
+        "ZEC": 3,
+        "PI": 3,
+        "OP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "B3": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "B3 (Base) ($B3) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko",
+          "Toncoin ($TON) up 31.69% in 24h"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "DOGS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dogs ($DOGS) is trending on CoinGecko"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

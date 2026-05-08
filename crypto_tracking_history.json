@@ -1,130 +1,5 @@
 [
   {
-    "timestamp": "2026-04-28T16:03:31.606730",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PROS": 6,
-      "ZKJ": 6,
-      "PENGU": 6,
-      "LUNC": 6,
-      "PI": 6,
-      "MON": 6,
-      "CHIP": 6,
-      "AAVE": 6,
-      "BIO": 6,
-      "ORCA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PROS": 3,
-        "ZKJ": 3,
-        "PENGU": 3,
-        "LUNC": 3,
-        "PI": 3,
-        "MON": 3,
-        "CHIP": 3,
-        "AAVE": 3,
-        "BIO": 3,
-        "BTC": 3,
-        "DOGE": 3,
-        "ORCA": 3,
-        "SOL": 3,
-        "XRP": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PROS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pharos ($PROS) is trending on CoinGecko"
-        ]
-      },
-      "ZKJ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Polyhedra Network ($ZKJ) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-28T19:17:44.794570",
     "tickers": {
       "ALPHA": 3,
@@ -12710,6 +12585,134 @@
         ],
         "sample_posts": [
           "Terra Luna Classic ($LUNC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-08T07:14:00.694385",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WOJAK": 6,
+      "TON": 6,
+      "NIL": 6,
+      "LAB": 6,
+      "BILL": 6,
+      "LUNC": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "ASTEROID": 6,
+      "ZEC": 6,
+      "DOGS": 6,
+      "MON": 6,
+      "ICP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WOJAK": 3,
+        "TON": 3,
+        "NIL": 3,
+        "LAB": 3,
+        "BILL": 3,
+        "LUNC": 3,
+        "VVV": 3,
+        "PENGU": 3,
+        "ASTEROID": 3,
+        "ZEC": 3,
+        "DOGS": 3,
+        "MON": 3,
+        "BTC": 3,
+        "ICP": 3,
+        "DOGE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "NIL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nillion ($NIL) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
         ]
       }
     },

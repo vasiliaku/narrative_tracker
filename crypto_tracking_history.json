@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T01:53:21.061468",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PROS": 6,
-      "PUMP": 6,
-      "LUNC": 6,
-      "HYPE": 6,
-      "BIO": 6,
-      "PI": 6,
-      "PENGU": 6,
-      "PEPE": 6,
-      "CHIP": 6,
-      "AERO": 6,
-      "SUI": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PROS": 3,
-        "PUMP": 3,
-        "LUNC": 3,
-        "HYPE": 3,
-        "BIO": 3,
-        "SOL": 3,
-        "PI": 3,
-        "PENGU": 3,
-        "PEPE": 3,
-        "BTC": 3,
-        "XRP": 3,
-        "CHIP": 3,
-        "AERO": 3,
-        "SUI": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PROS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pharos ($PROS) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "BIO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bio Protocol ($BIO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-29T05:18:21.404018",
     "tickers": {
       "ALPHA": 3,
@@ -12732,6 +12605,135 @@
         ],
         "sample_posts": [
           "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-08T15:12:55.180509",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ONDO": 6,
+      "MEGA": 6,
+      "WOJAK": 6,
+      "TON": 6,
+      "PROS": 6,
+      "BILL": 6,
+      "PENGU": 6,
+      "STRK": 6,
+      "LAB": 6,
+      "VVV": 6,
+      "LUNC": 6,
+      "CHIP": 6,
+      "DOGS": 6,
+      "JTO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ONDO": 3,
+        "MEGA": 3,
+        "WOJAK": 3,
+        "TON": 3,
+        "PROS": 3,
+        "BILL": 3,
+        "PENGU": 3,
+        "STRK": 3,
+        "LAB": 3,
+        "VVV": 3,
+        "LUNC": 3,
+        "CHIP": 3,
+        "DOGS": 3,
+        "JTO": 3,
+        "BTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      },
+      "MEGA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "MegaETH ($MEGA) is trending on CoinGecko"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
+        ]
+      },
+      "PROS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pharos ($PROS) is trending on CoinGecko"
         ]
       }
     },

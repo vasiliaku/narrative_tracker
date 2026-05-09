@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-04-30T13:18:10.372094",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "MEGA": 6,
-      "AI": 6,
-      "ACN": 6,
-      "PENGU": 6,
-      "MON": 6,
-      "LUNC": 6,
-      "USDM": 6,
-      "CHIP": 6,
-      "ONDO": 6,
-      "PI": 6,
-      "AAVE": 6,
-      "TAO": 6,
-      "ASTEROID": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MEGA": 3,
-        "AI": 3,
-        "ACN": 3,
-        "PENGU": 3,
-        "MON": 3,
-        "LUNC": 3,
-        "USDM": 3,
-        "CHIP": 3,
-        "ONDO": 3,
-        "PI": 3,
-        "AAVE": 3,
-        "ARB": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "ASTEROID": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "MEGA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "MegaETH ($MEGA) is trending on CoinGecko"
-        ]
-      },
-      "AI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Gensyn ($AI) is trending on CoinGecko"
-        ]
-      },
-      "ACN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "AITECH Cloud Network ($ACN) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-30T15:43:01.635512",
     "tickers": {
       "ALPHA": 3,
@@ -12716,6 +12588,133 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-09T20:33:53.860489",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VVV": 6,
+      "BILL": 6,
+      "WOJAK": 6,
+      "AURA": 6,
+      "ONDO": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "AERO": 6,
+      "LAB": 6,
+      "ASTER": 6,
+      "AKT": 6,
+      "PENDLE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VVV": 3,
+        "BILL": 3,
+        "WOJAK": 3,
+        "AURA": 3,
+        "ONDO": 3,
+        "PENGU": 3,
+        "SUI": 3,
+        "LINK": 3,
+        "BTC": 3,
+        "AERO": 3,
+        "SOL": 3,
+        "LAB": 3,
+        "ASTER": 3,
+        "AKT": 3,
+        "PENDLE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      },
+      "AURA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "aura ($AURA) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
         ]
       }
     },

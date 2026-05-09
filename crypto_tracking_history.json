@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T17:15:36.393111",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AI": 6,
-      "PROS": 6,
-      "BLEND": 6,
-      "ULTIMA": 6,
-      "PENGU": 6,
-      "PI": 6,
-      "PUMP": 6,
-      "CHIP": 6,
-      "LUNC": 6,
-      "MON": 6,
-      "BSB": 6,
-      "RLS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "AI": 3,
-        "PROS": 3,
-        "BLEND": 3,
-        "ULTIMA": 3,
-        "PENGU": 3,
-        "PI": 3,
-        "BTC": 3,
-        "PUMP": 3,
-        "CHIP": 3,
-        "LUNC": 3,
-        "DOGE": 3,
-        "MON": 3,
-        "ETH": 3,
-        "BSB": 3,
-        "RLS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Gensyn ($AI) is trending on CoinGecko"
-        ]
-      },
-      "PROS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pharos ($PROS) is trending on CoinGecko"
-        ]
-      },
-      "BLEND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Fluent ($BLEND) is trending on CoinGecko"
-        ]
-      },
-      "ULTIMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ultima ($ULTIMA) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-29T19:07:19.075083",
     "tickers": {
       "ALPHA": 3,
@@ -12721,6 +12594,135 @@
         ],
         "sample_posts": [
           "Internet Computer ($ICP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-09T05:00:23.469302",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VVV": 6,
+      "ICP": 6,
+      "PENGU": 6,
+      "ONDO": 6,
+      "WOJAK": 6,
+      "SUI": 6,
+      "MON": 6,
+      "HYPE": 6,
+      "TON": 6,
+      "DAG": 6,
+      "LUNC": 6,
+      "CHIP": 6,
+      "ZEC": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VVV": 3,
+        "ICP": 3,
+        "PENGU": 3,
+        "ONDO": 3,
+        "WOJAK": 3,
+        "SUI": 3,
+        "MON": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "TON": 3,
+        "DAG": 3,
+        "LUNC": 3,
+        "NEAR": 3,
+        "CHIP": 3,
+        "ZEC": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "ICP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Internet Computer ($ICP) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
         ]
       }
     },

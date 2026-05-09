@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T22:45:03.982335",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ULTIMA": 6,
-      "PENGU": 6,
-      "AI": 6,
-      "BLEND": 6,
-      "PLUME": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "PUMP": 6,
-      "LUNC": 6,
-      "MON": 6,
-      "PI": 6,
-      "PROS": 6,
-      "KAS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ULTIMA": 3,
-        "PENGU": 3,
-        "AI": 3,
-        "BLEND": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "PLUME": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "PUMP": 3,
-        "LUNC": 3,
-        "MON": 3,
-        "PI": 3,
-        "PROS": 3,
-        "KAS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ULTIMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ultima ($ULTIMA) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "AI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Gensyn ($AI) is trending on CoinGecko"
-        ]
-      },
-      "BLEND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Fluent ($BLEND) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-30T01:52:36.854189",
     "tickers": {
       "ALPHA": 3,
@@ -12740,6 +12621,123 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-09T10:45:39.777127",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AURA": 6,
+      "WOJAK": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "BILL": 6,
+      "TON": 6,
+      "MEGA": 6,
+      "ONDO": 6,
+      "SUI": 6,
+      "JUP": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AURA": 3,
+        "WOJAK": 3,
+        "VVV": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "BILL": 3,
+        "TON": 3,
+        "MEGA": 3,
+        "ONDO": 3,
+        "SUI": 3,
+        "JUP": 3,
+        "PI": 3,
+        "BTC": 3,
+        "ETH": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AURA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "aura ($AURA) is trending on CoinGecko"
+        ]
+      },
+      "WOJAK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "wojak ($WOJAK) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

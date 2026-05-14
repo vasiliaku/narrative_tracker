@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04T11:41:46.362583",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BILL": 6,
-      "LUNC": 6,
-      "MEGA": 6,
-      "LAB": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "TST": 6,
-      "AAVE": 6,
-      "TAO": 6,
-      "BIO": 6,
-      "AI": 6,
-      "PROS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BILL": 3,
-        "LUNC": 3,
-        "BTC": 3,
-        "MEGA": 3,
-        "LAB": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "ONDO": 3,
-        "TST": 3,
-        "AAVE": 3,
-        "ETH": 3,
-        "TAO": 3,
-        "BIO": 3,
-        "AI": 3,
-        "PROS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BILL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Billions Network ($BILL) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "MEGA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "MegaETH ($MEGA) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-04T13:19:56.192287",
     "tickers": {
       "ALPHA": 3,
@@ -12675,6 +12556,134 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-14T13:27:37.261452",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "ZANO": 6,
+      "AI": 6,
+      "HYPE": 6,
+      "LAB": 6,
+      "BILL": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "SERV": 6,
+      "VVV": 6,
+      "ONDO": 6,
+      "SUI": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "ZANO": 3,
+        "AI": 3,
+        "HYPE": 3,
+        "LAB": 3,
+        "BILL": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "SERV": 3,
+        "VVV": 3,
+        "SOL": 3,
+        "ONDO": 3,
+        "SUI": 3,
+        "PI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "ZANO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zano ($ZANO) is trending on CoinGecko"
+        ]
+      },
+      "AI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Gensyn ($AI) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

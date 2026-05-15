@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-05-05T15:28:21.550529",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TON": 6,
-      "PENGU": 6,
-      "FIRO": 6,
-      "WOJAK": 6,
-      "CFG": 6,
-      "LUNC": 6,
-      "BILL": 6,
-      "MEGA": 6,
-      "DOGS": 6,
-      "ZEC": 6,
-      "RAVE": 6,
-      "SKYAI": 6,
-      "TAO": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TON": 3,
-        "PENGU": 3,
-        "FIRO": 3,
-        "WOJAK": 3,
-        "CFG": 3,
-        "LUNC": 3,
-        "BILL": 3,
-        "MEGA": 3,
-        "DOGS": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "RAVE": 3,
-        "SKYAI": 3,
-        "TAO": 3,
-        "HYPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Toncoin ($TON) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "WOJAK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "wojak ($WOJAK) is trending on CoinGecko"
-        ]
-      },
-      "CFG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Centrifuge ($CFG) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-05T17:12:43.520082",
     "tickers": {
       "ALPHA": 3,
@@ -12620,6 +12491,113 @@
         ],
         "sample_posts": [
           "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-15T22:43:11.884302",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ASTEROID": 6,
+      "STORJ": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "RUNE": 6,
+      "SIREN": 6,
+      "MEGA": 6,
+      "LAB": 6,
+      "ZEC": 6,
+      "AAVE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LINK": 3,
+        "XRP": 3,
+        "ASTEROID": 3,
+        "STORJ": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "RUNE": 3,
+        "SIREN": 3,
+        "MEGA": 3,
+        "SOL": 3,
+        "LAB": 3,
+        "ZEC": 3,
+        "UNI": 3,
+        "AAVE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ASTEROID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
+        ]
+      },
+      "STORJ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Storj ($STORJ) is trending on CoinGecko"
         ]
       },
       "PENGU": {

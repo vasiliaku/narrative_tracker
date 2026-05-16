@@ -1,137 +1,5 @@
 [
   {
-    "timestamp": "2026-05-06T17:23:29.943743",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "USDUC": 6,
-      "LAB": 6,
-      "TON": 10,
-      "ZEC": 10,
-      "PENGU": 6,
-      "KAIO": 6,
-      "LUNC": 6,
-      "TAO": 6,
-      "CFG": 6,
-      "ONDO": 6,
-      "HYPE": 6,
-      "OCT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FIRO": 3,
-        "USDUC": 3,
-        "LAB": 3,
-        "TON": 5,
-        "ZEC": 5,
-        "PENGU": 3,
-        "KAIO": 3,
-        "LUNC": 3,
-        "TAO": 3,
-        "CFG": 3,
-        "NEAR": 3,
-        "BTC": 3,
-        "ONDO": 3,
-        "HYPE": 3,
-        "OCT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "USDUC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Unstable Coin ($USDUC) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "TON": {
-        "keyword_count": 4,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Toncoin ($TON) is trending on CoinGecko",
-          "Toncoin ($TON) up 33.05% in 24h"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 4,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko",
-          "Zcash ($ZEC) up 30.91% in 24h"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 3 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA",
-          "TON",
-          "ZEC"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-06T19:19:41.159756",
     "tickers": {
       "ALPHA": 3,
@@ -12495,6 +12363,132 @@
         ],
         "sample_posts": [
           "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-16T22:35:40.318957",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "ASTEROID": 6,
+      "PENGU": 6,
+      "TROLL": 6,
+      "VVV": 6,
+      "TAO": 6,
+      "ONDO": 6,
+      "LUNC": 6,
+      "HYPE": 6,
+      "PEPE": 6,
+      "CFG": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "ASTEROID": 3,
+        "PENGU": 3,
+        "TROLL": 3,
+        "VVV": 3,
+        "TAO": 3,
+        "ONDO": 3,
+        "LUNC": 3,
+        "LINK": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "HYPE": 3,
+        "PEPE": 3,
+        "DOGE": 3,
+        "CFG": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "ASTEROID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "TROLL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "TROLL ($TROLL) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
         ]
       }
     },

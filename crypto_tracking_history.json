@@ -1,136 +1,5 @@
 [
   {
-    "timestamp": "2026-05-07T08:12:13.038124",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TON": 10,
-      "B3": 6,
-      "DOGS": 6,
-      "BILL": 6,
-      "VIRTUAL": 6,
-      "WOJAK": 6,
-      "PENGU": 6,
-      "NOT": 6,
-      "ZEC": 6,
-      "LAB": 6,
-      "LUNC": 6,
-      "ONDO": 6,
-      "VVV": 6,
-      "FARTCOIN": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TON": 5,
-        "B3": 3,
-        "DOGS": 3,
-        "BILL": 3,
-        "VIRTUAL": 3,
-        "WOJAK": 3,
-        "PENGU": 3,
-        "NOT": 3,
-        "ZEC": 3,
-        "LAB": 3,
-        "LUNC": 3,
-        "ONDO": 3,
-        "VVV": 3,
-        "ETH": 3,
-        "FARTCOIN": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TON": {
-        "keyword_count": 4,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Toncoin ($TON) is trending on CoinGecko",
-          "Toncoin ($TON) up 26.1% in 24h"
-        ]
-      },
-      "B3": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "B3 (Base) ($B3) is trending on CoinGecko"
-        ]
-      },
-      "DOGS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dogs ($DOGS) is trending on CoinGecko"
-        ]
-      },
-      "BILL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Billions Network ($BILL) is trending on CoinGecko"
-        ]
-      },
-      "VIRTUAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Virtuals Protocol ($VIRTUAL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 2 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA",
-          "TON"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-07T11:41:59.014272",
     "tickers": {
       "ALPHA": 3,
@@ -12438,6 +12307,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-17T14:48:48.671331",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VVV": 6,
+      "SUI": 6,
+      "PENGU": 6,
+      "BILL": 6,
+      "SERV": 6,
+      "LAB": 6,
+      "ASTEROID": 6,
+      "MEGA": 6,
+      "POD": 6,
+      "CHIP": 6,
+      "PI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VVV": 3,
+        "SUI": 3,
+        "PENGU": 3,
+        "BILL": 3,
+        "BTC": 3,
+        "SERV": 3,
+        "LAB": 3,
+        "ASTEROID": 3,
+        "SOL": 3,
+        "MEGA": 3,
+        "POD": 3,
+        "CHIP": 3,
+        "XRP": 3,
+        "PI": 3,
+        "ETH": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "BILL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Billions Network ($BILL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

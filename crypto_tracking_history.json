@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T05:28:45.215103",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TROLL": 6,
-      "WOJAK": 6,
-      "PENGU": 6,
-      "BILL": 6,
-      "ICP": 6,
-      "TON": 6,
-      "VVV": 6,
-      "MON": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "XEC": 6,
-      "LAB": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TROLL": 3,
-        "WOJAK": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "BILL": 3,
-        "ICP": 3,
-        "TON": 3,
-        "DOGE": 3,
-        "VVV": 3,
-        "MON": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "XEC": 3,
-        "LAB": 3,
-        "BTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TROLL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "TROLL ($TROLL) is trending on CoinGecko"
-        ]
-      },
-      "WOJAK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "wojak ($WOJAK) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BILL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Billions Network ($BILL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-10T07:54:39.882295",
     "tickers": {
       "ALPHA": 3,
@@ -12362,6 +12244,136 @@
         "message": "\u26a1 1 tokens with strong narrative signals!",
         "tickers": [
           "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-21T14:37:02.965387",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 10,
+      "ZEC": 6,
+      "MANIFEST": 6,
+      "NEX": 6,
+      "LIT": 6,
+      "PENGU": 6,
+      "MEGA": 6,
+      "ASTER": 6,
+      "VVV": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "PEAQ": 6,
+      "XMR": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "HYPE": 5,
+        "ZEC": 3,
+        "MANIFEST": 3,
+        "NEX": 3,
+        "LIT": 3,
+        "PENGU": 3,
+        "MEGA": 3,
+        "ASTER": 3,
+        "BTC": 3,
+        "VVV": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "PEAQ": 3,
+        "SOL": 3,
+        "XMR": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko",
+          "Hyperliquid ($HYPE) up 20.65% in 24h"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "MANIFEST": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Manifesting ($MANIFEST) is trending on CoinGecko"
+        ]
+      },
+      "NEX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nexus ($NEX) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 2 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "HYPE"
         ]
       }
     ]

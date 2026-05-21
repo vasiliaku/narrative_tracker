@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T10:53:44.301003",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "WOJAK": 6,
-      "LAYER": 6,
-      "TROLL": 6,
-      "LUNC": 6,
-      "PENGU": 6,
-      "LAB": 6,
-      "VVV": 6,
-      "ONDO": 6,
-      "SUI": 6,
-      "SWEAT": 6,
-      "BILL": 6,
-      "OPG": 6,
-      "ZEC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "WOJAK": 3,
-        "LAYER": 3,
-        "TROLL": 3,
-        "LUNC": 3,
-        "PENGU": 3,
-        "LAB": 3,
-        "VVV": 3,
-        "ONDO": 3,
-        "SUI": 3,
-        "SWEAT": 3,
-        "BILL": 3,
-        "OPG": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "ZEC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "WOJAK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "wojak ($WOJAK) is trending on CoinGecko"
-        ]
-      },
-      "LAYER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Solayer ($LAYER) is trending on CoinGecko"
-        ]
-      },
-      "TROLL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "TROLL ($TROLL) is trending on CoinGecko"
-        ]
-      },
-      "LUNC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Terra Luna Classic ($LUNC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-10T12:52:20.460303",
     "tickers": {
       "ALPHA": 3,
@@ -12343,6 +12215,124 @@
         ],
         "sample_posts": [
           "Nexus ($NEX) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-21T21:21:05.868190",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 10,
+      "GRASS": 6,
+      "PENGU": 6,
+      "VVV": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "NEX": 6,
+      "PLUME": 6,
+      "CC": 6,
+      "TON": 6,
+      "TROLL": 6,
+      "LUNC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "HYPE": 5,
+        "GRASS": 3,
+        "NEAR": 3,
+        "PENGU": 3,
+        "VVV": 3,
+        "LIT": 3,
+        "ZEC": 3,
+        "NEX": 3,
+        "PLUME": 3,
+        "CC": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "TON": 3,
+        "TROLL": 3,
+        "LUNC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "GRASS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Grass ($GRASS) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
         ]
       }
     },

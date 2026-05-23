@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-05-12T08:23:01.362941",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "VVV": 6,
-      "WOJAK": 6,
-      "BILL": 6,
-      "FIRO": 6,
-      "ZANO": 6,
-      "PENGU": 6,
-      "LAB": 6,
-      "TON": 6,
-      "CC": 6,
-      "SUI": 6,
-      "SAPIEN": 6,
-      "OSMO": 6,
-      "LUNC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "VVV": 3,
-        "WOJAK": 3,
-        "BILL": 3,
-        "FIRO": 3,
-        "ZANO": 3,
-        "PENGU": 3,
-        "LAB": 3,
-        "SOL": 3,
-        "TON": 3,
-        "CC": 3,
-        "SUI": 3,
-        "SAPIEN": 3,
-        "OSMO": 3,
-        "ETH": 3,
-        "LUNC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "WOJAK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "wojak ($WOJAK) is trending on CoinGecko"
-        ]
-      },
-      "BILL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Billions Network ($BILL) is trending on CoinGecko"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "ZANO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zano ($ZANO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-12T11:46:12.015917",
     "tickers": {
       "ALPHA": 3,
@@ -12118,6 +11990,125 @@
         ],
         "sample_posts": [
           "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-23T18:53:09.463371",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CVX": 6,
+      "ERG": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "AKT": 6,
+      "TAO": 6,
+      "VVV": 6,
+      "ATH": 6,
+      "ZEC": 6,
+      "RAIL": 6,
+      "SUI": 6,
+      "PI": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CVX": 3,
+        "ERG": 3,
+        "NEAR": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "AKT": 3,
+        "BTC": 3,
+        "TAO": 3,
+        "VVV": 3,
+        "ATH": 3,
+        "ZEC": 3,
+        "RAIL": 3,
+        "SUI": 3,
+        "PI": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CVX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Convex Finance ($CVX) is trending on CoinGecko"
+        ]
+      },
+      "ERG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ergo ($ERG) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

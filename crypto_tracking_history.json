@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T09:20:11.488019",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ASTEROID": 6,
-      "PENGU": 6,
-      "BILL": 6,
-      "ZEC": 6,
-      "HYPE": 6,
-      "VIRTUAL": 6,
-      "AAVE": 6,
-      "LAB": 6,
-      "SUI": 6,
-      "MEGA": 6,
-      "PENDLE": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ASTEROID": 3,
-        "PENGU": 3,
-        "BILL": 3,
-        "SOL": 3,
-        "ZEC": 3,
-        "HYPE": 3,
-        "VIRTUAL": 3,
-        "AAVE": 3,
-        "BTC": 3,
-        "ETH": 3,
-        "LAB": 3,
-        "SUI": 3,
-        "MEGA": 3,
-        "PENDLE": 3,
-        "TAO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ASTEROID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BILL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Billions Network ($BILL) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-16T10:53:54.297947",
     "tickers": {
       "ALPHA": 3,
@@ -11972,6 +11854,115 @@
         ],
         "sample_posts": [
           "Perle ($PRL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-28T15:23:55.472177",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BONK": 6,
+      "DEUS": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "SUI": 6,
+      "TAO": 6,
+      "VVV": 6,
+      "ONDO": 6,
+      "GUA": 6,
+      "MEGA": 6,
+      "SEI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BONK": 3,
+        "XLM": 5,
+        "DEUS": 3,
+        "HYPE": 3,
+        "NEAR": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "SUI": 3,
+        "TAO": 3,
+        "VVV": 3,
+        "ONDO": 3,
+        "GUA": 3,
+        "MEGA": 3,
+        "SEI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BONK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bonk ($BONK) is trending on CoinGecko"
+        ]
+      },
+      "DEUS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "XMAQUINA ($DEUS) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

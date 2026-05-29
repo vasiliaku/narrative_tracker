@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T20:37:52.315036",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "VVV": 6,
-      "HYPE": 6,
-      "FIRO": 6,
-      "ASTEROID": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "SUI": 6,
-      "QNT": 6,
-      "BILL": 6,
-      "GITLAWB": 6,
-      "TROLL": 6,
-      "LAB": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "VVV": 3,
-        "HYPE": 3,
-        "FIRO": 3,
-        "ASTEROID": 3,
-        "PENGU": 3,
-        "ONDO": 3,
-        "SUI": 3,
-        "QNT": 3,
-        "BILL": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "GITLAWB": 3,
-        "TROLL": 3,
-        "LAB": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "ASTEROID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-16T22:35:40.318957",
     "tickers": {
       "ALPHA": 3,
@@ -11934,6 +11816,124 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-29T11:18:44.083688",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BONK": 6,
+      "ALLO": 6,
+      "PENGU": 6,
+      "VVV": 6,
+      "IO": 6,
+      "SUI": 6,
+      "HYPE": 6,
+      "LAB": 6,
+      "PI": 6,
+      "PEAQ": 6,
+      "SLX": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BONK": 3,
+        "APT": 3,
+        "ALLO": 3,
+        "PENGU": 3,
+        "VVV": 3,
+        "IO": 3,
+        "SUI": 3,
+        "XLM": 5,
+        "HYPE": 3,
+        "LAB": 3,
+        "PI": 3,
+        "PEAQ": 3,
+        "ETH": 3,
+        "SLX": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BONK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bonk ($BONK) is trending on CoinGecko"
+        ]
+      },
+      "ALLO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Allora ($ALLO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

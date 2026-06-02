@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-05-20T14:31:57.664104",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HYPE": 6,
-      "VVV": 6,
-      "LIT": 6,
-      "PENGU": 6,
-      "ZEST": 6,
-      "ZEC": 10,
-      "PI": 6,
-      "ONDO": 6,
-      "LUNC": 6,
-      "GITLAWB": 6,
-      "SUI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "HYPE": 3,
-        "VVV": 3,
-        "LIT": 3,
-        "PENGU": 3,
-        "ZEST": 3,
-        "ZEC": 5,
-        "BTC": 3,
-        "ETH": 3,
-        "PI": 3,
-        "ONDO": 3,
-        "LUNC": 3,
-        "LINK": 3,
-        "GITLAWB": 3,
-        "XRP": 3,
-        "SUI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "ZEST": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zest Protocol ($ZEST) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-20T18:09:20.208762",
     "tickers": {
       "ALPHA": 3,
@@ -11760,6 +11634,116 @@
         "message": "\u26a1 1 tokens with strong narrative signals!",
         "tickers": [
           "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-02T13:46:14.896160",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LAB": 10,
+      "HYPE": 6,
+      "H": 6,
+      "WLD": 6,
+      "PENGU": 6,
+      "USELESS": 6,
+      "ZEC": 6,
+      "FET": 6,
+      "TAO": 6,
+      "MON": 6,
+      "VVV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LAB": 5,
+        "HYPE": 3,
+        "NEAR": 3,
+        "H": 3,
+        "BTC": 3,
+        "WLD": 3,
+        "XLM": 3,
+        "XRP": 3,
+        "PENGU": 3,
+        "USELESS": 3,
+        "ZEC": 3,
+        "FET": 3,
+        "TAO": 3,
+        "MON": 3,
+        "VVV": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko",
+          "LAB ($LAB) up 41.91% in 24h"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "H": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Humanity ($H) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 2 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "LAB"
         ]
       }
     ]

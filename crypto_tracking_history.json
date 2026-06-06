@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23T12:56:58.433513",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "UDS": 6,
-      "HYPE": 6,
-      "ERG": 6,
-      "SUI": 6,
-      "VVV": 6,
-      "NEX": 6,
-      "CC": 6,
-      "ZEST": 6,
-      "MON": 6,
-      "PEAQ": 6,
-      "TAO": 6,
-      "KAS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "UDS": 3,
-        "HYPE": 3,
-        "ERG": 3,
-        "NEAR": 3,
-        "BTC": 3,
-        "SUI": 3,
-        "VVV": 3,
-        "SOL": 3,
-        "NEX": 3,
-        "CC": 3,
-        "ZEST": 3,
-        "MON": 3,
-        "PEAQ": 3,
-        "TAO": 3,
-        "KAS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "UDS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Undeads Games ($UDS) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "ERG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ergo ($ERG) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-23T14:53:01.519999",
     "tickers": {
       "ALPHA": 3,
@@ -11518,6 +11409,102 @@
         "DASH": 3,
         "GRASS": 3,
         "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T02:01:48.020750",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZEC": 6,
+      "VVV": 6,
+      "TAO": 6,
+      "WLD": 6,
+      "HYPE": 6,
+      "VIRTUAL": 6,
+      "PI": 6,
+      "LAB": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZEC": 3,
+        "BTC": 3,
+        "NEAR": 3,
+        "VVV": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "TAO": 3,
+        "WLD": 3,
+        "HYPE": 3,
+        "ADA": 3,
+        "VIRTUAL": 3,
+        "PI": 3,
+        "XRP": 3,
+        "LAB": 3,
+        "XLM": 3
       }
     },
     "signals": {

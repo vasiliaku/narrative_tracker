@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23T22:41:38.232541",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ERG": 6,
-      "PENGU": 6,
-      "RAIL": 6,
-      "HYPE": 6,
-      "ONDO": 6,
-      "VVV": 6,
-      "GRASS": 6,
-      "TAO": 6,
-      "SUI": 6,
-      "MEGA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ERG": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "RAIL": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "ONDO": 3,
-        "VVV": 3,
-        "ETH": 3,
-        "GRASS": 3,
-        "TAO": 3,
-        "XRP": 3,
-        "SUI": 3,
-        "ADA": 3,
-        "MEGA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ERG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ergo ($ERG) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "RAIL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Railgun ($RAIL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-24T02:04:24.888880",
     "tickers": {
       "ALPHA": 3,
@@ -11503,6 +11396,122 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T15:04:50.265486",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ALLO": 6,
+      "ZEC": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "HYPE": 6,
+      "LIT": 6,
+      "WLD": 6,
+      "TAO": 6,
+      "VVV": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ALLO": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "SUI": 3,
+        "HYPE": 3,
+        "LIT": 3,
+        "SOL": 3,
+        "DOT": 3,
+        "ETH": 3,
+        "WLD": 3,
+        "NEAR": 3,
+        "TAO": 3,
+        "VVV": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ALLO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Allora ($ALLO) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

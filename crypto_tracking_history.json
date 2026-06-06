@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23T16:48:22.777971",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "UDS": 6,
-      "ERG": 6,
-      "VVV": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "TAO": 6,
-      "LUNC": 6,
-      "SERV": 6,
-      "ONDO": 6,
-      "SUI": 6,
-      "MEGA": 6,
-      "WLD": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "UDS": 3,
-        "ERG": 3,
-        "NEAR": 3,
-        "BTC": 3,
-        "VVV": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "LUNC": 3,
-        "SERV": 3,
-        "ONDO": 3,
-        "SUI": 3,
-        "MEGA": 3,
-        "WLD": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "UDS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Undeads Games ($UDS) is trending on CoinGecko"
-        ]
-      },
-      "ERG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ergo ($ERG) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-23T18:53:09.463371",
     "tickers": {
       "ALPHA": 3,
@@ -11531,6 +11422,110 @@
         ],
         "sample_posts": [
           "Sui ($SUI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T09:51:56.200177",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZEC": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "WLD": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "XMR": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZEC": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "VVV": 3,
+        "PENGU": 3,
+        "WLD": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "NEAR": 3,
+        "SUI": 3,
+        "ADA": 3,
+        "BNB": 3,
+        "DOT": 3,
+        "XMR": 3,
+        "XRP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

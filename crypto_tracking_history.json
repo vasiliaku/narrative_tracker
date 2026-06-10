@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2026-05-27T21:44:41.675319",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BONK": 6,
-      "PENGU": 6,
-      "VVV": 6,
-      "SLX": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "TAO": 6,
-      "OCT": 6,
-      "LUNC": 6,
-      "GRASS": 6,
-      "JUP": 6,
-      "GUA": 6,
-      "RAIN": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BONK": 3,
-        "XLM": 3,
-        "PENGU": 3,
-        "VVV": 3,
-        "NEAR": 3,
-        "SLX": 3,
-        "HYPE": 3,
-        "SUI": 3,
-        "TAO": 3,
-        "OCT": 3,
-        "LUNC": 3,
-        "GRASS": 3,
-        "JUP": 3,
-        "GUA": 3,
-        "XRP": 3,
-        "RAIN": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bonk ($BONK) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) up 25.98% in 24h"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-27T23:08:26.513282",
     "tickers": {
       "ALPHA": 3,
@@ -11474,6 +11354,138 @@
         ],
         "sample_posts": [
           "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-10T02:10:30.600567",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "H": 6,
+      "SAHARA": 6,
+      "HYPE": 6,
+      "LAB": 6,
+      "LIT": 6,
+      "MORPHO": 6,
+      "ONDO": 6,
+      "WLD": 6,
+      "PENGU": 6,
+      "GUA": 6,
+      "CC": 6,
+      "ZEC": 6,
+      "LUNC": 6,
+      "SUI": 6,
+      "PEPE": 6,
+      "WBT": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "H": 3,
+        "SAHARA": 3,
+        "HYPE": 3,
+        "LAB": 3,
+        "LIT": 3,
+        "MORPHO": 3,
+        "ONDO": 3,
+        "WLD": 3,
+        "PENGU": 3,
+        "GUA": 3,
+        "CC": 3,
+        "ZEC": 3,
+        "LUNC": 3,
+        "SUI": 3,
+        "PEPE": 3,
+        "WBT": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "H": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Humanity ($H) is trending on CoinGecko"
+        ]
+      },
+      "SAHARA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sahara AI ($SAHARA) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
         ]
       }
     },

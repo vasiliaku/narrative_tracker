@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-05-29T14:37:29.966095",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BONK": 6,
-      "ALLO": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "DEUS": 6,
-      "LAB": 6,
-      "CARDS": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "PRL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BONK": 3,
-        "APT": 3,
-        "ALLO": 3,
-        "HYPE": 3,
-        "XLM": 3,
-        "SUI": 3,
-        "DEUS": 3,
-        "NEAR": 3,
-        "INJ": 3,
-        "LAB": 3,
-        "CARDS": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "ONDO": 3,
-        "PRL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bonk ($BONK) is trending on CoinGecko"
-        ]
-      },
-      "ALLO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Allora ($ALLO) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-29T18:25:41.464442",
     "tickers": {
       "ALPHA": 3,
@@ -11567,6 +11460,134 @@
         ],
         "sample_posts": [
           "Audiera ($BEAT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-11T23:13:00.900129",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BONK": 6,
+      "PENGU": 6,
+      "BEAT": 6,
+      "VELVET": 6,
+      "ONDO": 6,
+      "PYTH": 6,
+      "XPL": 6,
+      "STG": 6,
+      "LAB": 6,
+      "HYPE": 10,
+      "WLD": 6,
+      "XMR": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BONK": 3,
+        "PENGU": 3,
+        "BEAT": 3,
+        "VELVET": 3,
+        "ONDO": 3,
+        "PYTH": 3,
+        "XPL": 3,
+        "SOL": 3,
+        "STG": 3,
+        "BTC": 3,
+        "XRP": 3,
+        "XLM": 3,
+        "LAB": 3,
+        "HYPE": 5,
+        "WLD": 3,
+        "XMR": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BONK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bonk ($BONK) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "BEAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Audiera ($BEAT) is trending on CoinGecko"
+        ]
+      },
+      "VELVET": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Velvet ($VELVET) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
         ]
       }
     },

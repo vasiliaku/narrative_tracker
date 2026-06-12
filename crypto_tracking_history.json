@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-05-29T21:43:17.966980",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BONK": 6,
-      "HYPE": 6,
-      "LAB": 6,
-      "PENGU": 6,
-      "LIT": 6,
-      "JTO": 6,
-      "TAO": 6,
-      "SUI": 6,
-      "CC": 6,
-      "MEGA": 6,
-      "ONDO": 6,
-      "NOCK": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BONK": 3,
-        "XLM": 5,
-        "HYPE": 3,
-        "LAB": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "LIT": 3,
-        "INJ": 3,
-        "JTO": 3,
-        "TAO": 3,
-        "SUI": 3,
-        "CC": 3,
-        "MEGA": 3,
-        "ONDO": 3,
-        "NOCK": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bonk ($BONK) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-29T23:02:24.794429",
     "tickers": {
       "ALPHA": 3,
@@ -11610,6 +11492,135 @@
         ],
         "sample_posts": [
           "Monero ($XMR) up 20.9% in 24h"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-12T08:15:07.262624",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VELVET": 6,
+      "XPL": 6,
+      "H": 6,
+      "BEAT": 6,
+      "TON": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "LIT": 6,
+      "XMR": 6,
+      "AIO": 6,
+      "STG": 6,
+      "ONDO": 6,
+      "ENA": 6,
+      "HNT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VELVET": 3,
+        "XPL": 3,
+        "H": 3,
+        "BEAT": 3,
+        "TON": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "LIT": 3,
+        "XMR": 3,
+        "AIO": 3,
+        "STG": 3,
+        "ONDO": 3,
+        "ENA": 3,
+        "HNT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VELVET": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Velvet ($VELVET) is trending on CoinGecko"
+        ]
+      },
+      "XPL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Plasma ($XPL) is trending on CoinGecko"
+        ]
+      },
+      "H": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Humanity ($H) is trending on CoinGecko"
+        ]
+      },
+      "BEAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Audiera ($BEAT) is trending on CoinGecko"
+        ]
+      },
+      "TON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Toncoin ($TON) is trending on CoinGecko"
         ]
       }
     },

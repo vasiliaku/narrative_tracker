@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-06-07T02:28:38.582185",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "LAB": 6,
-      "ZEC": 6,
-      "AAVE": 6,
-      "HYPE": 6,
-      "ALLO": 6,
-      "TAO": 6,
-      "LUNC": 6,
-      "VVV": 6,
-      "WLD": 6,
-      "CC": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "BTC": 3,
-        "LAB": 3,
-        "ZEC": 3,
-        "AAVE": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "NEAR": 3,
-        "ALLO": 3,
-        "TAO": 3,
-        "ADA": 3,
-        "LUNC": 3,
-        "VVV": 3,
-        "WLD": 3,
-        "CC": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "AAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aave ($AAVE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-07T07:46:11.746715",
     "tickers": {
       "ALPHA": 3,
@@ -11990,6 +11872,133 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-20T22:57:42.525175",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RE": 6,
+      "BICO": 6,
+      "SIREN": 6,
+      "PENGU": 6,
+      "AERO": 6,
+      "HYPE": 6,
+      "BP": 6,
+      "MEGA": 6,
+      "ALICE": 6,
+      "BCH": 6,
+      "PUMP": 6,
+      "KAS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RE": 3,
+        "BICO": 3,
+        "SIREN": 3,
+        "PENGU": 3,
+        "AERO": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "BP": 3,
+        "MEGA": 3,
+        "ALICE": 3,
+        "BCH": 3,
+        "AVAX": 3,
+        "PUMP": 3,
+        "KAS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "RE ($RE) is trending on CoinGecko"
+        ]
+      },
+      "BICO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Biconomy ($BICO) is trending on CoinGecko"
+        ]
+      },
+      "SIREN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Siren ($SIREN) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "AERO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aerodrome Finance ($AERO) is trending on CoinGecko"
         ]
       }
     },

@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-06-09T14:19:52.139686",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "DEUS": 6,
-      "H": 6,
-      "MORPHO": 6,
-      "WLD": 6,
-      "ZEC": 6,
-      "KONET": 6,
-      "PENGU": 6,
-      "ENA": 6,
-      "HYPE": 6,
-      "VVV": 6,
-      "KTA": 6,
-      "VELVET": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "DEUS": 3,
-        "H": 3,
-        "MORPHO": 3,
-        "WLD": 3,
-        "ZEC": 3,
-        "KONET": 3,
-        "PENGU": 3,
-        "ENA": 3,
-        "NEAR": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "VVV": 3,
-        "KTA": 3,
-        "VELVET": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "DEUS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "XMAQUINA ($DEUS) is trending on CoinGecko"
-        ]
-      },
-      "H": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Humanity ($H) is trending on CoinGecko"
-        ]
-      },
-      "MORPHO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Morpho ($MORPHO) is trending on CoinGecko"
-        ]
-      },
-      "WLD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Worldcoin ($WLD) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-09T17:51:44.718941",
     "tickers": {
       "ALPHA": 3,
@@ -12026,6 +11899,124 @@
         ],
         "sample_posts": [
           "Aerodrome Finance ($AERO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-23T17:44:26.917202",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAIN": 6,
+      "ARX": 6,
+      "WLD": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "SIREN": 6,
+      "BP": 6,
+      "ONDO": 6,
+      "CARDS": 6,
+      "GEOD": 6,
+      "AERO": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SOL": 3,
+        "RAIN": 3,
+        "ARX": 3,
+        "WLD": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "SIREN": 3,
+        "BP": 3,
+        "NEAR": 3,
+        "ONDO": 3,
+        "CARDS": 3,
+        "GEOD": 3,
+        "AERO": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
+        ]
+      },
+      "ARX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Arcium ($ARX) is trending on CoinGecko"
+        ]
+      },
+      "WLD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Worldcoin ($WLD) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-06-10T23:18:01.869798",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BEAT": 6,
-      "H": 6,
-      "PENGU": 6,
-      "VELVET": 6,
-      "HYPE": 6,
-      "VVV": 6,
-      "TAO": 6,
-      "ONDO": 6,
-      "MORPHO": 6,
-      "BTW": 6,
-      "ENA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BEAT": 3,
-        "H": 3,
-        "PENGU": 3,
-        "VELVET": 3,
-        "HYPE": 3,
-        "VVV": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "ONDO": 3,
-        "MORPHO": 3,
-        "BTW": 3,
-        "BTC": 3,
-        "ADA": 3,
-        "ETH": 3,
-        "ENA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BEAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Audiera ($BEAT) is trending on CoinGecko"
-        ]
-      },
-      "H": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Humanity ($H) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "VELVET": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Velvet ($VELVET) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-11T02:33:42.035176",
     "tickers": {
       "ALPHA": 3,
@@ -11999,6 +11873,123 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-24T22:58:11.034565",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZANO": 6,
+      "RAIN": 6,
+      "LIT": 6,
+      "AERO": 6,
+      "PENGU": 6,
+      "AAVE": 6,
+      "SLX": 6,
+      "CARDS": 6,
+      "HYPE": 6,
+      "BNKR": 6,
+      "KAS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZANO": 3,
+        "BTC": 3,
+        "RAIN": 3,
+        "LIT": 3,
+        "AERO": 3,
+        "PENGU": 3,
+        "AAVE": 3,
+        "SLX": 3,
+        "CARDS": 3,
+        "HYPE": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "BNKR": 3,
+        "XRP": 3,
+        "KAS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZANO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zano ($ZANO) is trending on CoinGecko"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "AERO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aerodrome Finance ($AERO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

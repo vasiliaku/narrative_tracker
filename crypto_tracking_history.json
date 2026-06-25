@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-06-12T08:15:07.262624",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "VELVET": 6,
-      "XPL": 6,
-      "H": 6,
-      "BEAT": 6,
-      "TON": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "LIT": 6,
-      "XMR": 6,
-      "AIO": 6,
-      "STG": 6,
-      "ONDO": 6,
-      "ENA": 6,
-      "HNT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "VELVET": 3,
-        "XPL": 3,
-        "H": 3,
-        "BEAT": 3,
-        "TON": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "LIT": 3,
-        "XMR": 3,
-        "AIO": 3,
-        "STG": 3,
-        "ONDO": 3,
-        "ENA": 3,
-        "HNT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "VELVET": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Velvet ($VELVET) is trending on CoinGecko"
-        ]
-      },
-      "XPL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Plasma ($XPL) is trending on CoinGecko"
-        ]
-      },
-      "H": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Humanity ($H) is trending on CoinGecko"
-        ]
-      },
-      "BEAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Audiera ($BEAT) is trending on CoinGecko"
-        ]
-      },
-      "TON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Toncoin ($TON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-12T12:48:22.448915",
     "tickers": {
       "ALPHA": 3,
@@ -11922,6 +11793,127 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-25T23:06:24.729583",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAIN": 6,
+      "HYPE": 6,
+      "AAVE": 6,
+      "VVV": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "XPL": 6,
+      "AERO": 6,
+      "CARDS": 6,
+      "PENGU": 6,
+      "SLX": 6,
+      "MON": 6,
+      "ARX": 6,
+      "LAB": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAIN": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "AAVE": 3,
+        "VVV": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "XPL": 3,
+        "AERO": 3,
+        "CARDS": 3,
+        "PENGU": 3,
+        "SLX": 3,
+        "MON": 3,
+        "ETH": 3,
+        "ARX": 3,
+        "LAB": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
         ]
       }
     },

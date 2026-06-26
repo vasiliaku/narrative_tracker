@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-06-12T16:37:31.248702",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PRESPCX": 6,
-      "XPL": 6,
-      "PENGU": 6,
-      "BEAT": 6,
-      "SOSO": 6,
-      "VELVET": 6,
-      "HYPE": 6,
-      "VVV": 6,
-      "ZEC": 6,
-      "SUI": 6,
-      "TAO": 6,
-      "H": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PRESPCX": 3,
-        "XPL": 3,
-        "PENGU": 3,
-        "BEAT": 3,
-        "SOSO": 3,
-        "VELVET": 3,
-        "AVAX": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "VVV": 3,
-        "ZEC": 3,
-        "SUI": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "H": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PRESPCX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "SpaceX (Republic Pre-IPO) ($PRESPCX) is trending on CoinGecko"
-        ]
-      },
-      "XPL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Plasma ($XPL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BEAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Audiera ($BEAT) is trending on CoinGecko"
-        ]
-      },
-      "SOSO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "SoSoValue ($SOSO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-12T19:50:11.205445",
     "tickers": {
       "ALPHA": 3,
@@ -11926,6 +11799,123 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-26T07:41:32.381754",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ARX": 6,
+      "AAVE": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "CARDS": 6,
+      "SLX": 6,
+      "PI": 6,
+      "BEAT": 6,
+      "NES": 6,
+      "TAO": 6,
+      "DATA": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ARX": 3,
+        "BTC": 3,
+        "AAVE": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "CARDS": 3,
+        "SLX": 3,
+        "PI": 3,
+        "BEAT": 3,
+        "NES": 3,
+        "TAO": 3,
+        "SOL": 3,
+        "XLM": 3,
+        "NEAR": 3,
+        "DATA": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ARX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Arcium ($ARX) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

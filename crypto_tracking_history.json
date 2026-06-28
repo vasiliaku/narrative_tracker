@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-06-14T17:07:11.462942",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "SIREN": 6,
-      "H": 6,
-      "BP": 6,
-      "VVV": 6,
-      "SPCXX": 6,
-      "TAO": 6,
-      "HYPE": 6,
-      "CARDS": 6,
-      "ZEC": 6,
-      "MEGA": 6,
-      "GRASS": 6,
-      "PI": 6,
-      "WLD": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "SIREN": 3,
-        "H": 3,
-        "BP": 3,
-        "VVV": 3,
-        "BTC": 3,
-        "SPCXX": 3,
-        "TAO": 3,
-        "HYPE": 3,
-        "CARDS": 3,
-        "ZEC": 3,
-        "MEGA": 3,
-        "GRASS": 3,
-        "PI": 3,
-        "WLD": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "H": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Humanity ($H) is trending on CoinGecko"
-        ]
-      },
-      "BP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Backpack ($BP) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-14T19:06:40.681847",
     "tickers": {
       "ALPHA": 3,
@@ -11871,6 +11742,115 @@
         ],
         "sample_posts": [
           "LAB ($LAB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-28T07:42:48.265396",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ANSEM": 6,
+      "VELVET": 6,
+      "GRASS": 6,
+      "LAB": 6,
+      "SIREN": 6,
+      "S": 6,
+      "ONDO": 6,
+      "RENDER": 6,
+      "BAS": 6,
+      "VVV": 6,
+      "KAS": 6,
+      "AVLT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ANSEM": 3,
+        "VELVET": 3,
+        "GRASS": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "LAB": 3,
+        "SIREN": 3,
+        "S": 3,
+        "DOT": 3,
+        "ONDO": 3,
+        "RENDER": 3,
+        "BAS": 3,
+        "VVV": 3,
+        "KAS": 3,
+        "AVLT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "VELVET": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Velvet ($VELVET) is trending on CoinGecko"
+        ]
+      },
+      "GRASS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Grass ($GRASS) is trending on CoinGecko"
         ]
       }
     },

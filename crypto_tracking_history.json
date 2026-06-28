@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-06-15T19:36:53.821914",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "JTO": 6,
-      "SIREN": 6,
-      "PENGU": 6,
-      "H": 6,
-      "ZEC": 10,
-      "HYPE": 10,
-      "TAO": 6,
-      "SPCXX": 6,
-      "GRASS": 6,
-      "PYTH": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "JTO": 3,
-        "SIREN": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "H": 3,
-        "NEAR": 3,
-        "ETH": 3,
-        "SOL": 5,
-        "ZEC": 5,
-        "HYPE": 5,
-        "TAO": 3,
-        "SPCXX": 3,
-        "GRASS": 3,
-        "UNI": 3,
-        "PYTH": 3,
-        "XRP": 2,
-        "XLM": 2,
-        "ADA": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "JTO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Jito ($JTO) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "H": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Humanity ($H) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) up 22.64% in 24h"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-15T22:09:10.723700",
     "tickers": {
       "ALPHA": 3,
@@ -11868,6 +11740,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-28T22:53:02.933587",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ANSEM": 6,
+      "MANTA": 6,
+      "DEUS": 6,
+      "AAVE": 6,
+      "PENGU": 6,
+      "POL": 6,
+      "SLX": 6,
+      "SYN": 6,
+      "VELVET": 6,
+      "AERO": 6,
+      "AKT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ANSEM": 3,
+        "MANTA": 3,
+        "DEUS": 3,
+        "SOL": 3,
+        "AAVE": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "POL": 3,
+        "SLX": 3,
+        "SYN": 3,
+        "XRP": 3,
+        "DOT": 3,
+        "VELVET": 3,
+        "AERO": 3,
+        "AKT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "MANTA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Manta Network ($MANTA) is trending on CoinGecko"
+        ]
+      },
+      "DEUS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "XMAQUINA ($DEUS) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

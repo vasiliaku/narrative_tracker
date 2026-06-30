@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T19:57:03.633617",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "XPL": 6,
-      "SIREN": 6,
-      "HYPE": 6,
-      "ASTER": 6,
-      "ONDO": 6,
-      "SPCXX": 6,
-      "LIT": 6,
-      "WLD": 6,
-      "PENGU": 6,
-      "AKT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "XPL": 3,
-        "SIREN": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "ASTER": 3,
-        "ONDO": 3,
-        "SPCXX": 3,
-        "LIT": 3,
-        "WLD": 3,
-        "PENGU": 3,
-        "AKT": 3,
-        "NEAR": 3,
-        "SOL": 3,
-        "ETH": 3,
-        "LTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "XPL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Plasma ($XPL) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "ASTER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aster ($ASTER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-17T21:54:19.001087",
     "tickers": {
       "ALPHA": 3,
@@ -11870,6 +11754,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-30T13:52:40.002573",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ANSEM": 6,
+      "SYN": 6,
+      "PYTH": 6,
+      "ENA": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "SLX": 6,
+      "ONDO": 6,
+      "KAS": 6,
+      "AAVE": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ANSEM": 3,
+        "SYN": 3,
+        "BTC": 3,
+        "PYTH": 3,
+        "ENA": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "SLX": 3,
+        "ONDO": 3,
+        "KAS": 3,
+        "AAVE": 3,
+        "SUI": 3,
+        "VET": 3,
+        "ETH": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "SYN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Synapse ($SYN) is trending on CoinGecko"
+        ]
+      },
+      "PYTH": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pyth Network ($PYTH) is trending on CoinGecko"
+        ]
+      },
+      "ENA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ethena ($ENA) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

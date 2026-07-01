@@ -1,135 +1,5 @@
 [
   {
-    "timestamp": "2026-06-18T23:27:47.985727",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ANT": 6,
-      "SIREN": 6,
-      "ASTEROID": 6,
-      "LAB": 6,
-      "VVV": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "ASTER": 6,
-      "XPL": 6,
-      "SUI": 6,
-      "PENDLE": 6,
-      "AKT": 6,
-      "H": 6,
-      "BASED": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ANT": 3,
-        "SIREN": 3,
-        "ASTEROID": 3,
-        "LAB": 3,
-        "VVV": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "ASTER": 3,
-        "XPL": 3,
-        "SUI": 3,
-        "PENDLE": 3,
-        "AKT": 3,
-        "H": 3,
-        "BASED": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ANT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Autonomi ($ANT) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      },
-      "ASTEROID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Asteroid Shiba ($ASTEROID) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-19T02:50:25.755645",
     "tickers": {
       "ALPHA": 3,
@@ -11820,6 +11690,116 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-01T16:14:41.375424",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VVV": 6,
+      "TAIKO": 6,
+      "JUP": 6,
+      "PENGU": 6,
+      "ANSEM": 6,
+      "MORPHO": 6,
+      "SYN": 6,
+      "AAVE": 6,
+      "BP": 6,
+      "CARDS": 6,
+      "HYPE": 6,
+      "WBT": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VVV": 3,
+        "SOL": 3,
+        "TAIKO": 3,
+        "JUP": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "ANSEM": 3,
+        "MORPHO": 3,
+        "SYN": 3,
+        "XRP": 3,
+        "AAVE": 3,
+        "BP": 3,
+        "XLM": 5,
+        "CARDS": 3,
+        "HYPE": 3,
+        "WBT": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "TAIKO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Taiko ($TAIKO) is trending on CoinGecko"
+        ]
+      },
+      "JUP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Jupiter ($JUP) is trending on CoinGecko"
         ]
       }
     },

@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-06-20T19:07:38.780899",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RE": 6,
-      "BICO": 6,
-      "BTW": 6,
-      "SIREN": 6,
-      "PENGU": 6,
-      "AERO": 6,
-      "JUP": 6,
-      "HYPE": 6,
-      "BP": 6,
-      "SYN": 6,
-      "ZEC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RE": 3,
-        "BICO": 3,
-        "BTC": 3,
-        "BTW": 3,
-        "SIREN": 3,
-        "PENGU": 3,
-        "AERO": 3,
-        "AVAX": 3,
-        "JUP": 3,
-        "UNI": 3,
-        "HYPE": 3,
-        "XLM": 3,
-        "BP": 3,
-        "SYN": 3,
-        "ZEC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RE ($RE) is trending on CoinGecko"
-        ]
-      },
-      "BICO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Biconomy ($BICO) is trending on CoinGecko"
-        ]
-      },
-      "BTW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bitway ($BTW) is trending on CoinGecko"
-        ]
-      },
-      "SIREN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Siren ($SIREN) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-20T21:03:02.201135",
     "tickers": {
       "ALPHA": 3,
@@ -11812,6 +11695,122 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-03T05:42:09.802624",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "MPLX": 6,
+      "NEX": 6,
+      "LIT": 6,
+      "MON": 6,
+      "ANSEM": 6,
+      "PENGU": 6,
+      "POL": 6,
+      "GRASS": 6,
+      "VVV": 6,
+      "TRUMP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "MPLX": 3,
+        "NEX": 3,
+        "SOL": 3,
+        "LIT": 3,
+        "MON": 3,
+        "ANSEM": 3,
+        "PENGU": 3,
+        "POL": 3,
+        "BTC": 3,
+        "GRASS": 3,
+        "VVV": 3,
+        "UNI": 3,
+        "TRUMP": 3,
+        "ETH": 3,
+        "ARB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "MPLX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Metaplex ($MPLX) is trending on CoinGecko"
+        ]
+      },
+      "NEX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nexus ($NEX) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

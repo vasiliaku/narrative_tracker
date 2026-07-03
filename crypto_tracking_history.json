@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-06-20T21:03:02.201135",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BICO": 6,
-      "RE": 6,
-      "BTW": 6,
-      "PENGU": 6,
-      "AERO": 6,
-      "MSUSD": 6,
-      "HYPE": 6,
-      "BP": 6,
-      "CARDS": 6,
-      "SIREN": 6,
-      "KINS": 6,
-      "MON": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BICO": 3,
-        "RE": 3,
-        "BTW": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "AERO": 3,
-        "MSUSD": 3,
-        "HYPE": 3,
-        "BP": 3,
-        "BTC": 3,
-        "CARDS": 3,
-        "SIREN": 3,
-        "KINS": 3,
-        "MON": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BICO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Biconomy ($BICO) is trending on CoinGecko"
-        ]
-      },
-      "RE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RE ($RE) is trending on CoinGecko"
-        ]
-      },
-      "BTW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bitway ($BTW) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-20T22:57:42.525175",
     "tickers": {
       "ALPHA": 3,
@@ -11821,6 +11702,133 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-03T08:46:11.461632",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "NEX": 6,
+      "MPLX": 6,
+      "ANSEM": 6,
+      "LIT": 6,
+      "VVV": 6,
+      "JUP": 6,
+      "TAO": 6,
+      "TAIKO": 6,
+      "SLX": 6,
+      "MORPHO": 6,
+      "GRAM": 6,
+      "PENGU": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "NEX": 3,
+        "MPLX": 3,
+        "ANSEM": 3,
+        "LIT": 3,
+        "VVV": 3,
+        "JUP": 3,
+        "BTC": 3,
+        "TAO": 3,
+        "TAIKO": 3,
+        "SLX": 3,
+        "MORPHO": 3,
+        "GRAM": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "PENGU": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "NEX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Nexus ($NEX) is trending on CoinGecko"
+        ]
+      },
+      "MPLX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Metaplex ($MPLX) is trending on CoinGecko"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

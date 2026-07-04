@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-06-21T22:59:07.126517",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TNSR": 6,
-      "TAO": 6,
-      "PENGU": 6,
-      "CARDS": 6,
-      "BP": 6,
-      "HYPE": 6,
-      "AERO": 6,
-      "LAB": 6,
-      "PI": 6,
-      "ZEC": 6,
-      "XPL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TNSR": 3,
-        "BTC": 3,
-        "TAO": 3,
-        "XRP": 3,
-        "PENGU": 3,
-        "CARDS": 3,
-        "BP": 3,
-        "XLM": 3,
-        "HYPE": 3,
-        "AERO": 3,
-        "DOGE": 3,
-        "LAB": 3,
-        "PI": 3,
-        "ZEC": 3,
-        "XPL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TNSR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tensor ($TNSR) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-22T02:38:43.822752",
     "tickers": {
       "ALPHA": 3,
@@ -11778,6 +11670,134 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-04T08:21:14.922539",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ANSEM": 6,
+      "PENGU": 6,
+      "HMSTR": 6,
+      "GRAM": 6,
+      "KINS": 6,
+      "TAO": 6,
+      "SLX": 6,
+      "VELVET": 6,
+      "PRL": 6,
+      "BONK": 6,
+      "HYPE": 6,
+      "JUP": 6,
+      "NEX": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ANSEM": 3,
+        "PENGU": 3,
+        "HMSTR": 3,
+        "GRAM": 3,
+        "KINS": 3,
+        "TAO": 3,
+        "SLX": 3,
+        "VELVET": 3,
+        "PRL": 3,
+        "BTC": 3,
+        "BONK": 3,
+        "HYPE": 3,
+        "JUP": 3,
+        "NEX": 3,
+        "SOL": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "HMSTR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hamster Kombat ($HMSTR) is trending on CoinGecko"
+        ]
+      },
+      "GRAM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Gram (prev. Toncoin) ($GRAM) is trending on CoinGecko"
+        ]
+      },
+      "KINS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kintara ($KINS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

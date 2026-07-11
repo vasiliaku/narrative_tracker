@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-06-29T13:57:12.683498",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ANSEM": 6,
-      "TAC": 6,
-      "ENA": 6,
-      "GWEI": 6,
-      "SYN": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "PUMP": 6,
-      "SLX": 6,
-      "POD": 6,
-      "CAP": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ANSEM": 3,
-        "TAC": 3,
-        "ENA": 3,
-        "BTC": 3,
-        "GWEI": 3,
-        "SYN": 3,
-        "PENGU": 3,
-        "XRP": 3,
-        "HYPE": 3,
-        "PUMP": 3,
-        "SLX": 3,
-        "POD": 3,
-        "CAP": 3,
-        "AERO": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      },
-      "TAC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "TAC ($TAC) is trending on CoinGecko"
-        ]
-      },
-      "ENA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ethena ($ENA) is trending on CoinGecko"
-        ]
-      },
-      "GWEI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ETHGas ($GWEI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-29T16:50:10.101108",
     "tickers": {
       "ALPHA": 3,
@@ -11968,6 +11850,133 @@
         ],
         "sample_posts": [
           "LAB ($LAB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T07:30:22.994386",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CASHCAT": 6,
+      "LAB": 6,
+      "ANSEM": 6,
+      "PENGU": 6,
+      "VIRTUAL": 6,
+      "SUI": 6,
+      "LIT": 6,
+      "TAO": 6,
+      "VVV": 6,
+      "PEPE": 6,
+      "GRASS": 6,
+      "GRAM": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CASHCAT": 3,
+        "LAB": 3,
+        "ANSEM": 3,
+        "PENGU": 3,
+        "VIRTUAL": 3,
+        "SUI": 3,
+        "LIT": 3,
+        "TAO": 3,
+        "BTC": 3,
+        "ETH": 3,
+        "VVV": 3,
+        "PEPE": 3,
+        "GRASS": 3,
+        "INJ": 3,
+        "GRAM": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "VIRTUAL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Virtuals Protocol ($VIRTUAL) is trending on CoinGecko"
         ]
       }
     },

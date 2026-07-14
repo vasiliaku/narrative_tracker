@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-07-04T01:50:04.304843",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ANSEM": 6,
-      "PENGU": 6,
-      "TLM": 6,
-      "BONK": 6,
-      "RENDER": 6,
-      "AERO": 6,
-      "SUI": 6,
-      "VVV": 6,
-      "KAS": 6,
-      "PRL": 6,
-      "PUMP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ANSEM": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "TLM": 3,
-        "BONK": 3,
-        "RENDER": 3,
-        "AERO": 3,
-        "SUI": 3,
-        "VVV": 3,
-        "KAS": 3,
-        "ETH": 3,
-        "PRL": 3,
-        "PUMP": 3,
-        "UNI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "TLM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Alien Worlds ($TLM) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-04T05:36:17.062851",
     "tickers": {
       "ALPHA": 3,
@@ -12144,6 +12036,137 @@
         ],
         "sample_posts": [
           "LAB ($LAB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T22:45:09.239462",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ARROW": 6,
+      "ADI": 6,
+      "CASHCAT": 6,
+      "LAB": 6,
+      "GRASS": 6,
+      "AERO": 6,
+      "VIRTUAL": 6,
+      "DRV": 6,
+      "TAO": 6,
+      "ANSEM": 6,
+      "PENGU": 6,
+      "GRAM": 6,
+      "SHIB": 6,
+      "RENDER": 6,
+      "ZEC": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ARROW": 3,
+        "ADI": 3,
+        "CASHCAT": 3,
+        "LAB": 3,
+        "GRASS": 3,
+        "AERO": 3,
+        "VIRTUAL": 3,
+        "DRV": 3,
+        "TAO": 3,
+        "ANSEM": 3,
+        "PENGU": 3,
+        "GRAM": 3,
+        "SHIB": 3,
+        "BTC": 3,
+        "RENDER": 3,
+        "ZEC": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ARROW": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Arrow ($ARROW) is trending on CoinGecko"
+        ]
+      },
+      "ADI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ADI ($ADI) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "GRASS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Grass ($GRASS) is trending on CoinGecko"
         ]
       }
     },

@@ -1,121 +1,5 @@
 [
   {
-    "timestamp": "2026-07-03T05:42:09.802624",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "MPLX": 6,
-      "NEX": 6,
-      "LIT": 6,
-      "MON": 6,
-      "ANSEM": 6,
-      "PENGU": 6,
-      "POL": 6,
-      "GRASS": 6,
-      "VVV": 6,
-      "TRUMP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MPLX": 3,
-        "NEX": 3,
-        "SOL": 3,
-        "LIT": 3,
-        "MON": 3,
-        "ANSEM": 3,
-        "PENGU": 3,
-        "POL": 3,
-        "BTC": 3,
-        "GRASS": 3,
-        "VVV": 3,
-        "UNI": 3,
-        "TRUMP": 3,
-        "ETH": 3,
-        "ARB": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "MPLX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Metaplex ($MPLX) is trending on CoinGecko"
-        ]
-      },
-      "NEX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Nexus ($NEX) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "MON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Monad ($MON) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-03T08:46:11.461632",
     "tickers": {
       "ALPHA": 3,
@@ -12099,6 +11983,133 @@
         ],
         "sample_posts": [
           "ADI ($ADI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T07:44:49.360430",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CCD": 6,
+      "LAB": 6,
+      "CASHCAT": 6,
+      "DRV": 6,
+      "PI": 6,
+      "ADI": 6,
+      "ANSEM": 6,
+      "DEXE": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "LIT": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CCD": 3,
+        "LAB": 3,
+        "CASHCAT": 3,
+        "DRV": 3,
+        "PI": 3,
+        "ADI": 3,
+        "BTC": 3,
+        "ANSEM": 3,
+        "DEXE": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "INJ": 3,
+        "LIT": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CCD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Concordium ($CCD) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "DRV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Derive ($DRV) is trending on CoinGecko"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
         ]
       }
     },

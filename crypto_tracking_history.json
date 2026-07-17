@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-07-07T19:38:32.878529",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LAB": 6,
-      "ANSEM": 6,
-      "TAC": 6,
-      "HYPE": 6,
-      "EVAA": 6,
-      "GRAM": 6,
-      "MON": 6,
-      "AERO": 6,
-      "GROVE": 6,
-      "BONK": 6,
-      "GRASS": 6,
-      "LIT": 6,
-      "PENGU": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LAB": 3,
-        "ANSEM": 3,
-        "TAC": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "EVAA": 3,
-        "GRAM": 3,
-        "MON": 3,
-        "AERO": 3,
-        "GROVE": 3,
-        "HBAR": 3,
-        "BONK": 3,
-        "GRASS": 3,
-        "LIT": 3,
-        "PENGU": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      },
-      "TAC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "TAC ($TAC) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-07T21:13:26.381617",
     "tickers": {
       "ALPHA": 3,
@@ -12220,6 +12101,135 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "ADI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ADI ($ADI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-17T20:41:36.148703",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AKE": 6,
+      "ANSEM": 6,
+      "HYPE": 6,
+      "CASHCAT": 6,
+      "ADI": 6,
+      "ONDO": 6,
+      "JUP": 6,
+      "AERO": 6,
+      "LIT": 6,
+      "SKR": 6,
+      "XEC": 6,
+      "JTO": 6,
+      "TAG": 6,
+      "SUI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AKE": 3,
+        "ANSEM": 3,
+        "HYPE": 3,
+        "CASHCAT": 3,
+        "ADI": 3,
+        "ONDO": 3,
+        "JUP": 3,
+        "BTC": 3,
+        "AERO": 3,
+        "LIT": 3,
+        "SKR": 3,
+        "XEC": 3,
+        "JTO": 3,
+        "TAG": 3,
+        "SUI": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AKE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Akedo ($AKE) is trending on CoinGecko"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
         ]
       },
       "ADI": {

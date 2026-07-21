@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T01:29:09.095689",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HOODIE": 6,
-      "CASHCAT": 6,
-      "LAB": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "AAVE": 6,
-      "SLX": 6,
-      "ARX": 6,
-      "HYPE": 6,
-      "LIT": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "HOODIE": 3,
-        "CASHCAT": 3,
-        "LAB": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "SUI": 3,
-        "AAVE": 3,
-        "HBAR": 3,
-        "SLX": 3,
-        "ARX": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "LIT": 3,
-        "PI": 3,
-        "ARB": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HOODIE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "HOODIE ($HOODIE) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-12T05:15:17.545810",
     "tickers": {
       "ALPHA": 3,
@@ -12353,6 +12236,124 @@
         ],
         "sample_posts": [
           "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-21T17:05:43.383280",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ERA": 6,
+      "GRAM": 6,
+      "PENGU": 6,
+      "ONDO": 6,
+      "DEXE": 6,
+      "CASHCAT": 6,
+      "ANSEM": 6,
+      "PONS": 6,
+      "PUMP": 6,
+      "HYPE": 6,
+      "PI": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ERA": 3,
+        "GRAM": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "ONDO": 3,
+        "ETH": 3,
+        "DEXE": 3,
+        "CASHCAT": 3,
+        "ANSEM": 3,
+        "PONS": 3,
+        "PUMP": 3,
+        "HYPE": 3,
+        "PI": 3,
+        "LINK": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ERA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Caldera ($ERA) is trending on CoinGecko"
+        ]
+      },
+      "GRAM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Gram (prev. Toncoin) ($GRAM) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
         ]
       }
     },

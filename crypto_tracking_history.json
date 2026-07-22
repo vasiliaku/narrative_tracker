@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T22:36:57.833774",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "JOHN": 6,
-      "$1": 6,
-      "CASHDOG": 6,
-      "CASHCAT": 6,
-      "PENGU": 6,
-      "LAB": 6,
-      "HYPE": 6,
-      "LIT": 6,
-      "KAS": 6,
-      "ZEC": 6,
-      "AAVE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "JOHN": 3,
-        "$1": 3,
-        "CASHDOG": 3,
-        "CASHCAT": 3,
-        "PENGU": 3,
-        "LAB": 3,
-        "ARB": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "LIT": 3,
-        "SOL": 3,
-        "KAS": 3,
-        "ZEC": 3,
-        "UNI": 3,
-        "AAVE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "JOHN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Little John ($JOHN) is trending on CoinGecko"
-        ]
-      },
-      "$1": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "$1 is all you need ($$1) is trending on CoinGecko"
-        ]
-      },
-      "CASHDOG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Dog in Hood ($CASHDOG) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-13T01:30:05.463731",
     "tickers": {
       "ALPHA": 3,
@@ -12388,6 +12262,124 @@
         ],
         "sample_posts": [
           "Movement ($MOVE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-22T17:06:18.918120",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DEXE": 6,
+      "LAB": 6,
+      "LIT": 6,
+      "HYPE": 6,
+      "MOVE": 6,
+      "ONDO": 6,
+      "KAS": 6,
+      "PENGU": 6,
+      "TAO": 6,
+      "ENA": 6,
+      "PI": 6,
+      "VIRTUAL": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DEXE": 3,
+        "LAB": 3,
+        "LIT": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "MOVE": 3,
+        "SOL": 3,
+        "ONDO": 3,
+        "XRP": 3,
+        "KAS": 3,
+        "PENGU": 3,
+        "TAO": 3,
+        "ENA": 3,
+        "PI": 3,
+        "VIRTUAL": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DEXE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "DeXe ($DEXE) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

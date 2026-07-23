@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-07-13T16:19:54.461265",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CCD": 6,
-      "JTO": 6,
-      "LAB": 6,
-      "CASHCAT": 6,
-      "ANSEM": 6,
-      "ADI": 6,
-      "PI": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "JUP": 6,
-      "VVV": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CCD": 3,
-        "JTO": 3,
-        "LAB": 3,
-        "CASHCAT": 3,
-        "ANSEM": 3,
-        "ADI": 3,
-        "PI": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "UNI": 3,
-        "JUP": 3,
-        "VVV": 3,
-        "DOT": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CCD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Concordium ($CCD) is trending on CoinGecko"
-        ]
-      },
-      "JTO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Jito ($JTO) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-13T19:09:08.066339",
     "tickers": {
       "ALPHA": 3,
@@ -12396,6 +12269,126 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-23T05:14:12.589328",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZAMA": 6,
+      "PENGU": 6,
+      "O": 6,
+      "LAB": 6,
+      "BANK": 6,
+      "AKE": 6,
+      "DEXE": 6,
+      "ANSEM": 6,
+      "JIMOTHY": 6,
+      "PI": 6,
+      "CASHCAT": 6,
+      "KAS": 6,
+      "AAVE": 6,
+      "PUMP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZAMA": 3,
+        "UNI": 3,
+        "PENGU": 3,
+        "O": 3,
+        "LAB": 3,
+        "BANK": 3,
+        "AKE": 3,
+        "DEXE": 3,
+        "ANSEM": 3,
+        "JIMOTHY": 3,
+        "PI": 3,
+        "CASHCAT": 3,
+        "KAS": 3,
+        "AAVE": 3,
+        "PUMP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZAMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zama ($ZAMA) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "O": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "o1.exchange ($O) is trending on CoinGecko"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

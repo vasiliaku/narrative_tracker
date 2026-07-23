@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-07-14T04:39:10.773367",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PI": 6,
-      "CASHCAT": 6,
-      "LAB": 6,
-      "CCD": 6,
-      "ADI": 6,
-      "HYPE": 6,
-      "ANSEM": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "IOTA": 6,
-      "MON": 6,
-      "GRAM": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PI": 3,
-        "CASHCAT": 3,
-        "LAB": 3,
-        "CCD": 3,
-        "ADI": 3,
-        "HYPE": 3,
-        "ANSEM": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "IOTA": 3,
-        "DOGE": 3,
-        "MON": 3,
-        "BTC": 3,
-        "GRAM": 3,
-        "ADA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "CCD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Concordium ($CCD) is trending on CoinGecko"
-        ]
-      },
-      "ADI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ADI ($ADI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-14T07:44:49.360430",
     "tickers": {
       "ALPHA": 3,
@@ -12400,6 +12273,134 @@
         ],
         "sample_posts": [
           "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-23T17:07:42.292119",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZAMA": 6,
+      "DEXE": 6,
+      "KAITO": 6,
+      "ONDO": 6,
+      "ADI": 6,
+      "HYPE": 6,
+      "AKE": 6,
+      "VIRTUAL": 6,
+      "BANK": 6,
+      "SUI": 6,
+      "CASHCAT": 6,
+      "AAVE": 6,
+      "STABLE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZAMA": 3,
+        "DEXE": 3,
+        "KAITO": 3,
+        "ONDO": 3,
+        "ADI": 3,
+        "HYPE": 3,
+        "AKE": 3,
+        "BTC": 3,
+        "VIRTUAL": 3,
+        "BANK": 3,
+        "SUI": 3,
+        "CASHCAT": 3,
+        "AAVE": 3,
+        "NEAR": 3,
+        "STABLE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZAMA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zama ($ZAMA) is trending on CoinGecko"
+        ]
+      },
+      "DEXE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "DeXe ($DEXE) is trending on CoinGecko"
+        ]
+      },
+      "KAITO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "KAITO ($KAITO) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      },
+      "ADI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ADI ($ADI) is trending on CoinGecko"
         ]
       }
     },

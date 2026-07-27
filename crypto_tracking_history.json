@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17T22:37:29.083126",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ONDO": 6,
-      "ADI": 6,
-      "AKE": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "CASHCAT": 6,
-      "TAO": 6,
-      "CRO": 6,
-      "BONK": 6,
-      "PI": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ONDO": 3,
-        "ADI": 3,
-        "BTC": 3,
-        "AKE": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "CASHCAT": 3,
-        "ETH": 3,
-        "LTC": 3,
-        "TAO": 3,
-        "CRO": 3,
-        "BONK": 3,
-        "PI": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      },
-      "ADI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ADI ($ADI) is trending on CoinGecko"
-        ]
-      },
-      "AKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Akedo ($AKE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-18T01:20:50.553803",
     "tickers": {
       "ALPHA": 3,
@@ -12297,6 +12179,134 @@
         ],
         "sample_posts": [
           "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-27T22:49:55.132019",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CSPR": 6,
+      "ZIG": 6,
+      "PUMP": 6,
+      "PENGU": 6,
+      "COTI": 6,
+      "HYPE": 6,
+      "PONS": 6,
+      "LIT": 6,
+      "ZAMA": 6,
+      "BANK": 6,
+      "ZEC": 6,
+      "GRAM": 6,
+      "LAB": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CSPR": 3,
+        "ZIG": 3,
+        "PUMP": 3,
+        "PENGU": 3,
+        "COTI": 3,
+        "HYPE": 3,
+        "PONS": 3,
+        "LIT": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "ZAMA": 3,
+        "BANK": 3,
+        "ZEC": 3,
+        "GRAM": 3,
+        "LAB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CSPR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Casper Network ($CSPR) is trending on CoinGecko"
+        ]
+      },
+      "ZIG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ZIGChain ($ZIG) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "COTI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "COTI ($COTI) is trending on CoinGecko"
         ]
       }
     },

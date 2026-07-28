@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T20:36:30.580144",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ADI": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "CASHCAT": 6,
-      "ANSEM": 6,
-      "ONDO": 6,
-      "BONK": 6,
-      "BANK": 6,
-      "PI": 6,
-      "AKE": 6,
-      "VVV": 6,
-      "MON": 6,
-      "JASMY": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ADI": 3,
-        "PENGU": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "CASHCAT": 3,
-        "ANSEM": 3,
-        "ONDO": 3,
-        "BTC": 3,
-        "BONK": 3,
-        "BANK": 3,
-        "PI": 3,
-        "AKE": 3,
-        "VVV": 3,
-        "MON": 3,
-        "JASMY": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ADI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ADI ($ADI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-18T22:37:26.161172",
     "tickers": {
       "ALPHA": 3,
@@ -12314,6 +12195,134 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-28T22:50:11.993804",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CSPR": 6,
+      "PENGU": 6,
+      "COTI": 6,
+      "GRASS": 6,
+      "LIT": 6,
+      "ZAMA": 6,
+      "FET": 6,
+      "TAO": 6,
+      "PUMP": 6,
+      "ANSEM": 6,
+      "SUI": 6,
+      "PROS": 6,
+      "DEXE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CSPR": 3,
+        "PENGU": 3,
+        "COTI": 3,
+        "GRASS": 3,
+        "LIT": 3,
+        "ZAMA": 3,
+        "SOL": 3,
+        "FET": 3,
+        "TAO": 3,
+        "PUMP": 3,
+        "ANSEM": 3,
+        "SUI": 3,
+        "AVAX": 3,
+        "PROS": 3,
+        "DEXE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CSPR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Casper Network ($CSPR) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "COTI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "COTI ($COTI) is trending on CoinGecko"
+        ]
+      },
+      "GRASS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Grass ($GRASS) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

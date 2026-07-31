@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-07-21T15:27:56.665990",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ERA": 6,
-      "PONS": 6,
-      "ONDO": 6,
-      "DEXE": 6,
-      "HYPE": 6,
-      "GRAM": 6,
-      "PENGU": 6,
-      "CASHCAT": 6,
-      "VVV": 6,
-      "CSPR": 6,
-      "LIT": 6,
-      "PI": 6,
-      "ZAMA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ERA": 3,
-        "PONS": 3,
-        "ONDO": 3,
-        "DEXE": 3,
-        "HYPE": 3,
-        "BTC": 3,
-        "SOL": 3,
-        "GRAM": 3,
-        "PENGU": 3,
-        "CASHCAT": 3,
-        "VVV": 3,
-        "CSPR": 3,
-        "LIT": 3,
-        "PI": 3,
-        "ZAMA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ERA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Caldera ($ERA) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      },
-      "DEXE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DeXe ($DEXE) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-21T17:05:43.383280",
     "tickers": {
       "ALPHA": 3,
@@ -12217,6 +12089,115 @@
         ],
         "sample_posts": [
           "COTI ($COTI) is trending on CoinGecko"
+        ]
+      },
+      "GRVT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "GRVT Token ($GRVT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-31T17:17:15.114019",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ENA": 6,
+      "PENGU": 6,
+      "GRVT": 6,
+      "PUMP": 6,
+      "LIT": 6,
+      "COTI": 6,
+      "CASHCAT": 6,
+      "LAB": 6,
+      "IF": 6,
+      "AEON": 6,
+      "BANK": 6,
+      "EIGEN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ENA": 3,
+        "PENGU": 3,
+        "UNI": 3,
+        "GRVT": 3,
+        "ETH": 3,
+        "PUMP": 3,
+        "LIT": 3,
+        "COTI": 3,
+        "CASHCAT": 3,
+        "LAB": 3,
+        "IF": 3,
+        "SOL": 3,
+        "AEON": 3,
+        "BANK": 3,
+        "EIGEN": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ENA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ethena ($ENA) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       },
       "GRVT": {

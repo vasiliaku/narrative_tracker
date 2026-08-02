@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T17:07:42.292119",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZAMA": 6,
-      "DEXE": 6,
-      "KAITO": 6,
-      "ONDO": 6,
-      "ADI": 6,
-      "HYPE": 6,
-      "AKE": 6,
-      "VIRTUAL": 6,
-      "BANK": 6,
-      "SUI": 6,
-      "CASHCAT": 6,
-      "AAVE": 6,
-      "STABLE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZAMA": 3,
-        "DEXE": 3,
-        "KAITO": 3,
-        "ONDO": 3,
-        "ADI": 3,
-        "HYPE": 3,
-        "AKE": 3,
-        "BTC": 3,
-        "VIRTUAL": 3,
-        "BANK": 3,
-        "SUI": 3,
-        "CASHCAT": 3,
-        "AAVE": 3,
-        "NEAR": 3,
-        "STABLE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZAMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zama ($ZAMA) is trending on CoinGecko"
-        ]
-      },
-      "DEXE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DeXe ($DEXE) is trending on CoinGecko"
-        ]
-      },
-      "KAITO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "KAITO ($KAITO) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      },
-      "ADI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ADI ($ADI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-23T18:56:43.485106",
     "tickers": {
       "ALPHA": 3,
@@ -12105,6 +11977,112 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-02T18:52:48.425206",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BLESS": 6,
+      "PENGU": 6,
+      "CATE": 6,
+      "PEPE": 6,
+      "PUMP": 6,
+      "ANSEM": 6,
+      "LAB": 6,
+      "PONS": 6,
+      "AERO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BLESS": 3,
+        "PENGU": 3,
+        "CATE": 3,
+        "ADA": 3,
+        "BTC": 3,
+        "PEPE": 3,
+        "PUMP": 3,
+        "ANSEM": 3,
+        "ALGO": 3,
+        "LAB": 3,
+        "AVAX": 3,
+        "PONS": 3,
+        "SOL": 3,
+        "AERO": 3,
+        "DOT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BLESS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bless ($BLESS) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "CATE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Catecoin ($CATE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

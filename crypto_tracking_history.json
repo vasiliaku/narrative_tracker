@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T18:56:43.485106",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZAMA": 6,
-      "DEXE": 6,
-      "ADI": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "CASHCAT": 6,
-      "KAITO": 6,
-      "PUMP": 6,
-      "CC": 6,
-      "POL": 6,
-      "AKE": 6,
-      "JIMOTHY": 6,
-      "ANSEM": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZAMA": 3,
-        "DEXE": 3,
-        "ADI": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "CASHCAT": 3,
-        "KAITO": 3,
-        "PUMP": 3,
-        "XLM": 3,
-        "CC": 3,
-        "POL": 3,
-        "AKE": 3,
-        "JIMOTHY": 3,
-        "ANSEM": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZAMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zama ($ZAMA) is trending on CoinGecko"
-        ]
-      },
-      "DEXE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DeXe ($DEXE) is trending on CoinGecko"
-        ]
-      },
-      "ADI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ADI ($ADI) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-23T20:50:18.763368",
     "tickers": {
       "ALPHA": 3,
@@ -12073,6 +11945,122 @@
         ],
         "sample_posts": [
           "Catecoin ($CATE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-02T20:41:45.697894",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "BLESS": 6,
+      "CATE": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "FET": 6,
+      "KAS": 6,
+      "PUMP": 6,
+      "GRVT": 6,
+      "BONK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "BTC": 3,
+        "BLESS": 3,
+        "CATE": 3,
+        "HYPE": 3,
+        "ADA": 3,
+        "SUI": 3,
+        "FET": 3,
+        "AVAX": 3,
+        "ETH": 3,
+        "KAS": 3,
+        "XRP": 3,
+        "PUMP": 3,
+        "GRVT": 3,
+        "BONK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "BLESS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bless ($BLESS) is trending on CoinGecko"
+        ]
+      },
+      "CATE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Catecoin ($CATE) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

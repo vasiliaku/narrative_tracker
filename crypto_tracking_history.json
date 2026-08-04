@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-07-25T04:54:54.549641",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "DEXE": 6,
-      "BANK": 6,
-      "ZAMA": 6,
-      "LAB": 6,
-      "PONS": 6,
-      "PENGU": 6,
-      "PI": 6,
-      "ONDO": 6,
-      "CASHCAT": 6,
-      "AKE": 6,
-      "TRUMP": 6,
-      "SPX": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "DEXE": 3,
-        "BANK": 3,
-        "ZAMA": 3,
-        "LAB": 3,
-        "PONS": 3,
-        "PENGU": 3,
-        "PI": 3,
-        "ONDO": 3,
-        "CASHCAT": 3,
-        "SOL": 3,
-        "AKE": 3,
-        "TRUMP": 3,
-        "LTC": 3,
-        "ETH": 3,
-        "SPX": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "DEXE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DeXe ($DEXE) is trending on CoinGecko"
-        ]
-      },
-      "BANK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lorenzo Protocol ($BANK) is trending on CoinGecko"
-        ]
-      },
-      "ZAMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zama ($ZAMA) is trending on CoinGecko"
-        ]
-      },
-      "LAB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LAB ($LAB) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-25T07:48:28.357069",
     "tickers": {
       "ALPHA": 3,
@@ -11984,6 +11857,133 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-04T13:43:40.260067",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "QUID": 6,
+      "ERG": 6,
+      "PENGU": 6,
+      "CASHCAT": 6,
+      "HOME": 6,
+      "HYPE": 6,
+      "CYS": 6,
+      "PUMP": 6,
+      "ONDO": 6,
+      "BANK": 6,
+      "ENA": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "QUID": 3,
+        "ERG": 3,
+        "PENGU": 3,
+        "CASHCAT": 3,
+        "HOME": 3,
+        "HYPE": 3,
+        "CYS": 3,
+        "PUMP": 3,
+        "SOL": 3,
+        "ONDO": 3,
+        "BTC": 3,
+        "BANK": 3,
+        "UNI": 3,
+        "ENA": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "QUID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Squid ($QUID) is trending on CoinGecko"
+        ]
+      },
+      "ERG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ergo ($ERG) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "HOME": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "HOME ($HOME) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

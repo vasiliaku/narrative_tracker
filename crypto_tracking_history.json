@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-07-25T07:48:28.357069",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "DEXE": 6,
-      "ZAMA": 6,
-      "EUL": 6,
-      "ANSEM": 6,
-      "TAO": 6,
-      "PENGU": 6,
-      "LAB": 6,
-      "MON": 6,
-      "AKE": 6,
-      "BANK": 6,
-      "CASHCAT": 6,
-      "EGLD": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "DEXE": 3,
-        "ZAMA": 3,
-        "EUL": 3,
-        "SOL": 3,
-        "ANSEM": 3,
-        "TAO": 3,
-        "PENGU": 3,
-        "LAB": 3,
-        "ETH": 3,
-        "MON": 3,
-        "AKE": 3,
-        "BANK": 3,
-        "CASHCAT": 3,
-        "DOT": 3,
-        "EGLD": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "DEXE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DeXe ($DEXE) is trending on CoinGecko"
-        ]
-      },
-      "ZAMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zama ($ZAMA) is trending on CoinGecko"
-        ]
-      },
-      "EUL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Euler ($EUL) is trending on CoinGecko"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-25T09:27:23.882107",
     "tickers": {
       "ALPHA": 3,
@@ -11974,6 +11856,124 @@
         ],
         "sample_posts": [
           "HOME ($HOME) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-04T16:05:01.063687",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ERG": 6,
+      "QUID": 6,
+      "PENGU": 6,
+      "AAVE": 6,
+      "PUMP": 6,
+      "SUI": 6,
+      "BANK": 6,
+      "CASHCAT": 6,
+      "LIT": 6,
+      "HYPE": 6,
+      "FET": 6,
+      "GRAM": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ERG": 3,
+        "QUID": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "AAVE": 3,
+        "PUMP": 3,
+        "ADA": 3,
+        "SUI": 3,
+        "BANK": 3,
+        "CASHCAT": 3,
+        "LIT": 3,
+        "HYPE": 3,
+        "UNI": 3,
+        "FET": 3,
+        "GRAM": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ERG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ergo ($ERG) is trending on CoinGecko"
+        ]
+      },
+      "QUID": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Squid ($QUID) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
         ]
       }
     },

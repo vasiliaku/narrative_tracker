@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-07-28T08:12:00.791142",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CSPR": 6,
-      "AEON": 6,
-      "PONS": 6,
-      "CASHCAT": 6,
-      "HYPE": 6,
-      "LIT": 6,
-      "FWA": 6,
-      "COTI": 6,
-      "PUMP": 6,
-      "DEXE": 6,
-      "SHIB": 6,
-      "PI": 6,
-      "KAS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CSPR": 3,
-        "AEON": 3,
-        "PONS": 3,
-        "CASHCAT": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "LIT": 3,
-        "FWA": 3,
-        "COTI": 3,
-        "PUMP": 3,
-        "DEXE": 3,
-        "SHIB": 3,
-        "PI": 3,
-        "BTC": 3,
-        "KAS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CSPR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Casper Network ($CSPR) is trending on CoinGecko"
-        ]
-      },
-      "AEON": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "AEON ($AEON) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-28T11:49:18.880442",
     "tickers": {
       "ALPHA": 3,
@@ -11951,6 +11823,135 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-07T20:27:51.560795",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WKC": 6,
+      "CASHCAT": 6,
+      "IF": 6,
+      "EPIC": 6,
+      "ONDO": 6,
+      "LIT": 6,
+      "ALLO": 6,
+      "QNT": 6,
+      "HYPE": 6,
+      "CRO": 6,
+      "BONK": 6,
+      "SUI": 6,
+      "CC": 6,
+      "HEI": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WKC": 3,
+        "CASHCAT": 3,
+        "IF": 3,
+        "EPIC": 3,
+        "ONDO": 3,
+        "LIT": 3,
+        "ALLO": 3,
+        "QNT": 3,
+        "HYPE": 3,
+        "CRO": 3,
+        "BONK": 3,
+        "SUI": 3,
+        "CC": 3,
+        "HEI": 3,
+        "BTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WKC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Wiki Cat ($WKC) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "IF": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "What IF ($IF) is trending on CoinGecko"
+        ]
+      },
+      "EPIC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Epic Chain ($EPIC) is trending on CoinGecko"
         ]
       },
       "ONDO": {

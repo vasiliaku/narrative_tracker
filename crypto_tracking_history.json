@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-07-28T20:57:27.076750",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CSPR": 6,
-      "LIT": 6,
-      "ONDO": 6,
-      "COTI": 6,
-      "HYPE": 6,
-      "TAO": 6,
-      "CASHCAT": 6,
-      "BANK": 6,
-      "KAS": 6,
-      "PONS": 6,
-      "VVV": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CSPR": 3,
-        "SOL": 3,
-        "LIT": 3,
-        "ONDO": 3,
-        "BTC": 3,
-        "COTI": 3,
-        "HYPE": 3,
-        "TAO": 3,
-        "CASHCAT": 3,
-        "BANK": 3,
-        "KAS": 3,
-        "PONS": 3,
-        "VVV": 3,
-        "ADA": 3,
-        "PEPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CSPR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Casper Network ($CSPR) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-28T22:50:11.993804",
     "tickers": {
       "ALPHA": 3,
@@ -11988,6 +11879,133 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-08T08:26:31.900536",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BICO": 6,
+      "CYS": 6,
+      "PENGU": 6,
+      "CASHCAT": 6,
+      "CC": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "WKC": 6,
+      "SUI": 6,
+      "BLUAI": 6,
+      "KAS": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BICO": 3,
+        "CYS": 3,
+        "PENGU": 3,
+        "CASHCAT": 3,
+        "CC": 3,
+        "LIT": 3,
+        "ZEC": 3,
+        "WKC": 3,
+        "SUI": 3,
+        "BLUAI": 3,
+        "UNI": 3,
+        "ETH": 3,
+        "KAS": 3,
+        "ONDO": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BICO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Biconomy ($BICO) is trending on CoinGecko"
+        ]
+      },
+      "CYS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cysic ($CYS) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,130 +1,5 @@
 [
   {
-    "timestamp": "2026-07-31T08:30:56.075247",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "MOONDOGECOIN": 6,
-      "GIGGLE": 6,
-      "PENGU": 6,
-      "GRVT": 6,
-      "ONDO": 6,
-      "BANK": 6,
-      "KOMA": 6,
-      "MMT": 6,
-      "USDT": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "MOONDOGECOIN": 3,
-        "GIGGLE": 3,
-        "PENGU": 3,
-        "GRVT": 3,
-        "ONDO": 3,
-        "UNI": 3,
-        "BANK": 3,
-        "ETH": 3,
-        "BTC": 3,
-        "KOMA": 3,
-        "MMT": 3,
-        "USDT": 3,
-        "SOL": 3,
-        "AERO": 3,
-        "ATOM": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "MOONDOGECOIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Moon Doge Coin ($MOONDOGECOIN) is trending on CoinGecko"
-        ]
-      },
-      "GIGGLE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Giggle Fund ($GIGGLE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "GRVT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GRVT Token ($GRVT) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-31T11:51:18.707668",
     "tickers": {
       "ALPHA": 3,
@@ -12049,6 +11924,134 @@
         ],
         "sample_posts": [
           "GRVT Token ($GRVT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-10T09:05:42.061208",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CASHCAT": 6,
+      "PENGU": 6,
+      "PUMP": 6,
+      "BMT": 6,
+      "TUT": 6,
+      "GRVT": 6,
+      "SUI": 6,
+      "CRV": 6,
+      "QUID": 6,
+      "STONKBROKER": 6,
+      "HYPE": 6,
+      "FET": 6,
+      "USDT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CASHCAT": 3,
+        "PENGU": 3,
+        "PUMP": 3,
+        "BMT": 3,
+        "TUT": 3,
+        "BTC": 3,
+        "GRVT": 3,
+        "SOL": 3,
+        "SUI": 3,
+        "CRV": 3,
+        "QUID": 3,
+        "STONKBROKER": 3,
+        "HYPE": 3,
+        "FET": 3,
+        "USDT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "BMT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bubblemaps ($BMT) is trending on CoinGecko"
+        ]
+      },
+      "TUT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tutorial ($TUT) is trending on CoinGecko"
         ]
       }
     },

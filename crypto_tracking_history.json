@@ -1,135 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T12:53:08.256720",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PONS": 6,
-      "GRVT": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "TAO": 6,
-      "BEAT": 6,
-      "PENGU": 6,
-      "PEPE": 6,
-      "CORE": 6,
-      "POL": 6,
-      "KOMA": 6,
-      "XCH": 6,
-      "STONKBROKER": 6,
-      "AKT": 6,
-      "GIGGLE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PONS": 3,
-        "GRVT": 3,
-        "HYPE": 3,
-        "SUI": 3,
-        "TAO": 3,
-        "BEAT": 3,
-        "PENGU": 3,
-        "PEPE": 3,
-        "CORE": 3,
-        "POL": 3,
-        "KOMA": 3,
-        "XCH": 3,
-        "STONKBROKER": 3,
-        "AKT": 3,
-        "GIGGLE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "GRVT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GRVT Token ($GRVT) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      },
-      "TAO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bittensor ($TAO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-01T14:51:27.373413",
     "tickers": {
       "ALPHA": 3,
@@ -12135,6 +12005,133 @@
         ],
         "sample_posts": [
           "DAPPOS ($DOS) is trending on CoinGecko"
+        ]
+      },
+      "CYS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cysic ($CYS) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-11T08:42:26.096645",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DOS": 6,
+      "CASHCAT": 6,
+      "PENGU": 6,
+      "CYS": 6,
+      "PUMP": 6,
+      "VIRTUAL": 6,
+      "RENDER": 6,
+      "LIT": 6,
+      "GEOD": 6,
+      "CRV": 6,
+      "BEAT": 6,
+      "STRK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DOS": 3,
+        "CASHCAT": 3,
+        "PENGU": 3,
+        "CYS": 3,
+        "PUMP": 3,
+        "LINK": 3,
+        "VIRTUAL": 3,
+        "XRP": 3,
+        "RENDER": 3,
+        "LIT": 3,
+        "GEOD": 3,
+        "BTC": 3,
+        "CRV": 3,
+        "BEAT": 3,
+        "STRK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DOS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "DAPPOS ($DOS) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       },
       "CYS": {

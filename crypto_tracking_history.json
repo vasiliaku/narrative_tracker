@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T16:47:12.148852",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SHIB": 6,
-      "HYPE": 6,
-      "PI": 6,
-      "GRVT": 6,
-      "PENGU": 6,
-      "TAO": 6,
-      "BEAT": 6,
-      "VVV": 6,
-      "CASHCAT": 6,
-      "ANSEM": 6,
-      "GIGGLE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SHIB": 3,
-        "HYPE": 3,
-        "PI": 3,
-        "GRVT": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "BEAT": 3,
-        "VVV": 3,
-        "CASHCAT": 3,
-        "XRP": 3,
-        "ETH": 3,
-        "DOT": 3,
-        "ANSEM": 3,
-        "GIGGLE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SHIB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Shiba Inu ($SHIB) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      },
-      "GRVT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GRVT Token ($GRVT) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-01T18:52:11.169335",
     "tickers": {
       "ALPHA": 3,
@@ -12158,6 +12032,132 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-11T12:38:07.122592",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DOS": 6,
+      "CASHCAT": 6,
+      "VELVET": 6,
+      "BEAT": 6,
+      "PUMP": 6,
+      "CYS": 6,
+      "ONDO": 6,
+      "PONS": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "RVN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DOS": 3,
+        "CASHCAT": 3,
+        "VELVET": 3,
+        "BEAT": 3,
+        "PUMP": 3,
+        "CYS": 3,
+        "ONDO": 3,
+        "PONS": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "LINK": 3,
+        "PENGU": 3,
+        "XRP": 3,
+        "UNI": 3,
+        "RVN": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DOS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "DAPPOS ($DOS) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "VELVET": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Velvet ($VELVET) is trending on CoinGecko"
+        ]
+      },
+      "BEAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Audiera ($BEAT) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

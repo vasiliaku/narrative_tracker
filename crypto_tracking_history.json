@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T16:05:01.063687",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ERG": 6,
-      "QUID": 6,
-      "PENGU": 6,
-      "AAVE": 6,
-      "PUMP": 6,
-      "SUI": 6,
-      "BANK": 6,
-      "CASHCAT": 6,
-      "LIT": 6,
-      "HYPE": 6,
-      "FET": 6,
-      "GRAM": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ERG": 3,
-        "QUID": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "AAVE": 3,
-        "PUMP": 3,
-        "ADA": 3,
-        "SUI": 3,
-        "BANK": 3,
-        "CASHCAT": 3,
-        "LIT": 3,
-        "HYPE": 3,
-        "UNI": 3,
-        "FET": 3,
-        "GRAM": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ERG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ergo ($ERG) is trending on CoinGecko"
-        ]
-      },
-      "QUID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Squid ($QUID) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "AAVE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aave ($AAVE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-04T19:17:15.840094",
     "tickers": {
       "ALPHA": 3,
@@ -12238,6 +12120,132 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-13T18:45:17.734261",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DEUS": 6,
+      "CASHCAT": 6,
+      "67": 6,
+      "PUMP": 6,
+      "ETHFI": 6,
+      "PENGU": 6,
+      "AVNT": 6,
+      "SKR": 6,
+      "LIT": 6,
+      "POL": 6,
+      "ZEC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DEUS": 3,
+        "CASHCAT": 3,
+        "67": 3,
+        "PUMP": 3,
+        "ETHFI": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "UNI": 3,
+        "XRP": 3,
+        "AVNT": 3,
+        "SKR": 3,
+        "LIT": 3,
+        "POL": 3,
+        "ZEC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DEUS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "XMAQUINA ($DEUS) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "67": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "SIXSEVEN ($67) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "ETHFI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ether.fi ($ETHFI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

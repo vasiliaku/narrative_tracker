@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T11:54:18.901682",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ERG": 6,
-      "CYS": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "HOME": 6,
-      "CASHCAT": 6,
-      "LIT": 6,
-      "AERO": 6,
-      "PUMP": 6,
-      "LDO": 6,
-      "ANSEM": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ERG": 3,
-        "CYS": 3,
-        "PENGU": 3,
-        "HYPE": 3,
-        "HOME": 3,
-        "CASHCAT": 3,
-        "LIT": 3,
-        "AERO": 3,
-        "PUMP": 3,
-        "LDO": 3,
-        "DOGE": 3,
-        "ANSEM": 3,
-        "AVAX": 3,
-        "PEPE": 3,
-        "SOL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ERG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ergo ($ERG) is trending on CoinGecko"
-        ]
-      },
-      "CYS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cysic ($CYS) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "HOME": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "HOME ($HOME) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-04T13:43:40.260067",
     "tickers": {
       "ALPHA": 3,
@@ -12225,6 +12098,135 @@
         ],
         "sample_posts": [
           "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-13T14:49:43.443760",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DEUS": 6,
+      "PUMP": 6,
+      "CASHCAT": 6,
+      "ETHFI": 6,
+      "NUSD": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "CRV": 6,
+      "TAO": 6,
+      "SUI": 6,
+      "CC": 6,
+      "ACU": 6,
+      "ZEC": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DEUS": 3,
+        "PUMP": 3,
+        "CASHCAT": 3,
+        "ETHFI": 3,
+        "NUSD": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "CRV": 3,
+        "TAO": 3,
+        "SUI": 3,
+        "BTC": 3,
+        "CC": 3,
+        "ACU": 3,
+        "ZEC": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DEUS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "XMAQUINA ($DEUS) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "ETHFI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ether.fi ($ETHFI) is trending on CoinGecko"
+        ]
+      },
+      "NUSD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Neutrl USD ($NUSD) is trending on CoinGecko"
         ]
       }
     },

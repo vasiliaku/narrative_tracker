@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-06T01:23:42.301143",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "BLESS": 6,
-      "PI": 6,
-      "CASHCAT": 6,
-      "LIT": 6,
-      "GRVT": 6,
-      "HEI": 6,
-      "AXS": 6,
-      "CARDS": 6,
-      "KITE": 6,
-      "USDC": 6,
-      "PEPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "BLESS": 3,
-        "PI": 3,
-        "UNI": 3,
-        "CASHCAT": 3,
-        "LIT": 3,
-        "GRVT": 3,
-        "HEI": 3,
-        "AXS": 3,
-        "CARDS": 3,
-        "KITE": 3,
-        "USDC": 3,
-        "ARB": 3,
-        "PEPE": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BLESS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bless ($BLESS) is trending on CoinGecko"
-        ]
-      },
-      "PI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pi Network ($PI) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-06T04:53:57.462665",
     "tickers": {
       "ALPHA": 3,
@@ -12231,6 +12113,122 @@
         ],
         "sample_posts": [
           "Akedo ($AKE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-14T22:11:21.364742",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ACE": 6,
+      "KII": 6,
+      "CASHCAT": 6,
+      "PUMP": 6,
+      "TAO": 6,
+      "RON": 6,
+      "SYRUP": 6,
+      "AAVE": 6,
+      "WLFI": 6,
+      "PENGU": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ACE": 3,
+        "KII": 3,
+        "UNI": 3,
+        "CASHCAT": 3,
+        "PUMP": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "TAO": 3,
+        "RON": 3,
+        "LINK": 3,
+        "SYRUP": 3,
+        "AAVE": 3,
+        "BTC": 3,
+        "WLFI": 3,
+        "PENGU": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ACE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fusionist ($ACE) is trending on CoinGecko"
+        ]
+      },
+      "KII": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "KiiChain ($KII) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
         ]
       }
     },

@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-08-05T04:53:51.259590",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "QUID": 6,
-      "HEI": 6,
-      "PENGU": 6,
-      "SKR": 6,
-      "TAKE": 6,
-      "LIT": 6,
-      "PUMP": 6,
-      "PI": 6,
-      "HYPE": 6,
-      "SUI": 6,
-      "CARDS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "QUID": 3,
-        "HEI": 3,
-        "PENGU": 3,
-        "SKR": 3,
-        "TAKE": 3,
-        "BTC": 3,
-        "LIT": 3,
-        "PUMP": 3,
-        "SOL": 3,
-        "UNI": 3,
-        "PI": 3,
-        "HYPE": 3,
-        "SUI": 3,
-        "XLM": 3,
-        "CARDS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "QUID": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Squid ($QUID) is trending on CoinGecko"
-        ]
-      },
-      "HEI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Heima ($HEI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "TAKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OVERTAKE ($TAKE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-05T08:13:55.750170",
     "tickers": {
       "ALPHA": 3,
@@ -12247,6 +12121,124 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-14T05:23:17.276996",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LAB": 6,
+      "PENGU": 6,
+      "PUMP": 6,
+      "67": 6,
+      "PI": 6,
+      "LIT": 6,
+      "ETHFI": 6,
+      "EDEN": 6,
+      "AKE": 6,
+      "STONKBROKER": 6,
+      "VIRTUAL": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LAB": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "PUMP": 3,
+        "67": 3,
+        "PI": 3,
+        "LIT": 3,
+        "ETHFI": 3,
+        "EDEN": 3,
+        "AKE": 3,
+        "STONKBROKER": 3,
+        "VIRTUAL": 3,
+        "UNI": 3,
+        "TAO": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LAB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LAB ($LAB) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "67": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "SIXSEVEN ($67) is trending on CoinGecko"
         ]
       }
     },

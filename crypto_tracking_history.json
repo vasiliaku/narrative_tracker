@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-08-06T23:47:55.964963",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PLUME": 6,
-      "BICO": 6,
-      "HFT": 6,
-      "CASHCAT": 6,
-      "PUMP": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "PI": 6,
-      "HEI": 6,
-      "STONKBROKER": 6,
-      "SUI": 6,
-      "SKYAI": 6,
-      "JUP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PLUME": 3,
-        "BICO": 3,
-        "HFT": 3,
-        "CASHCAT": 3,
-        "PUMP": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "ONDO": 3,
-        "PI": 3,
-        "HEI": 3,
-        "STONKBROKER": 3,
-        "SUI": 3,
-        "INJ": 3,
-        "SKYAI": 3,
-        "JUP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PLUME": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Plume ($PLUME) is trending on CoinGecko"
-        ]
-      },
-      "BICO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Biconomy ($BICO) is trending on CoinGecko"
-        ]
-      },
-      "HFT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hashflow ($HFT) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-07T02:02:57.717106",
     "tickers": {
       "ALPHA": 3,
@@ -12189,6 +12061,124 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-15T08:14:19.448692",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ANSEM": 6,
+      "ACE": 6,
+      "KII": 6,
+      "WLFI": 6,
+      "ROBO": 6,
+      "TAO": 6,
+      "VELVET": 6,
+      "AKE": 6,
+      "CAP": 6,
+      "PEPE": 6,
+      "PENGU": 6,
+      "DOS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ANSEM": 3,
+        "ACE": 3,
+        "KII": 3,
+        "WLFI": 3,
+        "UNI": 3,
+        "ROBO": 3,
+        "LINK": 3,
+        "TAO": 3,
+        "VELVET": 3,
+        "AKE": 3,
+        "SOL": 3,
+        "CAP": 3,
+        "PEPE": 3,
+        "PENGU": 3,
+        "DOS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ANSEM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Black Bull ($ANSEM) is trending on CoinGecko"
+        ]
+      },
+      "ACE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fusionist ($ACE) is trending on CoinGecko"
+        ]
+      },
+      "KII": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "KiiChain ($KII) is trending on CoinGecko"
+        ]
+      },
+      "WLFI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "World Liberty Financial ($WLFI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

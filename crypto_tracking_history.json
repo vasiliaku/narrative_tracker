@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T10:19:39.944792",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CYS": 6,
-      "BICO": 6,
-      "SUI": 6,
-      "PENGU": 6,
-      "ONDO": 6,
-      "SLX": 6,
-      "CRO": 6,
-      "HYPE": 6,
-      "TUT": 6,
-      "HEI": 6,
-      "PI": 6,
-      "CASHCAT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CYS": 3,
-        "BICO": 3,
-        "SUI": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "ONDO": 3,
-        "SLX": 3,
-        "BTC": 3,
-        "CRO": 3,
-        "HYPE": 3,
-        "TUT": 3,
-        "UNI": 3,
-        "HEI": 3,
-        "PI": 3,
-        "CASHCAT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CYS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cysic ($CYS) is trending on CoinGecko"
-        ]
-      },
-      "BICO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Biconomy ($BICO) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-08T12:23:22.974719",
     "tickers": {
       "ALPHA": 3,
@@ -12047,6 +11929,123 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-16T18:12:49.799259",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WLD": 6,
+      "LIT": 6,
+      "ONDO": 6,
+      "PUMP": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "ACE": 6,
+      "CYS": 6,
+      "PLUME": 6,
+      "BTW": 6,
+      "CHIP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WLD": 3,
+        "LIT": 3,
+        "ONDO": 3,
+        "AVAX": 3,
+        "PUMP": 3,
+        "PENGU": 3,
+        "SUI": 3,
+        "ACE": 3,
+        "CYS": 3,
+        "PLUME": 3,
+        "DOT": 3,
+        "BTW": 3,
+        "BTC": 3,
+        "CHIP": 3,
+        "XRP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WLD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Worldcoin ($WLD) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "ONDO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ondo ($ONDO) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

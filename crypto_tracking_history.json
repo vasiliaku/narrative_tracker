@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-08-07T22:23:47.390575",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ONDO": 6,
-      "BICO": 6,
-      "PENGU": 6,
-      "PONS": 6,
-      "CRO": 6,
-      "HEI": 6,
-      "PLUME": 6,
-      "PEPE": 6,
-      "WKC": 6,
-      "KTA": 6,
-      "CFG": 6,
-      "CASHCAT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ONDO": 3,
-        "BICO": 3,
-        "PENGU": 3,
-        "PONS": 3,
-        "CRO": 3,
-        "SOL": 3,
-        "HEI": 3,
-        "PLUME": 3,
-        "ETH": 3,
-        "PEPE": 3,
-        "WKC": 3,
-        "NEAR": 3,
-        "KTA": 3,
-        "CFG": 3,
-        "CASHCAT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      },
-      "BICO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Biconomy ($BICO) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "CRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cronos ($CRO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-08T00:45:55.319396",
     "tickers": {
       "ALPHA": 3,
@@ -12084,6 +11957,133 @@
         ],
         "sample_posts": [
           "Ronin ($RON) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-16T06:20:29.514214",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "AKE": 6,
+      "RON": 6,
+      "PI": 6,
+      "ACE": 6,
+      "COW": 6,
+      "ONDO": 6,
+      "CASHCAT": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "ETHFI": 6,
+      "LIT": 6,
+      "FET": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "AKE": 3,
+        "RON": 3,
+        "PI": 3,
+        "ACE": 3,
+        "COW": 3,
+        "ONDO": 3,
+        "CASHCAT": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "XRP": 3,
+        "ETHFI": 3,
+        "LIT": 3,
+        "FET": 3,
+        "SOL": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "AKE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Akedo ($AKE) is trending on CoinGecko"
+        ]
+      },
+      "RON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ronin ($RON) is trending on CoinGecko"
+        ]
+      },
+      "PI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pi Network ($PI) is trending on CoinGecko"
+        ]
+      },
+      "ACE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Fusionist ($ACE) is trending on CoinGecko"
+        ]
+      },
+      "COW": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CoW Protocol ($COW) is trending on CoinGecko"
         ]
       }
     },

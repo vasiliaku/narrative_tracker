@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T14:49:16.820897",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "VELVET": 6,
-      "DOS": 6,
-      "CASHCAT": 6,
-      "ANSEM": 6,
-      "PONS": 6,
-      "PENGU": 6,
-      "BEAT": 6,
-      "CAP": 6,
-      "ICP": 6,
-      "PEPE": 6,
-      "LIT": 6,
-      "BLUAI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "VELVET": 3,
-        "DOS": 3,
-        "BTC": 3,
-        "CASHCAT": 3,
-        "ANSEM": 3,
-        "PONS": 3,
-        "PENGU": 3,
-        "BEAT": 3,
-        "ETH": 3,
-        "CAP": 3,
-        "ICP": 3,
-        "PEPE": 3,
-        "ADA": 3,
-        "LIT": 3,
-        "BLUAI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "VELVET": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Velvet ($VELVET) is trending on CoinGecko"
-        ]
-      },
-      "DOS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "DAPPOS ($DOS) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-11T16:44:47.173702",
     "tickers": {
       "ALPHA": 3,
@@ -11845,6 +11727,118 @@
         "message": "\u26a1 1 tokens with strong narrative signals!",
         "tickers": [
           "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-19T22:13:11.101116",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 10,
+      "PIPEDOG": 6,
+      "LIT": 6,
+      "PUMP": 6,
+      "TAO": 6,
+      "PEPE": 6,
+      "TIBBIR": 6,
+      "CFG": 6,
+      "ONDO": 6,
+      "ZEC": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "HYPE": 5,
+        "ETH": 5,
+        "PIPEDOG": 3,
+        "BTC": 3,
+        "LIT": 3,
+        "SOL": 5,
+        "PUMP": 3,
+        "LINK": 5,
+        "UNI": 3,
+        "TAO": 3,
+        "PEPE": 3,
+        "TIBBIR": 3,
+        "CFG": 3,
+        "ONDO": 3,
+        "DOT": 3,
+        "XRP": 2,
+        "ZEC": 2,
+        "XLM": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 4,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko",
+          "Hyperliquid ($HYPE) up 21.8% in 24h"
+        ]
+      },
+      "PIPEDOG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pipedog ($PIPEDOG) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 2 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA",
+          "HYPE"
         ]
       }
     ]

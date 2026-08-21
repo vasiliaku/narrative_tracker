@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-08-12T22:29:08.958254",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "DEUS": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "VIRTUAL": 6,
-      "HMM": 6,
-      "PUMP": 6,
-      "CASHCAT": 6,
-      "ONDO": 6,
-      "STONKBROKER": 6,
-      "POL": 6,
-      "ACU": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "DEUS": 3,
-        "PENGU": 3,
-        "ETH": 3,
-        "HYPE": 3,
-        "VIRTUAL": 3,
-        "HMM": 3,
-        "SOL": 3,
-        "PUMP": 3,
-        "XRP": 3,
-        "CASHCAT": 3,
-        "ONDO": 3,
-        "STONKBROKER": 3,
-        "DOT": 3,
-        "POL": 3,
-        "ACU": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "DEUS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "XMAQUINA ($DEUS) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "VIRTUAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Virtuals Protocol ($VIRTUAL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-13T01:00:08.323733",
     "tickers": {
       "ALPHA": 3,
@@ -11850,6 +11733,125 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-21T06:25:37.523354",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ALIGN": 6,
+      "PIPEDOG": 6,
+      "SUI": 6,
+      "PUMP": 6,
+      "HYPE": 6,
+      "ZEC": 6,
+      "FOLD": 6,
+      "KAS": 6,
+      "CASHCAT": 6,
+      "ENA": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ALIGN": 3,
+        "PIPEDOG": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "PUMP": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "XRP": 5,
+        "ZEC": 3,
+        "FOLD": 3,
+        "SOL": 3,
+        "LINK": 3,
+        "KAS": 3,
+        "CASHCAT": 3,
+        "ENA": 3,
+        "DOGE": 2,
+        "ADA": 2,
+        "XLM": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ALIGN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aligned ($ALIGN) is trending on CoinGecko"
+        ]
+      },
+      "PIPEDOG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pipedog ($PIPEDOG) is trending on CoinGecko"
+        ]
+      },
+      "SUI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Sui ($SUI) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

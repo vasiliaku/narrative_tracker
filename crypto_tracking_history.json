@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T10:11:28.460504",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "COW": 6,
-      "KII": 6,
-      "PENGU": 6,
-      "ACE": 6,
-      "AKE": 6,
-      "ETHFI": 6,
-      "VELVET": 6,
-      "RON": 6,
-      "WKC": 6,
-      "CASHCAT": 6,
-      "ICP": 6,
-      "HYPE": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "COW": 3,
-        "KII": 3,
-        "PENGU": 3,
-        "ACE": 3,
-        "LINK": 3,
-        "AKE": 3,
-        "BTC": 3,
-        "ETHFI": 3,
-        "VELVET": 3,
-        "RON": 3,
-        "WKC": 3,
-        "CASHCAT": 3,
-        "ICP": 3,
-        "HYPE": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "COW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CoW Protocol ($COW) is trending on CoinGecko"
-        ]
-      },
-      "KII": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "KiiChain ($KII) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "ACE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Fusionist ($ACE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-15T12:15:28.541221",
     "tickers": {
       "ALPHA": 3,
@@ -11870,6 +11751,132 @@
         ],
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-23T18:12:53.459695",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CATALORIAN": 6,
+      "CYBERLEEK": 6,
+      "HYPE": 6,
+      "PUMP": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "PONS": 6,
+      "AAVE": 6,
+      "SUI": 6,
+      "ENA": 6,
+      "ALIGN": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CATALORIAN": 3,
+        "CYBERLEEK": 3,
+        "HYPE": 3,
+        "PUMP": 3,
+        "LIT": 3,
+        "BTC": 3,
+        "LINK": 3,
+        "ZEC": 3,
+        "PONS": 3,
+        "AAVE": 3,
+        "SOL": 3,
+        "SUI": 3,
+        "XRP": 3,
+        "ENA": 3,
+        "ALIGN": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CATALORIAN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Elon's Space Cat ($CATALORIAN) is trending on CoinGecko"
+        ]
+      },
+      "CYBERLEEK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CyberLeek ($CYBERLEEK) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
         ]
       }
     },

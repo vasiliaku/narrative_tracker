@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T18:39:01.436752",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ACE": 6,
-      "AKE": 6,
-      "PENGU": 6,
-      "KII": 6,
-      "CAP": 6,
-      "CASHCAT": 6,
-      "DOLO": 6,
-      "LAB": 6,
-      "PUMP": 6,
-      "STONKBROKER": 6,
-      "ANSEM": 6,
-      "ILV": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ACE": 3,
-        "AKE": 3,
-        "PENGU": 3,
-        "KII": 3,
-        "CAP": 3,
-        "CASHCAT": 3,
-        "UNI": 3,
-        "DOLO": 3,
-        "LAB": 3,
-        "PUMP": 3,
-        "STONKBROKER": 3,
-        "ANSEM": 3,
-        "ILV": 3,
-        "BTC": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ACE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Fusionist ($ACE) is trending on CoinGecko"
-        ]
-      },
-      "AKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Akedo ($AKE) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "KII": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "KiiChain ($KII) is trending on CoinGecko"
-        ]
-      },
-      "CAP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cap ($CAP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-14T20:20:35.131512",
     "tickers": {
       "ALPHA": 3,
@@ -11797,6 +11669,132 @@
         ],
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-23T02:53:31.658059",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FOLD": 6,
+      "PIPEDOG": 6,
+      "PUMP": 6,
+      "ALIGN": 6,
+      "TRUMP": 6,
+      "HYPE": 6,
+      "PEPE": 6,
+      "XMR": 6,
+      "JUP": 6,
+      "ONDO": 6,
+      "BONK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FOLD": 3,
+        "PIPEDOG": 3,
+        "PUMP": 3,
+        "ALIGN": 3,
+        "TRUMP": 3,
+        "HYPE": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "XRP": 3,
+        "PEPE": 3,
+        "XMR": 3,
+        "JUP": 3,
+        "BTC": 3,
+        "ONDO": 3,
+        "BONK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FOLD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Interfold ($FOLD) is trending on CoinGecko"
+        ]
+      },
+      "PIPEDOG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "pipedog ($PIPEDOG) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "ALIGN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aligned ($ALIGN) is trending on CoinGecko"
         ]
       },
       "TRUMP": {

@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T08:14:19.448692",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ANSEM": 6,
-      "ACE": 6,
-      "KII": 6,
-      "WLFI": 6,
-      "ROBO": 6,
-      "TAO": 6,
-      "VELVET": 6,
-      "AKE": 6,
-      "CAP": 6,
-      "PEPE": 6,
-      "PENGU": 6,
-      "DOS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ANSEM": 3,
-        "ACE": 3,
-        "KII": 3,
-        "WLFI": 3,
-        "UNI": 3,
-        "ROBO": 3,
-        "LINK": 3,
-        "TAO": 3,
-        "VELVET": 3,
-        "AKE": 3,
-        "SOL": 3,
-        "CAP": 3,
-        "PEPE": 3,
-        "PENGU": 3,
-        "DOS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      },
-      "ACE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Fusionist ($ACE) is trending on CoinGecko"
-        ]
-      },
-      "KII": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "KiiChain ($KII) is trending on CoinGecko"
-        ]
-      },
-      "WLFI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "World Liberty Financial ($WLFI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-15T10:11:28.460504",
     "tickers": {
       "ALPHA": 3,
@@ -11871,6 +11753,133 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-23T16:11:57.133578",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CATALORIAN": 6,
+      "PUMP": 6,
+      "CYBERLEEK": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "HYPE": 6,
+      "XMR": 6,
+      "ENA": 6,
+      "PIPEDOG": 6,
+      "TAO": 6,
+      "FOLD": 6,
+      "VIRTUAL": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CATALORIAN": 3,
+        "PUMP": 3,
+        "CYBERLEEK": 3,
+        "LIT": 3,
+        "ZEC": 3,
+        "HYPE": 3,
+        "XMR": 3,
+        "SOL": 3,
+        "ENA": 3,
+        "PIPEDOG": 3,
+        "XRP": 3,
+        "TAO": 3,
+        "FOLD": 3,
+        "ETH": 3,
+        "VIRTUAL": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CATALORIAN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Elon's Space Cat ($CATALORIAN) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "CYBERLEEK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CyberLeek ($CYBERLEEK) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T16:11:11.109430",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "COW": 6,
-      "WAL": 6,
-      "PENGU": 6,
-      "PUMP": 6,
-      "KII": 6,
-      "PLUME": 6,
-      "VELVET": 6,
-      "CHIP": 6,
-      "HUMA": 6,
-      "CASHCAT": 6,
-      "ACE": 6,
-      "AKE": 6,
-      "ROBO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "COW": 3,
-        "WAL": 3,
-        "PENGU": 3,
-        "LINK": 3,
-        "PUMP": 3,
-        "KII": 3,
-        "PLUME": 3,
-        "XRP": 3,
-        "VELVET": 3,
-        "CHIP": 3,
-        "HUMA": 3,
-        "CASHCAT": 3,
-        "ACE": 3,
-        "AKE": 3,
-        "ROBO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "COW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CoW Protocol ($COW) is trending on CoinGecko"
-        ]
-      },
-      "WAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Walrus ($WAL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-15T18:12:33.000860",
     "tickers": {
       "ALPHA": 3,
@@ -11897,6 +11778,134 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-24T00:36:25.500031",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CATALORIAN": 6,
+      "CYBERLEEK": 6,
+      "PONS": 6,
+      "ZEC": 6,
+      "HYPE": 6,
+      "LIT": 6,
+      "PUMP": 6,
+      "PI": 6,
+      "TAO": 6,
+      "DOG": 6,
+      "ENA": 6,
+      "BONK": 6,
+      "AAVE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CATALORIAN": 3,
+        "CYBERLEEK": 3,
+        "PONS": 3,
+        "ZEC": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "LIT": 3,
+        "PUMP": 3,
+        "SOL": 3,
+        "PI": 3,
+        "TAO": 3,
+        "DOG": 3,
+        "ENA": 3,
+        "BONK": 3,
+        "AAVE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CATALORIAN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Elon's Space Cat ($CATALORIAN) is trending on CoinGecko"
+        ]
+      },
+      "CYBERLEEK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CyberLeek ($CYBERLEEK) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

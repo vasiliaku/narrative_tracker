@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T00:34:44.364897",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "BTW": 6,
-      "PORTAL": 6,
-      "ICP": 6,
-      "SEI": 6,
-      "HYPE": 6,
-      "CAP": 6,
-      "WLFI": 6,
-      "MON": 6,
-      "WKC": 6,
-      "BICO": 6,
-      "RENDER": 6,
-      "CASHCAT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "BTW": 3,
-        "PORTAL": 3,
-        "ETH": 3,
-        "ICP": 3,
-        "SEI": 3,
-        "HYPE": 3,
-        "CAP": 3,
-        "WLFI": 3,
-        "MON": 3,
-        "WKC": 3,
-        "BTC": 3,
-        "BICO": 3,
-        "RENDER": 3,
-        "CASHCAT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BTW": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bitway ($BTW) is trending on CoinGecko"
-        ]
-      },
-      "PORTAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Portal ($PORTAL) is trending on CoinGecko"
-        ]
-      },
-      "ICP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Internet Computer ($ICP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-17T02:51:12.395037",
     "tickers": {
       "ALPHA": 3,
@@ -11942,6 +11823,115 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-25T08:28:46.195316",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CASHCAT": 6,
+      "ZANO": 6,
+      "PONS": 6,
+      "HYPE": 6,
+      "TAO": 6,
+      "PEPE": 6,
+      "ZEC": 6,
+      "PUMP": 6,
+      "LIT": 6,
+      "SUI": 6,
+      "MORPHO": 6,
+      "NES": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CASHCAT": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "ZANO": 3,
+        "PONS": 3,
+        "HYPE": 3,
+        "TAO": 3,
+        "PEPE": 3,
+        "ZEC": 3,
+        "PUMP": 3,
+        "ETH": 3,
+        "LIT": 3,
+        "SUI": 3,
+        "MORPHO": 3,
+        "NES": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "ZANO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zano ($ZANO) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

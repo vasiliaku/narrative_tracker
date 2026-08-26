@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T22:12:50.571892",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ANSEM": 6,
-      "WKC": 6,
-      "VVV": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "CASHCAT": 6,
-      "PUMP": 6,
-      "POL": 6,
-      "LIT": 6,
-      "CFG": 6,
-      "PONS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ANSEM": 3,
-        "WKC": 3,
-        "BTC": 3,
-        "VVV": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "HYPE": 3,
-        "ETH": 3,
-        "XRP": 3,
-        "CASHCAT": 3,
-        "PUMP": 3,
-        "POL": 3,
-        "LIT": 3,
-        "CFG": 3,
-        "PONS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ANSEM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Black Bull ($ANSEM) is trending on CoinGecko"
-        ]
-      },
-      "WKC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Wiki Cat ($WKC) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-18T00:34:13.712143",
     "tickers": {
       "ALPHA": 3,
@@ -11957,6 +11840,133 @@
         ],
         "sample_posts": [
           "Rain ($RAIN) up 21.86% in 24h"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-26T06:27:25.532416",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PONS": 6,
+      "PUMP": 6,
+      "BTR": 6,
+      "CASHCAT": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "DOG": 6,
+      "SUI": 6,
+      "LIT": 6,
+      "ONDO": 6,
+      "RAIN": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PONS": 3,
+        "PUMP": 3,
+        "SOL": 3,
+        "BTR": 3,
+        "CASHCAT": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "DOG": 3,
+        "SUI": 3,
+        "LIT": 3,
+        "ADA": 3,
+        "NEAR": 3,
+        "ONDO": 3,
+        "ETH": 3,
+        "RAIN": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "BTR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitlayer ($BTR) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      },
+      "RAIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rain ($RAIN) up 20.17% in 24h"
         ]
       }
     },

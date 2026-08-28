@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-18T20:11:01.400740",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "WKC": 6,
-      "VVV": 6,
-      "ETHFI": 6,
-      "PEAQ": 6,
-      "SUI": 6,
-      "CASHCAT": 6,
-      "PUMP": 6,
-      "PEPE": 6,
-      "TIBBIR": 6,
-      "POL": 6,
-      "VIRTUAL": 6,
-      "PONS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "WKC": 3,
-        "VVV": 3,
-        "BTC": 3,
-        "ETHFI": 3,
-        "PEAQ": 3,
-        "SUI": 3,
-        "CASHCAT": 3,
-        "PUMP": 3,
-        "PEPE": 3,
-        "TIBBIR": 3,
-        "POL": 3,
-        "SOL": 3,
-        "LINK": 3,
-        "VIRTUAL": 3,
-        "PONS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "WKC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Wiki Cat ($WKC) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "ETHFI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ether.fi ($ETHFI) is trending on CoinGecko"
-        ]
-      },
-      "PEAQ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "peaq ($PEAQ) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-18T22:11:01.636568",
     "tickers": {
       "ALPHA": 3,
@@ -12001,6 +11883,125 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-28T13:29:46.126466",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ENA": 6,
+      "TRUMP": 6,
+      "PONS": 6,
+      "CASHCAT": 6,
+      "CHIP": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "LIT": 6,
+      "TAO": 6,
+      "PEPE": 6,
+      "PUMP": 6,
+      "PI": 6,
+      "ZRO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ENA": 3,
+        "TRUMP": 3,
+        "SOL": 3,
+        "PONS": 3,
+        "CASHCAT": 3,
+        "CHIP": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "LIT": 3,
+        "TAO": 3,
+        "PEPE": 3,
+        "PUMP": 3,
+        "PI": 3,
+        "ZRO": 3,
+        "BTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ENA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ethena ($ENA) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "CASHCAT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cash Cat ($CASHCAT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-08-20T00:34:36.714030",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PIPEDOG": 6,
-      "HYPE": 10,
-      "PUMP": 6,
-      "TRUMP": 6,
-      "LIT": 6,
-      "TIBBIR": 6,
-      "PEPE": 6,
-      "MON": 6,
-      "MET": 6,
-      "ZEC": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PIPEDOG": 3,
-        "HYPE": 5,
-        "ETH": 5,
-        "BTC": 3,
-        "PUMP": 3,
-        "SOL": 5,
-        "LINK": 5,
-        "TRUMP": 3,
-        "LIT": 3,
-        "TIBBIR": 3,
-        "PEPE": 3,
-        "MON": 3,
-        "MET": 3,
-        "INJ": 3,
-        "XRP": 5,
-        "ZEC": 2,
-        "XLM": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PIPEDOG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pipedog ($PIPEDOG) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-20T02:47:16.245692",
     "tickers": {
       "ALPHA": 3,
@@ -12115,6 +12006,133 @@
         ],
         "sample_posts": [
           "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-31T18:21:53.241993",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "RAM": 6,
+      "PONS": 6,
+      "PUMP": 6,
+      "UP": 6,
+      "HYPE": 6,
+      "SKR": 6,
+      "CASHCAT": 6,
+      "ENA": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "LIT": 6,
+      "USELESS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "RAM": 3,
+        "PONS": 3,
+        "PUMP": 3,
+        "UP": 3,
+        "HYPE": 3,
+        "SKR": 3,
+        "BTC": 3,
+        "CASHCAT": 3,
+        "SOL": 3,
+        "ENA": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "LIT": 3,
+        "XRP": 3,
+        "USELESS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "RAM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Ramses ($RAM) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "UP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "up ($UP) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
         ]
       }
     },

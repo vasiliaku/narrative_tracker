@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-08-21T18:20:34.175754",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ENA": 6,
-      "ALIGN": 6,
-      "PUMP": 6,
-      "LIT": 6,
-      "PIPEDOG": 6,
-      "HYPE": 6,
-      "ZEC": 10,
-      "PEPE": 6,
-      "KAS": 6,
-      "ASTER": 6,
-      "MORPHO": 6,
-      "WBT": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ENA": 3,
-        "BTC": 3,
-        "ALIGN": 3,
-        "PUMP": 3,
-        "LIT": 3,
-        "PIPEDOG": 3,
-        "HYPE": 3,
-        "SOL": 3,
-        "ZEC": 5,
-        "PEPE": 3,
-        "XRP": 3,
-        "KAS": 3,
-        "ASTER": 3,
-        "MORPHO": 3,
-        "LINK": 3,
-        "WBT": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ENA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ethena ($ENA) is trending on CoinGecko"
-        ]
-      },
-      "ALIGN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aligned ($ALIGN) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-21T20:12:57.046853",
     "tickers": {
       "ALPHA": 3,
@@ -12124,6 +12005,133 @@
         ],
         "sample_posts": [
           "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-04T12:20:12.262513",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PONS": 6,
+      "MARSCOIN": 6,
+      "CP": 6,
+      "ZEC": 10,
+      "SHRUB": 6,
+      "LIT": 6,
+      "USELESS": 6,
+      "CASHCAT": 6,
+      "HYPE": 6,
+      "ENA": 6,
+      "SUI": 6,
+      "INDEX": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PONS": 3,
+        "MARSCOIN": 3,
+        "CP": 3,
+        "ZEC": 5,
+        "SHRUB": 3,
+        "LIT": 3,
+        "USELESS": 3,
+        "CASHCAT": 3,
+        "HYPE": 3,
+        "UNI": 3,
+        "ENA": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "SUI": 3,
+        "INDEX": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "MARSCOIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "MarsCoin ($MARSCOIN) is trending on CoinGecko"
+        ]
+      },
+      "CP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "CLUSTER PROTOCOL ($CP) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "SHRUB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lil' Shrub ($SHRUB) is trending on CoinGecko"
         ]
       }
     },

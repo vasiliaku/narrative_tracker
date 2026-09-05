@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2026-08-22T10:12:13.262629",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZEC": 10,
-      "TRUMP": 6,
-      "SUI": 6,
-      "PIPEDOG": 6,
-      "PUMP": 6,
-      "HYPE": 6,
-      "PEPE": 6,
-      "ALIGN": 6,
-      "SAND": 6,
-      "MON": 6,
-      "PI": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZEC": 5,
-        "TRUMP": 3,
-        "SUI": 3,
-        "BTC": 3,
-        "PIPEDOG": 3,
-        "PUMP": 3,
-        "HYPE": 3,
-        "XRP": 3,
-        "SOL": 3,
-        "PEPE": 3,
-        "ALIGN": 3,
-        "SAND": 3,
-        "MON": 3,
-        "PI": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 4,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko",
-          "Zcash ($ZEC) up 25.4% in 24h"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      },
-      "PIPEDOG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "pipedog ($PIPEDOG) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 2 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA",
-          "ZEC"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-22T12:16:06.311813",
     "tickers": {
       "ALPHA": 3,
@@ -12165,6 +12045,135 @@
         ],
         "sample_posts": [
           "Useless Coin ($USELESS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-05T17:47:06.341676",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "SHRUB": 6,
+      "PONS": 6,
+      "ASTER": 6,
+      "ZEC": 6,
+      "PUMP": 6,
+      "PENGU": 6,
+      "MARSCOIN": 6,
+      "USELESS": 6,
+      "CASHCAT": 6,
+      "LIT": 6,
+      "DASH": 6,
+      "AI": 6,
+      "TAO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "SHRUB": 3,
+        "PONS": 3,
+        "ASTER": 3,
+        "ZEC": 3,
+        "PUMP": 3,
+        "PENGU": 3,
+        "MARSCOIN": 3,
+        "USELESS": 3,
+        "UNI": 3,
+        "CASHCAT": 3,
+        "LIT": 3,
+        "DASH": 3,
+        "AI": 3,
+        "TAO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "SHRUB": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lil' Shrub ($SHRUB) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "ASTER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aster ($ASTER) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
         ]
       }
     },

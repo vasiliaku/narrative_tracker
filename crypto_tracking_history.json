@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-08-24T06:34:02.193870",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CATALORIAN": 6,
-      "LIT": 6,
-      "PONS": 6,
-      "CYBERLEEK": 6,
-      "HYPE": 6,
-      "TRUMP": 6,
-      "PUMP": 6,
-      "ZEC": 6,
-      "AAVE": 6,
-      "ETHFI": 6,
-      "ENA": 6,
-      "MON": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CATALORIAN": 3,
-        "LIT": 3,
-        "PONS": 3,
-        "CYBERLEEK": 3,
-        "HYPE": 3,
-        "TRUMP": 3,
-        "PUMP": 3,
-        "ZEC": 3,
-        "XRP": 3,
-        "AAVE": 3,
-        "ETH": 3,
-        "ETHFI": 3,
-        "ENA": 3,
-        "MON": 3,
-        "TAO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CATALORIAN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Elon's Space Cat ($CATALORIAN) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "CYBERLEEK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CyberLeek ($CYBERLEEK) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-24T08:34:47.051608",
     "tickers": {
       "ALPHA": 3,
@@ -12223,6 +12095,133 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-08T23:44:44.523272",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CP": 6,
+      "VVV": 6,
+      "USELESS": 6,
+      "PONS": 6,
+      "STONK": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "RAY": 6,
+      "TRUMP": 6,
+      "HYPE": 6,
+      "KAS": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CP": 3,
+        "VVV": 3,
+        "USELESS": 3,
+        "PONS": 3,
+        "STONK": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "RAY": 3,
+        "LINK": 3,
+        "TRUMP": 3,
+        "HYPE": 3,
+        "ARB": 3,
+        "VET": 3,
+        "KAS": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cluster Protocol ($CP) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      },
+      "USELESS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Useless Coin ($USELESS) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "STONK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "STONK ($STONK) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

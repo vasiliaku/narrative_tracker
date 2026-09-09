@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-08-24T12:23:16.287442",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PONS": 6,
-      "LIT": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "CYBERLEEK": 6,
-      "ALIGN": 6,
-      "PUMP": 6,
-      "SUI": 6,
-      "VELVET": 6,
-      "CASHCAT": 6,
-      "ONDO": 6,
-      "DRV": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PONS": 3,
-        "LIT": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "CYBERLEEK": 3,
-        "ALIGN": 3,
-        "PUMP": 3,
-        "BTC": 3,
-        "SUI": 3,
-        "ETH": 3,
-        "VELVET": 3,
-        "SOL": 3,
-        "CASHCAT": 3,
-        "ONDO": 3,
-        "DRV": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "CYBERLEEK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CyberLeek ($CYBERLEEK) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-24T14:30:51.451588",
     "tickers": {
       "ALPHA": 3,
@@ -12212,6 +12085,135 @@
         ],
         "sample_posts": [
           "STONK ($STONK) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T12:33:17.874702",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "STONKLESS": 6,
+      "CP": 6,
+      "AIX": 6,
+      "ZEC": 6,
+      "PONS": 6,
+      "VVV": 6,
+      "STONK": 6,
+      "\u725b\u6765": 6,
+      "PENGU": 6,
+      "USELESS": 6,
+      "LIT": 6,
+      "TRUMP": 6,
+      "4STOCK": 6,
+      "AERO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "STONKLESS": 3,
+        "CP": 3,
+        "AIX": 3,
+        "ZEC": 3,
+        "PONS": 3,
+        "NEAR": 3,
+        "VVV": 3,
+        "STONK": 3,
+        "\u725b\u6765": 3,
+        "PENGU": 3,
+        "USELESS": 3,
+        "LIT": 3,
+        "TRUMP": 3,
+        "4STOCK": 3,
+        "AERO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "STONKLESS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "USELESS STONK ($STONKLESS) is trending on CoinGecko"
+        ]
+      },
+      "CP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Cluster Protocol ($CP) is trending on CoinGecko"
+        ]
+      },
+      "AIX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "AI XOVIA ($AIX) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
         ]
       }
     },

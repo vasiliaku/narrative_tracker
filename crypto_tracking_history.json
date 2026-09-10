@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-08-24T20:17:26.346317",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZANO": 6,
-      "CASHCAT": 6,
-      "AERO": 6,
-      "PUMP": 6,
-      "PONS": 6,
-      "CYBERLEEK": 6,
-      "ENA": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "LIT": 6,
-      "MON": 6,
-      "DRV": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZANO": 3,
-        "CASHCAT": 3,
-        "BTC": 3,
-        "AERO": 3,
-        "PUMP": 3,
-        "PONS": 3,
-        "INJ": 3,
-        "CYBERLEEK": 3,
-        "ENA": 3,
-        "XRP": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "LIT": 3,
-        "MON": 3,
-        "DRV": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZANO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zano ($ZANO) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      },
-      "AERO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aerodrome Finance ($AERO) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-24T22:14:13.166471",
     "tickers": {
       "ALPHA": 3,
@@ -12252,6 +12134,134 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-10T01:54:53.567777",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LAPTOP": 6,
+      "PONS": 6,
+      "STONK": 6,
+      "PUMP": 6,
+      "VVV": 6,
+      "LIT": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "ZZZ": 6,
+      "ZEN": 6,
+      "PENDLE": 6,
+      "INDEX": 6,
+      "CASHCAT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LAPTOP": 3,
+        "PONS": 3,
+        "STONK": 3,
+        "PUMP": 3,
+        "VVV": 3,
+        "LIT": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "ZEC": 3,
+        "ZZZ": 3,
+        "ZEN": 3,
+        "PENDLE": 3,
+        "INDEX": 3,
+        "NEAR": 3,
+        "CASHCAT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LAPTOP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "STONK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "STONK ($STONK) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "VVV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Venice Token ($VVV) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-08-25T14:33:40.487863",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PEAQ": 6,
-      "HYPE": 6,
-      "PUMP": 6,
-      "ZRO": 6,
-      "CASHCAT": 6,
-      "PONS": 6,
-      "ZEC": 6,
-      "LIT": 6,
-      "VVV": 6,
-      "SQD": 6,
-      "ENA": 6,
-      "CYBERLEEK": 6,
-      "ZANO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "PEAQ": 3,
-        "HYPE": 3,
-        "PUMP": 3,
-        "ZRO": 3,
-        "SOL": 3,
-        "CASHCAT": 3,
-        "PONS": 3,
-        "ZEC": 3,
-        "LIT": 3,
-        "VVV": 3,
-        "SQD": 3,
-        "ENA": 3,
-        "CYBERLEEK": 3,
-        "ZANO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PEAQ": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "peaq ($PEAQ) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      },
-      "ZRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LayerZero ($ZRO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-25T16:22:57.274358",
     "tickers": {
       "ALPHA": 3,
@@ -12378,6 +12259,124 @@
         ],
         "sample_posts": [
           "Meteora ($MET) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-11T17:24:24.980245",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "STONK": 6,
+      "LAPTOP": 6,
+      "RAY": 6,
+      "EMBER": 6,
+      "PONS": 6,
+      "ZEC": 6,
+      "LIT": 6,
+      "VVV": 6,
+      "PENGU": 6,
+      "PRL": 6,
+      "PUMP": 6,
+      "JUP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "STONK": 3,
+        "LAPTOP": 3,
+        "RAY": 3,
+        "EMBER": 3,
+        "ETH": 3,
+        "PONS": 3,
+        "ZEC": 3,
+        "SOL": 3,
+        "LIT": 3,
+        "VVV": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "PRL": 3,
+        "PUMP": 3,
+        "JUP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "STONK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "STONK ($STONK) is trending on CoinGecko"
+        ]
+      },
+      "LAPTOP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
+        ]
+      },
+      "RAY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Raydium ($RAY) is trending on CoinGecko"
+        ]
+      },
+      "EMBER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "embercurve ($EMBER) is trending on CoinGecko"
         ]
       }
     },

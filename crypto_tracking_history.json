@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-08-26T00:36:41.372760",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HYPE": 6,
-      "DOG": 6,
-      "PUMP": 6,
-      "AERO": 6,
-      "MON": 6,
-      "PONS": 6,
-      "CC": 6,
-      "CASHCAT": 6,
-      "STX": 6,
-      "AAVE": 6,
-      "TIBBIR": 6,
-      "RAIN": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "HYPE": 3,
-        "DOG": 3,
-        "PUMP": 3,
-        "AERO": 3,
-        "BTC": 3,
-        "MON": 3,
-        "PONS": 3,
-        "CC": 3,
-        "CASHCAT": 3,
-        "ETH": 3,
-        "DOGE": 3,
-        "STX": 3,
-        "LINK": 3,
-        "AAVE": 3,
-        "TIBBIR": 3,
-        "RAIN": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "DOG": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dog (Bitcoin) ($DOG) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      },
-      "AERO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aerodrome Finance ($AERO) is trending on CoinGecko"
-        ]
-      },
-      "RAIN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Rain ($RAIN) up 23.77% in 24h"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-26T02:55:46.976797",
     "tickers": {
       "ALPHA": 3,
@@ -12367,6 +12239,121 @@
         ],
         "sample_posts": [
           "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-12T11:46:43.356450",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "EMBER": 6,
+      "LAPTOP": 6,
+      "PONS": 6,
+      "PENGU": 6,
+      "AI": 6,
+      "STONK": 6,
+      "RAY": 6,
+      "MON": 6,
+      "PUMP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "EMBER": 3,
+        "LAPTOP": 3,
+        "PONS": 3,
+        "PENGU": 3,
+        "NEAR": 3,
+        "AI": 3,
+        "STONK": 3,
+        "ETH": 3,
+        "RAY": 3,
+        "MON": 3,
+        "BTC": 3,
+        "UNI": 3,
+        "XLM": 3,
+        "PUMP": 3,
+        "LINK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "EMBER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "embercurve ($EMBER) is trending on CoinGecko"
+        ]
+      },
+      "LAPTOP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

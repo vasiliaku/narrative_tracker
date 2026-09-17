@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-09-01T02:27:23.165349",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PONS": 6,
-      "RAM": 6,
-      "HYPE": 6,
-      "CASHCAT": 6,
-      "PENGU": 6,
-      "SKR": 6,
-      "UP": 6,
-      "HNT": 6,
-      "LIT": 6,
-      "CRV": 6,
-      "ZEC": 6,
-      "INDEX": 6,
-      "FARTCOIN": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PONS": 3,
-        "ARB": 3,
-        "RAM": 3,
-        "HYPE": 3,
-        "CASHCAT": 3,
-        "PENGU": 3,
-        "SKR": 3,
-        "UP": 3,
-        "HNT": 3,
-        "LIT": 3,
-        "CRV": 3,
-        "ZEC": 3,
-        "INDEX": 3,
-        "FARTCOIN": 3,
-        "NEAR": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "RAM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ramses ($RAM) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "CASHCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cash Cat ($CASHCAT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-01T08:58:55.281622",
     "tickers": {
       "ALPHA": 3,
@@ -12210,6 +12091,124 @@
         ],
         "sample_posts": [
           "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-17T22:31:17.174958",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FIRO": 6,
+      "TRUMP": 6,
+      "ZEC": 10,
+      "PENGU": 6,
+      "PRL": 6,
+      "PONS": 6,
+      "STONK": 6,
+      "VVV": 6,
+      "ONE": 6,
+      "HYPE": 6,
+      "COTI": 6,
+      "DRV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FIRO": 3,
+        "TRUMP": 3,
+        "ZEC": 5,
+        "UNI": 3,
+        "PENGU": 3,
+        "NEAR": 3,
+        "PRL": 3,
+        "PONS": 3,
+        "STONK": 3,
+        "VVV": 3,
+        "ONE": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "COTI": 3,
+        "DRV": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FIRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Firo ($FIRO) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

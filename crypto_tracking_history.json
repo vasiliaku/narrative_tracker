@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-08-31T10:13:23.724049",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PONS": 6,
-      "HNT": 6,
-      "SKR": 6,
-      "LIT": 6,
-      "PUMP": 6,
-      "HYPE": 6,
-      "PENGU": 6,
-      "CRO": 6,
-      "CASHCAT": 6,
-      "\u725b\u6765": 6,
-      "XMR": 10,
-      "ZEC": 6,
-      "PI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PONS": 3,
-        "HNT": 3,
-        "SKR": 3,
-        "LIT": 3,
-        "BTC": 3,
-        "PUMP": 3,
-        "HYPE": 3,
-        "PENGU": 3,
-        "CRO": 3,
-        "SOL": 3,
-        "CASHCAT": 3,
-        "\u725b\u6765": 3,
-        "XMR": 5,
-        "ZEC": 3,
-        "PI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "HNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Helium ($HNT) is trending on CoinGecko"
-        ]
-      },
-      "SKR": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Seeker ($SKR) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-31T18:21:53.241993",
     "tickers": {
       "ALPHA": 3,
@@ -12253,6 +12134,123 @@
         "tickers": [
           "ALPHA",
           "ZEC"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-17T08:59:29.940691",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZEC": 10,
+      "DRV": 6,
+      "PONS": 6,
+      "ARGUS": 6,
+      "LIT": 6,
+      "CASHCAT": 6,
+      "PENGU": 6,
+      "STONK": 6,
+      "PRL": 6,
+      "VVV": 6,
+      "HYPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZEC": 5,
+        "DRV": 3,
+        "PONS": 3,
+        "NEAR": 3,
+        "ARGUS": 3,
+        "LIT": 3,
+        "CASHCAT": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "STONK": 3,
+        "PRL": 3,
+        "ETH": 3,
+        "ARB": 3,
+        "VVV": 3,
+        "HYPE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "DRV": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Derive ($DRV) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "ARGUS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Argus ($ARGUS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
         ]
       }
     ]

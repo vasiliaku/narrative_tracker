@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-09-06T01:44:07.395849",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "CP": 6,
-      "FIRO": 6,
-      "SHRUB": 6,
-      "PONS": 6,
-      "PENGU": 6,
-      "USELESS": 6,
-      "MARSCOIN": 6,
-      "STONK": 6,
-      "ZEC": 6,
-      "LIT": 6,
-      "PAIR": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "CP": 3,
-        "FIRO": 3,
-        "SHRUB": 3,
-        "PONS": 3,
-        "ARB": 3,
-        "PENGU": 3,
-        "USELESS": 3,
-        "UNI": 3,
-        "BTC": 3,
-        "MARSCOIN": 3,
-        "STONK": 3,
-        "ZEC": 3,
-        "LINK": 3,
-        "LIT": 3,
-        "PAIR": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "CP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "CLUSTER PROTOCOL ($CP) is trending on CoinGecko"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "SHRUB": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lil' Shrub ($SHRUB) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-06T06:36:44.037536",
     "tickers": {
       "ALPHA": 3,
@@ -12131,6 +12014,113 @@
         ],
         "sample_posts": [
           "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-23T08:54:31.767651",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "ZEC": 6,
+      "PONS": 6,
+      "TAKE": 6,
+      "TAO": 6,
+      "BCH": 6,
+      "STONK": 6,
+      "ONDO": 6,
+      "ZAMA": 6,
+      "VVV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "ZEC": 3,
+        "PONS": 3,
+        "UNI": 3,
+        "ARB": 3,
+        "BTC": 3,
+        "NEAR": 3,
+        "TAKE": 3,
+        "TAO": 3,
+        "BCH": 3,
+        "STONK": 3,
+        "ONDO": 3,
+        "ZAMA": 3,
+        "ETH": 3,
+        "VVV": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
         ]
       }
     },

@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-09-08T17:38:46.628021",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "VVV": 6,
-      "PONS": 6,
-      "STONK": 6,
-      "USELESS": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "AERO": 6,
-      "PUMP": 6,
-      "TAO": 6,
-      "PEAQ": 6,
-      "LIT": 6,
-      "SOPH": 6,
-      "WBT": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "VVV": 3,
-        "PONS": 3,
-        "STONK": 3,
-        "USELESS": 3,
-        "ZEC": 3,
-        "DOT": 3,
-        "PENGU": 3,
-        "AERO": 3,
-        "PUMP": 3,
-        "TAO": 3,
-        "SOL": 3,
-        "PEAQ": 3,
-        "LIT": 3,
-        "ETH": 3,
-        "SOPH": 3,
-        "WBT": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "STONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "STONK ($STONK) is trending on CoinGecko"
-        ]
-      },
-      "USELESS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Useless Coin ($USELESS) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-08T20:26:20.487535",
     "tickers": {
       "ALPHA": 3,
@@ -11991,6 +11862,134 @@
         ],
         "sample_posts": [
           "Sui ($SUI) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-26T13:57:00.364191",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SI": 6,
+      "M87": 6,
+      "PENGU": 6,
+      "TRUMP": 6,
+      "EDEL": 6,
+      "SUI": 6,
+      "AERO": 6,
+      "ENA": 6,
+      "TAO": 6,
+      "ONDO": 6,
+      "XPL": 6,
+      "BP": 6,
+      "FET": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SI": 3,
+        "M87": 3,
+        "PENGU": 3,
+        "TRUMP": 3,
+        "EDEL": 3,
+        "NEAR": 3,
+        "SUI": 3,
+        "AERO": 3,
+        "ENA": 3,
+        "TAO": 3,
+        "ONDO": 3,
+        "XPL": 3,
+        "BP": 3,
+        "FET": 3,
+        "ARB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Super Inu ($SI) is trending on CoinGecko"
+        ]
+      },
+      "M87": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "MESSIER ($M87) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "EDEL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Edel ($EDEL) is trending on CoinGecko"
         ]
       }
     },

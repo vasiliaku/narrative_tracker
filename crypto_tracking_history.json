@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-09-09T12:33:17.874702",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STONKLESS": 6,
-      "CP": 6,
-      "AIX": 6,
-      "ZEC": 6,
-      "PONS": 6,
-      "VVV": 6,
-      "STONK": 6,
-      "\u725b\u6765": 6,
-      "PENGU": 6,
-      "USELESS": 6,
-      "LIT": 6,
-      "TRUMP": 6,
-      "4STOCK": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "STONKLESS": 3,
-        "CP": 3,
-        "AIX": 3,
-        "ZEC": 3,
-        "PONS": 3,
-        "NEAR": 3,
-        "VVV": 3,
-        "STONK": 3,
-        "\u725b\u6765": 3,
-        "PENGU": 3,
-        "USELESS": 3,
-        "LIT": 3,
-        "TRUMP": 3,
-        "4STOCK": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STONKLESS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "USELESS STONK ($STONKLESS) is trending on CoinGecko"
-        ]
-      },
-      "CP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Cluster Protocol ($CP) is trending on CoinGecko"
-        ]
-      },
-      "AIX": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "AI XOVIA ($AIX) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-09T17:24:18.005303",
     "tickers": {
       "ALPHA": 3,
@@ -12001,6 +11872,125 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-27T10:58:56.703746",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "EDEL": 6,
+      "QNT": 6,
+      "TRUMP": 6,
+      "BP": 6,
+      "SUI": 6,
+      "PENGU": 6,
+      "RHEA": 6,
+      "ONDO": 6,
+      "TAO": 6,
+      "WLD": 6,
+      "JUP": 6,
+      "ORCA": 6,
+      "GRAM": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "EDEL": 3,
+        "QNT": 3,
+        "TRUMP": 3,
+        "NEAR": 3,
+        "BP": 3,
+        "SUI": 3,
+        "PENGU": 3,
+        "RHEA": 3,
+        "ONDO": 3,
+        "SOL": 3,
+        "TAO": 3,
+        "WLD": 3,
+        "JUP": 3,
+        "ORCA": 3,
+        "GRAM": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "EDEL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Edel ($EDEL) is trending on CoinGecko"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "BP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Backpack ($BP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

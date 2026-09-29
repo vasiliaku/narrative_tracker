@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-09-10T23:31:53.155658",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZANO": 6,
-      "PONS": 6,
-      "RAY": 6,
-      "LAPTOP": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "STONK": 6,
-      "LIT": 6,
-      "VVV": 6,
-      "SUI": 6,
-      "ZCAT": 6,
-      "ETHFI": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZANO": 3,
-        "PONS": 3,
-        "RAY": 3,
-        "LAPTOP": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "STONK": 3,
-        "BTC": 3,
-        "LIT": 3,
-        "SOL": 3,
-        "VVV": 3,
-        "NEAR": 3,
-        "SUI": 3,
-        "ZCAT": 3,
-        "ETHFI": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZANO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zano ($ZANO) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "RAY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Raydium ($RAY) is trending on CoinGecko"
-        ]
-      },
-      "LAPTOP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-11T01:53:32.337510",
     "tickers": {
       "ALPHA": 3,
@@ -11865,6 +11738,114 @@
         ],
         "sample_posts": [
           "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-29T14:26:10.177958",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "QNT": 6,
+      "PUMP": 6,
+      "AAVE": 6,
+      "PENGU": 6,
+      "PRL": 6,
+      "STONK": 6,
+      "ONDO": 6,
+      "SUI": 6,
+      "ICP": 6,
+      "PEAQ": 6,
+      "VVV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "QNT": 3,
+        "AVAX": 3,
+        "NEAR": 3,
+        "PUMP": 3,
+        "AAVE": 3,
+        "PENGU": 3,
+        "PRL": 3,
+        "STONK": 3,
+        "LINK": 3,
+        "ONDO": 3,
+        "SUI": 3,
+        "BTC": 3,
+        "ICP": 3,
+        "PEAQ": 3,
+        "VVV": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      },
+      "AAVE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aave ($AAVE) is trending on CoinGecko"
         ]
       }
     },

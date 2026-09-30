@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-09-11T06:47:21.922928",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "RAY": 6,
-      "PONS": 6,
-      "LAPTOP": 6,
-      "STONK": 6,
-      "LIT": 6,
-      "ZEC": 6,
-      "ZANO": 6,
-      "PUMP": 6,
-      "PRL": 6,
-      "MARSCOIN": 6,
-      "PENGU": 6,
-      "MET": 6,
-      "VVV": 6,
-      "JUP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "RAY": 3,
-        "PONS": 3,
-        "LAPTOP": 3,
-        "STONK": 3,
-        "LIT": 3,
-        "ZEC": 3,
-        "ZANO": 3,
-        "PUMP": 3,
-        "PRL": 3,
-        "ETH": 3,
-        "MARSCOIN": 3,
-        "PENGU": 3,
-        "MET": 3,
-        "VVV": 3,
-        "JUP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "RAY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Raydium ($RAY) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "LAPTOP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
-        ]
-      },
-      "STONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "STONK ($STONK) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-11T12:25:25.138753",
     "tickers": {
       "ALPHA": 3,
@@ -11836,6 +11707,134 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T00:50:45.745271",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LIT": 6,
+      "PENGU": 6,
+      "QNT": 6,
+      "PONS": 6,
+      "TRUMP": 6,
+      "GRASS": 6,
+      "CCD": 6,
+      "TIBBIR": 6,
+      "HYPE": 6,
+      "MARSCOIN": 6,
+      "RHEA": 6,
+      "PUMP": 6,
+      "BP": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LIT": 3,
+        "PENGU": 3,
+        "QNT": 3,
+        "PONS": 3,
+        "TRUMP": 3,
+        "GRASS": 3,
+        "CCD": 3,
+        "TIBBIR": 3,
+        "NEAR": 3,
+        "HYPE": 3,
+        "MARSCOIN": 3,
+        "RHEA": 3,
+        "BTC": 3,
+        "PUMP": 3,
+        "BP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

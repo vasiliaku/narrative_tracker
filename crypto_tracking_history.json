@@ -1,120 +1,5 @@
 [
   {
-    "timestamp": "2026-09-12T11:46:43.356450",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "EMBER": 6,
-      "LAPTOP": 6,
-      "PONS": 6,
-      "PENGU": 6,
-      "AI": 6,
-      "STONK": 6,
-      "RAY": 6,
-      "MON": 6,
-      "PUMP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "EMBER": 3,
-        "LAPTOP": 3,
-        "PONS": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "AI": 3,
-        "STONK": 3,
-        "ETH": 3,
-        "RAY": 3,
-        "MON": 3,
-        "BTC": 3,
-        "UNI": 3,
-        "XLM": 3,
-        "PUMP": 3,
-        "LINK": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "EMBER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "embercurve ($EMBER) is trending on CoinGecko"
-        ]
-      },
-      "LAPTOP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-12T14:34:13.082636",
     "tickers": {
       "ALPHA": 3,
@@ -11794,6 +11679,126 @@
         ],
         "sample_posts": [
           "Backpack ($BP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-01T20:38:13.176354",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "REVENUE": 6,
+      "TRUMP": 6,
+      "MON": 6,
+      "QNT": 6,
+      "VRAX": 6,
+      "BP": 6,
+      "PENGU": 6,
+      "DRV": 6,
+      "VVV": 6,
+      "PUMP": 6,
+      "KNTQ": 6,
+      "PRL": 6,
+      "LIT": 6,
+      "ZRO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "REVENUE": 3,
+        "NEAR": 3,
+        "TRUMP": 3,
+        "MON": 3,
+        "QNT": 3,
+        "VRAX": 3,
+        "BP": 3,
+        "PENGU": 3,
+        "DRV": 3,
+        "VVV": 3,
+        "PUMP": 3,
+        "KNTQ": 3,
+        "PRL": 3,
+        "LIT": 3,
+        "ZRO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "REVENUE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Revenue Family ($REVENUE) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
         ]
       }
     },

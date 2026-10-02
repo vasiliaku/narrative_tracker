@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-09-12T17:57:50.013705",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PUMP": 6,
-      "AI": 6,
-      "PONS": 6,
-      "STONK": 6,
-      "EMBER": 6,
-      "PENGU": 6,
-      "LAPTOP": 6,
-      "ZCAT": 6,
-      "RAY": 6,
-      "LIT": 6,
-      "VVV": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PUMP": 3,
-        "AI": 3,
-        "PONS": 3,
-        "STONK": 3,
-        "EMBER": 3,
-        "PENGU": 3,
-        "LAPTOP": 3,
-        "ZCAT": 3,
-        "RAY": 3,
-        "SOL": 3,
-        "BTC": 3,
-        "LIT": 3,
-        "LINK": 3,
-        "ETH": 3,
-        "VVV": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      },
-      "AI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Artificial Inu ($AI) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "STONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "STONK ($STONK) is trending on CoinGecko"
-        ]
-      },
-      "EMBER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "embercurve ($EMBER) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-12T20:02:14.496745",
     "tickers": {
       "ALPHA": 3,
@@ -11803,6 +11677,114 @@
         ],
         "sample_posts": [
           "Backpack ($BP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-02T07:41:43.056235",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "VRAX": 6,
+      "POD": 6,
+      "QNT": 6,
+      "PENGU": 6,
+      "AAVE": 6,
+      "ENA": 6,
+      "DRV": 6,
+      "SUI": 6,
+      "PUMP": 6,
+      "PI": 6,
+      "CARDS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "VRAX": 3,
+        "POD": 3,
+        "QNT": 3,
+        "NEAR": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "AAVE": 3,
+        "ENA": 3,
+        "SOL": 3,
+        "DRV": 3,
+        "SUI": 3,
+        "PUMP": 3,
+        "PI": 3,
+        "UNI": 3,
+        "CARDS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "VRAX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Commander VRAX ($VRAX) is trending on CoinGecko"
+        ]
+      },
+      "POD": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dolphin ($POD) is trending on CoinGecko"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
         ]
       }
     },

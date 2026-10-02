@@ -1,130 +1,5 @@
 [
   {
-    "timestamp": "2026-09-12T14:34:13.082636",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "AI": 6,
-      "EMBER": 6,
-      "LAPTOP": 6,
-      "PONS": 6,
-      "STONK": 6,
-      "PENGU": 6,
-      "ZEC": 6,
-      "LSK": 6,
-      "VVV": 6,
-      "NOCK": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "AI": 3,
-        "EMBER": 3,
-        "LAPTOP": 3,
-        "PONS": 3,
-        "STONK": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "ZEC": 3,
-        "ETH": 3,
-        "LSK": 3,
-        "LINK": 3,
-        "BTC": 3,
-        "VVV": 3,
-        "NOCK": 3,
-        "NEAR": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "AI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Artificial Inu ($AI) is trending on CoinGecko"
-        ]
-      },
-      "EMBER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "embercurve ($EMBER) is trending on CoinGecko"
-        ]
-      },
-      "LAPTOP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "STONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "STONK ($STONK) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-12T17:57:50.013705",
     "tickers": {
       "ALPHA": 3,
@@ -11799,6 +11674,135 @@
         ],
         "sample_posts": [
           "Quant ($QNT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-02T01:11:05.982698",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "REVENUE": 6,
+      "VRAX": 6,
+      "TRUMP": 6,
+      "QNT": 6,
+      "BP": 6,
+      "MON": 6,
+      "PENGU": 6,
+      "AAVE": 6,
+      "LIT": 6,
+      "CC": 6,
+      "DRV": 6,
+      "PONS": 6,
+      "SKY": 6,
+      "STONK": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "REVENUE": 3,
+        "VRAX": 3,
+        "TRUMP": 3,
+        "QNT": 3,
+        "BP": 3,
+        "MON": 3,
+        "PENGU": 3,
+        "NEAR": 3,
+        "AAVE": 3,
+        "LIT": 3,
+        "CC": 3,
+        "DRV": 3,
+        "PONS": 3,
+        "SKY": 3,
+        "STONK": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "REVENUE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Revenue Family ($REVENUE) is trending on CoinGecko"
+        ]
+      },
+      "VRAX": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Commander VRAX ($VRAX) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
+        ]
+      },
+      "BP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Backpack ($BP) is trending on CoinGecko"
         ]
       }
     },

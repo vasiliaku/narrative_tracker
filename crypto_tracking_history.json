@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-09-13T06:56:35.888930",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LSK": 6,
-      "STONK": 6,
-      "EMBER": 6,
-      "LAPTOP": 6,
-      "ZCAT": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "VVV": 6,
-      "PI": 6,
-      "HYPE": 6,
-      "ILV": 6,
-      "PUMP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LSK": 3,
-        "STONK": 3,
-        "EMBER": 3,
-        "LAPTOP": 3,
-        "ZCAT": 3,
-        "ZEC": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "VVV": 3,
-        "BTC": 3,
-        "PI": 3,
-        "HYPE": 3,
-        "ILV": 3,
-        "PUMP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LSK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lisk ($LSK) is trending on CoinGecko"
-        ]
-      },
-      "STONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "STONK ($STONK) is trending on CoinGecko"
-        ]
-      },
-      "EMBER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "embercurve ($EMBER) is trending on CoinGecko"
-        ]
-      },
-      "LAPTOP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
-        ]
-      },
-      "ZCAT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Anonymous Cat ($ZCAT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-13T12:54:45.658429",
     "tickers": {
       "ALPHA": 3,
@@ -11791,6 +11664,133 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-03T07:14:32.860413",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SAND": 6,
+      "PONS": 6,
+      "LIT": 6,
+      "GALA": 6,
+      "MANA": 6,
+      "PUMP": 6,
+      "HYPE": 6,
+      "QNT": 6,
+      "AERO": 6,
+      "BP": 6,
+      "SUI": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SAND": 3,
+        "PONS": 3,
+        "LIT": 3,
+        "GALA": 3,
+        "MANA": 3,
+        "PUMP": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "QNT": 3,
+        "AERO": 3,
+        "INJ": 3,
+        "NEAR": 3,
+        "BP": 3,
+        "SUI": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SAND": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "The Sandbox ($SAND) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "GALA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "GALA ($GALA) is trending on CoinGecko"
+        ]
+      },
+      "MANA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Decentraland ($MANA) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

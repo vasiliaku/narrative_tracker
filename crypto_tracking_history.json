@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-09-13T01:52:10.983936",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "LSK": 6,
-      "NOCK": 6,
-      "STONK": 6,
-      "PENGU": 6,
-      "LAPTOP": 6,
-      "PONS": 6,
-      "PEPE": 6,
-      "EMBER": 6,
-      "ILV": 6,
-      "AAVE": 6,
-      "VIRTUAL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "LSK": 3,
-        "NOCK": 3,
-        "STONK": 3,
-        "PENGU": 3,
-        "LAPTOP": 3,
-        "PONS": 3,
-        "PEPE": 3,
-        "EMBER": 3,
-        "SOL": 3,
-        "ILV": 3,
-        "AAVE": 3,
-        "INJ": 3,
-        "VIRTUAL": 3,
-        "BTC": 3,
-        "ETH": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "LSK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lisk ($LSK) is trending on CoinGecko"
-        ]
-      },
-      "NOCK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Nockchain ($NOCK) is trending on CoinGecko"
-        ]
-      },
-      "STONK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "STONK ($STONK) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "LAPTOP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hunter Biden's Laptop ($LAPTOP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-13T06:56:35.888930",
     "tickers": {
       "ALPHA": 3,
@@ -11778,6 +11652,135 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-03T00:48:28.946542",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "TRUMP": 6,
+      "EDEL": 6,
+      "SC": 6,
+      "PENGU": 6,
+      "PONS": 6,
+      "STONK": 6,
+      "QNT": 6,
+      "BLAST": 6,
+      "PENDLE": 6,
+      "BP": 6,
+      "PUMP": 6,
+      "VVV": 6,
+      "GALA": 6,
+      "SAND": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "TRUMP": 3,
+        "EDEL": 3,
+        "SC": 3,
+        "PENGU": 3,
+        "PONS": 3,
+        "STONK": 3,
+        "QNT": 3,
+        "BTC": 3,
+        "BLAST": 3,
+        "PENDLE": 3,
+        "BP": 3,
+        "PUMP": 3,
+        "VVV": 3,
+        "GALA": 3,
+        "SAND": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "EDEL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Edel ($EDEL) is trending on CoinGecko"
+        ]
+      },
+      "SC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Super Cat ($SC) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
         ]
       }
     },

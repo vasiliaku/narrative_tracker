@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-09-16T08:54:47.604346",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "SYN": 6,
-      "PONS": 6,
-      "EDEL": 6,
-      "DRV": 6,
-      "HYPE": 6,
-      "ZEC": 6,
-      "VVV": 6,
-      "STONK": 6,
-      "ENA": 6,
-      "PENGU": 6,
-      "USELESS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FIRO": 3,
-        "SYN": 3,
-        "ARB": 3,
-        "PONS": 3,
-        "EDEL": 3,
-        "DRV": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "ZEC": 3,
-        "VVV": 3,
-        "STONK": 3,
-        "ENA": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "USELESS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "SYN": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Synapse ($SYN) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-16T14:27:20.218825",
     "tickers": {
       "ALPHA": 3,
@@ -11886,6 +11768,134 @@
         ],
         "sample_posts": [
           "Quant ($QNT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-06T21:58:58.683208",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "ZIG": 6,
+      "ORCA": 6,
+      "ZRO": 6,
+      "MNT": 6,
+      "PONS": 6,
+      "ENA": 6,
+      "ONDO": 6,
+      "QNT": 6,
+      "SUI": 6,
+      "HYPE": 6,
+      "RAY": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "ZIG": 3,
+        "ORCA": 3,
+        "ZRO": 3,
+        "MNT": 3,
+        "PONS": 3,
+        "ENA": 3,
+        "ONDO": 3,
+        "QNT": 3,
+        "BTC": 3,
+        "INJ": 3,
+        "SUI": 3,
+        "HYPE": 3,
+        "RAY": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "ZIG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ZIG Finance ($ZIG) is trending on CoinGecko"
+        ]
+      },
+      "ORCA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Orca ($ORCA) is trending on CoinGecko"
+        ]
+      },
+      "ZRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LayerZero ($ZRO) is trending on CoinGecko"
+        ]
+      },
+      "MNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Mantle ($MNT) is trending on CoinGecko"
         ]
       }
     },

@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-09-16T22:28:00.396257",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZEC": 10,
-      "TRUMP": 6,
-      "ARGUS": 6,
-      "DRV": 6,
-      "PENGU": 6,
-      "LSK": 6,
-      "PONS": 6,
-      "STONK": 6,
-      "VVV": 6,
-      "KAS": 6,
-      "EDEL": 6,
-      "SYN": 6,
-      "PRL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZEC": 5,
-        "TRUMP": 3,
-        "ARGUS": 3,
-        "DRV": 3,
-        "PENGU": 3,
-        "ARB": 3,
-        "LSK": 3,
-        "PONS": 3,
-        "STONK": 3,
-        "VVV": 3,
-        "NEAR": 3,
-        "KAS": 3,
-        "EDEL": 3,
-        "SYN": 3,
-        "PRL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "ARGUS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Argus ($ARGUS) is trending on CoinGecko"
-        ]
-      },
-      "DRV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Derive ($DRV) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-17T02:13:01.953678",
     "tickers": {
       "ALPHA": 3,
@@ -11915,6 +11787,124 @@
         ],
         "sample_posts": [
           "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T14:51:30.606790",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SWORDINU": 6,
+      "RAY": 6,
+      "PRL": 6,
+      "MON": 6,
+      "QTC": 6,
+      "SUI": 6,
+      "ENA": 6,
+      "QNT": 6,
+      "ONDO": 6,
+      "PENGU": 6,
+      "ZEC": 6,
+      "AERO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SWORDINU": 3,
+        "RAY": 3,
+        "PRL": 3,
+        "BTC": 3,
+        "MON": 3,
+        "QTC": 3,
+        "SUI": 3,
+        "ENA": 3,
+        "QNT": 3,
+        "NEAR": 3,
+        "ONDO": 3,
+        "UNI": 3,
+        "PENGU": 3,
+        "ZEC": 3,
+        "AERO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SWORDINU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "inu wif sword ($SWORDINU) is trending on CoinGecko"
+        ]
+      },
+      "RAY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Raydium ($RAY) is trending on CoinGecko"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
         ]
       }
     },

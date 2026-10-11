@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-09-19T19:43:54.222067",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ZFORGE": 6,
-      "FIRO": 6,
-      "ZAMA": 6,
-      "ZEC": 6,
-      "PENGU": 6,
-      "DRV": 6,
-      "PONS": 6,
-      "PRL": 6,
-      "STONK": 6,
-      "ENA": 6,
-      "ONDO": 6,
-      "SUI": 6,
-      "TAO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ZFORGE": 3,
-        "FIRO": 3,
-        "ZAMA": 3,
-        "ZEC": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "DRV": 3,
-        "PONS": 3,
-        "PRL": 3,
-        "STONK": 3,
-        "ENA": 3,
-        "ONDO": 3,
-        "SUI": 3,
-        "SOL": 3,
-        "TAO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ZFORGE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "ZECFORGE.tech ($ZFORGE) is trending on CoinGecko"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "ZAMA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zama ($ZAMA) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-19T21:53:52.766096",
     "tickers": {
       "ALPHA": 3,
@@ -11959,6 +11831,114 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-11T10:24:19.477995",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "STRK": 6,
+      "SWARM": 6,
+      "QTC": 6,
+      "AERO": 6,
+      "ZEC": 6,
+      "ENA": 6,
+      "STONK": 6,
+      "TIA": 6,
+      "GRASS": 6,
+      "LUMIA": 6,
+      "ZRO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "STRK": 3,
+        "SWARM": 3,
+        "QTC": 3,
+        "NEAR": 3,
+        "BTC": 3,
+        "AERO": 3,
+        "ZEC": 3,
+        "ENA": 3,
+        "STONK": 3,
+        "TIA": 3,
+        "ARB": 3,
+        "ETH": 3,
+        "GRASS": 3,
+        "LUMIA": 3,
+        "ZRO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "STRK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Starknet ($STRK) is trending on CoinGecko"
+        ]
+      },
+      "SWARM": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "SWARM ENGINE ($SWARM) is trending on CoinGecko"
+        ]
+      },
+      "QTC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quantus ($QTC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

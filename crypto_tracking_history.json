@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-09-20T08:53:30.988406",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ONE": 6,
-      "BP": 6,
-      "ZEC": 6,
-      "AKE": 6,
-      "PONS": 6,
-      "G": 6,
-      "ENA": 6,
-      "PRL": 6,
-      "ZAMA": 6,
-      "STONK": 6,
-      "PENGU": 6,
-      "WMTX": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ONE": 3,
-        "NEAR": 3,
-        "BP": 3,
-        "ZEC": 3,
-        "AKE": 3,
-        "BTC": 3,
-        "PONS": 3,
-        "G": 3,
-        "ENA": 3,
-        "INJ": 3,
-        "PRL": 3,
-        "ZAMA": 3,
-        "STONK": 3,
-        "PENGU": 3,
-        "WMTX": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ONE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Harmony ($ONE) is trending on CoinGecko"
-        ]
-      },
-      "BP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Backpack ($BP) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "AKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Akedo ($AKE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-20T13:47:33.778896",
     "tickers": {
       "ALPHA": 3,
@@ -11952,6 +11834,125 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-12T08:14:01.961510",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "W": 6,
+      "BUNKER": 6,
+      "STRK": 6,
+      "RSR": 6,
+      "QTC": 6,
+      "PENGU": 6,
+      "ZRO": 6,
+      "PRL": 6,
+      "AERO": 6,
+      "TAO": 6,
+      "GRASS": 6,
+      "ENA": 6,
+      "BTW": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "W": 3,
+        "BUNKER": 3,
+        "STRK": 3,
+        "NEAR": 5,
+        "RSR": 3,
+        "QTC": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "ZRO": 3,
+        "PRL": 3,
+        "AERO": 3,
+        "TAO": 3,
+        "GRASS": 3,
+        "ENA": 3,
+        "BTW": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "W": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Wormhole ($W) is trending on CoinGecko"
+        ]
+      },
+      "BUNKER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bunker Mode ($BUNKER) is trending on CoinGecko"
+        ]
+      },
+      "STRK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Starknet ($STRK) is trending on CoinGecko"
+        ]
+      },
+      "RSR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Reserve Rights ($RSR) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

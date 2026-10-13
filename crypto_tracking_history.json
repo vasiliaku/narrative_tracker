@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-09-20T19:55:49.437098",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BP": 6,
-      "ZEC": 6,
-      "TRUMP": 6,
-      "AKE": 6,
-      "FIRO": 6,
-      "ENA": 6,
-      "STONK": 6,
-      "SUI": 6,
-      "TAO": 6,
-      "PENGU": 6,
-      "HYPE": 6,
-      "ZAMA": 6,
-      "CAKE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BP": 3,
-        "ZEC": 3,
-        "TRUMP": 3,
-        "AKE": 3,
-        "NEAR": 3,
-        "FIRO": 3,
-        "ENA": 3,
-        "STONK": 3,
-        "SUI": 3,
-        "TAO": 3,
-        "PENGU": 3,
-        "LINK": 3,
-        "HYPE": 3,
-        "ZAMA": 3,
-        "CAKE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Backpack ($BP) is trending on CoinGecko"
-        ]
-      },
-      "ZEC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zcash ($ZEC) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "AKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Akedo ($AKE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-20T22:01:07.423890",
     "tickers": {
       "ALPHA": 3,
@@ -11926,6 +11807,134 @@
         ],
         "sample_posts": [
           "Starknet ($STRK) is trending on CoinGecko"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T08:39:36.391824",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WISP": 6,
+      "BUNKER": 6,
+      "IMD6900": 6,
+      "CRAWLER": 6,
+      "PRL": 6,
+      "CLAUDIA": 6,
+      "QTC": 6,
+      "PENGU": 6,
+      "PONS": 6,
+      "HYPE": 6,
+      "S": 6,
+      "PUMP": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WISP": 3,
+        "BUNKER": 3,
+        "IMD6900": 3,
+        "CRAWLER": 3,
+        "PRL": 3,
+        "CLAUDIA": 3,
+        "QTC": 3,
+        "NEAR": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "PONS": 3,
+        "HYPE": 3,
+        "S": 3,
+        "PUMP": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WISP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Wisp ($WISP) is trending on CoinGecko"
+        ]
+      },
+      "BUNKER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bunker Mode ($BUNKER) is trending on CoinGecko"
+        ]
+      },
+      "IMD6900": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Identity.md 6900 ($IMD6900) is trending on CoinGecko"
+        ]
+      },
+      "CRAWLER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Crawlerpad ($CRAWLER) is trending on CoinGecko"
         ]
       },
       "PRL": {

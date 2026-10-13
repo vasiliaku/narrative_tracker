@@ -1,115 +1,5 @@
 [
   {
-    "timestamp": "2026-09-20T22:01:07.423890",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "TRUMP": 6,
-      "AKE": 6,
-      "ZEC": 6,
-      "BP": 6,
-      "PENGU": 6,
-      "STONK": 6,
-      "ONDO": 6,
-      "ENA": 6,
-      "FET": 6,
-      "PONS": 6,
-      "SUI": 6,
-      "ZAMA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "NEAR": 3,
-        "AVAX": 3,
-        "FIRO": 3,
-        "TRUMP": 3,
-        "AKE": 3,
-        "ZEC": 3,
-        "BP": 3,
-        "PENGU": 3,
-        "STONK": 3,
-        "ONDO": 3,
-        "ENA": 3,
-        "FET": 3,
-        "PONS": 3,
-        "SUI": 3,
-        "ZAMA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "AKE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Akedo ($AKE) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-21T02:09:33.700571",
     "tickers": {
       "ALPHA": 3,
@@ -11954,6 +11844,134 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T17:13:31.047286",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "CRAWLER": 6,
+      "PRL": 6,
+      "ZYLO": 6,
+      "WISP": 6,
+      "QTC": 6,
+      "S": 6,
+      "PENGU": 6,
+      "BTW": 6,
+      "DOPE": 6,
+      "STRK": 6,
+      "QNT": 6,
+      "ONDO": 6,
+      "GNS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "CRAWLER": 3,
+        "PRL": 3,
+        "ZYLO": 3,
+        "WISP": 3,
+        "QTC": 3,
+        "S": 3,
+        "PENGU": 3,
+        "NEAR": 3,
+        "BTW": 3,
+        "DOPE": 3,
+        "STRK": 3,
+        "QNT": 3,
+        "ONDO": 3,
+        "GNS": 3,
+        "SOL": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "CRAWLER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Crawlerpad ($CRAWLER) is trending on CoinGecko"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      },
+      "ZYLO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zylo Ecosystem ($ZYLO) is trending on CoinGecko"
+        ]
+      },
+      "WISP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Wisp ($WISP) is trending on CoinGecko"
+        ]
+      },
+      "QTC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quantus ($QTC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

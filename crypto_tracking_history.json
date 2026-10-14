@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2026-09-21T16:04:25.740632",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "FIRO": 6,
-      "EDEL": 6,
-      "ZANO": 6,
-      "TRUMP": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "ZEC": 6,
-      "PEPE": 6,
-      "TAO": 6,
-      "RHEA": 6,
-      "AURORA": 6,
-      "ZAMA": 6,
-      "DRV": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "FIRO": 3,
-        "EDEL": 3,
-        "ZANO": 3,
-        "TRUMP": 3,
-        "NEAR": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "ZEC": 3,
-        "PEPE": 3,
-        "TAO": 3,
-        "RHEA": 3,
-        "BTC": 3,
-        "AURORA": 3,
-        "ZAMA": 3,
-        "DRV": 3,
-        "DOGE": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "FIRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Firo ($FIRO) is trending on CoinGecko"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      },
-      "ZANO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zano ($ZANO) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-21T21:20:27.881268",
     "tickers": {
       "ALPHA": 3,
@@ -11988,6 +11868,133 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-14T09:06:56.675534",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PRL": 6,
+      "BTW": 6,
+      "STRK": 6,
+      "PONS": 6,
+      "WAL": 6,
+      "QTC": 6,
+      "SUI": 6,
+      "LIT": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "CAKE": 6,
+      "DRV": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PRL": 3,
+        "BTW": 3,
+        "STRK": 3,
+        "PONS": 3,
+        "WAL": 3,
+        "NEAR": 3,
+        "QTC": 3,
+        "SUI": 3,
+        "OP": 3,
+        "LIT": 3,
+        "PENGU": 3,
+        "HYPE": 3,
+        "ARB": 3,
+        "CAKE": 3,
+        "DRV": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      },
+      "BTW": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bitway ($BTW) is trending on CoinGecko"
+        ]
+      },
+      "STRK": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Starknet ($STRK) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
+        ]
+      },
+      "WAL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Walrus ($WAL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

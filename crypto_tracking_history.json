@@ -1,112 +1,5 @@
 [
   {
-    "timestamp": "2026-09-24T02:02:12.766244",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "EDEL": 6,
-      "NIL": 6,
-      "PENGU": 6,
-      "PONS": 6,
-      "LIT": 6,
-      "RAY": 6,
-      "STONK": 6,
-      "ZEC": 6,
-      "ALEO": 6,
-      "ASTER": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "EDEL": 3,
-        "NIL": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "UNI": 3,
-        "BTC": 3,
-        "PONS": 3,
-        "LIT": 3,
-        "RAY": 3,
-        "STONK": 3,
-        "ZEC": 3,
-        "XRP": 3,
-        "ALEO": 3,
-        "ARB": 3,
-        "ASTER": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      },
-      "NIL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Nillion ($NIL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-24T08:50:09.494593",
     "tickers": {
       "ALPHA": 3,
@@ -11996,6 +11889,115 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-16T22:18:14.887933",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DACITY": 6,
+      "PRL": 6,
+      "ZEC": 6,
+      "QTC": 6,
+      "PUMP": 6,
+      "PENGU": 6,
+      "AERO": 6,
+      "STRK": 6,
+      "LIT": 6,
+      "SEI": 6,
+      "SUI": 6,
+      "TIA": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DACITY": 3,
+        "PRL": 3,
+        "NEAR": 3,
+        "ZEC": 3,
+        "BTC": 3,
+        "INJ": 3,
+        "QTC": 3,
+        "PUMP": 3,
+        "PENGU": 3,
+        "AERO": 3,
+        "STRK": 3,
+        "LIT": 3,
+        "SEI": 3,
+        "SUI": 3,
+        "TIA": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DACITY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dacity Coin ($DACITY) is trending on CoinGecko"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

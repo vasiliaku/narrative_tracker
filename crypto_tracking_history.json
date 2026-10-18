@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-09-25T22:55:26.296147",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TRUMP": 6,
-      "EDEL": 6,
-      "BP": 6,
-      "ONDO": 6,
-      "ENA": 6,
-      "PENGU": 6,
-      "AERO": 6,
-      "PHA": 6,
-      "SUI": 6,
-      "ZEC": 6,
-      "JUP": 6,
-      "TAO": 6,
-      "PONS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TRUMP": 3,
-        "NEAR": 3,
-        "EDEL": 3,
-        "BP": 3,
-        "ONDO": 3,
-        "ENA": 3,
-        "PENGU": 3,
-        "AERO": 3,
-        "PHA": 3,
-        "SUI": 3,
-        "ZEC": 3,
-        "JUP": 3,
-        "TAO": 3,
-        "AVAX": 3,
-        "PONS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      },
-      "BP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Backpack ($BP) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-26T02:23:29.281291",
     "tickers": {
       "ALPHA": 3,
@@ -11948,6 +11829,134 @@
         ],
         "sample_posts": [
           "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-18T06:49:00.889495",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "MINTER": 6,
+      "Q": 6,
+      "PRL": 6,
+      "TAO": 6,
+      "PONS": 6,
+      "SAND": 6,
+      "XMR": 6,
+      "STONK": 6,
+      "BDX": 6,
+      "LIT": 6,
+      "MON": 6,
+      "SUI": 6,
+      "FET": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "MINTER": 3,
+        "Q": 3,
+        "PRL": 3,
+        "TAO": 3,
+        "PONS": 3,
+        "NEAR": 3,
+        "SAND": 3,
+        "XMR": 3,
+        "STONK": 3,
+        "BDX": 3,
+        "LIT": 3,
+        "MON": 3,
+        "UNI": 3,
+        "SUI": 3,
+        "FET": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "MINTER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Minter ($MINTER) is trending on CoinGecko"
+        ]
+      },
+      "Q": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quack AI ($Q) is trending on CoinGecko"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "PONS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pons ($PONS) is trending on CoinGecko"
         ]
       }
     },

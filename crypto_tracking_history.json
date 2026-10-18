@@ -1,135 +1,5 @@
 [
   {
-    "timestamp": "2026-09-26T17:31:31.419800",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SI": 6,
-      "TRUMP": 6,
-      "KAS": 6,
-      "QNT": 6,
-      "PENGU": 6,
-      "EDEL": 6,
-      "WLD": 6,
-      "ONDO": 6,
-      "FET": 6,
-      "PUMP": 6,
-      "ENA": 6,
-      "FOGO": 6,
-      "TAO": 6,
-      "RAIN": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SI": 3,
-        "TRUMP": 3,
-        "KAS": 3,
-        "QNT": 3,
-        "PENGU": 3,
-        "EDEL": 3,
-        "BTC": 3,
-        "NEAR": 3,
-        "WLD": 3,
-        "ONDO": 3,
-        "FET": 3,
-        "PUMP": 3,
-        "ENA": 3,
-        "FOGO": 3,
-        "TAO": 3,
-        "RAIN": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Super Inu ($SI) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "KAS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Kaspa ($KAS) is trending on CoinGecko"
-        ]
-      },
-      "QNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quant ($QNT) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-26T20:19:06.680949",
     "tickers": {
       "ALPHA": 3,
@@ -11945,6 +11815,133 @@
         ],
         "sample_posts": [
           "Covenant x402 ($COVENANT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-18T22:00:37.887088",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "COVENANT": 6,
+      "DOPE": 6,
+      "TSI": 6,
+      "CLAUDIA": 6,
+      "BOOMER": 6,
+      "HI": 6,
+      "QTC": 6,
+      "PRL": 6,
+      "PENGU": 6,
+      "STRK": 6,
+      "PUMP": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "COVENANT": 3,
+        "DOPE": 3,
+        "TSI": 3,
+        "CLAUDIA": 3,
+        "BOOMER": 3,
+        "HI": 3,
+        "QTC": 3,
+        "PRL": 3,
+        "BTC": 3,
+        "PENGU": 3,
+        "NEAR": 3,
+        "UNI": 3,
+        "STRK": 3,
+        "PUMP": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "COVENANT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Covenant x402 ($COVENANT) is trending on CoinGecko"
+        ]
+      },
+      "DOPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Doge Pepe ($DOPE) is trending on CoinGecko"
+        ]
+      },
+      "TSI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tetsuo Super Intelligence ($TSI) is trending on CoinGecko"
+        ]
+      },
+      "CLAUDIA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Claudia ($CLAUDIA) is trending on CoinGecko"
+        ]
+      },
+      "BOOMER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Boomer ($BOOMER) is trending on CoinGecko"
         ]
       }
     },

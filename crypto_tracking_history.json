@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-09-27T10:58:56.703746",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "EDEL": 6,
-      "QNT": 6,
-      "TRUMP": 6,
-      "BP": 6,
-      "SUI": 6,
-      "PENGU": 6,
-      "RHEA": 6,
-      "ONDO": 6,
-      "TAO": 6,
-      "WLD": 6,
-      "JUP": 6,
-      "ORCA": 6,
-      "GRAM": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "EDEL": 3,
-        "QNT": 3,
-        "TRUMP": 3,
-        "NEAR": 3,
-        "BP": 3,
-        "SUI": 3,
-        "PENGU": 3,
-        "RHEA": 3,
-        "ONDO": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "WLD": 3,
-        "JUP": 3,
-        "ORCA": 3,
-        "GRAM": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      },
-      "QNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quant ($QNT) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "BP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Backpack ($BP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-27T15:56:56.880826",
     "tickers": {
       "ALPHA": 3,
@@ -11964,6 +11845,133 @@
         ],
         "sample_posts": [
           "Quantus ($QTC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-19T16:41:11.943792",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "STARTUPSI": 6,
+      "PENGU": 6,
+      "BOOMER": 6,
+      "PRL": 6,
+      "ZRO": 6,
+      "QTC": 6,
+      "VVV": 6,
+      "STRK": 6,
+      "CRV": 6,
+      "KAS": 6,
+      "TAO": 6,
+      "HYPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "STARTUPSI": 3,
+        "PENGU": 3,
+        "BOOMER": 3,
+        "PRL": 3,
+        "ZRO": 3,
+        "QTC": 3,
+        "BTC": 3,
+        "VVV": 3,
+        "NEAR": 3,
+        "STRK": 3,
+        "CRV": 3,
+        "KAS": 3,
+        "TAO": 3,
+        "HYPE": 3,
+        "ARB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "STARTUPSI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "startupSI ($STARTUPSI) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "BOOMER": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Boomer ($BOOMER) is trending on CoinGecko"
+        ]
+      },
+      "PRL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PRL) is trending on CoinGecko"
+        ]
+      },
+      "ZRO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "LayerZero ($ZRO) is trending on CoinGecko"
         ]
       }
     },

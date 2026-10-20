@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-09-27T22:39:22.551709",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "QNT": 6,
-      "TRUMP": 6,
-      "RHEA": 6,
-      "PUMP": 6,
-      "EDEL": 6,
-      "PENGU": 6,
-      "JUP": 6,
-      "RAY": 6,
-      "ZEC": 6,
-      "TAO": 6,
-      "STONK": 6,
-      "ONDO": 6,
-      "PONS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "QNT": 3,
-        "NEAR": 3,
-        "TRUMP": 3,
-        "RHEA": 3,
-        "PUMP": 3,
-        "EDEL": 3,
-        "PENGU": 3,
-        "JUP": 3,
-        "RAY": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "TAO": 3,
-        "STONK": 3,
-        "ONDO": 3,
-        "PONS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "QNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quant ($QNT) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "RHEA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "RHEA ($RHEA) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-28T02:23:30.078039",
     "tickers": {
       "ALPHA": 3,
@@ -11988,6 +11869,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-20T06:49:31.564373",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "QTC": 6,
+      "PEARL": 6,
+      "CARDS": 6,
+      "PUMP": 6,
+      "PHA": 6,
+      "PENGU": 6,
+      "S": 6,
+      "PONS": 6,
+      "RENDER": 6,
+      "Q": 6,
+      "WLD": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "QTC": 3,
+        "PEARL": 3,
+        "CARDS": 3,
+        "BTC": 3,
+        "PUMP": 3,
+        "PHA": 3,
+        "PENGU": 3,
+        "ARB": 3,
+        "NEAR": 3,
+        "XRP": 3,
+        "S": 3,
+        "PONS": 3,
+        "RENDER": 3,
+        "Q": 3,
+        "WLD": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "QTC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quantus ($QTC) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "CARDS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Collector Crypt ($CARDS) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

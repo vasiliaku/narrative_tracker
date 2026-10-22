@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-09-30T14:23:08.375244",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "QNT": 6,
-      "EDEL": 6,
-      "TRUMP": 6,
-      "LIT": 6,
-      "PONS": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "ENA": 6,
-      "BP": 6,
-      "AERO": 6,
-      "ZEC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "QNT": 3,
-        "NEAR": 3,
-        "EDEL": 3,
-        "TRUMP": 3,
-        "LIT": 3,
-        "PONS": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "SUI": 3,
-        "ENA": 3,
-        "AVAX": 3,
-        "LINK": 3,
-        "BP": 3,
-        "AERO": 3,
-        "ZEC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "QNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quant ($QNT) is trending on CoinGecko"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-30T20:23:22.351840",
     "tickers": {
       "ALPHA": 3,
@@ -12054,6 +11937,133 @@
         ],
         "sample_posts": [
           "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-22T08:59:45.651285",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "OA": 6,
+      "AERO": 6,
+      "PENGU": 6,
+      "XMR": 10,
+      "AXIS": 6,
+      "LIT": 6,
+      "PEARL": 6,
+      "STRK": 6,
+      "ENA": 6,
+      "GRVT": 6,
+      "ZEC": 6,
+      "CARDS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "OA": 3,
+        "AERO": 3,
+        "PENGU": 3,
+        "XMR": 5,
+        "AXIS": 3,
+        "LIT": 3,
+        "PEARL": 3,
+        "BTC": 3,
+        "NEAR": 3,
+        "STRK": 3,
+        "ENA": 3,
+        "GRVT": 3,
+        "ETH": 3,
+        "ZEC": 3,
+        "CARDS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "OA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "OnlyAgent ($OA) is trending on CoinGecko"
+        ]
+      },
+      "AERO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aerodrome Finance ($AERO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "XMR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monero ($XMR) is trending on CoinGecko"
+        ]
+      },
+      "AXIS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axis Robotics ($AXIS) is trending on CoinGecko"
         ]
       }
     },

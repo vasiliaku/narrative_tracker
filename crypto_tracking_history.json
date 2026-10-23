@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-10-02T14:16:35.081427",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SC": 6,
-      "EDEL": 6,
-      "SAND": 6,
-      "TRUMP": 6,
-      "PENGU": 6,
-      "QNT": 6,
-      "WLD": 6,
-      "MON": 6,
-      "PUMP": 6,
-      "BP": 6,
-      "PRL": 6,
-      "GALA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SC": 3,
-        "EDEL": 3,
-        "SAND": 3,
-        "TRUMP": 3,
-        "NEAR": 3,
-        "PENGU": 3,
-        "QNT": 3,
-        "WLD": 3,
-        "BTC": 3,
-        "MON": 3,
-        "PUMP": 3,
-        "SOL": 3,
-        "BP": 3,
-        "PRL": 3,
-        "GALA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Super Cat ($SC) is trending on CoinGecko"
-        ]
-      },
-      "EDEL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Edel ($EDEL) is trending on CoinGecko"
-        ]
-      },
-      "SAND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Sandbox ($SAND) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-02T20:14:01.962903",
     "tickers": {
       "ALPHA": 3,
@@ -12102,6 +11984,123 @@
         ],
         "sample_posts": [
           "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-23T22:43:53.227506",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "IRYS": 6,
+      "UHI": 6,
+      "PEARL": 6,
+      "PENGU": 6,
+      "AAVE": 6,
+      "AERO": 6,
+      "CC": 6,
+      "DACITY": 6,
+      "VVV": 6,
+      "LIT": 6,
+      "HYPE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "IRYS": 3,
+        "UHI": 3,
+        "PEARL": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "AAVE": 3,
+        "AERO": 3,
+        "DOT": 3,
+        "CC": 3,
+        "DACITY": 3,
+        "VVV": 3,
+        "LIT": 3,
+        "HYPE": 3,
+        "ARB": 3,
+        "AVAX": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "IRYS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Irys ($IRYS) is trending on CoinGecko"
+        ]
+      },
+      "UHI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Universal High Income ($UHI) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

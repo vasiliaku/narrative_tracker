@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-10-03T07:14:32.860413",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SAND": 6,
-      "PONS": 6,
-      "LIT": 6,
-      "GALA": 6,
-      "MANA": 6,
-      "PUMP": 6,
-      "HYPE": 6,
-      "QNT": 6,
-      "AERO": 6,
-      "BP": 6,
-      "SUI": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SAND": 3,
-        "PONS": 3,
-        "LIT": 3,
-        "GALA": 3,
-        "MANA": 3,
-        "PUMP": 3,
-        "BTC": 3,
-        "HYPE": 3,
-        "QNT": 3,
-        "AERO": 3,
-        "INJ": 3,
-        "NEAR": 3,
-        "BP": 3,
-        "SUI": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SAND": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "The Sandbox ($SAND) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      },
-      "LIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Lighter ($LIT) is trending on CoinGecko"
-        ]
-      },
-      "GALA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "GALA ($GALA) is trending on CoinGecko"
-        ]
-      },
-      "MANA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Decentraland ($MANA) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-03T12:49:26.115746",
     "tickers": {
       "ALPHA": 3,
@@ -12081,6 +11954,134 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-24T13:42:30.510845",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "UHI": 6,
+      "HYPE": 6,
+      "DACITY": 6,
+      "BSC": 6,
+      "PENGU": 6,
+      "ORDER": 6,
+      "IRYS": 6,
+      "SUI": 6,
+      "PUMP": 6,
+      "ZEC": 6,
+      "USDT": 6,
+      "PEARL": 6,
+      "QTC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "UHI": 3,
+        "HYPE": 3,
+        "DACITY": 3,
+        "BSC": 3,
+        "PENGU": 3,
+        "ORDER": 3,
+        "IRYS": 3,
+        "SUI": 3,
+        "PUMP": 3,
+        "NEAR": 3,
+        "ZEC": 3,
+        "USDT": 3,
+        "BTC": 3,
+        "PEARL": 3,
+        "QTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "UHI": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Universal High Income ($UHI) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "DACITY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dacity Coin ($DACITY) is trending on CoinGecko"
+        ]
+      },
+      "BSC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Binance Super CZ ($BSC) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

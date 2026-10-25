@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-10-05T00:18:24.753843",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "VVV": 6,
-      "GRASS": 6,
-      "PUMP": 6,
-      "PONS": 6,
-      "AERO": 6,
-      "ENA": 6,
-      "BP": 6,
-      "QNT": 6,
-      "ZEC": 6,
-      "SKY": 6,
-      "NOS": 6,
-      "FET": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "VVV": 3,
-        "GRASS": 3,
-        "PUMP": 3,
-        "NEAR": 3,
-        "PONS": 3,
-        "AERO": 3,
-        "ENA": 3,
-        "BP": 3,
-        "QNT": 3,
-        "ZEC": 3,
-        "SKY": 3,
-        "NOS": 3,
-        "BTC": 3,
-        "FET": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "VVV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Venice Token ($VVV) is trending on CoinGecko"
-        ]
-      },
-      "GRASS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Grass ($GRASS) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-05T07:51:21.217338",
     "tickers": {
       "ALPHA": 3,
@@ -12048,6 +11929,135 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-25T23:40:13.276629",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "EVMZONE": 6,
+      "PEPINA": 6,
+      "DACITY": 6,
+      "PENGU": 6,
+      "PUMP": 6,
+      "ENA": 6,
+      "CC": 6,
+      "ZEC": 6,
+      "PEARL": 6,
+      "AERO": 6,
+      "PEPE": 6,
+      "QTC": 6,
+      "ORE": 6,
+      "QNT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "EVMZONE": 3,
+        "PEPINA": 3,
+        "DACITY": 3,
+        "PENGU": 3,
+        "PUMP": 3,
+        "ENA": 3,
+        "CC": 3,
+        "ZEC": 3,
+        "PEARL": 3,
+        "AERO": 3,
+        "PEPE": 3,
+        "QTC": 3,
+        "ORE": 3,
+        "BTC": 3,
+        "QNT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "EVMZONE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "evmzone ($EVMZONE) is trending on CoinGecko"
+        ]
+      },
+      "PEPINA": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pepina ($PEPINA) is trending on CoinGecko"
+        ]
+      },
+      "DACITY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dacity Coin ($DACITY) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pump.fun ($PUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

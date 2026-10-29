@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T08:08:05.505920",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "QTC": 6,
-      "MET": 6,
-      "JUP": 6,
-      "PRL": 6,
-      "PONS": 6,
-      "PENGU": 6,
-      "PUMP": 6,
-      "TAO": 6,
-      "RAY": 6,
-      "AERO": 6,
-      "BDX": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "QTC": 3,
-        "MET": 3,
-        "NEAR": 3,
-        "JUP": 3,
-        "PRL": 3,
-        "PONS": 3,
-        "PENGU": 3,
-        "PUMP": 3,
-        "BTC": 3,
-        "XRP": 3,
-        "SOL": 3,
-        "TAO": 3,
-        "RAY": 3,
-        "AERO": 3,
-        "BDX": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      },
-      "MET": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Meteora ($MET) is trending on CoinGecko"
-        ]
-      },
-      "JUP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Jupiter ($JUP) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-08T17:04:06.426225",
     "tickers": {
       "ALPHA": 3,
@@ -11993,6 +11876,123 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T01:21:40.132826",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PEPE": 6,
+      "PENGU": 6,
+      "PEARL": 6,
+      "KNTQ": 6,
+      "PUMP": 6,
+      "PONS": 6,
+      "CHIP": 6,
+      "PLUME": 6,
+      "CAKE": 6,
+      "CRO": 6,
+      "MON": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PEPE": 3,
+        "PENGU": 3,
+        "PEARL": 3,
+        "BTC": 3,
+        "KNTQ": 3,
+        "XRP": 3,
+        "PUMP": 3,
+        "NEAR": 3,
+        "PONS": 3,
+        "CHIP": 3,
+        "PLUME": 3,
+        "CAKE": 3,
+        "CRO": 3,
+        "ETH": 3,
+        "MON": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PEPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pepe ($PEPE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "KNTQ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T17:04:06.426225",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SIMD": 6,
-      "TRUMP": 6,
-      "QTC": 6,
-      "BP": 6,
-      "DRV": 6,
-      "LIT": 6,
-      "VVV": 6,
-      "QNT": 6,
-      "PENGU": 6,
-      "STRK": 6,
-      "AERO": 6,
-      "PRL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SIMD": 3,
-        "TRUMP": 3,
-        "QTC": 3,
-        "BTC": 3,
-        "NEAR": 3,
-        "BP": 3,
-        "DRV": 3,
-        "LIT": 3,
-        "ETH": 3,
-        "VVV": 3,
-        "QNT": 3,
-        "PENGU": 3,
-        "STRK": 3,
-        "AERO": 3,
-        "PRL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SIMD": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Super Intelligent Identity ($SIMD) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-08T22:36:50.723674",
     "tickers": {
       "ALPHA": 3,
@@ -11993,6 +11884,124 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T07:45:16.282742",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "AERO": 6,
+      "PEARL": 6,
+      "AXIS": 6,
+      "LIT": 6,
+      "Q": 6,
+      "KNTQ": 6,
+      "MON": 6,
+      "CC": 6,
+      "PONS": 6,
+      "PI": 6,
+      "QNT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "BTC": 3,
+        "AERO": 3,
+        "PEARL": 3,
+        "AXIS": 3,
+        "LIT": 3,
+        "Q": 3,
+        "KNTQ": 3,
+        "MON": 3,
+        "CC": 3,
+        "SOL": 3,
+        "PONS": 3,
+        "PI": 3,
+        "QNT": 3,
+        "XRP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "AERO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aerodrome Finance ($AERO) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "AXIS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Axis Robotics ($AXIS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

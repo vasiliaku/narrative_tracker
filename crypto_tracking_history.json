@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T07:52:26.001703",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "SWARM": 6,
-      "MAGIC": 6,
-      "DRV": 6,
-      "QTC": 6,
-      "ZEC": 6,
-      "PRL": 6,
-      "LUMIA": 6,
-      "PENGU": 6,
-      "BAT": 6,
-      "AZTEC": 6,
-      "STRK": 6,
-      "PONS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "SWARM": 3,
-        "MAGIC": 3,
-        "DRV": 3,
-        "NEAR": 3,
-        "QTC": 3,
-        "ZEC": 3,
-        "PRL": 3,
-        "BTC": 3,
-        "LUMIA": 3,
-        "PENGU": 3,
-        "BAT": 3,
-        "AZTEC": 3,
-        "STRK": 3,
-        "PONS": 3,
-        "SOL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "SWARM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "SWARM ENGINE ($SWARM) is trending on CoinGecko"
-        ]
-      },
-      "MAGIC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Treasure ($MAGIC) is trending on CoinGecko"
-        ]
-      },
-      "DRV": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Derive ($DRV) is trending on CoinGecko"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-10T14:04:27.018295",
     "tickers": {
       "ALPHA": 3,
@@ -11934,6 +11816,130 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T01:11:28.068640",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SP": 6,
+      "HYPE": 6,
+      "MON": 6,
+      "KNTQ": 6,
+      "PEARL": 6,
+      "PENGU": 6,
+      "ONDO": 6,
+      "LIT": 6,
+      "PONS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SP": 3,
+        "HYPE": 3,
+        "MON": 3,
+        "KNTQ": 3,
+        "PEARL": 3,
+        "BTC": 3,
+        "SOL": 3,
+        "NEAR": 3,
+        "LINK": 3,
+        "PENGU": 3,
+        "BNB": 3,
+        "ONDO": 3,
+        "LIT": 3,
+        "PONS": 3,
+        "DOGE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Super Pepe ($SP) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "KNTQ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

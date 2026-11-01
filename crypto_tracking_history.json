@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-10-11T16:56:54.285153",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "TAUFA": 6,
-      "STRK": 6,
-      "TRUMP": 6,
-      "PENGU": 6,
-      "AERO": 6,
-      "QTC": 6,
-      "QNT": 6,
-      "S": 6,
-      "ZEC": 6,
-      "PRL": 6,
-      "DRV": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "TAUFA": 3,
-        "STRK": 3,
-        "TRUMP": 3,
-        "NEAR": 3,
-        "PENGU": 3,
-        "APT": 3,
-        "AERO": 3,
-        "QTC": 3,
-        "QNT": 3,
-        "BTC": 3,
-        "S": 3,
-        "ZEC": 3,
-        "PRL": 3,
-        "DRV": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "TAUFA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "TAU FA ($TAUFA) is trending on CoinGecko"
-        ]
-      },
-      "STRK": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Starknet ($STRK) is trending on CoinGecko"
-        ]
-      },
-      "TRUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Official Trump ($TRUMP) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-11T21:10:55.415866",
     "tickers": {
       "ALPHA": 3,
@@ -11945,6 +11827,124 @@
         ],
         "sample_posts": [
           "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T10:52:41.489415",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "LIT": 6,
+      "KNTQ": 6,
+      "PENGU": 6,
+      "HYPE": 6,
+      "MORPHO": 6,
+      "BEAM": 6,
+      "KAS": 6,
+      "PEPE": 6,
+      "BSV": 6,
+      "PONS": 6,
+      "PEARL": 6,
+      "AERO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "LIT": 3,
+        "KNTQ": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "HYPE": 3,
+        "UNI": 3,
+        "MORPHO": 3,
+        "BEAM": 3,
+        "KAS": 3,
+        "PEPE": 3,
+        "BSV": 3,
+        "SOL": 3,
+        "PONS": 3,
+        "PEARL": 3,
+        "AERO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "KNTQ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       },
       "HYPE": {

@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-10-12T19:29:22.993592",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "BUNKER": 6,
-      "PRL": 6,
-      "W": 6,
-      "PONS": 6,
-      "STRK": 6,
-      "QTC": 6,
-      "S": 6,
-      "PENGU": 6,
-      "RSR": 6,
-      "AERO": 6,
-      "SUI": 6,
-      "ENA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BUNKER": 3,
-        "PRL": 3,
-        "W": 3,
-        "PONS": 3,
-        "NEAR": 3,
-        "STRK": 3,
-        "QTC": 3,
-        "S": 3,
-        "PENGU": 3,
-        "RSR": 3,
-        "SOL": 3,
-        "AERO": 3,
-        "SUI": 3,
-        "BTC": 3,
-        "ENA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "BUNKER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bunker Mode ($BUNKER) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "W": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Wormhole ($W) is trending on CoinGecko"
-        ]
-      },
-      "PONS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pons ($PONS) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-13T01:42:44.921521",
     "tickers": {
       "ALPHA": 3,
@@ -11936,6 +11818,123 @@
         ],
         "sample_posts": [
           "Collector Crypt ($CARDS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-02T08:33:57.327308",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PEARL": 6,
+      "KNTQ": 6,
+      "PENGU": 6,
+      "LIT": 6,
+      "ENA": 6,
+      "PONS": 6,
+      "SUI": 6,
+      "TRUMP": 6,
+      "CASHCAT": 6,
+      "QNT": 6,
+      "ZEC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "PEARL": 3,
+        "KNTQ": 3,
+        "PENGU": 3,
+        "LIT": 3,
+        "ETH": 3,
+        "ENA": 3,
+        "PONS": 3,
+        "SUI": 3,
+        "TRUMP": 3,
+        "CASHCAT": 3,
+        "QNT": 3,
+        "NEAR": 3,
+        "ZEC": 3,
+        "BNB": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "KNTQ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
         ]
       }
     },

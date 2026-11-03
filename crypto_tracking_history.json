@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-10-13T08:39:36.391824",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "WISP": 6,
-      "BUNKER": 6,
-      "IMD6900": 6,
-      "CRAWLER": 6,
-      "PRL": 6,
-      "CLAUDIA": 6,
-      "QTC": 6,
-      "PENGU": 6,
-      "PONS": 6,
-      "HYPE": 6,
-      "S": 6,
-      "PUMP": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "WISP": 3,
-        "BUNKER": 3,
-        "IMD6900": 3,
-        "CRAWLER": 3,
-        "PRL": 3,
-        "CLAUDIA": 3,
-        "QTC": 3,
-        "NEAR": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "PONS": 3,
-        "HYPE": 3,
-        "S": 3,
-        "PUMP": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "WISP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Wisp ($WISP) is trending on CoinGecko"
-        ]
-      },
-      "BUNKER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Bunker Mode ($BUNKER) is trending on CoinGecko"
-        ]
-      },
-      "IMD6900": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Identity.md 6900 ($IMD6900) is trending on CoinGecko"
-        ]
-      },
-      "CRAWLER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Crawlerpad ($CRAWLER) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-13T17:13:31.047286",
     "tickers": {
       "ALPHA": 3,
@@ -11934,6 +11806,125 @@
         ],
         "sample_posts": [
           "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T01:54:52.153157",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "HYPE": 6,
+      "DACITYCOIN": 6,
+      "ZEC": 6,
+      "QNT": 6,
+      "QTC": 6,
+      "LIT": 6,
+      "PENGU": 6,
+      "CRV": 6,
+      "MON": 6,
+      "SUI": 6,
+      "PONS": 6,
+      "POL": 6,
+      "CARDS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "HYPE": 3,
+        "DACITYCOIN": 3,
+        "ZEC": 3,
+        "QNT": 3,
+        "QTC": 3,
+        "LIT": 3,
+        "PENGU": 3,
+        "CRV": 3,
+        "MON": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "PONS": 3,
+        "POL": 3,
+        "CARDS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "DACITYCOIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "AudaCity ($DACITYCOIN) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "QNT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Quant ($QNT) is trending on CoinGecko"
         ]
       }
     },

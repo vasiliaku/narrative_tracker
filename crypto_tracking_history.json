@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T14:45:49.507506",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "ASTRO": 6,
-      "ZYLO": 6,
-      "PRL": 6,
-      "QTC": 6,
-      "SUI": 6,
-      "WAL": 6,
-      "PENGU": 6,
-      "BTW": 6,
-      "QNT": 6,
-      "LIT": 6,
-      "AERO": 6,
-      "TAO": 6,
-      "STRK": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "ASTRO": 3,
-        "ZYLO": 3,
-        "PRL": 3,
-        "QTC": 3,
-        "SUI": 3,
-        "WAL": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "BTW": 3,
-        "QNT": 3,
-        "LIT": 3,
-        "AERO": 3,
-        "TAO": 3,
-        "STRK": 3,
-        "NEAR": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "ASTRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "astronaut ($ASTRO) is trending on CoinGecko"
-        ]
-      },
-      "ZYLO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zylo Ecosystem ($ZYLO) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-14T19:48:57.926324",
     "tickers": {
       "ALPHA": 3,
@@ -11905,6 +11777,134 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T11:42:18.179090",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "DACITYCOIN": 6,
+      "LIT": 6,
+      "TAO": 6,
+      "AERO": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "ENA": 6,
+      "HYPE": 6,
+      "CC": 6,
+      "PONS": 6,
+      "CARDS": 6,
+      "ZEC": 4
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "DACITYCOIN": 3,
+        "LIT": 3,
+        "TAO": 3,
+        "AERO": 3,
+        "PENGU": 3,
+        "SUI": 3,
+        "BTC": 3,
+        "XRP": 3,
+        "ENA": 3,
+        "HYPE": 3,
+        "CC": 3,
+        "LINK": 3,
+        "PONS": 3,
+        "CARDS": 3,
+        "APT": 3,
+        "ZEC": 2
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "DACITYCOIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "AudaCity ($DACITYCOIN) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "AERO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aerodrome Finance ($AERO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

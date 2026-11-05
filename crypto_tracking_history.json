@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T22:47:45.618738",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "WAL": 6,
-      "PRL": 6,
-      "SUI": 6,
-      "QTC": 6,
-      "PENGU": 6,
-      "QNT": 6,
-      "BTW": 6,
-      "DRV": 6,
-      "STRK": 6,
-      "ENA": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "WAL": 3,
-        "PRL": 3,
-        "SUI": 3,
-        "QTC": 3,
-        "BTC": 3,
-        "PENGU": 3,
-        "SOL": 3,
-        "QNT": 3,
-        "UNI": 3,
-        "BTW": 3,
-        "DRV": 3,
-        "STRK": 3,
-        "ENA": 3,
-        "NEAR": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "WAL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Walrus ($WAL) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "SUI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Sui ($SUI) is trending on CoinGecko"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-15T02:12:34.601712",
     "tickers": {
       "ALPHA": 3,
@@ -11884,6 +11767,115 @@
         ],
         "sample_posts": [
           "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-05T00:35:24.710164",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "FOCO": 6,
+      "DACITYCOIN": 6,
+      "PENGU": 6,
+      "PEARL": 6,
+      "AERO": 6,
+      "TRUMP": 6,
+      "XMR": 6,
+      "LIT": 6,
+      "SUI": 6,
+      "HYPE": 6,
+      "AAVE": 6,
+      "ONDO": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "FOCO": 3,
+        "BTC": 3,
+        "DACITYCOIN": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "PEARL": 3,
+        "AERO": 3,
+        "TRUMP": 3,
+        "XMR": 3,
+        "LIT": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "HYPE": 3,
+        "AAVE": 3,
+        "ONDO": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "FOCO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "FOCO ($FOCO) is trending on CoinGecko"
+        ]
+      },
+      "DACITYCOIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "AudaCity ($DACITYCOIN) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
         ]
       }
     },

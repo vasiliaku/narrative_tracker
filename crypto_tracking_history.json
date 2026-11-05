@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T14:31:13.826842",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PRL": 6,
-      "ZEREBRO": 6,
-      "AERO": 6,
-      "ZRO": 6,
-      "ENA": 6,
-      "QTC": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "STRK": 6,
-      "ZAMA": 6,
-      "PUMP": 6,
-      "NIL": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "BTC": 3,
-        "SOL": 3,
-        "PRL": 3,
-        "ZEREBRO": 3,
-        "AERO": 3,
-        "ZRO": 3,
-        "NEAR": 3,
-        "ENA": 3,
-        "QTC": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "STRK": 3,
-        "ZAMA": 3,
-        "PUMP": 3,
-        "NIL": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "ZEREBRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Zerebro ($ZEREBRO) is trending on CoinGecko"
-        ]
-      },
-      "AERO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aerodrome Finance ($AERO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-15T19:32:34.575344",
     "tickers": {
       "ALPHA": 3,
@@ -11890,6 +11781,103 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-05T22:59:44.450925",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PEARL": 6,
+      "HYPE": 6,
+      "ZEC": 6,
+      "PENGU": 6,
+      "TRUMP": 6,
+      "LIT": 6,
+      "FET": 6,
+      "PONS": 6,
+      "AAVE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "ETH": 3,
+        "SOL": 3,
+        "PEARL": 3,
+        "HYPE": 3,
+        "INJ": 3,
+        "ZEC": 3,
+        "PENGU": 3,
+        "TRUMP": 3,
+        "XRP": 3,
+        "LIT": 3,
+        "LINK": 3,
+        "FET": 3,
+        "PONS": 3,
+        "AAVE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

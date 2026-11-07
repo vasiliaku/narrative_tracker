@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T14:23:37.046169",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "DACITY": 6,
-      "ASTRO": 6,
-      "STREAM": 6,
-      "TIA": 6,
-      "PRL": 6,
-      "PENGU": 6,
-      "QTC": 6,
-      "DNA": 6,
-      "TAO": 6,
-      "SUI": 6,
-      "DRV": 6,
-      "AERO": 6,
-      "ZEC": 4
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "DACITY": 3,
-        "ASTRO": 3,
-        "STREAM": 3,
-        "TIA": 3,
-        "INJ": 3,
-        "PRL": 3,
-        "PENGU": 3,
-        "QTC": 3,
-        "DNA": 3,
-        "NEAR": 5,
-        "TAO": 3,
-        "SUI": 3,
-        "DRV": 3,
-        "SOL": 3,
-        "AERO": 3,
-        "ZEC": 2
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "ASTRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "astronaut ($ASTRO) is trending on CoinGecko"
-        ]
-      },
-      "STREAM": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "streamoors ($STREAM) is trending on CoinGecko"
-        ]
-      },
-      "TIA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Celestia ($TIA) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-16T19:06:56.354579",
     "tickers": {
       "ALPHA": 3,
@@ -11844,6 +11724,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-07T03:36:12.239936",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "COGE": 6,
+      "AKE": 6,
+      "PEARL": 6,
+      "AIN": 6,
+      "PENGU": 6,
+      "MON": 6,
+      "QTC": 6,
+      "ZEC": 6,
+      "HYPE": 6,
+      "AERO": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "COGE": 3,
+        "BTC": 3,
+        "AKE": 3,
+        "PEARL": 3,
+        "AIN": 3,
+        "PENGU": 3,
+        "MON": 3,
+        "QTC": 3,
+        "ZEC": 3,
+        "SOL": 3,
+        "XRP": 3,
+        "HYPE": 3,
+        "AERO": 3,
+        "ETH": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "COGE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "COGE COIN ($COGE) is trending on CoinGecko"
+        ]
+      },
+      "AKE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Akedo ($AKE) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "AIN": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Infinity Ground ($AIN) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

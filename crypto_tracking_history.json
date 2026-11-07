@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-10-17T01:58:09.414685",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "DACITY": 6,
-      "PRL": 6,
-      "PUMP": 6,
-      "ZEC": 6,
-      "MON": 6,
-      "AERO": 6,
-      "SUI": 6,
-      "NXPC": 6,
-      "STONK": 6,
-      "QTC": 6,
-      "DNA": 6,
-      "TIA": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "DACITY": 3,
-        "PRL": 3,
-        "BTC": 3,
-        "NEAR": 3,
-        "PUMP": 3,
-        "ZEC": 3,
-        "MON": 3,
-        "AERO": 3,
-        "SUI": 3,
-        "NXPC": 3,
-        "STONK": 3,
-        "QTC": 3,
-        "DNA": 3,
-        "SOL": 3,
-        "TIA": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-17T06:28:34.196769",
     "tickers": {
       "ALPHA": 3,
@@ -11838,6 +11729,133 @@
         ],
         "sample_posts": [
           "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-07T21:11:26.525740",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "KNTQ": 6,
+      "HYPE": 6,
+      "MON": 6,
+      "DACITY": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "PUMP": 6,
+      "QTC": 6,
+      "STONK": 6,
+      "KAS": 6,
+      "ONE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "KNTQ": 3,
+        "HYPE": 3,
+        "MON": 3,
+        "DACITY": 3,
+        "LIT": 3,
+        "ZEC": 3,
+        "PUMP": 3,
+        "BTC": 3,
+        "QTC": 3,
+        "NEAR": 3,
+        "LINK": 3,
+        "STONK": 3,
+        "KAS": 3,
+        "ONE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "KNTQ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "MON": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Monad ($MON) is trending on CoinGecko"
+        ]
+      },
+      "DACITY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dacity Coin ($DACITY) is trending on CoinGecko"
         ]
       }
     },

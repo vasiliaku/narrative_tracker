@@ -1,124 +1,5 @@
 [
   {
-    "timestamp": "2026-10-17T18:01:29.035166",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "Q": 6,
-      "QNT": 6,
-      "PRL": 6,
-      "ONDO": 6,
-      "ZEC": 6,
-      "PUMP": 6,
-      "QTC": 6,
-      "SUI": 6,
-      "JUP": 6,
-      "KAS": 6,
-      "STRK": 6,
-      "BTW": 6,
-      "ZRO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "Q": 3,
-        "QNT": 3,
-        "NEAR": 3,
-        "PRL": 3,
-        "ONDO": 3,
-        "ZEC": 3,
-        "PUMP": 3,
-        "QTC": 3,
-        "SUI": 3,
-        "JUP": 3,
-        "KAS": 3,
-        "BTC": 3,
-        "STRK": 3,
-        "BTW": 3,
-        "ZRO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "Q": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quack AI ($Q) is trending on CoinGecko"
-        ]
-      },
-      "QNT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quant ($QNT) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "ONDO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Ondo ($ONDO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-17T21:50:21.384387",
     "tickers": {
       "ALPHA": 3,
@@ -11872,6 +11753,134 @@
         ],
         "sample_posts": [
           "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-08T21:27:06.379763",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WASTED": 6,
+      "JOS\u00c9": 6,
+      "JCT": 6,
+      "DACITY": 6,
+      "ZEC": 6,
+      "STONK": 6,
+      "PENGU": 6,
+      "PEARL": 6,
+      "KNTQ": 6,
+      "PONS": 6,
+      "HYPE": 6,
+      "SUI": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WASTED": 3,
+        "JOS\u00c9": 3,
+        "JCT": 3,
+        "DACITY": 3,
+        "ZEC": 3,
+        "STONK": 3,
+        "PENGU": 3,
+        "BTC": 3,
+        "PEARL": 3,
+        "KNTQ": 3,
+        "PONS": 3,
+        "ETH": 3,
+        "HYPE": 3,
+        "SUI": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WASTED": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "WASTED ($WASTED) is trending on CoinGecko"
+        ]
+      },
+      "JOS\u00c9": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Be Like Jos\u00e9 ($JOS\u00c9) is trending on CoinGecko"
+        ]
+      },
+      "JCT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Janction ($JCT) is trending on CoinGecko"
+        ]
+      },
+      "DACITY": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Dacity Coin ($DACITY) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
         ]
       }
     },

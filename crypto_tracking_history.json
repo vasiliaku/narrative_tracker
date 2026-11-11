@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-10-18T23:58:20.918585",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "COVENANT": 6,
-      "DOPE": 6,
-      "TSI": 6,
-      "CLAUDIA": 6,
-      "HI": 6,
-      "PRL": 6,
-      "PENGU": 6,
-      "STRK": 6,
-      "BOOMER": 6,
-      "HYPE": 6,
-      "QTC": 6,
-      "AERO": 6,
-      "MON": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "COVENANT": 3,
-        "DOPE": 3,
-        "TSI": 3,
-        "CLAUDIA": 3,
-        "HI": 3,
-        "BTC": 3,
-        "PRL": 3,
-        "ETH": 3,
-        "PENGU": 3,
-        "STRK": 3,
-        "BOOMER": 3,
-        "HYPE": 3,
-        "QTC": 3,
-        "AERO": 3,
-        "MON": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "COVENANT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Covenant x402 ($COVENANT) is trending on CoinGecko"
-        ]
-      },
-      "DOPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Doge Pepe ($DOPE) is trending on CoinGecko"
-        ]
-      },
-      "TSI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Tetsuo Super Intelligence ($TSI) is trending on CoinGecko"
-        ]
-      },
-      "CLAUDIA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Claudia ($CLAUDIA) is trending on CoinGecko"
-        ]
-      },
-      "HI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "hi ($HI) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-19T03:01:44.604638",
     "tickers": {
       "ALPHA": 3,
@@ -11796,6 +11668,123 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-11T17:32:05.555553",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ZIG": 6,
+      "ZEC": 6,
+      "GRASS": 6,
+      "LIT": 6,
+      "AERO": 6,
+      "HYPE": 6,
+      "VVV": 6,
+      "SUI": 6,
+      "PEARL": 6,
+      "PYTH": 6,
+      "QTC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "ZIG": 3,
+        "BTC": 3,
+        "ZEC": 3,
+        "GRASS": 3,
+        "LIT": 3,
+        "AERO": 3,
+        "HYPE": 3,
+        "VVV": 3,
+        "SUI": 3,
+        "PEARL": 3,
+        "ARB": 3,
+        "XRP": 3,
+        "NEAR": 3,
+        "PYTH": 3,
+        "QTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ZIG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ZIG Finance ($ZIG) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
+        ]
+      },
+      "GRASS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Grass ($GRASS) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

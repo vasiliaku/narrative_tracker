@@ -1,132 +1,5 @@
 [
   {
-    "timestamp": "2026-10-19T16:41:11.943792",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STARTUPSI": 6,
-      "PENGU": 6,
-      "BOOMER": 6,
-      "PRL": 6,
-      "ZRO": 6,
-      "QTC": 6,
-      "VVV": 6,
-      "STRK": 6,
-      "CRV": 6,
-      "KAS": 6,
-      "TAO": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "STARTUPSI": 3,
-        "PENGU": 3,
-        "BOOMER": 3,
-        "PRL": 3,
-        "ZRO": 3,
-        "QTC": 3,
-        "BTC": 3,
-        "VVV": 3,
-        "NEAR": 3,
-        "STRK": 3,
-        "CRV": 3,
-        "KAS": 3,
-        "TAO": 3,
-        "HYPE": 3,
-        "ARB": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STARTUPSI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "startupSI ($STARTUPSI) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "BOOMER": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Boomer ($BOOMER) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "ZRO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "LayerZero ($ZRO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-19T21:49:30.625904",
     "tickers": {
       "ALPHA": 3,
@@ -11739,6 +11612,124 @@
         ],
         "sample_posts": [
           "Kinetiq ($KNTQ) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-12T14:10:24.518438",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SEPPUKU": 6,
+      "ROCCO": 6,
+      "ZIG": 6,
+      "ZEC": 6,
+      "PENGU": 6,
+      "LIT": 6,
+      "AAVE": 6,
+      "TAO": 6,
+      "BP": 6,
+      "MON": 6,
+      "SUI": 6,
+      "QTC": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SEPPUKU": 3,
+        "ROCCO": 3,
+        "BTC": 3,
+        "ZIG": 3,
+        "ZEC": 3,
+        "PENGU": 3,
+        "LIT": 3,
+        "NEAR": 3,
+        "AAVE": 3,
+        "TAO": 3,
+        "BP": 3,
+        "MON": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "QTC": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SEPPUKU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Seppuku ($SEPPUKU) is trending on CoinGecko"
+        ]
+      },
+      "ROCCO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Rocco ($ROCCO) is trending on CoinGecko"
+        ]
+      },
+      "ZIG": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ZIG Finance ($ZIG) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
         ]
       }
     },

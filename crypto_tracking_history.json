@@ -1,131 +1,5 @@
 [
   {
-    "timestamp": "2026-10-20T00:47:04.377874",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "STARTUPSI": 6,
-      "PRL": 6,
-      "QTC": 6,
-      "AERO": 6,
-      "PENGU": 6,
-      "BP": 6,
-      "VVV": 6,
-      "XMR": 6,
-      "TAO": 6,
-      "PONS": 6,
-      "GTC": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "STARTUPSI": 3,
-        "PRL": 3,
-        "QTC": 3,
-        "AERO": 3,
-        "PENGU": 3,
-        "BP": 3,
-        "BTC": 3,
-        "ADA": 3,
-        "VVV": 3,
-        "XMR": 3,
-        "TAO": 3,
-        "ALGO": 3,
-        "PONS": 3,
-        "ETH": 3,
-        "GTC": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "STARTUPSI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "startupSI ($STARTUPSI) is trending on CoinGecko"
-        ]
-      },
-      "PRL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PRL) is trending on CoinGecko"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      },
-      "AERO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aerodrome Finance ($AERO) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-20T06:49:31.564373",
     "tickers": {
       "ALPHA": 3,
@@ -11732,6 +11606,114 @@
         ],
         "sample_posts": [
           "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-13T02:19:38.181835",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "MIHAO": 6,
+      "PENGU": 6,
+      "JCT": 6,
+      "ONDO": 6,
+      "PEPE": 6,
+      "LIT": 6,
+      "PONS": 6,
+      "PI": 6,
+      "PYTH": 6,
+      "PLUME": 6,
+      "AXIS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "MIHAO": 3,
+        "PENGU": 3,
+        "JCT": 3,
+        "UNI": 3,
+        "BTC": 3,
+        "XRP": 3,
+        "ONDO": 3,
+        "SOL": 3,
+        "PEPE": 3,
+        "LIT": 3,
+        "PONS": 3,
+        "PI": 3,
+        "PYTH": 3,
+        "PLUME": 3,
+        "AXIS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "MIHAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "ni hao cat ($MIHAO) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "JCT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Janction ($JCT) is trending on CoinGecko"
         ]
       }
     },

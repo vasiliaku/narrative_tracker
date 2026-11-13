@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-10-20T06:49:31.564373",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "QTC": 6,
-      "PEARL": 6,
-      "CARDS": 6,
-      "PUMP": 6,
-      "PHA": 6,
-      "PENGU": 6,
-      "S": 6,
-      "PONS": 6,
-      "RENDER": 6,
-      "Q": 6,
-      "WLD": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "QTC": 3,
-        "PEARL": 3,
-        "CARDS": 3,
-        "BTC": 3,
-        "PUMP": 3,
-        "PHA": 3,
-        "PENGU": 3,
-        "ARB": 3,
-        "NEAR": 3,
-        "XRP": 3,
-        "S": 3,
-        "PONS": 3,
-        "RENDER": 3,
-        "Q": 3,
-        "WLD": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "QTC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Quantus ($QTC) is trending on CoinGecko"
-        ]
-      },
-      "PEARL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PEARL) is trending on CoinGecko"
-        ]
-      },
-      "CARDS": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Collector Crypt ($CARDS) is trending on CoinGecko"
-        ]
-      },
-      "PUMP": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pump.fun ($PUMP) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-20T13:07:14.027975",
     "tickers": {
       "ALPHA": 3,
@@ -11714,6 +11597,121 @@
         ],
         "sample_posts": [
           "Janction ($JCT) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-13T11:41:20.498940",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "SEPPUKU": 6,
+      "HYPE": 6,
+      "PEARL": 6,
+      "AKE": 6,
+      "ENA": 6,
+      "ZEC": 6,
+      "ZRO": 6,
+      "PENGU": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "SEPPUKU": 3,
+        "HYPE": 3,
+        "BTC": 3,
+        "PEARL": 3,
+        "AKE": 3,
+        "ENA": 3,
+        "ZEC": 3,
+        "XRP": 3,
+        "ZRO": 3,
+        "PENGU": 3,
+        "LIT": 3,
+        "SOL": 3,
+        "ETH": 3,
+        "NEAR": 3,
+        "INJ": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "SEPPUKU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Seppuku ($SEPPUKU) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "PEARL": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pearl ($PEARL) is trending on CoinGecko"
+        ]
+      },
+      "AKE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Akedo ($AKE) is trending on CoinGecko"
         ]
       }
     },

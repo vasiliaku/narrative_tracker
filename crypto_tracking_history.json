@@ -1,122 +1,5 @@
 [
   {
-    "timestamp": "2026-10-22T19:36:48.143092",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "UHI": 6,
-      "OA": 6,
-      "DACITY": 6,
-      "AERO": 6,
-      "PEARL": 6,
-      "PENGU": 6,
-      "SUI": 6,
-      "XMR": 6,
-      "QNT": 6,
-      "LIT": 6,
-      "HYPE": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "UHI": 3,
-        "OA": 3,
-        "DACITY": 3,
-        "AERO": 3,
-        "BTC": 3,
-        "PEARL": 3,
-        "PENGU": 3,
-        "SUI": 3,
-        "XMR": 3,
-        "NEAR": 3,
-        "SOL": 3,
-        "QNT": 3,
-        "LIT": 3,
-        "UNI": 3,
-        "HYPE": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "UHI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Universal High Income ($UHI) is trending on CoinGecko"
-        ]
-      },
-      "OA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OnlyAgent ($OA) is trending on CoinGecko"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "AERO": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Aerodrome Finance ($AERO) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "BETA",
-          "ALPHA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-22T22:50:38.051955",
     "tickers": {
       "ALPHA": 3,
@@ -11535,6 +11418,113 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-16T23:05:46.799894",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "BP": 6,
+      "TAO": 6,
+      "AERO": 6,
+      "PENGU": 6,
+      "BLESS": 6,
+      "LIT": 6,
+      "ZEC": 6,
+      "SUI": 6,
+      "ONDO": 6,
+      "PEARL": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BP": 3,
+        "SOL": 3,
+        "BTC": 3,
+        "TAO": 3,
+        "AERO": 3,
+        "PENGU": 3,
+        "BLESS": 3,
+        "LIT": 3,
+        "ETH": 3,
+        "ZEC": 3,
+        "SUI": 3,
+        "ONDO": 3,
+        "AVAX": 3,
+        "PEARL": 3,
+        "XRP": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "BP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Backpack ($BP) is trending on CoinGecko"
+        ]
+      },
+      "TAO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Bittensor ($TAO) is trending on CoinGecko"
+        ]
+      },
+      "AERO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Aero ($AERO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

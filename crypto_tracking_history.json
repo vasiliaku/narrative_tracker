@@ -1,134 +1,5 @@
 [
   {
-    "timestamp": "2026-10-22T22:50:38.051955",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "UHI": 6,
-      "DACITY": 6,
-      "OA": 6,
-      "PEARL": 6,
-      "PENGU": 6,
-      "PUMP": 6,
-      "ZEC": 6,
-      "HYPE": 6,
-      "PYTH": 6,
-      "TAO": 6,
-      "MON": 6,
-      "ONDO": 6,
-      "ENA": 6,
-      "LIT": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "UHI": 3,
-        "DACITY": 3,
-        "OA": 3,
-        "PEARL": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "PUMP": 3,
-        "ZEC": 3,
-        "HYPE": 3,
-        "PYTH": 3,
-        "TAO": 3,
-        "MON": 3,
-        "ONDO": 3,
-        "ENA": 3,
-        "LIT": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "UHI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Universal High Income ($UHI) is trending on CoinGecko"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "OA": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "OnlyAgent ($OA) is trending on CoinGecko"
-        ]
-      },
-      "PEARL": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pearl ($PEARL) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-23T02:23:06.561795",
     "tickers": {
       "ALPHA": 3,
@@ -11515,6 +11386,112 @@
         ],
         "sample_posts": [
           "Aero ($AERO) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-17T05:34:20.151597",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "KAS": 6,
+      "BP": 6,
+      "LIT": 6,
+      "HYPE": 6,
+      "VVV": 6,
+      "ZEC": 6,
+      "PENGU": 6,
+      "BLESS": 6,
+      "EVAA": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "KAS": 3,
+        "BP": 3,
+        "LIT": 3,
+        "SOL": 3,
+        "HYPE": 3,
+        "VVV": 3,
+        "ZEC": 3,
+        "NEAR": 3,
+        "XRP": 3,
+        "ETH": 3,
+        "PENGU": 3,
+        "LINK": 3,
+        "BLESS": 3,
+        "EVAA": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "KAS": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Kaspa ($KAS) is trending on CoinGecko"
+        ]
+      },
+      "BP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Backpack ($BP) is trending on CoinGecko"
+        ]
+      },
+      "LIT": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Lighter ($LIT) is trending on CoinGecko"
         ]
       }
     },

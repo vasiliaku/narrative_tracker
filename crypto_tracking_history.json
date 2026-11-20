@@ -1,133 +1,5 @@
 [
   {
-    "timestamp": "2026-10-24T22:08:40.622765",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "HYPE": 6,
-      "UHI": 6,
-      "BSC": 6,
-      "DACITY": 6,
-      "PENGU": 6,
-      "PEARL": 6,
-      "ZEC": 6,
-      "PUMP": 6,
-      "SUI": 6,
-      "PEPE": 6,
-      "TAO": 6,
-      "FET": 6,
-      "AERO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "HYPE": 3,
-        "UHI": 3,
-        "BSC": 3,
-        "DACITY": 3,
-        "PENGU": 3,
-        "BTC": 3,
-        "PEARL": 3,
-        "ZEC": 3,
-        "PUMP": 3,
-        "SUI": 3,
-        "PEPE": 3,
-        "NEAR": 3,
-        "TAO": 3,
-        "FET": 3,
-        "AERO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "UHI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Universal High Income ($UHI) is trending on CoinGecko"
-        ]
-      },
-      "BSC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Binance Super CZ ($BSC) is trending on CoinGecko"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-25T02:07:54.763960",
     "tickers": {
       "ALPHA": 3,
@@ -11483,6 +11355,123 @@
         "tickers": [
           "ALPHA",
           "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-20T22:25:49.476656",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WASTED": 6,
+      "TRUMP": 6,
+      "CHUNKEE": 6,
+      "HYPE": 6,
+      "PEARL": 6,
+      "PENGU": 6,
+      "SUI": 6,
+      "ZEC": 6,
+      "LUCIA": 6,
+      "LIT": 6,
+      "AAVE": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WASTED": 3,
+        "BTC": 3,
+        "TRUMP": 3,
+        "CHUNKEE": 3,
+        "HYPE": 3,
+        "PEARL": 3,
+        "SOL": 3,
+        "PENGU": 3,
+        "ETH": 3,
+        "SUI": 3,
+        "ZEC": 3,
+        "LUCIA": 3,
+        "NEAR": 3,
+        "LIT": 3,
+        "AAVE": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WASTED": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "WASTED ($WASTED) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "CHUNKEE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Chunkee The Manatee ($CHUNKEE) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "BETA",
+          "ALPHA"
         ]
       },
       {

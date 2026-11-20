@@ -1,123 +1,5 @@
 [
   {
-    "timestamp": "2026-10-24T17:04:34.201953",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "UHI": 6,
-      "HYPE": 6,
-      "DACITY": 6,
-      "BSC": 6,
-      "ZEC": 6,
-      "AERO": 6,
-      "PEARL": 6,
-      "LIT": 6,
-      "SUI": 6,
-      "USDT": 6,
-      "PENGU": 6,
-      "IRYS": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "UHI": 3,
-        "HYPE": 3,
-        "DACITY": 3,
-        "SOL": 3,
-        "BSC": 3,
-        "BTC": 3,
-        "ZEC": 3,
-        "AERO": 3,
-        "PEARL": 3,
-        "LIT": 3,
-        "SUI": 3,
-        "USDT": 3,
-        "UNI": 3,
-        "PENGU": 3,
-        "IRYS": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "UHI": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Universal High Income ($UHI) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "BSC": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Binance Super CZ ($BSC) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-24T19:56:47.004362",
     "tickers": {
       "ALPHA": 3,
@@ -11503,6 +11385,112 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-20T04:43:54.757103",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "ANTHROPIC": 6,
+      "HYPE": 6,
+      "PENGU": 6,
+      "EVAA": 6,
+      "PEARL": 6,
+      "ICP": 6,
+      "USDS": 6,
+      "PAXG": 6,
+      "KAS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "BTC": 3,
+        "ANTHROPIC": 3,
+        "HYPE": 3,
+        "PENGU": 3,
+        "SOL": 3,
+        "NEAR": 3,
+        "ETH": 3,
+        "EVAA": 3,
+        "PEARL": 3,
+        "XRP": 3,
+        "ICP": 3,
+        "USDS": 3,
+        "PAXG": 3,
+        "INJ": 3,
+        "KAS": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "ANTHROPIC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Anthropic PreStocks ($ANTHROPIC) is trending on CoinGecko"
+        ]
+      },
+      "HYPE": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Hyperliquid ($HYPE) is trending on CoinGecko"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

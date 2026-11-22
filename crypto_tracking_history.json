@@ -1,113 +1,5 @@
 [
   {
-    "timestamp": "2026-10-26T02:08:33.365466",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "EVMZONE": 6,
-      "DACITY": 6,
-      "PENGU": 6,
-      "ENA": 6,
-      "AERO": 6,
-      "ZEC": 6,
-      "ONDO": 6,
-      "QNT": 6,
-      "SUI": 6,
-      "AXIS": 6,
-      "BP": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "EVMZONE": 3,
-        "DACITY": 3,
-        "PENGU": 3,
-        "NEAR": 3,
-        "ETH": 3,
-        "BTC": 3,
-        "ENA": 3,
-        "AERO": 3,
-        "ZEC": 3,
-        "ONDO": 3,
-        "QNT": 3,
-        "SUI": 3,
-        "LINK": 3,
-        "AXIS": 3,
-        "BP": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "EVMZONE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "evmzone ($EVMZONE) is trending on CoinGecko"
-        ]
-      },
-      "DACITY": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Dacity Coin ($DACITY) is trending on CoinGecko"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-26T09:27:33.001736",
     "tickers": {
       "ALPHA": 3,
@@ -11441,6 +11333,124 @@
         "tickers": [
           "BETA",
           "ALPHA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-22T22:55:46.251810",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "WSTAR": 6,
+      "TRUMP": 6,
+      "POPO": 6,
+      "CC": 6,
+      "PEARL": 6,
+      "PENGU": 6,
+      "DRV": 6,
+      "LIT": 6,
+      "BSV": 6,
+      "AERO": 6,
+      "VVV": 6,
+      "KAS": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "WSTAR": 3,
+        "TRUMP": 3,
+        "POPO": 3,
+        "CC": 3,
+        "BTC": 3,
+        "PEARL": 3,
+        "PENGU": 3,
+        "DRV": 3,
+        "LIT": 3,
+        "BSV": 3,
+        "AERO": 3,
+        "VVV": 3,
+        "KAS": 3,
+        "INJ": 3,
+        "DOT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "WSTAR": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Wanted Star ($WSTAR) is trending on CoinGecko"
+        ]
+      },
+      "TRUMP": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Official Trump ($TRUMP) is trending on CoinGecko"
+        ]
+      },
+      "POPO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Popo The Turtle ($POPO) is trending on CoinGecko"
+        ]
+      },
+      "CC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Canton ($CC) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
         ]
       },
       {

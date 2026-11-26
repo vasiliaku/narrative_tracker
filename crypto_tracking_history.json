@@ -1,114 +1,5 @@
 [
   {
-    "timestamp": "2026-10-28T14:39:30.475623",
-    "tickers": {
-      "ALPHA": 3,
-      "BETA": 3,
-      "PENGU": 6,
-      "HYPE": 6,
-      "INIT": 6,
-      "CHIP": 6,
-      "CC": 6,
-      "PEARL": 6,
-      "ENA": 6,
-      "LIT": 6,
-      "QTC": 6,
-      "MET": 6,
-      "QNT": 6,
-      "ONDO": 6
-    },
-    "source_breakdown": {
-      "reddit": {},
-      "nostr": {},
-      "telegram": {
-        "ALPHA": 1,
-        "BETA": 1
-      },
-      "farcaster": {},
-      "coingecko": {
-        "PENGU": 3,
-        "HYPE": 3,
-        "INIT": 3,
-        "NEAR": 3,
-        "SOL": 3,
-        "CHIP": 3,
-        "CC": 3,
-        "PEARL": 3,
-        "ENA": 3,
-        "LIT": 3,
-        "QTC": 3,
-        "BNB": 3,
-        "MET": 3,
-        "QNT": 3,
-        "ONDO": 3
-      }
-    },
-    "signals": {
-      "ALPHA": {
-        "keyword_count": 4,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "New token $ALPHA launching tomorrow! Presale live!"
-        ]
-      },
-      "BETA": {
-        "keyword_count": 1,
-        "sources": [
-          "telegram"
-        ],
-        "sample_posts": [
-          "Airdrop alert for $BETA holders!"
-        ]
-      },
-      "PENGU": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
-        ]
-      },
-      "HYPE": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Hyperliquid ($HYPE) is trending on CoinGecko"
-        ]
-      },
-      "INIT": {
-        "keyword_count": 2,
-        "sources": [
-          "coingecko"
-        ],
-        "sample_posts": [
-          "Initia ($INIT) is trending on CoinGecko"
-        ]
-      }
-    },
-    "insights": [
-      {
-        "type": "genesis_alert",
-        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
-        "tickers": [
-          "ALPHA",
-          "BETA"
-        ]
-      },
-      {
-        "type": "keyword_alert",
-        "message": "\u26a1 1 tokens with strong narrative signals!",
-        "tickers": [
-          "ALPHA"
-        ]
-      }
-    ]
-  },
-  {
     "timestamp": "2026-10-28T20:39:59.230714",
     "tickers": {
       "ALPHA": 3,
@@ -11471,6 +11362,124 @@
         ],
         "sample_posts": [
           "Non-Playable Shiba ($NPS) is trending on CoinGecko"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "type": "genesis_alert",
+        "message": "\ud83c\udf31 2 tokens detected in genesis phase (not mainstream yet)!",
+        "tickers": [
+          "ALPHA",
+          "BETA"
+        ]
+      },
+      {
+        "type": "keyword_alert",
+        "message": "\u26a1 1 tokens with strong narrative signals!",
+        "tickers": [
+          "ALPHA"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-26T22:40:51.657935",
+    "tickers": {
+      "ALPHA": 3,
+      "BETA": 3,
+      "PENGU": 6,
+      "XTZ": 6,
+      "ZYLO": 6,
+      "ZEC": 6,
+      "AKT": 6,
+      "XMR": 6,
+      "PEARL": 6,
+      "TAO": 6,
+      "MONTRA": 6,
+      "VVV": 6,
+      "SEI": 6,
+      "LIT": 6
+    },
+    "source_breakdown": {
+      "reddit": {},
+      "nostr": {},
+      "telegram": {
+        "ALPHA": 1,
+        "BETA": 1
+      },
+      "farcaster": {},
+      "coingecko": {
+        "PENGU": 3,
+        "XTZ": 3,
+        "ZYLO": 3,
+        "SOL": 3,
+        "ZEC": 3,
+        "AKT": 3,
+        "BTC": 3,
+        "XMR": 3,
+        "PEARL": 3,
+        "XRP": 3,
+        "TAO": 3,
+        "MONTRA": 3,
+        "VVV": 3,
+        "SEI": 3,
+        "LIT": 3
+      }
+    },
+    "signals": {
+      "ALPHA": {
+        "keyword_count": 4,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "New token $ALPHA launching tomorrow! Presale live!"
+        ]
+      },
+      "BETA": {
+        "keyword_count": 1,
+        "sources": [
+          "telegram"
+        ],
+        "sample_posts": [
+          "Airdrop alert for $BETA holders!"
+        ]
+      },
+      "PENGU": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Pudgy Penguins ($PENGU) is trending on CoinGecko"
+        ]
+      },
+      "XTZ": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Tezos ($XTZ) is trending on CoinGecko"
+        ]
+      },
+      "ZYLO": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zylo Ecosystem ($ZYLO) is trending on CoinGecko"
+        ]
+      },
+      "ZEC": {
+        "keyword_count": 2,
+        "sources": [
+          "coingecko"
+        ],
+        "sample_posts": [
+          "Zcash ($ZEC) is trending on CoinGecko"
         ]
       }
     },
